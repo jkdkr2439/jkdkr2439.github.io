@@ -1,0 +1,19 @@
+title: Kevin T.N
+description: "Triết học · Tự sự · Không khoan nhượng"
+url: "https://jkdkr2439.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: /:title/
+
+# Build
+exclude:
+  - deploy.bat
+  - read_spec.py
+  - spec_text.txt
+  - blog-spec.docx
+  - "*.bat"
+  - "*.py"
+  - "*.txt"
+  - "*.docx"
+  - README.md

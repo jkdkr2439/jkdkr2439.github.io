@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="article-wrap">
+  <a class="article-back" href="{{ '/' | relative_url }}">← Tất cả bài viết</a>
+  <div class="article-meta">
+    <span>{{ page.date | date: "%-d tháng %-m, %Y" }}</span>
+    {% if page.tag %}<span class="post-tag">{{ page.tag }}</span>{% endif %}
+  </div>
+  <h1 class="article-title">{{ page.title }}</h1>
+  <div class="article-body">
+    {{ content }}
+  </div>
+</div>

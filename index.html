@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="home-header">
+  <h1>Triết học.<br>Tự sự. Không khoan nhượng.</h1>
+  <p class="home-subtitle">Viết để tư duy, không phải để đẹp.</p>
+</div>
+
+<div class="post-list">
+  {% for post in site.posts %}
+  <a href="{{ post.url | relative_url }}" class="post-item">
+    <div class="post-meta">
+      <span>{{ post.date | date: "%-d tháng %-m, %Y" }}</span>
+      {% if post.tag %}<span class="post-tag">{{ post.tag }}</span>{% endif %}
+    </div>
+    <div class="post-title">{{ post.title }}</div>
+    {% if post.excerpt_text %}
+    <div class="post-excerpt">{{ post.excerpt_text }}</div>
+    {% endif %}
+    <div class="post-readmore">Đọc tiếp →</div>
+  </a>
+  {% endfor %}
+</div>
