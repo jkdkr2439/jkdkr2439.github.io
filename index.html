@@ -10,7 +10,7 @@ layout: none
 <meta name="description" content="Triết học · Tự sự · Không khoan nhượng">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg: #F5F0E8;
@@ -19,11 +19,10 @@ layout: none
   --muted: #888;
   --red: #C0392B;
   --border: #DDD5C5;
-  --sidebar-w: 340px;
+  --sidebar-w: 300px;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
-
 html, body { height: 100%; overflow: hidden; }
 
 body {
@@ -34,13 +33,10 @@ body {
   line-height: 1.75;
 }
 
-/* LAYOUT */
-.app {
-  display: flex;
-  height: 100vh;
-}
+/* === LAYOUT === */
+.app { display: flex; height: 100vh; }
 
-/* LEFT SIDEBAR */
+/* === SIDEBAR === */
 .sidebar {
   width: var(--sidebar-w);
   min-width: var(--sidebar-w);
@@ -52,38 +48,134 @@ body {
 }
 
 .sidebar-header {
-  padding: 28px 24px 20px;
+  padding: 24px 20px 16px;
   border-bottom: 1px solid var(--border);
 }
 
 .sidebar-logo {
   font-weight: 700;
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink);
-  margin-bottom: 4px;
 }
 
 .sidebar-tagline {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--muted);
   font-family: system-ui, -apple-system, sans-serif;
-  letter-spacing: 0.02em;
+  margin-top: 2px;
 }
 
-.sidebar-nav {
-  padding: 12px 24px;
-  border-bottom: 1px solid var(--border);
+/* TREE */
+.tree {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+}
+
+.tree-section {
+  margin-bottom: 4px;
+}
+
+.tree-folder {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: 0.02em;
+  user-select: none;
+  transition: background 0.1s;
 }
 
-.sidebar-nav a {
+.tree-folder:hover {
+  background: rgba(0,0,0,0.04);
+}
+
+.tree-folder .icon {
+  font-size: 12px;
+  width: 14px;
+  text-align: center;
+  transition: transform 0.15s;
+  color: var(--muted);
+}
+
+.tree-folder.open .icon {
+  transform: rotate(90deg);
+}
+
+.tree-folder .folder-name {
+  flex: 1;
+}
+
+.tree-folder .count {
+  color: var(--muted);
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.tree-items {
+  display: none;
+  padding-left: 0;
+}
+
+.tree-section.open .tree-items {
+  display: block;
+}
+
+.tree-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 6px 20px 6px 40px;
+  cursor: pointer;
+  color: #444;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.4;
+  transition: background 0.1s, color 0.1s;
+  border-left: 2px solid transparent;
+}
+
+.tree-item:hover {
+  background: rgba(0,0,0,0.03);
+  color: var(--ink);
+}
+
+.tree-item.active {
+  background: var(--bg-panel);
+  color: var(--red);
+  border-left-color: var(--red);
+  font-weight: 600;
+}
+
+.tree-item .dot {
+  color: var(--border);
+  font-size: 8px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.tree-item.active .dot {
+  color: var(--red);
+}
+
+/* About link at bottom */
+.sidebar-footer {
+  border-top: 1px solid var(--border);
+  padding: 12px 20px;
+}
+
+.sidebar-footer a {
   font-family: system-ui, -apple-system, sans-serif;
   font-size: 12px;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--muted);
   text-decoration: none;
@@ -91,66 +183,16 @@ body {
   transition: color 0.15s;
 }
 
-.sidebar-nav a:hover,
-.sidebar-nav a.active {
+.sidebar-footer a:hover,
+.sidebar-footer a.active {
   color: var(--ink);
 }
 
-.post-entries {
-  flex: 1;
-  overflow-y: auto;
-  padding: 0;
-}
-
-.entry {
-  padding: 20px 24px;
-  border-bottom: 1px solid var(--border);
-  cursor: pointer;
-  transition: background 0.1s;
-}
-
-.entry:hover {
-  background: rgba(0,0,0,0.03);
-}
-
-.entry.active {
-  background: var(--bg-panel);
-  border-left: 3px solid var(--red);
-  padding-left: 21px;
-}
-
-.entry-date {
-  font-family: system-ui, -apple-system, sans-serif;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--muted);
-  margin-bottom: 4px;
-}
-
-.entry-tag {
-  color: var(--red);
-  margin-left: 12px;
-}
-
-.entry-title {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 1.4;
-  color: var(--ink);
-}
-
-.entry.active .entry-title {
-  color: var(--red);
-}
-
-/* RIGHT PANEL */
+/* === READER === */
 .reader {
   flex: 1;
   overflow-y: auto;
   background: var(--bg-panel);
-  padding: 0;
 }
 
 .reader-content {
@@ -216,7 +258,7 @@ body {
   font-style: italic;
 }
 
-/* ABOUT (rendered in reader panel) */
+/* About */
 .about-content {
   max-width: 680px;
   margin: 0 auto;
@@ -261,69 +303,64 @@ body {
   color: var(--muted);
 }
 
-.about-contact a {
-  color: var(--red);
-  text-decoration: none;
-}
+.about-contact a { color: var(--red); text-decoration: none; }
 
-/* SCROLLBAR */
-.post-entries::-webkit-scrollbar,
-.reader::-webkit-scrollbar {
-  width: 6px;
-}
+/* Scrollbar */
+.tree::-webkit-scrollbar,
+.reader::-webkit-scrollbar { width: 6px; }
+.tree::-webkit-scrollbar-thumb,
+.reader::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 
-.post-entries::-webkit-scrollbar-thumb,
-.reader::-webkit-scrollbar-thumb {
-  background: var(--border);
-  border-radius: 3px;
-}
-
-/* MOBILE */
+/* Mobile */
 @media (max-width: 768px) {
   .app { flex-direction: column; }
   .sidebar {
-    width: 100%;
-    min-width: 100%;
-    height: auto;
-    max-height: 45vh;
+    width: 100%; min-width: 100%;
+    height: auto; max-height: 40vh;
     border-right: none;
     border-bottom: 1.5px solid var(--border);
   }
-  .reader { height: 55vh; }
-  .reader-content, .about-content { padding: 32px 20px 60px; }
-  .sidebar-header { padding: 20px 16px 14px; }
-  .sidebar-nav { padding: 10px 16px; }
-  .entry { padding: 14px 16px; }
+  .reader { height: 60vh; }
+  .reader-content, .about-content { padding: 28px 18px 60px; }
+  .tree-item { padding-left: 32px; }
 }
 </style>
 </head>
 <body>
 
 <div class="app">
-  <!-- LEFT: Sidebar -->
   <div class="sidebar">
     <div class="sidebar-header">
       <div class="sidebar-logo">Kevin T.N</div>
-      <div class="sidebar-tagline">Triết học · Tự sự · Không khoan nhượng</div>
+      <div class="sidebar-tagline">Viết để tư duy, không phải để đẹp.</div>
     </div>
-    <div class="sidebar-nav">
-      <a onclick="showPosts()" id="nav-posts" class="active">Bài viết</a>
-      <a onclick="showAbout()" id="nav-about">Về tác giả</a>
-    </div>
-    <div class="post-entries" id="post-entries">
-      {% for post in site.posts %}
-      <div class="entry" onclick="showPost({{ forloop.index0 }})" id="entry-{{ forloop.index0 }}">
-        <div class="entry-date">
-          {{ post.date | date: "%-d/%-m/%Y" }}
-          {% if post.tag %}<span class="entry-tag">{{ post.tag }}</span>{% endif %}
+
+    <div class="tree" id="tree">
+      {% assign tags = site.posts | map: "tag" | uniq %}
+      {% for tag in tags %}
+      <div class="tree-section open" id="section-{{ tag | slugify }}">
+        <div class="tree-folder open" onclick="toggleFolder(this)">
+          <span class="icon">▶</span>
+          <span class="folder-name">{{ tag }}</span>
+          <span class="count">{% assign tag_posts = site.posts | where: "tag", tag %}{{ tag_posts | size }}</span>
         </div>
-        <div class="entry-title">{{ post.title }}</div>
+        <div class="tree-items">
+          {% for post in tag_posts %}
+          <div class="tree-item" onclick="showPost({{ post.url | jsonify }})" data-url="{{ post.url }}">
+            <span class="dot">●</span>
+            <span>{{ post.title }}</span>
+          </div>
+          {% endfor %}
+        </div>
       </div>
       {% endfor %}
     </div>
+
+    <div class="sidebar-footer">
+      <a onclick="showAbout()">Về tác giả</a>
+    </div>
   </div>
 
-  <!-- RIGHT: Reader -->
   <div class="reader" id="reader">
     <div class="reader-empty" id="reader-empty">
       Chọn một bài viết bên trái để đọc.
@@ -348,21 +385,27 @@ body {
 </div>
 
 <script>
-const posts = [
-  {% for post in site.posts %}{
+// Post data injected by Jekyll
+const posts = {
+  {% for post in site.posts %}
+  {{ post.url | jsonify }}: {
     title: {{ post.title | jsonify }},
     date: "{{ post.date | date: '%-d tháng %-m, %Y' }}",
     tag: {{ post.tag | default: "" | jsonify }},
     body: {{ post.content | jsonify }}
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
-];
+};
 
-let currentPost = -1;
+function toggleFolder(el) {
+  const section = el.closest('.tree-section');
+  section.classList.toggle('open');
+  el.classList.toggle('open');
+}
 
-function showPost(idx) {
-  currentPost = idx;
-  const p = posts[idx];
+function showPost(url) {
+  const p = posts[url];
+  if (!p) return;
 
   document.getElementById('reader-empty').style.display = 'none';
   document.getElementById('about-content').style.display = 'none';
@@ -374,42 +417,23 @@ function showPost(idx) {
   document.getElementById('reader-body').innerHTML = p.body;
 
   // Active state
-  document.querySelectorAll('.entry').forEach(e => e.classList.remove('active'));
-  document.getElementById('entry-' + idx).classList.add('active');
+  document.querySelectorAll('.tree-item').forEach(e => e.classList.remove('active'));
+  document.querySelector(`.tree-item[data-url="${url}"]`)?.classList.add('active');
 
-  // Scroll reader to top
   document.getElementById('reader').scrollTop = 0;
-
-  // Nav state
-  document.getElementById('nav-posts').classList.add('active');
-  document.getElementById('nav-about').classList.remove('active');
 }
 
 function showAbout() {
   document.getElementById('reader-empty').style.display = 'none';
   document.getElementById('reader-content').style.display = 'none';
   document.getElementById('about-content').style.display = 'block';
-
-  document.querySelectorAll('.entry').forEach(e => e.classList.remove('active'));
-  document.getElementById('nav-posts').classList.remove('active');
-  document.getElementById('nav-about').classList.add('active');
+  document.querySelectorAll('.tree-item').forEach(e => e.classList.remove('active'));
   document.getElementById('reader').scrollTop = 0;
 }
 
-function showPosts() {
-  document.getElementById('nav-posts').classList.add('active');
-  document.getElementById('nav-about').classList.remove('active');
-  if (currentPost >= 0) {
-    showPost(currentPost);
-  } else {
-    document.getElementById('reader-content').style.display = 'none';
-    document.getElementById('about-content').style.display = 'none';
-    document.getElementById('reader-empty').style.display = 'flex';
-  }
-}
-
 // Auto-show first post
-if (posts.length > 0) showPost(0);
+const firstUrl = Object.keys(posts)[0];
+if (firstUrl) showPost(firstUrl);
 </script>
 </body>
 </html>
