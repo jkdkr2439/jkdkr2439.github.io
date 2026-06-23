@@ -1,24 +1,415 @@
 ---
-layout: default
+layout: none
 ---
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kevin T.N</title>
+<meta name="description" content="Triết học · Tự sự · Không khoan nhượng">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #F5F0E8;
+  --bg-panel: #FDFBF7;
+  --ink: #111;
+  --muted: #888;
+  --red: #C0392B;
+  --border: #DDD5C5;
+  --sidebar-w: 340px;
+}
 
-<div class="home-header">
-  <h1>Triết học.<br>Tự sự. Không khoan nhượng.</h1>
-  <p class="home-subtitle">Viết để tư duy, không phải để đẹp.</p>
-</div>
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
-<div class="post-list">
-  {% for post in site.posts %}
-  <a href="{{ post.url | relative_url }}" class="post-item">
-    <div class="post-meta">
-      <span>{{ post.date | date: "%-d tháng %-m, %Y" }}</span>
-      {% if post.tag %}<span class="post-tag">{{ post.tag }}</span>{% endif %}
+html, body { height: 100%; overflow: hidden; }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Noto Serif', Georgia, serif;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+/* LAYOUT */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* LEFT SIDEBAR */
+.sidebar {
+  width: var(--sidebar-w);
+  min-width: var(--sidebar-w);
+  border-right: 1.5px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.sidebar-header {
+  padding: 28px 24px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.sidebar-logo {
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+
+.sidebar-tagline {
+  font-size: 12px;
+  color: var(--muted);
+  font-family: system-ui, -apple-system, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.sidebar-nav {
+  padding: 12px 24px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  gap: 20px;
+}
+
+.sidebar-nav a {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav a.active {
+  color: var(--ink);
+}
+
+.post-entries {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0;
+}
+
+.entry {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.entry:hover {
+  background: rgba(0,0,0,0.03);
+}
+
+.entry.active {
+  background: var(--bg-panel);
+  border-left: 3px solid var(--red);
+  padding-left: 21px;
+}
+
+.entry-date {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.entry-tag {
+  color: var(--red);
+  margin-left: 12px;
+}
+
+.entry-title {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.entry.active .entry-title {
+  color: var(--red);
+}
+
+/* RIGHT PANEL */
+.reader {
+  flex: 1;
+  overflow-y: auto;
+  background: var(--bg-panel);
+  padding: 0;
+}
+
+.reader-content {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 60px 48px 100px;
+}
+
+.reader-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--muted);
+  font-size: 15px;
+  font-style: italic;
+}
+
+.reader-meta {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.reader-title {
+  font-size: clamp(24px, 4vw, 36px);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+  padding-bottom: 28px;
+  border-bottom: 1.5px solid var(--ink);
+}
+
+.reader-body p {
+  margin-bottom: 24px;
+  color: #1a1a1a;
+}
+
+.reader-body p:first-child::first-letter {
+  font-size: 3em;
+  line-height: 0.85;
+  float: left;
+  margin-right: 8px;
+  margin-top: 4px;
+  color: var(--red);
+}
+
+.reader-body em { font-style: italic; }
+.reader-body strong { font-weight: 700; }
+
+.reader-body blockquote {
+  border-left: 3px solid var(--red);
+  padding-left: 20px;
+  margin: 28px 0;
+  color: #555;
+  font-style: italic;
+}
+
+/* ABOUT (rendered in reader panel) */
+.about-content {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 60px 48px 100px;
+}
+
+.about-eyebrow {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 20px;
+}
+
+.about-content h2 {
+  font-size: clamp(24px, 4vw, 36px);
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 36px;
+  padding-bottom: 28px;
+  border-bottom: 1.5px solid var(--ink);
+}
+
+.about-content p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  color: #1a1a1a;
+}
+
+.about-divider {
+  width: 32px;
+  height: 2px;
+  background: var(--red);
+  margin: 36px 0;
+}
+
+.about-contact {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.about-contact a {
+  color: var(--red);
+  text-decoration: none;
+}
+
+/* SCROLLBAR */
+.post-entries::-webkit-scrollbar,
+.reader::-webkit-scrollbar {
+  width: 6px;
+}
+
+.post-entries::-webkit-scrollbar-thumb,
+.reader::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .app { flex-direction: column; }
+  .sidebar {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    max-height: 45vh;
+    border-right: none;
+    border-bottom: 1.5px solid var(--border);
+  }
+  .reader { height: 55vh; }
+  .reader-content, .about-content { padding: 32px 20px 60px; }
+  .sidebar-header { padding: 20px 16px 14px; }
+  .sidebar-nav { padding: 10px 16px; }
+  .entry { padding: 14px 16px; }
+}
+</style>
+</head>
+<body>
+
+<div class="app">
+  <!-- LEFT: Sidebar -->
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-logo">Kevin T.N</div>
+      <div class="sidebar-tagline">Triết học · Tự sự · Không khoan nhượng</div>
     </div>
-    <div class="post-title">{{ post.title }}</div>
-    {% if post.excerpt_text %}
-    <div class="post-excerpt">{{ post.excerpt_text }}</div>
-    {% endif %}
-    <div class="post-readmore">Đọc tiếp →</div>
-  </a>
-  {% endfor %}
+    <div class="sidebar-nav">
+      <a onclick="showPosts()" id="nav-posts" class="active">Bài viết</a>
+      <a onclick="showAbout()" id="nav-about">Về tác giả</a>
+    </div>
+    <div class="post-entries" id="post-entries">
+      {% for post in site.posts %}
+      <div class="entry" onclick="showPost({{ forloop.index0 }})" id="entry-{{ forloop.index0 }}">
+        <div class="entry-date">
+          {{ post.date | date: "%-d/%-m/%Y" }}
+          {% if post.tag %}<span class="entry-tag">{{ post.tag }}</span>{% endif %}
+        </div>
+        <div class="entry-title">{{ post.title }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- RIGHT: Reader -->
+  <div class="reader" id="reader">
+    <div class="reader-empty" id="reader-empty">
+      Chọn một bài viết bên trái để đọc.
+    </div>
+    <div class="reader-content" id="reader-content" style="display:none;">
+      <div class="reader-meta" id="reader-meta"></div>
+      <h1 class="reader-title" id="reader-title"></h1>
+      <div class="reader-body" id="reader-body"></div>
+    </div>
+    <div class="about-content" id="about-content" style="display:none;">
+      <div class="about-eyebrow">Về tác giả</div>
+      <h2>Tôi không viết để được đồng ý.<br>Tôi viết để nghĩ.</h2>
+      <p>Tôi 34 tuổi. Không có bằng triết học. Không có tên trong hệ thống học thuật nào. Nhưng tôi đã đọc, nghĩ, và viết đủ lâu để biết rằng tư duy thật không bắt đầu từ citation — nó bắt đầu từ câu hỏi nền.</p>
+      <p>Những bài viết ở đây không có mục tiêu thuyết phục. Chúng là quá trình tôi tự khai thác chỗ mình chưa rõ. Đôi khi thô. Đôi khi cực đoan. Luôn thật.</p>
+      <p>Nếu mày không đồng ý, tao muốn nghe — nhưng phải có lý luận, không phải cảm xúc.</p>
+      <div class="about-divider"></div>
+      <div class="about-contact">
+        Liên hệ: <a href="mailto:hello@example.com">hello@example.com</a>
+      </div>
+    </div>
+  </div>
 </div>
+
+<script>
+const posts = [
+  {% for post in site.posts %}{
+    title: {{ post.title | jsonify }},
+    date: "{{ post.date | date: '%-d tháng %-m, %Y' }}",
+    tag: {{ post.tag | default: "" | jsonify }},
+    body: {{ post.content | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
+
+let currentPost = -1;
+
+function showPost(idx) {
+  currentPost = idx;
+  const p = posts[idx];
+
+  document.getElementById('reader-empty').style.display = 'none';
+  document.getElementById('about-content').style.display = 'none';
+  document.getElementById('reader-content').style.display = 'block';
+
+  document.getElementById('reader-meta').innerHTML =
+    `<span>${p.date}</span>` + (p.tag ? `<span style="color:var(--red)">${p.tag}</span>` : '');
+  document.getElementById('reader-title').textContent = p.title;
+  document.getElementById('reader-body').innerHTML = p.body;
+
+  // Active state
+  document.querySelectorAll('.entry').forEach(e => e.classList.remove('active'));
+  document.getElementById('entry-' + idx).classList.add('active');
+
+  // Scroll reader to top
+  document.getElementById('reader').scrollTop = 0;
+
+  // Nav state
+  document.getElementById('nav-posts').classList.add('active');
+  document.getElementById('nav-about').classList.remove('active');
+}
+
+function showAbout() {
+  document.getElementById('reader-empty').style.display = 'none';
+  document.getElementById('reader-content').style.display = 'none';
+  document.getElementById('about-content').style.display = 'block';
+
+  document.querySelectorAll('.entry').forEach(e => e.classList.remove('active'));
+  document.getElementById('nav-posts').classList.remove('active');
+  document.getElementById('nav-about').classList.add('active');
+  document.getElementById('reader').scrollTop = 0;
+}
+
+function showPosts() {
+  document.getElementById('nav-posts').classList.add('active');
+  document.getElementById('nav-about').classList.remove('active');
+  if (currentPost >= 0) {
+    showPost(currentPost);
+  } else {
+    document.getElementById('reader-content').style.display = 'none';
+    document.getElementById('about-content').style.display = 'none';
+    document.getElementById('reader-empty').style.display = 'flex';
+  }
+}
+
+// Auto-show first post
+if (posts.length > 0) showPost(0);
+</script>
+</body>
+</html>
