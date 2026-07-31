@@ -242,6 +242,22 @@ body {
   padding-left: 54px;
 }
 
+.book-volume .chapter-item {
+  align-items: flex-start;
+}
+
+.chapter-index {
+  min-width: 20px;
+  padding-top: 1px;
+  color: var(--muted);
+  font: 700 10px/1.4 system-ui, -apple-system, sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.chapter-item.active .chapter-index {
+  color: var(--red);
+}
+
 /* About link at bottom */
 .sidebar-footer {
   border-top: 1px solid var(--border);
@@ -493,6 +509,7 @@ body {
     <div class="tree" id="tree">
       {% assign regular_posts = site.posts | where_exp: "post", "post.tag != 'Dịch thuật'" %}
       {% assign regular_posts = regular_posts | where_exp: "post", "post.tag != 'Sáng tác'" %}
+      {% assign regular_posts = regular_posts | where_exp: "post", "post.tag != 'Nhận thức luận căn bản'" %}
       {% assign tags = regular_posts | map: "tag" | uniq %}
       {% for tag in tags %}
       {% assign tag_posts = regular_posts | where: "tag", tag %}
@@ -513,6 +530,38 @@ body {
         </div>
       </div>
       {% endfor %}
+
+      {% assign epistemology_posts = site.posts | where: "tag", "Nhận thức luận căn bản" %}
+      {% if epistemology_posts.size > 0 %}
+      <details class="translation-tree tree-section book-tree" id="section-nhan-thuc-luan-can-ban" open>
+        <summary class="tree-folder">
+          <span class="icon">▶</span>
+          <span class="folder-name" data-vi="Nhận Thức Luận Căn Bản" data-en="Basic Epistemology">Nhận Thức Luận Căn Bản</span>
+          <span class="count">{{ epistemology_posts | size }}</span>
+        </summary>
+        <div class="tree-items" style="display:block;">
+          {% assign book_editions = epistemology_posts | map: "book_edition" | uniq | sort %}
+          {% for book_edition in book_editions %}
+          {% assign chapter_posts = epistemology_posts | where: "book_edition", book_edition | sort: "chapter_number" %}
+          {% assign first_chapter = chapter_posts | first %}
+          <details class="tree-author book-volume" open>
+            <summary class="tree-subfolder">
+              <span class="icon">▶</span>
+              <span data-vi="{{ book_edition }}" data-en="{{ first_chapter.book_edition_en | default: book_edition }}">{{ book_edition }}</span>
+              <span class="count">{{ chapter_posts | size }}</span>
+            </summary>
+            <div>
+              {% for post in chapter_posts %}
+              <a class="tree-item chapter-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" onclick="return showPost({{ post.url | jsonify }}, this)" data-url="{{ post.url }}">
+                <span class="chapter-index">{{ post.chapter_number }}</span>
+                <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
+              </a>
+              {% endfor %}
+            </div>
+          </details>
+        </div>
+      </details>
+      {% endif %}
 
       {% assign translation_posts = site.posts | where: "tag", "Dịch thuật" %}
       {% if translation_posts.size > 0 %}
