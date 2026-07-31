@@ -200,6 +200,9 @@ nav {
 .article-body p {
   margin-bottom: 24px;
   color: #1a1a1a;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .article-body p:first-child::first-letter {

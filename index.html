@@ -166,6 +166,52 @@ body {
   color: var(--red);
 }
 
+.translation-tree,
+.tree-author {
+  border: 0;
+}
+
+.translation-tree > summary,
+.tree-author > summary {
+  list-style: none;
+}
+
+.translation-tree > summary::-webkit-details-marker,
+.tree-author > summary::-webkit-details-marker {
+  display: none;
+}
+
+.translation-tree > summary .icon,
+.tree-author > summary .icon {
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+
+.translation-tree[open] > summary .icon,
+.tree-author[open] > summary .icon {
+  transform: rotate(90deg);
+}
+
+.tree-subfolder {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 20px 7px 34px;
+  cursor: pointer;
+  color: #444;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.tree-subfolder:hover {
+  color: var(--ink);
+  background: rgba(0,0,0,0.025);
+}
+
+.tree-author .tree-item {
+  padding-left: 54px;
+}
+
 /* About link at bottom */
 .sidebar-footer {
   border-top: 1px solid var(--border);
@@ -351,7 +397,8 @@ body {
     </div>
 
     <div class="tree" id="tree">
-      {% assign tags = site.posts | map: "tag" | uniq %}
+      {% assign regular_posts = site.posts | where_exp: "post", "post.tag != 'Dịch thuật'" %}
+      {% assign tags = regular_posts | map: "tag" | uniq %}
       {% for tag in tags %}
       <div class="tree-section open" id="section-{{ tag | slugify }}">
         <div class="tree-folder open" onclick="toggleFolder(this)">
@@ -369,6 +416,38 @@ body {
         </div>
       </div>
       {% endfor %}
+
+      {% assign translation_posts = site.posts | where: "tag", "Dịch thuật" %}
+      {% if translation_posts.size > 0 %}
+      <details class="translation-tree tree-section" id="section-dich-thuat">
+        <summary class="tree-folder">
+          <span class="icon">▶</span>
+          <span class="folder-name">Dịch thuật</span>
+          <span class="count">{{ translation_posts | size }}</span>
+        </summary>
+        <div class="tree-items" style="display:block;">
+          {% assign source_authors = translation_posts | map: "source_author" | uniq | sort %}
+          {% for source_author in source_authors %}
+          {% assign author_posts = translation_posts | where: "source_author", source_author %}
+          <details class="tree-author">
+            <summary class="tree-subfolder">
+              <span class="icon">▶</span>
+              <span>{{ source_author }}</span>
+              <span class="count">{{ author_posts | size }}</span>
+            </summary>
+            <div>
+              {% for post in author_posts %}
+              <a class="tree-item" href="{{ post.url | relative_url }}" onclick="return showPost({{ post.url | jsonify }}, this)" data-url="{{ post.url }}">
+                <span class="dot">●</span>
+                <span>{{ post.title }}</span>
+              </a>
+              {% endfor %}
+            </div>
+          </details>
+          {% endfor %}
+        </div>
+      </details>
+      {% endif %}
     </div>
 
     <div class="sidebar-footer">
@@ -388,9 +467,9 @@ body {
     <div class="about-content" id="about-content" style="display:none;">
       <div class="about-eyebrow">Về tác giả</div>
       <h2>Tôi không viết để được đồng ý.<br>Tôi viết để nghĩ.</h2>
-      <p>Tôi 34 tuổi. Không có bằng triết học. Không có tên trong hệ thống học thuật nào. Nhưng tôi đã đọc, nghĩ, và viết đủ lâu để biết rằng tư duy thật không bắt đầu từ citation — nó bắt đầu từ câu hỏi nền.</p>
+      <p>Tôi 34 tuổi. Không có bằng triết học. Không có tên trong hệ thống học thuật nào. Nhưng tôi đã đọc, nghĩ, và viết đủ lâu để biết rằng tư duy thật không bắt đầu từ citation - nó bắt đầu từ câu hỏi nền.</p>
       <p>Những bài viết ở đây không có mục tiêu thuyết phục. Chúng là quá trình tôi tự khai thác chỗ mình chưa rõ. Đôi khi thô. Đôi khi cực đoan. Luôn thật.</p>
-      <p>Nếu mày không đồng ý, tao muốn nghe — nhưng phải có lý luận, không phải cảm xúc.</p>
+      <p>Nếu mày không đồng ý thì kệ mày. Ở đây không có đúng sai; thứ gì có giá trị thì lấy, không có giá trị thì bỏ qua.</p>
       <div class="about-divider"></div>
       <div class="about-contact">
         Liên hệ: <a href="mailto:hello@example.com">hello@example.com</a>
