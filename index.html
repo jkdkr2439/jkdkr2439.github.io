@@ -540,14 +540,12 @@ body {
           <span class="count">{{ epistemology_posts | size }}</span>
         </summary>
         <div class="tree-items" style="display:block;">
-          {% assign book_editions = epistemology_posts | map: "book_edition" | uniq | sort %}
-          {% for book_edition in book_editions %}
-          {% assign chapter_posts = epistemology_posts | where: "book_edition", book_edition | sort: "chapter_number" %}
+          {% assign chapter_posts = epistemology_posts | sort: "chapter_number" %}
           {% assign first_chapter = chapter_posts | first %}
           <details class="tree-author book-volume" open>
             <summary class="tree-subfolder">
               <span class="icon">▶</span>
-              <span data-vi="{{ book_edition }}" data-en="{{ first_chapter.book_edition_en | default: book_edition }}">{{ book_edition }}</span>
+              <span data-vi="Tiếng Chó" data-en="{{ first_chapter.book_edition_en | default: 'The Dog Language' }}">Tiếng Chó</span>
               <span class="count">{{ chapter_posts | size }}</span>
             </summary>
             <div>
@@ -559,7 +557,6 @@ body {
               {% endfor %}
             </div>
           </details>
-          {% endfor %}
         </div>
       </details>
       {% endif %}
