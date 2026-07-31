@@ -6,6 +6,8 @@ layout: none
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; object-src 'none'; media-src 'self'; frame-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Kevin T.N</title>
 <meta name="description" content="Triết học · Tự sự · Không khoan nhượng">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -551,8 +553,8 @@ body {
           <div class="sidebar-tagline" data-vi="Viết để tư duy, không phải để đẹp." data-en="Writing to think, not to decorate.">Viết để tư duy, không phải để đẹp.</div>
         </div>
         <div class="ui-language-switch" aria-label="Interface language">
-          <button type="button" class="active" data-ui-language="vi">VI</button>
-          <button type="button" data-ui-language="en">EN</button>
+          <button type="button" class="active" data-action="set-language" data-ui-language="vi">VI</button>
+          <button type="button" data-action="set-language" data-ui-language="en">EN</button>
         </div>
       </div>
     </div>
@@ -566,14 +568,14 @@ body {
       {% assign tag_posts = regular_posts | where: "tag", tag %}
       {% assign first_tag_post = tag_posts | first %}
       <div class="tree-section open" id="section-{{ tag | slugify }}">
-        <div class="tree-folder open" onclick="toggleFolder(this)">
+        <div class="tree-folder open" data-action="toggle-folder" role="button" tabindex="0">
           <span class="icon">▶</span>
           <span class="folder-name" data-vi="{{ tag }}" data-en="{{ first_tag_post.tag_en | default: tag }}">{{ tag }}</span>
           <span class="count">{{ tag_posts | size }}</span>
         </div>
         <div class="tree-items">
           {% for post in tag_posts %}
-          <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" onclick="return showPost({{ post.url | jsonify }}, this)" data-url="{{ post.url }}">
+          <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" data-action="show-post" data-url="{{ post.url }}">
             <span class="dot">●</span>
             <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
           </a>
@@ -601,7 +603,7 @@ body {
               {% assign book_landing_pages = epistemology_posts | where: "book_landing", true %}
               {% assign book_landing = book_landing_pages | first %}
               {% if book_landing %}
-              <a class="tree-item book-title-item" href="{{ '/' | relative_url }}?post={{ book_landing.url | url_encode }}" onclick="return showPost({{ book_landing.url | jsonify }}, this)" data-url="{{ book_landing.url }}">
+              <a class="tree-item book-title-item" href="{{ '/' | relative_url }}?post={{ book_landing.url | url_encode }}" data-action="show-post" data-url="{{ book_landing.url }}">
                 <span class="book-title-mark">◆</span>
                 <span data-vi="Tiếng Chó - Tựa sách" data-en="The Dog's Language - Title Page">Tiếng Chó - Tựa sách</span>
               </a>
@@ -610,7 +612,7 @@ body {
               {% assign chapter_matches = epistemology_posts | where: "chapter_number", chapter_number %}
               {% assign post = chapter_matches | first %}
               {% if post %}
-              <a class="tree-item chapter-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" onclick="return showPost({{ post.url | jsonify }}, this)" data-url="{{ post.url }}">
+              <a class="tree-item chapter-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" data-action="show-post" data-url="{{ post.url }}">
                 <span class="chapter-index">{{ post.chapter_label }}</span>
                 <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
               </a>
@@ -642,7 +644,7 @@ body {
             </summary>
             <div>
               {% for post in author_posts %}
-              <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" onclick="return showPost({{ post.url | jsonify }}, this)" data-url="{{ post.url }}">
+              <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" data-action="show-post" data-url="{{ post.url }}">
                 <span class="dot">●</span>
                 <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
               </a>
@@ -675,7 +677,7 @@ body {
             </summary>
             <div>
               {% for post in type_posts %}
-              <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" onclick="return showPost({{ post.url | jsonify }}, this)" data-url="{{ post.url }}">
+              <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" data-action="show-post" data-url="{{ post.url }}">
                 <span class="dot">●</span>
                 <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
               </a>
@@ -689,7 +691,7 @@ body {
     </div>
 
     <div class="sidebar-footer">
-      <a onclick="showAbout()" data-vi="Về tác giả" data-en="About">Về tác giả</a>
+      <a href="#about" data-action="show-about" data-vi="Về tác giả" data-en="About">Về tác giả</a>
     </div>
   </div>
 
@@ -729,7 +731,7 @@ body {
 
 <script>
 // Post data injected by Jekyll
-const posts = {
+const injectedPosts = {
   {% for post in site.posts %}
   {% assign english_document = site.english | where: "slug_key", post.slug | first %}
   {{ post.url | jsonify }}: {
@@ -744,11 +746,33 @@ const posts = {
   {% endfor %}
 };
 
-let interfaceLanguage = localStorage.getItem('interfaceLanguage') || 'vi';
+// A null-prototype registry prevents inherited keys such as __proto__ and
+// constructor from ever becoming valid article addresses.
+const posts = Object.freeze(Object.assign(Object.create(null), injectedPosts));
+const MAX_POST_URL_LENGTH = 180;
+const POST_URL_PATTERN = /^\/[a-z0-9-]+\/$/;
+
+function isKnownPostUrl(url) {
+  return typeof url === 'string'
+    && url.length <= MAX_POST_URL_LENGTH
+    && POST_URL_PATTERN.test(url)
+    && Object.prototype.hasOwnProperty.call(posts, url);
+}
+
+let storedLanguage = 'vi';
+try {
+  storedLanguage = localStorage.getItem('interfaceLanguage') || 'vi';
+} catch (_) {
+  // Storage can be blocked by browser privacy settings. Vietnamese remains
+  // the safe deterministic default.
+}
+let interfaceLanguage = storedLanguage === 'en' ? 'en' : 'vi';
 
 function setInterfaceLanguage(language) {
   interfaceLanguage = language === 'en' ? 'en' : 'vi';
-  localStorage.setItem('interfaceLanguage', interfaceLanguage);
+  try {
+    localStorage.setItem('interfaceLanguage', interfaceLanguage);
+  } catch (_) {}
   document.documentElement.lang = interfaceLanguage;
   document.querySelectorAll('[data-vi][data-en]').forEach(el => {
     el.innerHTML = el.dataset[interfaceLanguage];
@@ -761,8 +785,59 @@ function setInterfaceLanguage(language) {
   if (activeItem) showPost(activeItem.dataset.url, activeItem, false);
 }
 
-document.querySelectorAll('[data-ui-language]').forEach(button => {
-  button.addEventListener('click', () => setInterfaceLanguage(button.dataset.uiLanguage));
+const ALLOWED_ACTIONS = new Set([
+  'set-language',
+  'toggle-folder',
+  'show-post',
+  'show-about'
+]);
+
+function dispatchAllowedAction(control) {
+  if (!(control instanceof HTMLElement)) return;
+  if (!document.querySelector('.app').contains(control)) return;
+
+  const action = control.dataset.action;
+  if (!ALLOWED_ACTIONS.has(action)) return;
+
+  if (action === 'set-language') {
+    setInterfaceLanguage(control.dataset.uiLanguage);
+    return;
+  }
+  if (action === 'toggle-folder') {
+    toggleFolder(control);
+    return;
+  }
+  if (action === 'show-post') {
+    showPost(control.dataset.url, control);
+    return;
+  }
+  if (action === 'show-about') {
+    showAbout();
+  }
+}
+
+// One guarded input gate for the whole application. Internal actions accept
+// only a trusted primary click with no modifier keys.
+document.querySelector('.app').addEventListener('click', event => {
+  if (!event.isTrusted || event.button !== 0) return;
+  if (event.ctrlKey || event.altKey || event.shiftKey || event.metaKey) return;
+  if (!(event.target instanceof Element)) return;
+
+  const control = event.target.closest('[data-action]');
+  if (!control) return;
+  event.preventDefault();
+  dispatchAllowedAction(control);
+});
+
+// The custom folder control is a div, so give it the same keyboard contract
+// as a native button. Native anchors and buttons already generate clicks.
+document.querySelector('.app').addEventListener('keydown', event => {
+  if (!event.isTrusted || (event.key !== 'Enter' && event.key !== ' ')) return;
+  if (!(event.target instanceof Element)) return;
+  const control = event.target.closest('[data-action="toggle-folder"]');
+  if (!control) return;
+  event.preventDefault();
+  dispatchAllowedAction(control);
 });
 
 function toggleFolder(el) {
@@ -772,8 +847,8 @@ function toggleFolder(el) {
 }
 
 function showPost(url, sourceEl, updateAddress = true) {
+  if (!isKnownPostUrl(url)) return false;
   const p = posts[url];
-  if (!p) return true;
 
   document.getElementById('reader-empty').style.display = 'none';
   document.getElementById('about-content').style.display = 'none';
@@ -821,8 +896,16 @@ function showAbout() {
 setInterfaceLanguage(interfaceLanguage);
 
 // Restore a directly linked article while keeping the library visible.
-const requestedUrl = new URLSearchParams(location.search).get('post');
-const firstUrl = requestedUrl && posts[requestedUrl] ? requestedUrl : Object.keys(posts)[0];
+// Refuse oversized or structurally invalid query input before it reaches the
+// reader logic. The site has no reason to compute over arbitrary payloads.
+const queryIsReasonable = location.search.length <= 512;
+const requestedUrl = queryIsReasonable
+  ? new URLSearchParams(location.search).get('post')
+  : null;
+const firstUrl = isKnownPostUrl(requestedUrl) ? requestedUrl : Object.keys(posts)[0];
+if (!queryIsReasonable) {
+  history.replaceState({}, '', location.pathname);
+}
 if (firstUrl) showPost(firstUrl, null, false);
 </script>
 </body>
