@@ -330,7 +330,14 @@ body {
   color: var(--muted);
   margin-bottom: 16px;
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
+}
+
+.reader-credit {
+  margin-left: auto;
+  color: var(--ink);
+  letter-spacing: 0.04em;
 }
 
 .reader-title {
@@ -734,12 +741,17 @@ body {
 const injectedPosts = {
   {% for post in site.posts %}
   {% assign english_document = site.english | where: "slug_key", post.slug | first %}
+  {% assign credit_name = post.credit_name | default: site.author_credit %}
+  {% capture credit_vi %}{% if post.tag == "Dịch thuật" %}Bản dịch: {% else %}Tác giả: {% endif %}{{ credit_name }}{% endcapture %}
+  {% capture credit_en %}{% if post.tag == "Dịch thuật" %}Translated by: {% else %}By: {% endif %}{{ credit_name }}{% endcapture %}
   {{ post.url | jsonify }}: {
     titleVi: {{ post.title | jsonify }},
     titleEn: {{ post.title_en | default: post.title | jsonify }},
     date: "{{ post.date | date: '%-d tháng %-m, %Y' }}",
     tagVi: {{ post.tag | default: "" | jsonify }},
     tagEn: {{ post.tag_en | default: post.tag | default: "" | jsonify }},
+    creditVi: {{ credit_vi | strip | jsonify }},
+    creditEn: {{ credit_en | strip | jsonify }},
     bodyVi: {{ post.content | jsonify }},
     bodyEn: {% if english_document %}{{ english_document.content | markdownify | jsonify }}{% else %}null{% endif %}
   }{% unless forloop.last %},{% endunless %}
@@ -856,7 +868,8 @@ function showPost(url, sourceEl, updateAddress = true) {
 
   document.getElementById('reader-meta').innerHTML =
     `<span>${p.date}</span>` +
-    `<span style="color:var(--red)">${interfaceLanguage === 'en' ? p.tagEn : p.tagVi}</span>`;
+    `<span style="color:var(--red)">${interfaceLanguage === 'en' ? p.tagEn : p.tagVi}</span>` +
+    `<span class="reader-credit">${interfaceLanguage === 'en' ? p.creditEn : p.creditVi}</span>`;
   document.getElementById('reader-title-vi').textContent = p.titleVi;
   document.getElementById('reader-title-en').textContent = p.titleEn;
   document.getElementById('reader-body-vi').innerHTML = p.bodyVi;
