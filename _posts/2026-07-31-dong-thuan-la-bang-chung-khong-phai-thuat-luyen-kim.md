@@ -8,6 +8,7 @@ tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
 chapter_number: 11
+chapter_label: "11"
 author: Kevin T.N
 ---
 Ba mươi chiếc la bàn cùng chỉ Bắc. Điều ấy ấn tượng nếu chúng được chế tạo và

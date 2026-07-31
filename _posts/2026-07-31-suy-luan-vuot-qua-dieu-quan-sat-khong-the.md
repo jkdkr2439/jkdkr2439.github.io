@@ -7,7 +7,8 @@ tag: Nhận thức luận căn bản
 tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
-chapter_number: 08
+chapter_number: 8
+chapter_label: "08"
 author: Kevin T.N
 ---
 Không ai nhìn thấy nguyên nhân như một vật đứng riêng bên cạnh hệ quả. Không

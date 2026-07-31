@@ -7,7 +7,8 @@ tag: Nhận thức luận căn bản
 tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
-chapter_number: 05
+chapter_number: 5
+chapter_label: "05"
 author: Kevin T.N
 ---
 Trên bàn bếp có một cốc sứ, một cốc giấy, một chiếc ca nứt và bức vẽ chiếc

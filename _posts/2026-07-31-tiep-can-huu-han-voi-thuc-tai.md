@@ -7,7 +7,8 @@ tag: Nhận thức luận căn bản
 tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
-chapter_number: 01
+chapter_number: 1
+chapter_label: "01"
 author: Kevin T.N
 ---
 Hai người đứng ở hai phía của một cánh cửa đóng kín. Một người nhìn thấy khói

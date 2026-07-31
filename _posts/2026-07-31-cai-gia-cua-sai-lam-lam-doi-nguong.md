@@ -8,6 +8,7 @@ tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
 chapter_number: 13
+chapter_label: "13"
 author: Kevin T.N
 ---
 Chuông báo khói reo trong đêm. Xác suất có cháy có thể nhỏ. Cái giá của việc

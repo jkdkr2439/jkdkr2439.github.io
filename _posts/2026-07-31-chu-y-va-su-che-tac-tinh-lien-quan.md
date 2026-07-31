@@ -7,7 +7,8 @@ tag: Nhận thức luận căn bản
 tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
-chapter_number: 03
+chapter_number: 3
+chapter_label: "03"
 author: Kevin T.N
 ---
 Một người đi qua nhà ga trong lúc chờ tin nhắn. Bảng giờ đổi chuyến, một đứa

@@ -8,6 +8,7 @@ tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
 chapter_number: 15
+chapter_label: "15"
 author: Kevin T.N
 ---
 Một cỗ máy in ra một câu. Câu ấy được đưa ngược vào máy làm bằng chứng rằng

@@ -7,7 +7,8 @@ tag: Nhận thức luận căn bản
 tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
-chapter_number: 09
+chapter_number: 9
+chapter_label: "09"
 author: Kevin T.N
 ---
 Ta biết ngày sinh của mình, sự tồn tại của những thành phố chưa từng đặt chân,

@@ -7,7 +7,8 @@ tag: Nhận thức luận căn bản
 tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
-chapter_number: 06
+chapter_number: 6
+chapter_label: "06"
 author: Kevin T.N
 ---
 Đường bờ biển không có nhãn. Bản đồ đặt một cái tên lên nước, một cái tên lên

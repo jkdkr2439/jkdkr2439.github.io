@@ -7,7 +7,8 @@ tag: Nhận thức luận căn bản
 tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
-chapter_number: 04
+chapter_number: 4
+chapter_label: "04"
 author: Kevin T.N
 ---
 Trong bữa tối, ba anh em nhớ lại cùng một chuyến đi thời thơ ấu. Một người nhớ

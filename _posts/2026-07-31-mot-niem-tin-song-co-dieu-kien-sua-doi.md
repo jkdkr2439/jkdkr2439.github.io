@@ -8,6 +8,7 @@ tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
 chapter_number: 14
+chapter_label: "14"
 author: Kevin T.N
 ---
 Trước khi mở phong bì, một người tuyên bố: “Nếu kết quả có lợi cho tôi, nó

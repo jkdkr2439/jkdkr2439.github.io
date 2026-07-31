@@ -7,7 +7,8 @@ tag: Nhận thức luận căn bản
 tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
-chapter_number: 07
+chapter_number: 7
+chapter_label: "07"
 author: Kevin T.N
 ---
 Một đèn đỏ nhấp nháy trên thiết bị phòng thí nghiệm. Với kỹ thuật viên, nó có

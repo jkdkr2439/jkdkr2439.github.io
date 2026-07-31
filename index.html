@@ -540,20 +540,22 @@ body {
           <span class="count">{{ epistemology_posts | size }}</span>
         </summary>
         <div class="tree-items" style="display:block;">
-          {% assign chapter_posts = epistemology_posts | sort: "chapter_number" %}
-          {% assign first_chapter = chapter_posts | first %}
           <details class="tree-author book-volume" open>
             <summary class="tree-subfolder">
               <span class="icon">▶</span>
-              <span data-vi="Tiếng Chó" data-en="{{ first_chapter.book_edition_en | default: 'The Dog Language' }}">Tiếng Chó</span>
-              <span class="count">{{ chapter_posts | size }}</span>
+              <span data-vi="Tiếng Chó" data-en="The Dog's Language">Tiếng Chó</span>
+              <span class="count">{{ epistemology_posts | size }}</span>
             </summary>
             <div>
-              {% for post in chapter_posts %}
+              {% for chapter_number in (1..16) %}
+              {% assign chapter_matches = epistemology_posts | where: "chapter_number", chapter_number %}
+              {% assign post = chapter_matches | first %}
+              {% if post %}
               <a class="tree-item chapter-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" onclick="return showPost({{ post.url | jsonify }}, this)" data-url="{{ post.url }}">
-                <span class="chapter-index">{{ post.chapter_number }}</span>
+                <span class="chapter-index">{{ post.chapter_label }}</span>
                 <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
               </a>
+              {% endif %}
               {% endfor %}
             </div>
           </details>

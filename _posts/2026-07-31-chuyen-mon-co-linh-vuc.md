@@ -8,6 +8,7 @@ tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
 chapter_number: 10
+chapter_label: "10"
 author: Kevin T.N
 ---
 Một bác sĩ phẫu thuật nổi tiếng nói về nhiễm khuẩn bệnh viện. Danh xưng “bác

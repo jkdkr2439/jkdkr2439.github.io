@@ -8,6 +8,7 @@ tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
 chapter_number: 12
+chapter_label: "12"
 author: Kevin T.N
 ---
 Bác sĩ nói một chẩn đoán có khả năng đúng. Bệnh nhân nghe thành một trong hai

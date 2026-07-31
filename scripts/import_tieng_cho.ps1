@@ -53,7 +53,8 @@ tag: Nhận thức luận căn bản
 tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
-chapter_number: $number
+chapter_number: $($chapter.N)
+chapter_label: "$number"
 author: Kevin T.N
 ---
 

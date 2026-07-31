@@ -7,7 +7,8 @@ tag: Nhận thức luận căn bản
 tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
-chapter_number: 02
+chapter_number: 2
+chapter_label: "02"
 author: Kevin T.N
 ---
 Một chiếc cốc nằm trên bàn. Nhìn từ cửa ra vào, ta không thấy quai cốc. Nhìn

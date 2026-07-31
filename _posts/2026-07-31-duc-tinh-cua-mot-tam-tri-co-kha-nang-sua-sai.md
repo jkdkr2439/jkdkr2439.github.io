@@ -8,6 +8,7 @@ tag_en: Basic Epistemology
 book_edition: Tiếng Chó
 book_edition_en: The Dog's Language
 chapter_number: 16
+chapter_label: "16"
 author: Kevin T.N
 ---
 Một người phát hiện niềm tin yêu quý của mình là sai. Không gì hữu hình vỡ.
