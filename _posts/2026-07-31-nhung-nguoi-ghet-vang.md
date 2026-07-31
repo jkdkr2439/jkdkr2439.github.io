@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Những người ghét vàng"
+title_en: "The People Who Hate Gold"
 date: 2026-07-31
 tag: Trí năng máy
+tag_en: Machine Intelligence
 excerpt_text: "Không dùng một công cụ là lựa chọn. Không sống trong thế giới do công cụ ấy tổ chức lại là một quyền lực khác hẳn."
 ---
 

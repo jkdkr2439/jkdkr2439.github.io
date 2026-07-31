@@ -6,6 +6,10 @@ baseurl: ""
 markdown: kramdown
 permalink: /:title/
 
+collections:
+  english:
+    output: false
+
 # Build
 exclude:
   - deploy.bat

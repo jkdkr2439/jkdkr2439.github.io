@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Một cái gáy sách bị cắt, và nền văn minh lập tức hấp hối"
+title_en: "A Book Spine Is Cut, and Civilization Immediately Starts Dying"
 date: 2026-07-30
 tag: Phản biện
+tag_en: Critique
 excerpt_text: "Cảm giác ghê tay không phải là một lập luận, và vật mang tri thức không phải chính tri thức."
 ---
 

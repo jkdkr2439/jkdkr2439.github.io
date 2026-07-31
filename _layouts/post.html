@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<script>
+  window.location.replace(
+    {{ '/' | relative_url | jsonify }} + '?post=' + encodeURIComponent({{ page.url | jsonify }})
+  );
+</script>
+
 <div class="article-wrap">
   <a class="article-back" href="{{ '/' | relative_url }}">← Tất cả bài viết</a>
   <div class="article-meta">

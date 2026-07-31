@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Ai được quyền phát trí tuệ cho loài người?"
+title_en: "Who Gets to Distribute Intelligence to Humankind?"
 date: 2026-07-29
 tag: Quyền lực
+tag_en: Power
 excerpt_text: "Tương lai không đến như sét. Nó đến như một tờ đơn, và tay nắm của cánh cửa nằm ở phía bên kia."
 ---
 

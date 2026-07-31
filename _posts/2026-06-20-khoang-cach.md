@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Khoảng cách"
+title_en: "Distance"
 date: 2026-06-20
 tag: Tự sự
+tag_en: Narrative
 excerpt_text: "Tôi từng tin rằng điều đúng thì sẽ làm được. Tin rất lâu, rất chắc, đến mức không bao giờ nghĩ rằng có một ngày mình phải ngồi xuống và tự hỏi: nếu không làm được thì sao?"
 ---
 

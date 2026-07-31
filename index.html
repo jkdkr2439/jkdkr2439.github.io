@@ -52,6 +52,13 @@ body {
   border-bottom: 1px solid var(--border);
 }
 
+.sidebar-brand-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
 .sidebar-logo {
   font-weight: 700;
   font-size: 14px;
@@ -166,6 +173,29 @@ body {
   color: var(--red);
 }
 
+.ui-language-switch {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.ui-language-switch button {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  padding: 4px 7px;
+  font: 700 10px/1 system-ui, -apple-system, sans-serif;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+}
+
+.ui-language-switch button.active {
+  background: var(--ink);
+  color: var(--bg-panel);
+}
+
 .translation-tree,
 .tree-author {
   border: 0;
@@ -243,9 +273,9 @@ body {
 }
 
 .reader-content {
-  max-width: 680px;
+  max-width: 1480px;
   margin: 0 auto;
-  padding: 60px 48px 100px;
+  padding: 48px 54px 100px;
 }
 
 .reader-empty {
@@ -307,6 +337,52 @@ body {
   margin: 38px auto;
   border-radius: 2px;
   box-shadow: 0 12px 36px rgba(38, 28, 18, 0.14);
+}
+
+.reader-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 0;
+  align-items: start;
+}
+
+.reader-language-panel {
+  min-width: 0;
+  padding: 0 42px;
+}
+
+.reader-language-panel:first-child {
+  padding-left: 0;
+  border-right: 1px solid var(--border);
+}
+
+.reader-language-panel:last-child {
+  padding-right: 0;
+}
+
+.reader-language-label {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 4px 8px;
+  background: var(--ink);
+  color: var(--bg-panel);
+  font: 700 10px/1 system-ui, -apple-system, sans-serif;
+  letter-spacing: 0.12em;
+}
+
+.reader-language-panel.is-missing {
+  color: var(--muted);
+}
+
+.translation-pending {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 22px 0;
+  color: var(--muted);
+  font-style: italic;
 }
 
 .reader-body p:has(> img) { margin: 0; }
@@ -384,6 +460,16 @@ body {
   .reader { height: 60vh; }
   .reader-content, .about-content { padding: 28px 18px 60px; }
   .tree-item { padding-left: 32px; }
+  .reader-columns { grid-template-columns: 1fr; }
+  .reader-language-panel {
+    padding: 0;
+  }
+  .reader-language-panel:first-child {
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 42px;
+    padding-bottom: 28px;
+  }
 }
 </style>
 </head>
@@ -392,25 +478,35 @@ body {
 <div class="app">
   <div class="sidebar">
     <div class="sidebar-header">
-      <div class="sidebar-logo">Kevin T.N</div>
-      <div class="sidebar-tagline">Viết để tư duy, không phải để đẹp.</div>
+      <div class="sidebar-brand-row">
+        <div>
+          <div class="sidebar-logo">Kevin T.N</div>
+          <div class="sidebar-tagline" data-vi="Viết để tư duy, không phải để đẹp." data-en="Writing to think, not to decorate.">Viết để tư duy, không phải để đẹp.</div>
+        </div>
+        <div class="ui-language-switch" aria-label="Interface language">
+          <button type="button" class="active" data-ui-language="vi">VI</button>
+          <button type="button" data-ui-language="en">EN</button>
+        </div>
+      </div>
     </div>
 
     <div class="tree" id="tree">
       {% assign regular_posts = site.posts | where_exp: "post", "post.tag != 'Dịch thuật'" %}
       {% assign tags = regular_posts | map: "tag" | uniq %}
       {% for tag in tags %}
+      {% assign tag_posts = regular_posts | where: "tag", tag %}
+      {% assign first_tag_post = tag_posts | first %}
       <div class="tree-section open" id="section-{{ tag | slugify }}">
         <div class="tree-folder open" onclick="toggleFolder(this)">
           <span class="icon">▶</span>
-          <span class="folder-name">{{ tag }}</span>
-          <span class="count">{% assign tag_posts = site.posts | where: "tag", tag %}{{ tag_posts | size }}</span>
+          <span class="folder-name" data-vi="{{ tag }}" data-en="{{ first_tag_post.tag_en | default: tag }}">{{ tag }}</span>
+          <span class="count">{{ tag_posts | size }}</span>
         </div>
         <div class="tree-items">
           {% for post in tag_posts %}
-          <a class="tree-item" href="{{ post.url | relative_url }}" onclick="return showPost({{ post.url | jsonify }}, this)" data-url="{{ post.url }}">
+          <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" onclick="return showPost({{ post.url | jsonify }}, this)" data-url="{{ post.url }}">
             <span class="dot">●</span>
-            <span>{{ post.title }}</span>
+            <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
           </a>
           {% endfor %}
         </div>
@@ -422,7 +518,7 @@ body {
       <details class="translation-tree tree-section" id="section-dich-thuat">
         <summary class="tree-folder">
           <span class="icon">▶</span>
-          <span class="folder-name">Dịch thuật</span>
+          <span class="folder-name" data-vi="Dịch thuật" data-en="Translations">Dịch thuật</span>
           <span class="count">{{ translation_posts | size }}</span>
         </summary>
         <div class="tree-items" style="display:block;">
@@ -437,9 +533,9 @@ body {
             </summary>
             <div>
               {% for post in author_posts %}
-              <a class="tree-item" href="{{ post.url | relative_url }}" onclick="return showPost({{ post.url | jsonify }}, this)" data-url="{{ post.url }}">
+              <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" onclick="return showPost({{ post.url | jsonify }}, this)" data-url="{{ post.url }}">
                 <span class="dot">●</span>
-                <span>{{ post.title }}</span>
+                <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
               </a>
               {% endfor %}
             </div>
@@ -451,29 +547,39 @@ body {
     </div>
 
     <div class="sidebar-footer">
-      <a onclick="showAbout()">Về tác giả</a>
+      <a onclick="showAbout()" data-vi="Về tác giả" data-en="About">Về tác giả</a>
     </div>
   </div>
 
   <div class="reader" id="reader">
     <div class="reader-empty" id="reader-empty">
-      Chọn một bài viết bên trái để đọc.
+      <span data-vi="Chọn một bài viết bên trái để đọc." data-en="Choose a text from the library.">Chọn một bài viết bên trái để đọc.</span>
     </div>
     <div class="reader-content" id="reader-content" style="display:none;">
       <div class="reader-meta" id="reader-meta"></div>
-      <h1 class="reader-title" id="reader-title"></h1>
-      <div class="reader-body" id="reader-body"></div>
+      <div class="reader-columns">
+        <section class="reader-language-panel" lang="vi">
+          <span class="reader-language-label">VI</span>
+          <h1 class="reader-title" id="reader-title-vi"></h1>
+          <div class="reader-body" id="reader-body-vi"></div>
+        </section>
+        <section class="reader-language-panel" id="reader-panel-en" lang="en">
+          <span class="reader-language-label">EN</span>
+          <h1 class="reader-title" id="reader-title-en"></h1>
+          <div class="reader-body" id="reader-body-en"></div>
+        </section>
+      </div>
     </div>
     <div class="about-content" id="about-content" style="display:none;">
-      <div class="about-eyebrow">Về tác giả</div>
-      <h2>Tôi không viết để được đồng ý.<br>Tôi viết để nghĩ.</h2>
-      <p>Tôi 34 tuổi. Không có bằng triết học. Không có tên trong hệ thống học thuật nào. Nhưng tôi đã đọc, nghĩ, và viết đủ lâu để biết rằng tư duy thật không bắt đầu từ citation - nó bắt đầu từ câu hỏi nền.</p>
-      <p>Những bài viết ở đây không có mục tiêu thuyết phục. Chúng là quá trình tôi tự khai thác chỗ mình chưa rõ. Đôi khi thô. Đôi khi cực đoan. Luôn thật.</p>
-      <p>Nếu mày không đồng ý thì kệ mày. Ở đây không có đúng sai; thứ gì có giá trị thì lấy, không có giá trị thì bỏ qua.</p>
+      <div class="about-eyebrow" data-vi="Về tác giả" data-en="About">Về tác giả</div>
+      <h2 data-vi="Tôi không viết để được đồng ý.<br>Tôi viết để nghĩ." data-en="I do not write to be agreed with.<br>I write to think.">Tôi không viết để được đồng ý.<br>Tôi viết để nghĩ.</h2>
+      <p data-vi="Tôi 34 tuổi. Không có bằng triết học. Không có tên trong hệ thống học thuật nào. Nhưng tôi đã đọc, nghĩ, và viết đủ lâu để biết rằng tư duy thật không bắt đầu từ citation - nó bắt đầu từ câu hỏi nền." data-en="I am 34. I have no philosophy degree and no name in any academic system. But I have read, thought, and written long enough to know that real thinking does not begin with a citation - it begins with the question beneath the question.">Tôi 34 tuổi. Không có bằng triết học. Không có tên trong hệ thống học thuật nào. Nhưng tôi đã đọc, nghĩ, và viết đủ lâu để biết rằng tư duy thật không bắt đầu từ citation - nó bắt đầu từ câu hỏi nền.</p>
+      <p data-vi="Những bài viết ở đây không có mục tiêu thuyết phục. Chúng là quá trình tôi tự khai thác chỗ mình chưa rõ. Đôi khi thô. Đôi khi cực đoan. Luôn thật." data-en="These texts do not aim to persuade. They record the work of digging into what I have not yet made clear to myself. Sometimes rough. Sometimes extreme. Always honest.">Những bài viết ở đây không có mục tiêu thuyết phục. Chúng là quá trình tôi tự khai thác chỗ mình chưa rõ. Đôi khi thô. Đôi khi cực đoan. Luôn thật.</p>
+      <p data-vi="Nếu mày không đồng ý thì kệ mày. Ở đây không có đúng sai; thứ gì có giá trị thì lấy, không có giá trị thì bỏ qua." data-en="If you disagree, that is your affair. There is no tribunal of right and wrong here: take whatever has value; leave whatever does not.">Nếu mày không đồng ý thì kệ mày. Ở đây không có đúng sai; thứ gì có giá trị thì lấy, không có giá trị thì bỏ qua.</p>
       <div class="about-divider"></div>
       <div class="about-contact">
-        Liên hệ: <a href="mailto:keedavinci@gmail.com">keedavinci@gmail.com</a><br>
-        Email phụ: <a href="mailto:jkdkr2439@gmail.com">jkdkr2439@gmail.com</a>
+        <span data-vi="Liên hệ" data-en="Contact">Liên hệ</span>: <a href="mailto:keedavinci@gmail.com">keedavinci@gmail.com</a><br>
+        <span data-vi="Email phụ" data-en="Secondary email">Email phụ</span>: <a href="mailto:jkdkr2439@gmail.com">jkdkr2439@gmail.com</a>
       </div>
     </div>
   </div>
@@ -483,14 +589,39 @@ body {
 // Post data injected by Jekyll
 const posts = {
   {% for post in site.posts %}
+  {% assign english_document = site.english | where: "slug_key", post.slug | first %}
   {{ post.url | jsonify }}: {
-    title: {{ post.title | jsonify }},
+    titleVi: {{ post.title | jsonify }},
+    titleEn: {{ post.title_en | default: post.title | jsonify }},
     date: "{{ post.date | date: '%-d tháng %-m, %Y' }}",
-    tag: {{ post.tag | default: "" | jsonify }},
-    body: {{ post.content | jsonify }}
+    tagVi: {{ post.tag | default: "" | jsonify }},
+    tagEn: {{ post.tag_en | default: post.tag | default: "" | jsonify }},
+    bodyVi: {{ post.content | jsonify }},
+    bodyEn: {% if english_document %}{{ english_document.content | markdownify | jsonify }}{% else %}null{% endif %}
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 };
+
+let interfaceLanguage = localStorage.getItem('interfaceLanguage') || 'vi';
+
+function setInterfaceLanguage(language) {
+  interfaceLanguage = language === 'en' ? 'en' : 'vi';
+  localStorage.setItem('interfaceLanguage', interfaceLanguage);
+  document.documentElement.lang = interfaceLanguage;
+  document.querySelectorAll('[data-vi][data-en]').forEach(el => {
+    el.innerHTML = el.dataset[interfaceLanguage];
+  });
+  document.querySelectorAll('[data-ui-language]').forEach(button => {
+    button.classList.toggle('active', button.dataset.uiLanguage === interfaceLanguage);
+  });
+
+  const activeItem = document.querySelector('.tree-item.active');
+  if (activeItem) showPost(activeItem.dataset.url, activeItem, false);
+}
+
+document.querySelectorAll('[data-ui-language]').forEach(button => {
+  button.addEventListener('click', () => setInterfaceLanguage(button.dataset.uiLanguage));
+});
 
 function toggleFolder(el) {
   const section = el.closest('.tree-section');
@@ -498,7 +629,7 @@ function toggleFolder(el) {
   el.classList.toggle('open');
 }
 
-function showPost(url, sourceEl) {
+function showPost(url, sourceEl, updateAddress = true) {
   const p = posts[url];
   if (!p) return true;
 
@@ -507,15 +638,33 @@ function showPost(url, sourceEl) {
   document.getElementById('reader-content').style.display = 'block';
 
   document.getElementById('reader-meta').innerHTML =
-    `<span>${p.date}</span>` + (p.tag ? `<span style="color:var(--red)">${p.tag}</span>` : '');
-  document.getElementById('reader-title').textContent = p.title;
-  document.getElementById('reader-body').innerHTML = p.body;
+    `<span>${p.date}</span>` +
+    `<span style="color:var(--red)">${interfaceLanguage === 'en' ? p.tagEn : p.tagVi}</span>`;
+  document.getElementById('reader-title-vi').textContent = p.titleVi;
+  document.getElementById('reader-title-en').textContent = p.titleEn;
+  document.getElementById('reader-body-vi').innerHTML = p.bodyVi;
+
+  const englishPanel = document.getElementById('reader-panel-en');
+  if (p.bodyEn) {
+    englishPanel.classList.remove('is-missing');
+    document.getElementById('reader-body-en').innerHTML = p.bodyEn;
+  } else {
+    englishPanel.classList.add('is-missing');
+    document.getElementById('reader-body-en').innerHTML =
+      `<p class="translation-pending">${interfaceLanguage === 'en'
+        ? 'The English edition has not passed its translation gates yet.'
+        : 'Bản tiếng Anh chưa vượt qua đủ các gate dịch thuật nên chưa được công bố.'}</p>`;
+  }
 
   // Active state
   document.querySelectorAll('.tree-item').forEach(e => e.classList.remove('active'));
   (sourceEl || document.querySelector(`.tree-item[data-url="${url}"]`))?.classList.add('active');
 
   document.getElementById('reader').scrollTop = 0;
+  if (updateAddress) {
+    const nextAddress = `${location.pathname}?post=${encodeURIComponent(url)}`;
+    history.replaceState({post: url}, '', nextAddress);
+  }
   return false;
 }
 
@@ -527,9 +676,12 @@ function showAbout() {
   document.getElementById('reader').scrollTop = 0;
 }
 
-// Auto-show first post
-const firstUrl = Object.keys(posts)[0];
-if (firstUrl) showPost(firstUrl);
+setInterfaceLanguage(interfaceLanguage);
+
+// Restore a directly linked article while keeping the library visible.
+const requestedUrl = new URLSearchParams(location.search).get('post');
+const firstUrl = requestedUrl && posts[requestedUrl] ? requestedUrl : Object.keys(posts)[0];
+if (firstUrl) showPost(firstUrl, null, false);
 </script>
 </body>
 </html>

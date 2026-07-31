@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Bọn mày học nhận thức luận nhưng chưa từng hỏi câu hỏi đang làm gì"
+title_en: "You Study Epistemology but Have Never Asked What a Question Does"
 date: 2026-06-23
 tag: Nhận thức luận
+tag_en: Epistemology
 excerpt_text: "Bài này không viết cho thế hệ triết học cũ ở Việt Nam. Tôi đang nói đến lứa học triết trẻ — những người có internet, có Google, có kho sách, có AI — mà vẫn không tự hỏi nổi một câu rất đơn giản..."
 ---
 

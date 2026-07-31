@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Cuộc Phục Hưng Nghệ Thuật Anh"
+title_en: "The English Renaissance of Art"
 tag: "Dịch thuật"
+tag_en: "Translations"
 source_author: "Oscar Wilde"
 translator: "Kevin T.N"
 original_title: "The English Renaissance of Art"
