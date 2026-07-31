@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Đức tính của một tâm trí có khả năng sửa sai"
+title: "Đức tính của một tâm trí biết tự sửa sai"
 title_en: "The Virtues of a Correctable Mind"
 date: 2026-07-31
 tag: Nhận thức luận căn bản

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Phần lớn tri thức đi đến qua người khác"
+title: "Phần lớn tri thức đến với ta qua người khác"
 title_en: "Most Knowledge Arrives Through Others"
 date: 2026-07-31
 tag: Nhận thức luận căn bản

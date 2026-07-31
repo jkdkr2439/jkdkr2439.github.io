@@ -537,14 +537,14 @@ body {
         <summary class="tree-folder">
           <span class="icon">▶</span>
           <span class="folder-name" data-vi="Nhận Thức Luận Căn Bản" data-en="Basic Epistemology">Nhận Thức Luận Căn Bản</span>
-          <span class="count">{{ epistemology_posts | size }}</span>
+          <span class="count" data-vi="1 quyển" data-en="1 book">1 quyển</span>
         </summary>
         <div class="tree-items" style="display:block;">
           <details class="tree-author book-volume" open>
             <summary class="tree-subfolder">
               <span class="icon">▶</span>
               <span data-vi="Tiếng Chó" data-en="The Dog's Language">Tiếng Chó</span>
-              <span class="count">{{ epistemology_posts | size }}</span>
+              <span class="count" data-vi="16 chương" data-en="16 chapters">16 chương</span>
             </summary>
             <div>
               {% for chapter_number in (1..16) %}

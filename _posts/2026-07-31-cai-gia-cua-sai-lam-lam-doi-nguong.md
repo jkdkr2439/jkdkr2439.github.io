@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cái giá của sai lầm làm đổi ngưỡng"
+title: "Cái giá của sai lầm làm thay đổi ngưỡng phán đoán"
 title_en: "The Cost of Error Changes the Threshold"
 date: 2026-07-31
 tag: Nhận thức luận căn bản

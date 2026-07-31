@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Khái niệm nén và làm mất"
+title: "Khái niệm nén thế giới bằng sự mất mát"
 title_en: "Concepts Compress with Loss"
 date: 2026-07-31
 tag: Nhận thức luận căn bản

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chuyên môn có lĩnh vực"
+title: "Mọi chuyên môn đều có biên giới"
 title_en: "Expertise Has a Domain"
 date: 2026-07-31
 tag: Nhận thức luận căn bản

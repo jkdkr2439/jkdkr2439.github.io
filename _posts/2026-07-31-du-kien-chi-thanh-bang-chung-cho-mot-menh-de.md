@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dữ kiện chỉ thành bằng chứng cho một mệnh đề"
+title: "Dữ kiện chỉ thành bằng chứng khi có một mệnh đề"
 title_en: "Data Become Evidence Only for a Claim"
 date: 2026-07-31
 tag: Nhận thức luận căn bản

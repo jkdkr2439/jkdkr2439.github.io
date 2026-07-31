@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Suy luận vượt qua điều quan sát không thể"
+title: "Suy luận đi tới nơi quan sát không thể"
 title_en: "Inference Crosses What Observation Cannot"
 date: 2026-07-31
 tag: Nhận thức luận căn bản
