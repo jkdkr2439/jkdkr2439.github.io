@@ -183,6 +183,43 @@ body {
   flex-shrink: 0;
 }
 
+.sidebar-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.refresh-library {
+  width: 26px;
+  height: 26px;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  background: transparent;
+  color: var(--muted);
+  display: inline-grid;
+  place-items: center;
+  padding: 0;
+  font: 700 15px/1 system-ui, -apple-system, sans-serif;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+
+.refresh-library:hover,
+.refresh-library:focus-visible {
+  color: var(--ink);
+  border-color: var(--ink);
+  background: var(--bg-panel);
+}
+
+.refresh-library.is-refreshing {
+  animation: refresh-spin 0.65s linear infinite;
+}
+
+@keyframes refresh-spin {
+  to { transform: rotate(360deg); }
+}
+
 .ui-language-switch button {
   border: 0;
   background: transparent;
@@ -559,9 +596,12 @@ body {
           <div class="sidebar-logo">Kevin T.N</div>
           <div class="sidebar-tagline" data-vi="Viết để tư duy, không phải để đẹp." data-en="Writing to think, not to decorate.">Viết để tư duy, không phải để đẹp.</div>
         </div>
-        <div class="ui-language-switch" aria-label="Interface language">
-          <button type="button" class="active" data-action="set-language" data-ui-language="vi">VI</button>
-          <button type="button" data-action="set-language" data-ui-language="en">EN</button>
+        <div class="sidebar-controls">
+          <button type="button" class="refresh-library" data-action="refresh-library" data-vi-label="Làm mới thư viện" data-en-label="Refresh library" aria-label="Làm mới thư viện" title="Làm mới thư viện">&#x21BB;</button>
+          <div class="ui-language-switch" aria-label="Interface language">
+            <button type="button" class="active" data-action="set-language" data-ui-language="vi">VI</button>
+            <button type="button" data-action="set-language" data-ui-language="en">EN</button>
+          </div>
         </div>
       </div>
     </div>
@@ -792,6 +832,11 @@ function setInterfaceLanguage(language) {
   document.querySelectorAll('[data-ui-language]').forEach(button => {
     button.classList.toggle('active', button.dataset.uiLanguage === interfaceLanguage);
   });
+  document.querySelectorAll('[data-vi-label][data-en-label]').forEach(control => {
+    const label = control.dataset[`${interfaceLanguage}Label`];
+    control.setAttribute('aria-label', label);
+    control.setAttribute('title', label);
+  });
 
   const activeItem = document.querySelector('.tree-item.active');
   if (activeItem) showPost(activeItem.dataset.url, activeItem, false);
@@ -799,6 +844,7 @@ function setInterfaceLanguage(language) {
 
 const ALLOWED_ACTIONS = new Set([
   'set-language',
+  'refresh-library',
   'toggle-folder',
   'show-post',
   'show-about'
@@ -813,6 +859,12 @@ function dispatchAllowedAction(control) {
 
   if (action === 'set-language') {
     setInterfaceLanguage(control.dataset.uiLanguage);
+    return;
+  }
+  if (action === 'refresh-library') {
+    control.classList.add('is-refreshing');
+    control.setAttribute('aria-busy', 'true');
+    location.reload();
     return;
   }
   if (action === 'toggle-folder') {
