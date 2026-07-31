@@ -140,6 +140,7 @@ body {
   line-height: 1.4;
   transition: background 0.1s, color 0.1s;
   border-left: 2px solid transparent;
+  text-decoration: none;
 }
 
 .tree-item:hover {
@@ -236,6 +237,9 @@ body {
 .reader-body p {
   margin-bottom: 24px;
   color: #1a1a1a;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .reader-body p:first-child::first-letter {
@@ -357,10 +361,10 @@ body {
         </div>
         <div class="tree-items">
           {% for post in tag_posts %}
-          <div class="tree-item" onclick="showPost({{ post.url | jsonify }})" data-url="{{ post.url }}">
+          <a class="tree-item" href="{{ post.url | relative_url }}" onclick="return showPost({{ post.url | jsonify }}, this)" data-url="{{ post.url }}">
             <span class="dot">●</span>
             <span>{{ post.title }}</span>
-          </div>
+          </a>
           {% endfor %}
         </div>
       </div>
@@ -414,9 +418,9 @@ function toggleFolder(el) {
   el.classList.toggle('open');
 }
 
-function showPost(url) {
+function showPost(url, sourceEl) {
   const p = posts[url];
-  if (!p) return;
+  if (!p) return true;
 
   document.getElementById('reader-empty').style.display = 'none';
   document.getElementById('about-content').style.display = 'none';
@@ -429,9 +433,10 @@ function showPost(url) {
 
   // Active state
   document.querySelectorAll('.tree-item').forEach(e => e.classList.remove('active'));
-  document.querySelector(`.tree-item[data-url="${url}"]`)?.classList.add('active');
+  (sourceEl || document.querySelector(`.tree-item[data-url="${url}"]`))?.classList.add('active');
 
   document.getElementById('reader').scrollTop = 0;
+  return false;
 }
 
 function showAbout() {
