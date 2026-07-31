@@ -384,6 +384,35 @@ Which part once served a purpose but now only occupies space?
 
 That final question is indecorous. It is also difficult to evade.
 
+### Put plainly
+
+Why are you so occupied with whether you believe an idea or do not believe
+it? Ask first what value it has for you.
+
+If it has value, where exactly is that value? What can you extract from it?
+What can you use it to do? Where does its usefulness end? What must you pay,
+ignore, or surrender in order to keep using it?
+
+You do not have to believe a thing wholesale before learning from it. You do
+not have to call it ultimate truth before using one of its distinctions. You
+do not have to defend its entire history because one part helped you. And you
+do not have to declare it worthless merely because you refuse to let it rule
+you.
+
+“Do I believe it?” is often a lazy question because it demands one verdict on
+an object containing many different things.
+
+Ask instead:
+
+> What in this is valuable to me, and what authority must I grant it in order
+> to obtain that value?
+
+Sometimes the answer will be: none. Then leave it.
+
+Sometimes the answer will be: one tool, one sentence, one discipline, one
+warning, one way of seeing. Then take that value. Use it. You are not required
+to carry home the altar merely because you borrowed a knife from the temple.
+
 ### Belief is not what you keep. It is what you let something do.
 
 Some things deserve to remain on the table for further testing. Some belong in

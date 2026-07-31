@@ -386,6 +386,34 @@ Thứ gì từng phục vụ một mục đích, giờ chỉ còn chiếm chỗ?
 
 Câu cuối nghe không nhã. Nhưng rất khó lảng.
 
+### Nói tiếng người
+
+Mày cứ bận hỏi mình tin hay không tin nó để làm gì? Hỏi trước xem nó có giá
+trị gì với mày.
+
+Nếu có, giá trị ấy nằm chính xác ở đâu? Mày lấy được gì từ nó? Dùng nó để làm
+gì? Công dụng dừng ở chỗ nào? Muốn tiếp tục dùng, mày phải trả giá, làm ngơ
+hoặc từ bỏ thứ gì?
+
+Mày không cần tin một thứ trọn gói mới được học từ nó. Không cần gọi nó là
+chân lý tối hậu mới dùng được một phân biệt của nó. Không cần bảo vệ toàn bộ
+lịch sử của nó chỉ vì một phần từng giúp mình. Và cũng không cần tuyên bố nó
+vô giá trị chỉ vì mày từ chối cho nó quyền cai trị.
+
+“Tao có tin nó không?” thường là một câu hỏi lười, vì nó đòi một phán quyết
+duy nhất cho một đối tượng chứa nhiều thứ khác nhau.
+
+Hãy hỏi:
+
+> Trong thứ này, cái gì có giá trị với tao, và tao phải trao cho nó quyền hạn
+> nào để lấy được giá trị ấy?
+
+Đôi khi câu trả lời là: chẳng có gì. Vậy bỏ qua.
+
+Đôi khi câu trả lời chỉ là: một công cụ, một câu văn, một kỷ luật, một lời
+cảnh báo, một cách nhìn. Vậy lấy đúng giá trị ấy mà dùng. Mày không có nghĩa
+vụ vác cả bàn thờ về nhà chỉ vì từng mượn được một con dao trong đền.
+
 ### Tín niệm không phải thứ mày giữ. Nó là quyền mày cho một thứ được làm
 
 Có thứ đáng nằm lại trên bàn để kiểm tra tiếp. Có thứ nên cất trong tủ vì nó
