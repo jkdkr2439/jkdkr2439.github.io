@@ -8,7 +8,6 @@ tag_en: "Creative Work"
 creative_type: "Thơ"
 creative_type_en: "Poetry"
 author: "Kevin T.N"
-pipeline_status: "final"
 ---
 
 ## Rạp Chiếu Cuối

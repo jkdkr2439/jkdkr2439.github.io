@@ -8,7 +8,6 @@ tag_en: "Creative Work"
 creative_type: "Truyện ngắn"
 creative_type_en: "Short Fiction"
 author: "Kevin T.N"
-pipeline_status: "final"
 ---
 
 Thành phố bắt đầu thu tiền bóng râm vào mùa hè nóng nhất trong lịch sử đo đạc.

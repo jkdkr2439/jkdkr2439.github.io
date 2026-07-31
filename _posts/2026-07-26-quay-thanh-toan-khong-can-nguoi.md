@@ -8,7 +8,6 @@ tag_en: "Creative Work"
 creative_type: "Truyện ngắn"
 creative_type_en: "Short Fiction"
 author: "Kevin T.N"
-pipeline_status: "final"
 ---
 
 Siêu thị đặt sáu quầy tự thanh toán ở nơi trước kia có sáu người phụ nữ ngồi sau máy tính tiền.

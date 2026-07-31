@@ -8,7 +8,6 @@ tag_en: "Creative Work"
 creative_type: "Truyện ngắn"
 creative_type_en: "Short Fiction"
 author: "Kevin T.N"
-pipeline_status: "final"
 ---
 
 Tòa nhà thuê ông Phúc vì thang máy thường xuyên hỏng.
