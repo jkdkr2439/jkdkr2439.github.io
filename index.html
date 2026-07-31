@@ -250,6 +250,17 @@ body {
 .reader-body em { font-style: italic; }
 .reader-body strong { font-weight: 700; }
 
+.reader-body img {
+  display: block;
+  width: min(100%, 760px);
+  height: auto;
+  margin: 38px auto;
+  border-radius: 2px;
+  box-shadow: 0 12px 36px rgba(38, 28, 18, 0.14);
+}
+
+.reader-body p:has(> img) { margin: 0; }
+
 .reader-body blockquote {
   border-left: 3px solid var(--red);
   padding-left: 20px;
