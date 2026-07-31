@@ -491,7 +491,8 @@ body {
     </div>
 
     <div class="tree" id="tree">
-      {% assign regular_posts = site.posts | where_exp: "post", "post.tag != 'Dịch thuật' and post.tag != 'Sáng tác'" %}
+      {% assign regular_posts = site.posts | where_exp: "post", "post.tag != 'Dịch thuật'" %}
+      {% assign regular_posts = regular_posts | where_exp: "post", "post.tag != 'Sáng tác'" %}
       {% assign tags = regular_posts | map: "tag" | uniq %}
       {% for tag in tags %}
       {% assign tag_posts = regular_posts | where: "tag", tag %}
