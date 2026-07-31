@@ -14,6 +14,7 @@ permalink: /about/
   </div>
   <div class="about-divider"></div>
   <div class="about-contact">
-    Liên hệ: <a href="mailto:hello@example.com">hello@example.com</a>
+    Liên hệ: <a href="mailto:keedavinci@gmail.com">keedavinci@gmail.com</a><br>
+    Email phụ: <a href="mailto:jkdkr2439@gmail.com">jkdkr2439@gmail.com</a>
   </div>
 </div>
