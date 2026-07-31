@@ -258,6 +258,21 @@ body {
   color: var(--red);
 }
 
+.book-title-item {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.book-title-mark {
+  min-width: 20px;
+  color: var(--red);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
 /* About link at bottom */
 .sidebar-footer {
   border-top: 1px solid var(--border);
@@ -411,6 +426,42 @@ body {
   font-style: italic;
 }
 
+.book-frontispiece {
+  min-height: 58vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 6vh 24px 4vh;
+}
+
+.book-frontispiece .book-subtitle {
+  max-width: 560px;
+  margin: 0;
+  color: #846f5c;
+  font-size: 18px;
+  line-height: 1.6;
+  font-style: italic;
+  text-align: center;
+}
+
+.book-frontispiece .book-author {
+  margin: auto 0 8px;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.book-frontispiece .book-edition {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
+}
+
 /* About */
 .about-content {
   max-width: 680px;
@@ -547,6 +598,14 @@ body {
               <span class="count" data-vi="16 chương" data-en="16 chapters">16 chương</span>
             </summary>
             <div>
+              {% assign book_landing_pages = epistemology_posts | where: "book_landing", true %}
+              {% assign book_landing = book_landing_pages | first %}
+              {% if book_landing %}
+              <a class="tree-item book-title-item" href="{{ '/' | relative_url }}?post={{ book_landing.url | url_encode }}" onclick="return showPost({{ book_landing.url | jsonify }}, this)" data-url="{{ book_landing.url }}">
+                <span class="book-title-mark">◆</span>
+                <span data-vi="Tiếng Chó - Tựa sách" data-en="The Dog's Language - Title Page">Tiếng Chó - Tựa sách</span>
+              </a>
+              {% endif %}
               {% for chapter_number in (1..16) %}
               {% assign chapter_matches = epistemology_posts | where: "chapter_number", chapter_number %}
               {% assign post = chapter_matches | first %}
