@@ -491,7 +491,7 @@ body {
     </div>
 
     <div class="tree" id="tree">
-      {% assign regular_posts = site.posts | where_exp: "post", "post.tag != 'Dịch thuật'" %}
+      {% assign regular_posts = site.posts | where_exp: "post", "post.tag != 'Dịch thuật' and post.tag != 'Sáng tác'" %}
       {% assign tags = regular_posts | map: "tag" | uniq %}
       {% for tag in tags %}
       {% assign tag_posts = regular_posts | where: "tag", tag %}
@@ -533,6 +533,39 @@ body {
             </summary>
             <div>
               {% for post in author_posts %}
+              <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" onclick="return showPost({{ post.url | jsonify }}, this)" data-url="{{ post.url }}">
+                <span class="dot">●</span>
+                <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
+              </a>
+              {% endfor %}
+            </div>
+          </details>
+          {% endfor %}
+        </div>
+      </details>
+      {% endif %}
+
+      {% assign creative_posts = site.posts | where: "tag", "Sáng tác" %}
+      {% if creative_posts.size > 0 %}
+      <details class="translation-tree tree-section" id="section-sang-tac">
+        <summary class="tree-folder">
+          <span class="icon">▶</span>
+          <span class="folder-name" data-vi="Sáng tác" data-en="Creative Work">Sáng tác</span>
+          <span class="count">{{ creative_posts | size }}</span>
+        </summary>
+        <div class="tree-items" style="display:block;">
+          {% assign creative_types = creative_posts | map: "creative_type" | uniq | sort %}
+          {% for creative_type in creative_types %}
+          {% assign type_posts = creative_posts | where: "creative_type", creative_type %}
+          {% assign first_type_post = type_posts | first %}
+          <details class="tree-author">
+            <summary class="tree-subfolder">
+              <span class="icon">▶</span>
+              <span data-vi="{{ creative_type }}" data-en="{{ first_type_post.creative_type_en | default: creative_type }}">{{ creative_type }}</span>
+              <span class="count">{{ type_posts | size }}</span>
+            </summary>
+            <div>
+              {% for post in type_posts %}
               <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" onclick="return showPost({{ post.url | jsonify }}, this)" data-url="{{ post.url }}">
                 <span class="dot">●</span>
                 <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
