@@ -62,11 +62,18 @@ body {
 }
 
 .sidebar-logo {
+  display: inline-block;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink);
+  text-decoration: none;
+}
+
+.sidebar-logo:hover,
+.sidebar-logo:focus-visible {
+  color: var(--red);
 }
 
 .sidebar-tagline {
@@ -74,6 +81,23 @@ body {
   color: var(--muted);
   font-family: system-ui, -apple-system, sans-serif;
   margin-top: 2px;
+}
+
+.sidebar-channel {
+  display: inline-block;
+  margin-top: 7px;
+  color: var(--red);
+  font: 700 10px/1.35 system-ui, -apple-system, sans-serif;
+  letter-spacing: 0.07em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sidebar-channel:hover,
+.sidebar-channel:focus-visible {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /* TREE */
@@ -93,6 +117,7 @@ body {
 
 .translation-tree.pinned-book-tree {
   order: -1;
+  flex-shrink: 0;
   margin: 0 10px 12px;
   border: 1px solid #b89a67;
   border-left: 4px solid var(--red);
@@ -674,8 +699,9 @@ body {
     <div class="sidebar-header">
       <div class="sidebar-brand-row">
         <div>
-          <div class="sidebar-logo">Kevin T.N</div>
+          <a class="sidebar-logo" href="{{ '/' | relative_url }}" aria-label="Về trang chủ Kevin T.N">Kevin T.N</a>
           <div class="sidebar-tagline" data-vi="Viết để tư duy, không phải để đẹp." data-en="Writing to think, not to decorate.">Viết để tư duy, không phải để đẹp.</div>
+          <a class="sidebar-channel" href="https://www.youtube.com/@danhnghiahe" target="_blank" rel="noopener noreferrer" data-vi="YouTube · Danh Nghĩa Hệ" data-en="YouTube · Name Meaning System">YouTube · Danh Nghĩa Hệ</a>
         </div>
         <div class="sidebar-controls">
           <button type="button" class="refresh-library" data-action="refresh-library" data-vi-label="Làm mới thư viện" data-en-label="Refresh library" aria-label="Làm mới thư viện" title="Làm mới thư viện">&#x21BB;</button>
@@ -752,7 +778,7 @@ body {
 
       {% assign epistemology_posts = site.posts | where: "tag", "Nhận thức luận căn bản" %}
       {% if epistemology_posts.size > 0 %}
-      <details class="translation-tree tree-section book-tree pinned-book-tree" id="section-nhan-thuc-luan-can-ban" open>
+      <details class="translation-tree tree-section book-tree pinned-book-tree" id="section-nhan-thuc-luan-can-ban">
         <summary class="tree-folder">
           <span class="pin-badge" data-vi="GHIM" data-en="PINNED">GHIM</span>
           <span class="icon">▶</span>
