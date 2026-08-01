@@ -1219,7 +1219,7 @@ function showHome(updateAddress = true) {
   document.getElementById('reader-empty').style.display = 'none';
   document.getElementById('reader-content').style.display = 'none';
   document.getElementById('about-content').style.display = 'none';
-  document.getElementById('home-content').style.display = 'block';
+  document.getElementById('home-content').style.removeProperty('display');
   document.querySelectorAll('.tree-item').forEach(e => e.classList.remove('active'));
   document.getElementById('reader').scrollTop = 0;
   if (updateAddress) history.replaceState({home: true}, '', location.pathname);
