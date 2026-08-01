@@ -1,0 +1,48 @@
+{
+  "tieng-cho": {
+    "title_vi": "Tiếng Chó",
+    "title_en": "The Dog's Language",
+    "landing": "tieng-cho",
+    "chapters": [
+      "tiep-can-huu-han-voi-thuc-tai",
+      "tri-giac-la-mot-cuoc-gap",
+      "chu-y-va-su-che-tac-tinh-lien-quan",
+      "ky-uc-tai-dung-qua-khu",
+      "khai-niem-nen-va-lam-mat",
+      "ngon-ngu-cat-the-gioi",
+      "du-kien-chi-thanh-bang-chung-cho-mot-menh-de",
+      "suy-luan-vuot-qua-dieu-quan-sat-khong-the",
+      "phan-lon-tri-thuc-di-den-qua-nguoi-khac",
+      "chuyen-mon-co-linh-vuc",
+      "dong-thuan-la-bang-chung-khong-phai-thuat-luyen-kim",
+      "niem-tin-co-cap-do",
+      "cai-gia-cua-sai-lam-lam-doi-nguong",
+      "mot-niem-tin-song-co-dieu-kien-sua-doi",
+      "he-kin-an-dau-ra-cua-chinh-no",
+      "duc-tinh-cua-mot-tam-tri-co-kha-nang-sua-sai"
+    ]
+  },
+  "tieng-nguoi": {
+    "title_vi": "Tiếng Người",
+    "title_en": "The Human Language",
+    "landing": "tieng-nguoi",
+    "chapters": [
+      "may-khong-nuot-duoc-ca-con-bo",
+      "mon-an-phai-di-qua-cai-mom-cua-may",
+      "muoi-mon-va-mot-doi-dua",
+      "bung-hom-nay-con-bua-hom-qua",
+      "nhai-nat-thi-la-khong-con-nguyen",
+      "cai-khuon-khong-bien-cut-thanh-vang",
+      "cuc-phan-chi-tra-loi-cau-may-biet-hoi",
+      "phan-den-khong-goi-ten-ke-dau-doc",
+      "may-khong-the-tu-ngui-moi-bon-cau",
+      "ao-trang-khong-tu-chan-doan",
+      "ca-lang-khen-thom",
+      "mot-con-quan-chua-phai-phan-quyet",
+      "danh-ram-thi-duoc-lieu",
+      "thay-giun-ma-van-bao-bung-khoe",
+      "bon-cau-khong-co-ong-thoat",
+      "nhin-xuong-truoc-khi-giat-nuoc"
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-brand-row">
+        <div>
+          <a class="sidebar-logo" href="{{ '/' | relative_url }}" data-action="show-home" data-vi-label="Về trang chủ Kevin T.N" data-en-label="Go to Kevin T.N homepage" aria-label="Về trang chủ Kevin T.N">Kevin T.N</a>
+          <div class="sidebar-tagline" data-vi="Viết để tư duy, không phải để đẹp." data-en="Writing to think, not to decorate.">Viết để tư duy, không phải để đẹp.</div>
+        </div>
+        <div class="sidebar-controls">
+          <button type="button" class="refresh-library" data-action="refresh-library" data-vi-label="Làm mới thư viện" data-en-label="Refresh library" aria-label="Làm mới thư viện" title="Làm mới thư viện">&#x21BB;</button>
+          <div class="ui-language-switch" aria-label="Interface language">
+            <button type="button" class="active" data-action="set-language" data-ui-language="vi">VI</button>
+            <button type="button" data-action="set-language" data-ui-language="en">EN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tree" id="tree">
+      {% assign regular_posts = site.posts | where_exp: "post", "post.tag != 'Dịch thuật'" %}
+      {% assign regular_posts = regular_posts | where_exp: "post", "post.tag != 'Sáng tác'" %}
+      {% assign regular_posts = regular_posts | where_exp: "post", "post.tag != 'Nhận thức luận căn bản'" %}
+      {% assign regular_posts = regular_posts | where_exp: "post", "post.library_collection != 'Nghịch văn'" %}
+      {% assign tags = regular_posts | map: "tag" | uniq %}
+      {% for tag in tags %}
+      {% assign tag_posts = regular_posts | where: "tag", tag %}
+      {% assign first_tag_post = tag_posts | first %}
+      <div class="tree-section open" id="section-{{ tag | slugify }}">
+        <div class="tree-folder open" data-action="toggle-folder" role="button" tabindex="0">
+          <span class="icon">▶</span>
+          <span class="folder-name" data-vi="{{ tag }}" data-en="{{ first_tag_post.tag_en | default: tag }}">{{ tag }}</span>
+          <span class="count">{{ tag_posts | size }}</span>
+        </div>
+        <div class="tree-items">
+          {% for post in tag_posts %}
+          <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" data-action="show-post" data-url="{{ post.url }}">
+            <span class="dot">●</span>
+            <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+
+      {% assign mischief_posts = site.posts | where: "library_collection", "Nghịch văn" %}
+      {% if mischief_posts.size > 0 %}
+      <details class="translation-tree tree-section book-tree" id="section-nghich-van" open>
+        <summary class="tree-folder">
+          <span class="icon">▶</span>
+          <span class="folder-name" data-vi="Nghịch văn" data-en="Literary Mischief">Nghịch văn</span>
+          <span class="count">{{ mischief_posts | size }}</span>
+        </summary>
+        <div class="tree-items" style="display:block;">
+          {% assign mischief_sections = "Thơ|Poetry,Truyện|Fiction,Luận|Essays" | split: "," %}
+          {% for section_pair in mischief_sections %}
+          {% assign section_names = section_pair | split: "|" %}
+          {% assign section_vi = section_names[0] %}
+          {% assign section_en = section_names[1] %}
+          {% assign section_posts = mischief_posts | where: "library_section", section_vi %}
+          {% if section_posts.size > 0 %}
+          <details class="tree-author book-volume" open>
+            <summary class="tree-subfolder">
+              <span class="icon">▶</span>
+              <span data-vi="{{ section_vi }}" data-en="{{ section_en }}">{{ section_vi }}</span>
+              <span class="count">{{ section_posts | size }}</span>
+            </summary>
+            <div>
+              {% for post in section_posts %}
+              <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" data-action="show-post" data-url="{{ post.url }}">
+                <span class="dot">●</span>
+                <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
+              </a>
+              {% endfor %}
+            </div>
+          </details>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </details>
+      {% endif %}
+
+      {% assign epistemology_posts = site.posts | where: "tag", "Nhận thức luận căn bản" %}
+      {% if epistemology_posts.size > 0 %}
+      <details class="translation-tree tree-section book-tree pinned-book-tree" id="section-nhan-thuc-luan-can-ban">
+        <summary class="tree-folder">
+          <span class="pin-badge" data-vi="GHIM" data-en="PINNED">GHIM</span>
+          <span class="icon">▶</span>
+          <span class="folder-name" data-vi="Nhận Thức Luận Căn Bản" data-en="Basic Epistemology">Nhận Thức Luận Căn Bản</span>
+          <span class="count" data-vi="2 quyển" data-en="2 books">2 quyển</span>
+        </summary>
+        <div class="tree-items" style="display:block;">
+          {% assign dog_posts = epistemology_posts | where: "book_edition", "Tiếng Chó" %}
+          <details class="tree-author book-volume" open>
+            <summary class="tree-subfolder">
+              <span class="icon">▶</span>
+              <span data-vi="Tiếng Chó" data-en="The Dog's Language">Tiếng Chó</span>
+              <span class="count" data-vi="16 chương" data-en="16 chapters">16 chương</span>
+            </summary>
+            <div>
+              {% assign book_landing_pages = dog_posts | where: "book_landing", true %}
+              {% assign book_landing = book_landing_pages | first %}
+              {% if book_landing %}
+              <a class="tree-item book-title-item" href="{{ '/' | relative_url }}?post={{ book_landing.url | url_encode }}" data-action="show-post" data-url="{{ book_landing.url }}">
+                <span class="book-title-mark">◆</span>
+                <span data-vi="Tiếng Chó - Tựa sách" data-en="The Dog's Language - Title Page">Tiếng Chó - Tựa sách</span>
+              </a>
+              {% endif %}
+              {% for chapter_number in (1..16) %}
+              {% assign chapter_matches = dog_posts | where: "chapter_number", chapter_number %}
+              {% assign post = chapter_matches | first %}
+              {% if post %}
+              <a class="tree-item chapter-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" data-action="show-post" data-url="{{ post.url }}">
+                <span class="chapter-index">{{ post.chapter_label }}</span>
+                <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
+              </a>
+              {% endif %}
+              {% endfor %}
+            </div>
+          </details>
+          {% assign human_posts = epistemology_posts | where: "book_edition", "Tiếng Người" %}
+          <details class="tree-author book-volume" open>
+            <summary class="tree-subfolder">
+              <span class="icon">▶</span>
+              <span data-vi="Tiếng Người" data-en="The Human Language">Tiếng Người</span>
+              <span class="count" data-vi="16 chương" data-en="16 chapters">16 chương</span>
+            </summary>
+            <div>
+              {% assign human_landing_pages = human_posts | where: "book_landing", true %}
+              {% assign human_landing = human_landing_pages | first %}
+              {% if human_landing %}
+              <a class="tree-item book-title-item" href="{{ '/' | relative_url }}?post={{ human_landing.url | url_encode }}" data-action="show-post" data-url="{{ human_landing.url }}">
+                <span class="book-title-mark">◆</span>
+                <span data-vi="Tiếng Người - Tựa sách" data-en="The Human Language - Title Page">Tiếng Người - Tựa sách</span>
+              </a>
+              {% endif %}
+              {% for chapter_number in (1..16) %}
+              {% assign chapter_matches = human_posts | where: "chapter_number", chapter_number %}
+              {% assign post = chapter_matches | first %}
+              {% if post %}
+              <a class="tree-item chapter-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" data-action="show-post" data-url="{{ post.url }}">
+                <span class="chapter-index">{{ post.chapter_label }}</span>
+                <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
+              </a>
+              {% endif %}
+              {% endfor %}
+            </div>
+          </details>
+        </div>
+      </details>
+      {% endif %}
+
+      {% assign translation_posts = site.posts | where: "tag", "Dịch thuật" %}
+      {% if translation_posts.size > 0 %}
+      <details class="translation-tree tree-section" id="section-dich-thuat">
+        <summary class="tree-folder">
+          <span class="icon">▶</span>
+          <span class="folder-name" data-vi="Dịch thuật (cosplay)" data-en="Translations (cosplay)">Dịch thuật (cosplay)</span>
+          <span class="count">{{ translation_posts | size }}</span>
+        </summary>
+        <div class="tree-items" style="display:block;">
+          {% assign source_authors = translation_posts | map: "source_author" | uniq | sort %}
+          {% for source_author in source_authors %}
+          {% assign author_posts = translation_posts | where: "source_author", source_author %}
+          <details class="tree-author">
+            <summary class="tree-subfolder">
+              <span class="icon">▶</span>
+              <span>{{ source_author }}</span>
+              <span class="count">{{ author_posts | size }}</span>
+            </summary>
+            <div>
+              {% for post in author_posts %}
+              <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" data-action="show-post" data-url="{{ post.url }}">
+                <span class="dot">●</span>
+                <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
+              </a>
+              {% endfor %}
+            </div>
+          </details>
+          {% endfor %}
+        </div>
+      </details>
+      {% endif %}
+
+    </div>
+
+    <div class="sidebar-footer">
+      <a href="#about" data-action="show-about" data-vi="Về tác giả" data-en="About">Về tác giả</a>
+    </div>
+  </div>
