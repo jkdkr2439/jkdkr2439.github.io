@@ -427,6 +427,20 @@ body {
   font-style: italic;
 }
 
+/* === HOME === */
+.home-content { max-width: 1120px; margin: 0 auto; padding: 76px 54px 110px; }
+.home-kicker { margin-bottom: 22px; color: var(--red); font: 800 11px/1.2 system-ui, -apple-system, sans-serif; letter-spacing: 0.16em; text-transform: uppercase; }
+.home-title { max-width: 850px; margin-bottom: 28px; font-size: clamp(38px, 6vw, 76px); font-weight: 400; line-height: 0.98; letter-spacing: -0.045em; }
+.home-lead { max-width: 720px; color: #5f5548; font-size: clamp(17px, 2vw, 22px); font-style: italic; line-height: 1.65; }
+.home-rule { width: 100%; margin: 46px 0 38px; border: 0; border-top: 1.5px solid var(--ink); }
+.home-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.home-card { min-height: 225px; padding: 24px; border: 1px solid var(--border); background: #fffdfa; color: var(--ink); text-decoration: none; transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s; }
+.home-card:hover, .home-card:focus-visible { border-color: #b89a67; box-shadow: 0 10px 28px rgba(63, 47, 27, 0.08); transform: translateY(-2px); }
+.home-card-label { display: block; margin-bottom: 38px; color: var(--red); font: 800 10px/1.2 system-ui, -apple-system, sans-serif; letter-spacing: 0.13em; text-transform: uppercase; }
+.home-card h2 { margin-bottom: 14px; font-size: 25px; font-weight: 400; line-height: 1.15; }
+.home-card p { color: #6f6558; font: 13px/1.65 system-ui, -apple-system, sans-serif; }
+.home-note { margin-top: 34px; color: var(--muted); font: 12px/1.6 system-ui, -apple-system, sans-serif; }
+
 .reader-meta {
   font-family: system-ui, -apple-system, sans-serif;
   font-size: 12px;
@@ -689,6 +703,9 @@ body {
     margin-bottom: 42px;
     padding-bottom: 28px;
   }
+  .home-content { padding: 46px 24px 80px; }
+  .home-grid { grid-template-columns: 1fr; }
+  .home-card { min-height: 0; }
 }
 </style>
 </head>
@@ -699,7 +716,7 @@ body {
     <div class="sidebar-header">
       <div class="sidebar-brand-row">
         <div>
-          <a class="sidebar-logo" href="{{ '/' | relative_url }}" aria-label="Về trang chủ Kevin T.N">Kevin T.N</a>
+          <a class="sidebar-logo" href="{{ '/' | relative_url }}" data-action="show-home" data-vi-label="Về trang chủ Kevin T.N" data-en-label="Go to Kevin T.N homepage" aria-label="Về trang chủ Kevin T.N">Kevin T.N</a>
           <div class="sidebar-tagline" data-vi="Viết để tư duy, không phải để đẹp." data-en="Writing to think, not to decorate.">Viết để tư duy, không phải để đẹp.</div>
           <a class="sidebar-channel" href="https://www.youtube.com/@danhnghiahe" target="_blank" rel="noopener noreferrer" data-vi="YouTube · Danh Nghĩa Hệ" data-en="YouTube · Name Meaning System">YouTube · Danh Nghĩa Hệ</a>
         </div>
@@ -889,6 +906,30 @@ body {
     <div class="reader-empty" id="reader-empty">
       <span data-vi="Chọn một bài viết bên trái để đọc." data-en="Choose a text from the library.">Chọn một bài viết bên trái để đọc.</span>
     </div>
+    <main class="home-content" id="home-content">
+      <div class="home-kicker" data-vi="DANH · NGHĨA · HỆ" data-en="NAME · MEANING · SYSTEM">DANH · NGHĨA · HỆ</div>
+      <h1 class="home-title" data-vi="Một thư viện để tư duy,<br>không phải để trang trí." data-en="A library for thinking,<br>not decoration.">Một thư viện để tư duy,<br>không phải để trang trí.</h1>
+      <p class="home-lead" data-vi="Mỗi Danh cắt thực tại theo một cách. Mỗi Nghĩa chỉ đứng được trong một Hệ. Muốn biết mình đang nghĩ gì, trước hết phải nhìn lại cái khung đang cho phép mình nghĩ như thế." data-en="Every Name cuts reality in a particular way. Every Meaning stands only within a System. To know what we are thinking, we must first inspect the frame that makes that thought possible.">Mỗi Danh cắt thực tại theo một cách. Mỗi Nghĩa chỉ đứng được trong một Hệ. Muốn biết mình đang nghĩ gì, trước hết phải nhìn lại cái khung đang cho phép mình nghĩ như thế.</p>
+      <hr class="home-rule">
+      <div class="home-grid">
+        <a class="home-card" href="?post=%2Ftieng-cho%2F" data-action="show-post" data-url="/tieng-cho/">
+          <span class="home-card-label" data-vi="NHẬN THỨC LUẬN CĂN BẢN · QUYỂN I" data-en="BASIC EPISTEMOLOGY · VOLUME I">NHẬN THỨC LUẬN CĂN BẢN · QUYỂN I</span>
+          <h2 data-vi="Tiếng Chó" data-en="The Dog's Language">Tiếng Chó</h2>
+          <p data-vi="Phiên bản chính xác, khô, có thể kiểm tra: giữ cơ chế nhận thức không bị văn chương làm lệch." data-en="The precise, austere, testable edition: keeping the epistemic mechanism from being distorted by style.">Phiên bản chính xác, khô, có thể kiểm tra: giữ cơ chế nhận thức không bị văn chương làm lệch.</p>
+        </a>
+        <a class="home-card" href="?post=%2Ftieng-nguoi%2F" data-action="show-post" data-url="/tieng-nguoi/">
+          <span class="home-card-label" data-vi="NHẬN THỨC LUẬN CĂN BẢN · QUYỂN II" data-en="BASIC EPISTEMOLOGY · VOLUME II">NHẬN THỨC LUẬN CĂN BẢN · QUYỂN II</span>
+          <h2 data-vi="Tiếng Người" data-en="The Human Language">Tiếng Người</h2>
+          <p data-vi="Cùng cấu trúc ấy đi qua bụng, mồm, bệnh, mùi và sai lầm: giữ học thuật không bóp chết cái hiểu." data-en="The same structure passing through the gut, mouth, illness, smell, and error: keeping scholarship from strangling understanding.">Cùng cấu trúc ấy đi qua bụng, mồm, bệnh, mùi và sai lầm: giữ học thuật không bóp chết cái hiểu.</p>
+        </a>
+        <a class="home-card" href="https://www.youtube.com/@danhnghiahe" target="_blank" rel="noopener noreferrer">
+          <span class="home-card-label" data-vi="KÊNH VIDEO" data-en="VIDEO CHANNEL">KÊNH VIDEO</span>
+          <h2>YouTube · Danh Nghĩa Hệ</h2>
+          <p data-vi="Những ý niệm được đưa sang giọng nói, hình ảnh và nhịp thời gian." data-en="Ideas carried into voice, image, and the rhythm of time.">Những ý niệm được đưa sang giọng nói, hình ảnh và nhịp thời gian.</p>
+        </a>
+      </div>
+      <p class="home-note" data-vi="Mở các thư mục bên trái để đi vào toàn bộ bài viết, phản biện, hiện sinh, nhận thức luận và Nghịch văn." data-en="Open the folders on the left to enter the full library of criticism, existential writing, epistemology, and literary mischief.">Mở các thư mục bên trái để đi vào toàn bộ bài viết, phản biện, hiện sinh, nhận thức luận và Nghịch văn.</p>
+    </main>
     <div class="reader-content" id="reader-content" style="display:none;">
       <div class="reader-meta" id="reader-meta"></div>
       <div class="reader-columns">
@@ -989,6 +1030,7 @@ const ALLOWED_ACTIONS = new Set([
   'set-language',
   'refresh-library',
   'toggle-folder',
+  'show-home',
   'show-post',
   'show-about'
 ]);
@@ -1012,6 +1054,10 @@ function dispatchAllowedAction(control) {
   }
   if (action === 'toggle-folder') {
     toggleFolder(control);
+    return;
+  }
+  if (action === 'show-home') {
+    showHome();
     return;
   }
   if (action === 'show-post') {
@@ -1058,6 +1104,7 @@ function showPost(url, sourceEl, updateAddress = true) {
   const p = posts[url];
 
   document.getElementById('reader-empty').style.display = 'none';
+  document.getElementById('home-content').style.display = 'none';
   document.getElementById('about-content').style.display = 'none';
   document.getElementById('reader-content').style.display = 'block';
 
@@ -1095,10 +1142,21 @@ function showPost(url, sourceEl, updateAddress = true) {
 
 function showAbout() {
   document.getElementById('reader-empty').style.display = 'none';
+  document.getElementById('home-content').style.display = 'none';
   document.getElementById('reader-content').style.display = 'none';
   document.getElementById('about-content').style.display = 'block';
   document.querySelectorAll('.tree-item').forEach(e => e.classList.remove('active'));
   document.getElementById('reader').scrollTop = 0;
+}
+
+function showHome(updateAddress = true) {
+  document.getElementById('reader-empty').style.display = 'none';
+  document.getElementById('reader-content').style.display = 'none';
+  document.getElementById('about-content').style.display = 'none';
+  document.getElementById('home-content').style.display = 'block';
+  document.querySelectorAll('.tree-item').forEach(e => e.classList.remove('active'));
+  document.getElementById('reader').scrollTop = 0;
+  if (updateAddress) history.replaceState({home: true}, '', location.pathname);
 }
 
 setInterfaceLanguage(interfaceLanguage);
@@ -1110,11 +1168,14 @@ const queryIsReasonable = location.search.length <= 512;
 const requestedUrl = queryIsReasonable
   ? new URLSearchParams(location.search).get('post')
   : null;
-const firstUrl = isKnownPostUrl(requestedUrl) ? requestedUrl : Object.keys(posts)[0];
 if (!queryIsReasonable) {
   history.replaceState({}, '', location.pathname);
 }
-if (firstUrl) showPost(firstUrl, null, false);
+if (isKnownPostUrl(requestedUrl)) {
+  showPost(requestedUrl, null, false);
+} else {
+  showHome(false);
+}
 </script>
 </body>
 </html>
