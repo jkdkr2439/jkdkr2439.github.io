@@ -6,8 +6,8 @@
   --red: #C0392B;
   --border: #DDD5C5;
   --sidebar-w: 300px;
-  --font-display: 'Source Serif 4', 'Noto Serif', Georgia, serif;
-  --font-text: 'Source Serif 4', 'Noto Serif', Georgia, serif;
+  --font-display: 'Noto Serif', Georgia, serif;
+  --font-text: 'Noto Serif', Georgia, serif;
   --font-ui: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', Consolas, monospace;
 }
