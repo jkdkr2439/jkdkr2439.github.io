@@ -11,7 +11,6 @@ excerpt_text: "A ruler joined to a seal can force the past itself off the map."
 
 ![Người đo đạc ngày mai](/assets/images/nguoi-do-dac-ngay-mai/the-surveyor-of-tomorrow-cover.png)
 
-*The English composition was completed and locked before the Vietnamese literary reconstruction.*
 ## I. Vùng đất chưa biết mình là đất
 
 Trước khi các quan đo đạc đến, bãi Tịch Thủy không có hình dạng nào đủ đứng đắn để được đóng dấu. Mùa nắng, nó là một dải phù sa rộng, trẻ con chăn trâu chạy từ gốc gạo đến doi lau mà không phải trình giấy thông hành. Mùa mưa, một nửa bãi chìm xuống, cá rô len vào ruộng đậu, những ngôi mộ thấp nhô lên như các âm tiết cổ mà dòng sông chưa đọc hết. Người làng gọi từng khoảnh theo việc xảy ra ở đó: Bến Bà Khê, nơi một góa phụ từng kéo ba người khỏi nước xiết; Vạt Cò Ngủ, nơi chim trắng đậu kín vào tháng tám; Gò Nồi Vỡ, nơi quân lính một triều đại đã quên tên từng nấu cơm trước trận đánh cũng đã quên tên.

@@ -40,8 +40,6 @@ excerpt_text: "A ruler joined to a seal can force the past itself off the map."
 
 ![$($vi.Title)]($imageWebPath)
 
-*The English composition was completed and locked before the Vietnamese literary reconstruction.*
-
 "@
 
 $enFrontMatter = @"
