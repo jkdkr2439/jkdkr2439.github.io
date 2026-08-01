@@ -5,6 +5,10 @@ title_en: "The Surveyor of Tomorrow"
 date: 2026-08-01
 tag: Satire
 tag_en: Satire & Power
+library_collection: "Nghịch văn"
+library_collection_en: "Literary Mischief"
+library_section: "Truyện"
+library_section_en: "Fiction"
 author: Kevin T.N
 excerpt_text: "A ruler joined to a seal can force the past itself off the map."
 ---

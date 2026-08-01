@@ -7,6 +7,10 @@ tag: "Sáng tác"
 tag_en: "Creative Work"
 creative_type: "Truyện ngắn"
 creative_type_en: "Short Fiction"
+library_collection: "Nghịch văn"
+library_collection_en: "Literary Mischief"
+library_section: "Truyện"
+library_section_en: "Fiction"
 author: "Kevin T.N"
 ---
 

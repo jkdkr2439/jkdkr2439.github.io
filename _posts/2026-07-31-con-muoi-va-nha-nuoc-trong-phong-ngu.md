@@ -5,6 +5,10 @@ title_en: "The Mosquito and the State in the Bedroom"
 date: 2026-07-31
 tag: Quyền lực
 tag_en: Power
+library_collection: "Nghịch văn"
+library_collection_en: "Literary Mischief"
+library_section: "Luận"
+library_section_en: "Essays"
 excerpt_text: "Quyền lực của nó không nằm ở việc đánh bại tôi. Nó nằm ở quyền quyết định khi nào sự hồi phục của tôi được tiếp tục."
 credit_name: "Kevin T.N a.k.a Lucis The Lord"
 ---

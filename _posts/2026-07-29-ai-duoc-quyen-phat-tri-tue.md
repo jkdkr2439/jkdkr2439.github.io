@@ -5,6 +5,10 @@ title_en: "Who Gets to Distribute Intelligence to Humankind?"
 date: 2026-07-29
 tag: Quyền lực
 tag_en: Power
+library_collection: "Nghịch văn"
+library_collection_en: "Literary Mischief"
+library_section: "Luận"
+library_section_en: "Essays"
 excerpt_text: "Tương lai không đến như sét. Nó đến như một tờ đơn, và tay nắm của cánh cửa nằm ở phía bên kia."
 ---
 

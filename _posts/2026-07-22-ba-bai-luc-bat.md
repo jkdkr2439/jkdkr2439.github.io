@@ -7,6 +7,10 @@ tag: "Sáng tác"
 tag_en: "Creative Work"
 creative_type: "Thơ"
 creative_type_en: "Poetry"
+library_collection: "Nghịch văn"
+library_collection_en: "Literary Mischief"
+library_section: "Thơ"
+library_section_en: "Poetry"
 author: "Kevin T.N"
 ---
 

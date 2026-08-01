@@ -691,6 +691,7 @@ body {
       {% assign regular_posts = site.posts | where_exp: "post", "post.tag != 'Dịch thuật'" %}
       {% assign regular_posts = regular_posts | where_exp: "post", "post.tag != 'Sáng tác'" %}
       {% assign regular_posts = regular_posts | where_exp: "post", "post.tag != 'Nhận thức luận căn bản'" %}
+      {% assign regular_posts = regular_posts | where_exp: "post", "post.library_collection != 'Nghịch văn'" %}
       {% assign tags = regular_posts | map: "tag" | uniq %}
       {% for tag in tags %}
       {% assign tag_posts = regular_posts | where: "tag", tag %}
@@ -711,6 +712,43 @@ body {
         </div>
       </div>
       {% endfor %}
+
+      {% assign mischief_posts = site.posts | where: "library_collection", "Nghịch văn" %}
+      {% if mischief_posts.size > 0 %}
+      <details class="translation-tree tree-section book-tree" id="section-nghich-van" open>
+        <summary class="tree-folder">
+          <span class="icon">▶</span>
+          <span class="folder-name" data-vi="Nghịch văn" data-en="Literary Mischief">Nghịch văn</span>
+          <span class="count">{{ mischief_posts | size }}</span>
+        </summary>
+        <div class="tree-items" style="display:block;">
+          {% assign mischief_sections = "Thơ|Poetry,Truyện|Fiction,Luận|Essays" | split: "," %}
+          {% for section_pair in mischief_sections %}
+          {% assign section_names = section_pair | split: "|" %}
+          {% assign section_vi = section_names[0] %}
+          {% assign section_en = section_names[1] %}
+          {% assign section_posts = mischief_posts | where: "library_section", section_vi %}
+          {% if section_posts.size > 0 %}
+          <details class="tree-author book-volume" open>
+            <summary class="tree-subfolder">
+              <span class="icon">▶</span>
+              <span data-vi="{{ section_vi }}" data-en="{{ section_en }}">{{ section_vi }}</span>
+              <span class="count">{{ section_posts | size }}</span>
+            </summary>
+            <div>
+              {% for post in section_posts %}
+              <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" data-action="show-post" data-url="{{ post.url }}">
+                <span class="dot">●</span>
+                <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
+              </a>
+              {% endfor %}
+            </div>
+          </details>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </details>
+      {% endif %}
 
       {% assign epistemology_posts = site.posts | where: "tag", "Nhận thức luận căn bản" %}
       {% if epistemology_posts.size > 0 %}
