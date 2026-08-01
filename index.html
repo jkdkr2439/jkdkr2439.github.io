@@ -439,7 +439,7 @@ body {
   hyphens: auto;
 }
 
-.reader-body p:first-child::first-letter {
+.reader-body > p:first-child::first-letter {
   font-size: 3em;
   line-height: 0.85;
   float: left;
@@ -450,6 +450,38 @@ body {
 
 .reader-body em { font-style: italic; }
 .reader-body strong { font-weight: 700; }
+
+.reader-body pre {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 28px 0;
+  padding: 18px 20px;
+  overflow-x: auto;
+  border-left: 3px solid var(--red);
+  background: rgba(139, 38, 38, 0.045);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  font-size: 0.88em;
+  line-height: 1.65;
+}
+
+.reader-body pre code {
+  white-space: inherit;
+  overflow-wrap: inherit;
+  font: inherit;
+}
+
+.reader-body ul,
+.reader-body ol {
+  margin: 20px 0 28px;
+  padding-left: 1.5em;
+}
+
+.reader-body li {
+  margin: 9px 0;
+  padding-left: 0.25em;
+}
 
 .reader-body img {
   display: block;
@@ -514,6 +546,11 @@ body {
   margin: 28px 0;
   color: #555;
   font-style: italic;
+}
+
+.reader-body blockquote p {
+  margin: 0;
+  text-align: left;
 }
 
 .book-frontispiece {

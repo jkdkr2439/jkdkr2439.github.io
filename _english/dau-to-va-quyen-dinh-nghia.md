@@ -231,11 +231,9 @@ You can give a long speech about the wonderful smell. But speeches take time. Yo
 
 The cheapest proof is to point at someone else.
 
-> That man made a face.
-
-> That woman opened a window.
-
-> That child said the room smells strange.
+- That man made a face.
+- That woman opened a window.
+- That child said the room smells strange.
 
 By finding a dirty nose, you make your own nose look clean.
 
@@ -308,17 +306,13 @@ Do not ask only:
 
 > Is this person using the correct word?
 
-Ask:
+Ask five questions, in this order:
 
-> Who chose the meaning of the word?
-
-> What actions does that meaning allow?
-
-> What happens to a person who uses another meaning?
-
-> Can the ruling meaning ever be corrected?
-
-> Who becomes safer by accusing someone else?
+1. Who chose the meaning of the word?
+2. What actions does that meaning allow?
+3. What happens to a person who uses another meaning?
+4. Can the ruling meaning ever be corrected?
+5. Who becomes safer by accusing someone else?
 
 Two people can disagree about a smell and go home.
 

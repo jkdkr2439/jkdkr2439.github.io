@@ -243,11 +243,9 @@ Mày có thể đứng lên đọc một bài dài về hương thơm và vẻ �
 
 Cách rẻ nhất là chỉ vào một người khác.
 
-> Thằng kia vừa nhăn mặt.
-
-> Con kia vừa mở cửa sổ.
-
-> Đứa nhỏ kia bảo hoa có mùi hắc.
+- Thằng kia vừa nhăn mặt.
+- Con kia vừa mở cửa sổ.
+- Đứa nhỏ kia bảo hoa có mùi hắc.
 
 Tìm được một cái mũi hỏng thì mũi mày trông có vẻ đúng hơn. Tìm được một đôi mắt lệch thì cái đẹp của mày có vẻ chính thống hơn.
 
@@ -320,17 +318,13 @@ Chuyện này cũng vậy.
 
 > Người này có dùng đúng từ không?
 
-Hãy hỏi:
+Hãy lần theo năm câu hỏi, theo đúng thứ tự:
 
-> Ai chọn nghĩa của từ ấy?
-
-> Nghĩa ấy cho phép người ta làm gì?
-
-> Người dùng một nghĩa khác sẽ bị làm sao?
-
-> Nghĩa đang cai trị có cửa sửa không?
-
-> Ai trở nên an toàn hơn nhờ tố người khác?
+1. Ai chọn nghĩa của từ ấy?
+2. Nghĩa ấy cho phép người ta làm gì?
+3. Người dùng một nghĩa khác sẽ bị làm sao?
+4. Nghĩa đang cai trị có cửa sửa không?
+5. Ai trở nên an toàn hơn nhờ tố người khác?
 
 Hai người có thể cãi nhau về một bông hoa rồi ai về nhà nấy.
 
