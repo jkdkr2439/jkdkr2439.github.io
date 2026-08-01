@@ -1236,7 +1236,7 @@ function showBook(bookKey, targetUrl = null, updateAddress = true) {
   const edition = BOOK_EDITIONS[bookKey];
   if (!edition) return false;
   const urls = Object.keys(posts)
-    .filter(url => posts[url].bookEdition === edition)
+    .filter(url => posts[url].bookEdition === edition && (posts[url].bookLanding || posts[url].chapterNumber > 0))
     .sort((a, b) => Number(posts[b].bookLanding) - Number(posts[a].bookLanding) || posts[a].chapterNumber - posts[b].chapterNumber);
   if (!urls.length) return false;
   currentBookKey = bookKey;
