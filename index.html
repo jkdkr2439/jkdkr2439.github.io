@@ -637,9 +637,10 @@ body {
         <summary class="tree-folder">
           <span class="icon">▶</span>
           <span class="folder-name" data-vi="Nhận Thức Luận Căn Bản" data-en="Basic Epistemology">Nhận Thức Luận Căn Bản</span>
-          <span class="count" data-vi="1 quyển" data-en="1 book">1 quyển</span>
+          <span class="count" data-vi="2 quyển" data-en="2 books">2 quyển</span>
         </summary>
         <div class="tree-items" style="display:block;">
+          {% assign dog_posts = epistemology_posts | where: "book_edition", "Tiếng Chó" %}
           <details class="tree-author book-volume" open>
             <summary class="tree-subfolder">
               <span class="icon">▶</span>
@@ -647,7 +648,7 @@ body {
               <span class="count" data-vi="16 chương" data-en="16 chapters">16 chương</span>
             </summary>
             <div>
-              {% assign book_landing_pages = epistemology_posts | where: "book_landing", true %}
+              {% assign book_landing_pages = dog_posts | where: "book_landing", true %}
               {% assign book_landing = book_landing_pages | first %}
               {% if book_landing %}
               <a class="tree-item book-title-item" href="{{ '/' | relative_url }}?post={{ book_landing.url | url_encode }}" data-action="show-post" data-url="{{ book_landing.url }}">
@@ -656,7 +657,35 @@ body {
               </a>
               {% endif %}
               {% for chapter_number in (1..16) %}
-              {% assign chapter_matches = epistemology_posts | where: "chapter_number", chapter_number %}
+              {% assign chapter_matches = dog_posts | where: "chapter_number", chapter_number %}
+              {% assign post = chapter_matches | first %}
+              {% if post %}
+              <a class="tree-item chapter-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" data-action="show-post" data-url="{{ post.url }}">
+                <span class="chapter-index">{{ post.chapter_label }}</span>
+                <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
+              </a>
+              {% endif %}
+              {% endfor %}
+            </div>
+          </details>
+          {% assign human_posts = epistemology_posts | where: "book_edition", "Tiếng Người" %}
+          <details class="tree-author book-volume" open>
+            <summary class="tree-subfolder">
+              <span class="icon">▶</span>
+              <span data-vi="Tiếng Người" data-en="The Human Language">Tiếng Người</span>
+              <span class="count" data-vi="16 chương" data-en="16 chapters">16 chương</span>
+            </summary>
+            <div>
+              {% assign human_landing_pages = human_posts | where: "book_landing", true %}
+              {% assign human_landing = human_landing_pages | first %}
+              {% if human_landing %}
+              <a class="tree-item book-title-item" href="{{ '/' | relative_url }}?post={{ human_landing.url | url_encode }}" data-action="show-post" data-url="{{ human_landing.url }}">
+                <span class="book-title-mark">◆</span>
+                <span data-vi="Tiếng Người - Tựa sách" data-en="The Human Language - Title Page">Tiếng Người - Tựa sách</span>
+              </a>
+              {% endif %}
+              {% for chapter_number in (1..16) %}
+              {% assign chapter_matches = human_posts | where: "chapter_number", chapter_number %}
               {% assign post = chapter_matches | first %}
               {% if post %}
               <a class="tree-item chapter-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" data-action="show-post" data-url="{{ post.url }}">
