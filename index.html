@@ -411,11 +411,11 @@ body {
 }
 
 /* === HOME === */
-.home-content { max-width: 1120px; margin: 0 auto; padding: 76px 54px 110px; }
-.home-kicker { margin-bottom: 22px; color: var(--red); font: 800 11px/1.2 system-ui, -apple-system, sans-serif; letter-spacing: 0.16em; text-transform: uppercase; }
-.home-title { max-width: 850px; margin-bottom: 28px; font-size: clamp(38px, 6vw, 76px); font-weight: 400; line-height: 0.98; letter-spacing: -0.045em; }
-.home-lead { max-width: 720px; color: #5f5548; font-size: clamp(17px, 2vw, 22px); font-style: italic; line-height: 1.65; }
-.home-rule { width: 100%; margin: 46px 0 38px; border: 0; border-top: 1.5px solid var(--ink); }
+.home-content { display: grid; grid-template-columns: minmax(0, 2fr) minmax(340px, .85fr); grid-template-areas: "kicker listening" "title listening" "lead listening" "rule listening" "cards listening" "note listening"; column-gap: 38px; max-width: 1480px; margin: 0 auto; padding: 64px 44px 100px; align-items: start; }
+.home-kicker { grid-area: kicker; margin-bottom: 22px; color: var(--red); font: 800 11px/1.2 system-ui, -apple-system, sans-serif; letter-spacing: 0.16em; text-transform: uppercase; }
+.home-title { grid-area: title; max-width: 850px; margin-bottom: 28px; font-size: clamp(38px, 5vw, 72px); font-weight: 400; line-height: 0.98; letter-spacing: -0.045em; }
+.home-lead { grid-area: lead; max-width: 720px; color: #5f5548; font-size: clamp(17px, 1.65vw, 22px); font-style: italic; line-height: 1.65; }
+.home-rule { grid-area: rule; width: 100%; margin: 40px 0 34px; border: 0; border-top: 1.5px solid var(--ink); }
 .home-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .home-card { min-height: 225px; padding: 24px; border: 1px solid var(--border); background: #fffdfa; color: var(--ink); text-decoration: none; transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s; }
 .home-card:hover, .home-card:focus-visible { border-color: #b89a67; box-shadow: 0 10px 28px rgba(63, 47, 27, 0.08); transform: translateY(-2px); }
@@ -439,7 +439,26 @@ body {
 }
 .social-icon:hover, .social-icon:focus-visible { color: #fffdfa; border-color: var(--red); background: var(--red); transform: translateY(-2px); }
 .social-icon svg { width: 22px; height: 22px; fill: currentColor; }
-.home-note { margin-top: 34px; color: var(--muted); font: 12px/1.6 system-ui, -apple-system, sans-serif; }
+.home-grid { grid-area: cards; }
+.home-listening-room { grid-area: listening; position: sticky; top: 36px; align-self: start; padding: 24px; border: 1px solid var(--border); background: #faf5ed; }
+.listening-heading { display: block; margin-bottom: 20px; }
+.listening-heading h2 { margin: 0; font-size: clamp(27px, 3.2vw, 42px); font-weight: 400; line-height: 1.05; }
+.listening-heading p { max-width: 430px; margin: 12px 0 0; color: #6f6558; font: 13px/1.6 system-ui, -apple-system, sans-serif; }
+.listening-layout { display: grid; grid-template-columns: 1fr; border: 1px solid var(--border); background: #fffdfa; }
+.video-stage { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: #17130f; }
+.video-stage iframe { display: block; width: 100%; height: 100%; border: 0; }
+.playlist-selector { display: flex; flex-direction: column; border-top: 1px solid var(--border); }
+.playlist-selector-title { padding: 18px 20px 13px; color: var(--red); font: 800 10px/1.2 system-ui, -apple-system, sans-serif; letter-spacing: .13em; text-transform: uppercase; }
+.playlist-button { display: grid; grid-template-columns: 34px 1fr 16px; align-items: center; gap: 11px; width: 100%; padding: 15px 18px; border: 0; border-top: 1px solid #e6ded1; background: transparent; color: var(--ink); text-align: left; cursor: pointer; }
+.playlist-button:hover, .playlist-button:focus-visible { background: #f5efe5; outline: none; }
+.playlist-button.active { background: #efe3d0; }
+.playlist-number { color: var(--red); font: 700 11px/1 system-ui, -apple-system, sans-serif; letter-spacing: .08em; }
+.playlist-name { font-size: 16px; line-height: 1.2; }
+.playlist-arrow { color: #9d8870; font: 16px/1 Georgia, serif; }
+.playlist-button.active .playlist-arrow { color: var(--red); transform: translateX(2px); }
+.listening-external { display: inline-block; margin-top: 13px; color: var(--muted); font: 11px/1.4 system-ui, -apple-system, sans-serif; letter-spacing: .06em; text-decoration: none; text-transform: uppercase; }
+.listening-external:hover, .listening-external:focus-visible { color: var(--red); text-decoration: underline; }
+.home-note { grid-area: note; margin-top: 34px; color: var(--muted); font: 12px/1.6 system-ui, -apple-system, sans-serif; }
 
 .reader-meta {
   font-family: system-ui, -apple-system, sans-serif;
@@ -681,6 +700,17 @@ body {
 .tree::-webkit-scrollbar-thumb,
 .reader::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 
+@media (max-width: 1500px) {
+  .home-content {
+    grid-template-columns: 1fr;
+    grid-template-areas: "kicker" "title" "lead" "rule" "cards" "listening" "note";
+    max-width: 980px;
+  }
+  .home-listening-room { position: static; margin-top: 46px; }
+  .listening-layout { grid-template-columns: minmax(0, 1.65fr) minmax(245px, .75fr); }
+  .playlist-selector { border-top: 0; border-left: 1px solid var(--border); }
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   .app { flex-direction: column; }
@@ -706,6 +736,10 @@ body {
   .home-content { padding: 46px 24px 80px; }
   .home-grid { grid-template-columns: 1fr; }
   .home-card { min-height: 0; }
+  .listening-heading { display: block; }
+  .listening-heading p { margin-top: 12px; }
+  .listening-layout { grid-template-columns: 1fr; }
+  .playlist-selector { border-top: 1px solid var(--border); border-left: 0; }
 }
 </style>
 </head>
@@ -938,6 +972,25 @@ body {
           </div>
         </section>
       </div>
+      <section class="home-listening-room" aria-labelledby="listening-room-title">
+        <div class="listening-heading">
+          <h2 id="listening-room-title" data-vi="Phòng nghe" data-en="Listening room">Phòng nghe</h2>
+          <p data-vi="Bốn tuyển tập để nghe ngay trong thư viện. Chọn một băng; trình phát sẽ tiếp tục theo toàn bộ danh sách." data-en="Four collections to play inside the library. Choose a tape and the player will continue through its playlist.">Bốn tuyển tập để nghe ngay trong thư viện. Chọn một băng; trình phát sẽ tiếp tục theo toàn bộ danh sách.</p>
+        </div>
+        <div class="listening-layout">
+          <div class="video-stage">
+            <iframe id="home-youtube-player" src="https://www.youtube-nocookie.com/embed/hT0PbKQmvTs?list=PLo-MYYcSaaOD7JYgWowA8K_8fJ2HgJBOT&amp;rel=0" title="Danh Nghĩa Hệ — YouTube playlist player" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="playlist-selector" aria-label="YouTube playlists">
+            <div class="playlist-selector-title" data-vi="CHỌN TUYỂN TẬP" data-en="CHOOSE A COLLECTION">CHỌN TUYỂN TẬP</div>
+            <button class="playlist-button active" type="button" data-action="select-playlist" data-video="hT0PbKQmvTs" data-playlist="PLo-MYYcSaaOD7JYgWowA8K_8fJ2HgJBOT" aria-pressed="true"><span class="playlist-number">01</span><span class="playlist-name" data-vi="Tuyển tập thứ nhất" data-en="First collection">Tuyển tập thứ nhất</span><span class="playlist-arrow">→</span></button>
+            <button class="playlist-button" type="button" data-action="select-playlist" data-video="lKjD3njqHi4" data-playlist="PLNk_HvLAq7Xk" aria-pressed="false"><span class="playlist-number">02</span><span class="playlist-name" data-vi="Tuyển tập thứ hai" data-en="Second collection">Tuyển tập thứ hai</span><span class="playlist-arrow">→</span></button>
+            <button class="playlist-button" type="button" data-action="select-playlist" data-video="0E9Fht80CME" data-playlist="PLMabK6FxLnpU" aria-pressed="false"><span class="playlist-number">03</span><span class="playlist-name" data-vi="Tuyển tập thứ ba" data-en="Third collection">Tuyển tập thứ ba</span><span class="playlist-arrow">→</span></button>
+            <button class="playlist-button" type="button" data-action="select-playlist" data-video="SXRPGSwZ19o" data-playlist="PLUEBkyWF0y0s" aria-pressed="false"><span class="playlist-number">04</span><span class="playlist-name" data-vi="Tuyển tập thứ tư" data-en="Fourth collection">Tuyển tập thứ tư</span><span class="playlist-arrow">→</span></button>
+          </div>
+        </div>
+        <a class="listening-external" href="https://www.youtube.com/@danhnghiahe" target="_blank" rel="noopener noreferrer" data-vi="MỞ KÊNH YOUTUBE ↗" data-en="OPEN YOUTUBE CHANNEL ↗">MỞ KÊNH YOUTUBE ↗</a>
+      </section>
       <p class="home-note" data-vi="Mở các thư mục bên trái để đi vào toàn bộ bài viết, phản biện, hiện sinh, nhận thức luận và Nghịch văn." data-en="Open the folders on the left to enter the full library of criticism, existential writing, epistemology, and literary mischief.">Mở các thư mục bên trái để đi vào toàn bộ bài viết, phản biện, hiện sinh, nhận thức luận và Nghịch văn.</p>
     </main>
     <div class="reader-content" id="reader-content" style="display:none;">
@@ -1042,7 +1095,8 @@ const ALLOWED_ACTIONS = new Set([
   'toggle-folder',
   'show-home',
   'show-post',
-  'show-about'
+  'show-about',
+  'select-playlist'
 ]);
 
 function dispatchAllowedAction(control) {
@@ -1076,6 +1130,19 @@ function dispatchAllowedAction(control) {
   }
   if (action === 'show-about') {
     showAbout();
+    return;
+  }
+  if (action === 'select-playlist') {
+    const video = control.dataset.video || '';
+    const playlist = control.dataset.playlist || '';
+    if (!/^[A-Za-z0-9_-]{11}$/.test(video) || !/^PL[A-Za-z0-9_-]{8,}$/.test(playlist)) return;
+    const player = document.getElementById('home-youtube-player');
+    player.src = `https://www.youtube-nocookie.com/embed/${video}?list=${playlist}&rel=0`;
+    document.querySelectorAll('.playlist-button').forEach(button => {
+      const selected = button === control;
+      button.classList.toggle('active', selected);
+      button.setAttribute('aria-pressed', selected ? 'true' : 'false');
+    });
   }
 }
 
