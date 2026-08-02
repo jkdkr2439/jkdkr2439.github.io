@@ -2,7 +2,7 @@
 layout: post
 title: "Vị trụ trì từ bỏ mọi thứ, trừ sự từ bỏ"
 title_en: "The Abbot Who Renounced Everything Except Renunciation"
-date: 2026-08-03
+date: 2026-08-02
 tag: "Châm biếm"
 tag_en: "Satire"
 creative_type: "Truyện"
