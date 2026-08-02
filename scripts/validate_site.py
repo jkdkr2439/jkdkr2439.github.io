@@ -44,11 +44,19 @@ def main() -> None:
         "/assets/css/site.css",
         "/assets/js/post-registry.js",
         "/assets/js/app.js",
+        "{% assign build_version = site.time | date: '%s' %}",
     ):
         if required not in shell:
             failures.append(f"index shell is missing {required}")
     if len(shell.encode("utf-8")) > 4096:
         failures.append("index shell exceeds 4 KiB; move logic or markup to its owner module")
+    for versioned_asset in (
+        "/assets/css/site.css' | relative_url }}?v={{ build_version }}",
+        "/assets/js/post-registry.js' | relative_url }}?v={{ build_version }}",
+        "/assets/js/app.js' | relative_url }}?v={{ build_version }}",
+    ):
+        if versioned_asset not in shell:
+            failures.append(f"index shell asset is not build-versioned: {versioned_asset}")
     posts: dict[str, tuple[Path, dict]] = {}
     for path in POSTS.glob("*.md"):
         meta = front_matter(path)
