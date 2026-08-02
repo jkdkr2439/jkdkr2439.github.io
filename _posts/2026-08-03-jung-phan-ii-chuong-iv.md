@@ -16,1583 +16,645 @@ chapter_label: "09"
 ---
 <div class="parallel-text" data-language-order="vi-en">
   <section class="parallel-row" data-source-chunk="chunk-049">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-# CHƯƠNG IV
-
-## NGUỒN GỐC VÔ THỨC CỦA ANH HÙNG
+    <div class="parallel-cell parallel-vi" lang="vi">
+<h1>CHƯƠNG IV</h1>
+<h2>NGUỒN GỐC VÔ THỨC CỦA ANH HÙNG</h2>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-CHAPTER IV
-                   THE UNCONSCIOUS ORIGIN OF THE HERO
-    </div>
-  </section>
-  <section class="parallel-row" data-source-chunk="chunk-049">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Được các chương trước chuẩn bị, ta tới sự nhân cách hóa dục lực thành kẻ chinh phục, anh hùng hay quỷ. Biểu tượng rời địa hạt vô nhân xưng, trung tính của tinh tú và khí tượng để lấy hình người: hữu thể đổi khổ sang vui, vui sang khổ, như mặt trời khi ở thiên đỉnh, khi chìm đêm tối nhất rồi từ đêm dậy trong huy hoàng mới.[341] Mặt trời theo luật nội tại đi từ sáng tới trưa, qua trưa xuống chiều, bỏ huy hoàng rồi chìm vào đêm phủ; nhân loại cũng theo luật bất biến, sau đường đời chìm vào đêm để sáng lại trong chu kỳ mới nơi con. Chuyển biểu tượng từ mặt trời sang người dễ. Sáng tạo thứ ba, cuối của cô Miller cũng theo đường này. Cô gọi nó “Chiwantopel”, một “bài thơ lúc chớm ngủ”, và kể hoàn cảnh:
-    </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-Prepared by the previous chapters, we approach the personification of
-the libido in the form of a conqueror, a hero or a demon. With this,
-symbolism leaves the impersonal and neuter realm, which characterizes
-the astral and meteorologic symbol, and takes human form: the figure of
-a being changing from sorrow to joy, from joy to sorrow, and which, like
-the sun, sometimes stands in its zenith, sometimes is plunged in darkest
-night, and arises from this very night to new splendor.[341] Just as the
-sun, guided by its own internal laws, ascends from morn till noon, and
-passing beyond the noon descends towards evening, leaving behind its
-splendor, and then sinks completely into the all-enveloping night, thus,
-too, does mankind follow his course according to immutable laws, and
-also sinks, after his course is completed, into night, in order to rise
-again in the morning to a new cycle in his children. The symbolic
-transition from sun to man is easy and practicable. The third and last
-creation of Miss Miller’s also takes this course. She calls this piece
-“Chiwantopel,” a “hypnagogic poem.” She gives us the following
-information about the circumstances surrounding the origin of this
-phantasy:
+    <div class="parallel-cell parallel-en" lang="en">
+<pre>CHAPTER IV
+               THE UNCONSCIOUS ORIGIN OF THE HERO</pre>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-049">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Sau một tối lo âu, tôi nằm ngủ khoảng mười một rưỡi. Tôi kích động, không ngủ dù rất mệt. Phòng không sáng. Tôi nhắm mắt và cảm thấy điều gì sắp xảy ra. Cảm giác thư giãn toàn thân đến, tôi giữ thụ động hết mức. Những đường hiện trước mắt, tia lửa và xoắn sáng, rồi cảnh kính vạn hoa của các việc vụn gần đây.”
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Được các chương trước chuẩn bị, ta tới sự nhân cách hóa dục lực thành kẻ chinh phục, anh hùng hay quỷ. Biểu tượng rời địa hạt vô nhân xưng, trung tính của tinh tú và khí tượng để lấy hình người: hữu thể đổi khổ sang vui, vui sang khổ, như mặt trời khi ở thiên đỉnh, khi chìm đêm tối nhất rồi từ đêm dậy trong huy hoàng mới.[341] Mặt trời theo luật nội tại đi từ sáng tới trưa, qua trưa xuống chiều, bỏ huy hoàng rồi chìm vào đêm phủ; nhân loại cũng theo luật bất biến, sau đường đời chìm vào đêm để sáng lại trong chu kỳ mới nơi con. Chuyển biểu tượng từ mặt trời sang người dễ. Sáng tạo thứ ba, cuối của cô Miller cũng theo đường này. Cô gọi nó “Chiwantopel”, một “bài thơ lúc chớm ngủ”, và kể hoàn cảnh:</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“After an evening of care and anxiety, I lay down to sleep at about
-  half past eleven. I felt excited and unable to sleep, although I was
-  very tired. There was no light in the room. I closed my eyes, and then
-  I had the feeling that something was about to happen. The sensation of
-  a general relaxation came over me, and I remained as passive as
-  possible. Lines appeared before my eyes,—sparks and shining spirals,
-  followed by a kaleidoscopic review of recent trivial occurrences.”
+    <div class="parallel-cell parallel-en" lang="en">
+<p>Prepared by the previous chapters, we approach the personification of the libido in the form of a conqueror, a hero or a demon. With this, symbolism leaves the impersonal and neuter realm, which characterizes the astral and meteorologic symbol, and takes human form: the figure of a being changing from sorrow to joy, from joy to sorrow, and which, like the sun, sometimes stands in its zenith, sometimes is plunged in darkest night, and arises from this very night to new splendor.[341] Just as the sun, guided by its own internal laws, ascends from morn till noon, and passing beyond the noon descends towards evening, leaving behind its splendor, and then sinks completely into the all-enveloping night, thus, too, does mankind follow his course according to immutable laws, and also sinks, after his course is completed, into night, in order to rise again in the morning to a new cycle in his children. The symbolic transition from sun to man is easy and practicable. The third and last creation of Miss Miller’s also takes this course. She calls this piece “Chiwantopel,” a “hypnagogic poem.” She gives us the following information about the circumstances surrounding the origin of this phantasy:</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-049">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Độc giả cùng tôi tiếc không biết nguyên nhân lo âu. Thông tin ấy rất quan trọng. Khoảng trống càng đáng tiếc vì giữa bài đầu năm 1898 và huyễn tưởng này năm 1902 là bốn năm. Không có dữ liệu thời gian mà vấn đề lớn chắc vẫn sống trong vô thức. Có lẽ thiếu ấy có lợi: cảm tình với số phận riêng không kéo ta khỏi tính phổ quát của huyễn tưởng; tránh điều thường cản nhà phân tích nhìn khỏi lao động chi tiết nhàm tới quan hệ rộng, nơi mọi xung đột loạn thần kinh gắn số phận người nói chung.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Sau một tối lo âu, tôi nằm ngủ khoảng mười một rưỡi. Tôi kích động, không ngủ dù rất mệt. Phòng không sáng. Tôi nhắm mắt và cảm thấy điều gì sắp xảy ra. Cảm giác thư giãn toàn thân đến, tôi giữ thụ động hết mức. Những đường hiện trước mắt, tia lửa và xoắn sáng, rồi cảnh kính vạn hoa của các việc vụn gần đây.”</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-The reader will regret with me that we cannot know the reason for her
-cares and anxieties. It would have been of great importance for what
-follows to have information on this point. This gap in our knowledge is
-the more to be deplored because, between the first poem in 1898 and the
-time of the phantasy here discussed (1902), four whole years have
-passed. All information is lacking regarding this period, during which
-the great problem surely survived in the unconscious. Perhaps this lack
-has its advantages in that our interest is not diverted from the
-universal applicability of the phantasy here produced by sympathy in
-regard to the personal fate of the author. Therefore, something is
-obviated which often prevents the analyst in his daily task from looking
-away from the tedious toil of detail to that wider relation which
-reveals each neurotic conflict to be involved with human fate as a
-whole.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“After an evening of care and anxiety, I lay down to sleep at about half past eleven. I felt excited and unable to sleep, although I was very tired. There was no light in the room. I closed my eyes, and then I had the feeling that something was about to happen. The sensation of a general relaxation came over me, and I remained as passive as possible. Lines appeared before my eyes,—sparks and shining spirals, followed by a kaleidoscopic review of recent trivial occurrences.”</p>
+    </div>
+  </section>
+  <section class="parallel-row" data-source-chunk="chunk-049">
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Độc giả cùng tôi tiếc không biết nguyên nhân lo âu. Thông tin ấy rất quan trọng. Khoảng trống càng đáng tiếc vì giữa bài đầu năm 1898 và huyễn tưởng này năm 1902 là bốn năm. Không có dữ liệu thời gian mà vấn đề lớn chắc vẫn sống trong vô thức. Có lẽ thiếu ấy có lợi: cảm tình với số phận riêng không kéo ta khỏi tính phổ quát của huyễn tưởng; tránh điều thường cản nhà phân tích nhìn khỏi lao động chi tiết nhàm tới quan hệ rộng, nơi mọi xung đột loạn thần kinh gắn số phận người nói chung.</p>
+    </div>
+    <div class="parallel-cell parallel-en" lang="en">
+<p>The reader will regret with me that we cannot know the reason for her cares and anxieties. It would have been of great importance for what follows to have information on this point. This gap in our knowledge is the more to be deplored because, between the first poem in 1898 and the time of the phantasy here discussed (1902), four whole years have passed. All information is lacking regarding this period, during which the great problem surely survived in the unconscious. Perhaps this lack has its advantages in that our interest is not diverted from the universal applicability of the phantasy here produced by sympathy in regard to the personal fate of the author. Therefore, something is obviated which often prevents the analyst in his daily task from looking away from the tedious toil of detail to that wider relation which reveals each neurotic conflict to be involved with human fate as a whole.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-050">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Tình trạng mô tả tương ứng trạng thái thường trước mộng du có chủ ý[342] do đồng cốt mô tả. Phải giả định khuynh hướng nghe tiếng đêm nhỏ; không thì trải nghiệm nội tâm tinh vi khó thấy trôi qua. Trong nghe này ta nhận dòng dục lực hướng vào, chảy tới đích bí ẩn chưa thấy. Dường như nó đột ngột khám phá đối tượng sâu vô thức hút mạnh. Đời người tự nhiên hướng ngoài không thường cho phép hướng nội; phải có tình trạng ngoại lệ, thiếu đối tượng ngoài, buộc tìm vật thay trong hồn. Nhưng khó tưởng thế giới giàu trở nên nghèo không có đối tượng cho tình yêu; không thể đổ lỗi thế giới. Nó cho cơ hội vô hạn. Chính _bất lực yêu cướp khả năng của người_. Thế giới chỉ rỗng với người không biết hướng dục lực tới đối tượng, làm chúng sống và đẹp; Vẻ đẹp không nằm trong vật mà trong cảm xúc ta trao. Điều buộc tạo vật thay không là thiếu đối tượng ngoài mà bất lực ôm vật ngoài bằng yêu. Khó khăn đời có thể đè, nhưng tình thế ngoài bất lợi không ngăn dục lực đi ra; trái lại có thể thúc nỗ lực lớn đưa toàn dục lực vào thực tại. Khó khăn thật một mình không bao giờ ép dục lực lùi vĩnh viễn tới gây loạn thần kinh. _Xung đột, điều kiện mọi loạn thần kinh, còn thiếu._ Chỉ sức kháng đặt không-muốn chống ý muốn có quyền tạo hướng nội gây bệnh, điểm đầu mọi nhiễu tâm sinh. Kháng yêu tạo bất lực yêu. Dục lực bình thường như dòng đều đổ rộng vào thực tại; sức kháng về động lực không như đá trong lòng sông bị nước vượt hay vòng, mà như dòng chảy ngược nguồn. Một phần hồn muốn đối tượng ngoài; phần khác nghe thế giới chủ quan nơi lâu đài huyễn tưởng mỏng gọi. Có thể xem nhị nguyên ý chí, Bleuler gọi “ambitendency”,[343] hiện chung; ngay xung lực vận động sơ nhất có đối lập, như khi duỗi thì cơ gấp cũng nhận thần kinh. Nhưng ambitendency bình thường không cản hành vi mà là điều kiện cho hoàn thiện và phối hợp. Để từ hòa hợp đối lập tinh vi phát sức kháng, cần cộng hay trừ bất thường một phía. Sức kháng từ cái thứ ba thêm.[344] Cũng đúng với nhị tính ý chí. Cái ba bất thường giải đôi đối lập vốn gắn mật, khiến chúng thành khuynh hướng tách; chỉ vậy thành muốn và không muốn cản nhau. *Bhagavad-Gîtâ*: “Hãy tự do khỏi các cặp đối lập.”[345] Hòa thành bất hòa. Tôi không khảo nguồn cái ba. Ở bệnh nhân, “phức cảm hạt nhân” của Freud tận gốc lộ là _vấn đề loạn luân_. Dục lực tình dục thoái về cha mẹ hiện như khuynh hướng loạn luân. Đường dễ vì tính lười vô biên không bỏ đối tượng quá khứ. “Cú chộp phạm thánh về sau” Nietzsche nói, bỏ áo loạn luân, là sự đình trệ thụ động nguyên thủy của dục lực ở đối tượng thơ ấu đầu. Lười cũng là đam mê, như La Rochefoucauld[346] nói:
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Tình trạng mô tả tương ứng trạng thái thường trước mộng du có chủ ý[342] do đồng cốt mô tả. Phải giả định khuynh hướng nghe tiếng đêm nhỏ; không thì trải nghiệm nội tâm tinh vi khó thấy trôi qua. Trong nghe này ta nhận dòng dục lực hướng vào, chảy tới đích bí ẩn chưa thấy. Dường như nó đột ngột khám phá đối tượng sâu vô thức hút mạnh. Đời người tự nhiên hướng ngoài không thường cho phép hướng nội; phải có tình trạng ngoại lệ, thiếu đối tượng ngoài, buộc tìm vật thay trong hồn. Nhưng khó tưởng thế giới giàu trở nên nghèo không có đối tượng cho tình yêu; không thể đổ lỗi thế giới. Nó cho cơ hội vô hạn. Chính <em>bất lực yêu cướp khả năng của người</em>. Thế giới chỉ rỗng với người không biết hướng dục lực tới đối tượng, làm chúng sống và đẹp; Vẻ đẹp không nằm trong vật mà trong cảm xúc ta trao. Điều buộc tạo vật thay không là thiếu đối tượng ngoài mà bất lực ôm vật ngoài bằng yêu. Khó khăn đời có thể đè, nhưng tình thế ngoài bất lợi không ngăn dục lực đi ra; trái lại có thể thúc nỗ lực lớn đưa toàn dục lực vào thực tại. Khó khăn thật một mình không bao giờ ép dục lực lùi vĩnh viễn tới gây loạn thần kinh. <em>Xung đột, điều kiện mọi loạn thần kinh, còn thiếu.</em> Chỉ sức kháng đặt không-muốn chống ý muốn có quyền tạo hướng nội gây bệnh, điểm đầu mọi nhiễu tâm sinh. Kháng yêu tạo bất lực yêu. Dục lực bình thường như dòng đều đổ rộng vào thực tại; sức kháng về động lực không như đá trong lòng sông bị nước vượt hay vòng, mà như dòng chảy ngược nguồn. Một phần hồn muốn đối tượng ngoài; phần khác nghe thế giới chủ quan nơi lâu đài huyễn tưởng mỏng gọi. Có thể xem nhị nguyên ý chí, Bleuler gọi “ambitendency”,[343] hiện chung; ngay xung lực vận động sơ nhất có đối lập, như khi duỗi thì cơ gấp cũng nhận thần kinh. Nhưng ambitendency bình thường không cản hành vi mà là điều kiện cho hoàn thiện và phối hợp. Để từ hòa hợp đối lập tinh vi phát sức kháng, cần cộng hay trừ bất thường một phía. Sức kháng từ cái thứ ba thêm.[344] Cũng đúng với nhị tính ý chí. Cái ba bất thường giải đôi đối lập vốn gắn mật, khiến chúng thành khuynh hướng tách; chỉ vậy thành muốn và không muốn cản nhau. <em>Bhagavad-Gîtâ</em>: “Hãy tự do khỏi các cặp đối lập.”[345] Hòa thành bất hòa. Tôi không khảo nguồn cái ba. Ở bệnh nhân, “phức cảm hạt nhân” của Freud tận gốc lộ là <em>vấn đề loạn luân</em>. Dục lực tình dục thoái về cha mẹ hiện như khuynh hướng loạn luân. Đường dễ vì tính lười vô biên không bỏ đối tượng quá khứ. “Cú chộp phạm thánh về sau” Nietzsche nói, bỏ áo loạn luân, là sự đình trệ thụ động nguyên thủy của dục lực ở đối tượng thơ ấu đầu. Lười cũng là đam mê, như La Rochefoucauld[346] nói:</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-The condition depicted by the author here corresponds to such a one as
-usually precedes an intentional somnambulism[342] often described by
-spiritualistic mediums. A certain inclination to listen to these low
-nocturnal voices must be assumed; otherwise such fine and hardly
-perceptible inner experiences pass unnoticed. We recognize in this
-listening a current of the libido leading inward and beginning to flow
-towards a still invisible, mysterious goal. It seems that the libido has
-suddenly discovered an object in the depths of the unconscious which
-powerfully attracts it. The life of man, turned wholly to the external
-by nature, does not ordinarily permit such introversion; there must,
-therefore, be surmised a certain exceptional condition, that is to say,
-a lack of external objects, which compels the individual to seek a
-substitute for them in his own soul. It is, however, difficult to
-imagine that this rich world has become too poor to offer an object for
-the love of human atoms; nor can the world and its objects be held
-accountable for this lack. It offers boundless opportunities for every
-one. It is rather the _incapacity to love which robs mankind of his
-possibilities_. This world is empty to him alone who does not understand
-how to direct his libido towards objects, and to render them alive and
-beautiful for himself, for Beauty does not indeed lie in things, but in
-the feeling that we give to them. That which compels us to create a
-substitute for ourselves is not the external lack of objects, but our
-incapacity to lovingly include a thing outside of ourselves. Certainly
-the difficulties of the conditions of life and the adversities of the
-struggle for existence may oppress us, yet even adverse external
-situations would not hinder the giving out of the libido; on the
-contrary, they may spur us on to the greatest exertions, whereby we
-bring our whole libido into reality. Real difficulties alone will never
-be able to force the libido back permanently to such a degree as to give
-rise, for example, to a neurosis. _The conflict, which is the condition
-of every neurosis, is lacking._ The resistance, which opposes its
-unwillingness to the will, alone has the power to produce that
-pathogenic introversion which is the starting point of every psychogenic
-disturbance. The resistance against loving produces the inability to
-love. Just as the normal libido is comparable to a steady stream which
-pours its waters broadly into the world of reality, so the resistance,
-dynamically considered, is comparable, not so much to a rock rearing up
-in the river bed which is flooded over or surrounded by the stream, as
-to a backward flow towards the source. A part of the soul desires the
-outer object; another part, however, harks back to the subjective world,
-where the airy and fragile palaces of phantasy beckon. One can assume
-the dualism of the human will for which Bleuler, from the psychiatric
-point of view, has coined the word “ambitendency”[343] as something
-generally present, bearing in mind that even the most primitive motor
-impulse is in opposition; as, for example, in the act of extension, the
-flexor muscles also become innervated. This normal ambitendency,
-however, never leads to an inhibition or prevention of the intended act,
-but is the indispensable preliminary requirement for its perfection and
-coördination. For a resistance disturbing to this act to arise from this
-harmony of finely attuned opposition an abnormal plus or minus would be
-needed on one or the other side. The resistance originates from this
-added third.[344] This applies also to the duality of the will, from
-which so many difficulties arise for mankind. The abnormal third frees
-the pair of opposites, which are normally most intimately united, and
-causes their manifestation in the form of separate tendencies; it is
-only thus that they become willingness and unwillingness, which
-interfere with each other. The Bhagavad-Gîtâ says, “Be thou free of the
-pairs of opposites.”[345] The harmony thus becomes disharmony. It cannot
-be my task here to investigate whence the unknown third arises, and what
-it is. Taken at the roots in the case of our patients, the “nuclear
-complex” (Freud) reveals itself as the _incest problem_. The sexual
-libido regressing to the parents appears as the incest tendency. The
-reason this path is so easily travelled is due to the enormous indolence
-of mankind, which will relinquish no object of the past, but will hold
-it fast forever. The “sacrilegious backward grasp” of which Nietzsche
-speaks reveals itself, stripped of its incest covering, as an original
-passive arrest of the libido in its first object of childhood. This
-indolence is also a passion, as La Rochefoucauld[346] has brilliantly
-expressed it:
-
-“Of all passions, that which is least known to ourselves is indolence:
-  it is the most ardent and malignant of them all, although its violence
-  may be insensible, and the injuries it causes may be hidden; if we
-  will consider its power attentively, we will see that it makes itself,
-  upon all occasions, mistress of our sentiments, of our interests, and
-  of our pleasures; it is the anchor, which has the power to arrest the
-  largest vessels; it is a calm more dangerous to the most important
-  affairs than rocks and the worst tempest. The repose of indolence is a
-  secret charm of the soul which suddenly stops the most ardent pursuits
-  and the firmest resolutions; finally to give the true idea of this
-  passion, one must say that indolence is like a beatitude of the soul
-  which consoles it for all its losses and takes the place of all its
-  possessions.”
+    <div class="parallel-cell parallel-en" lang="en">
+<p>The condition depicted by the author here corresponds to such a one as usually precedes an intentional somnambulism[342] often described by spiritualistic mediums. A certain inclination to listen to these low nocturnal voices must be assumed; otherwise such fine and hardly perceptible inner experiences pass unnoticed. We recognize in this listening a current of the libido leading inward and beginning to flow towards a still invisible, mysterious goal. It seems that the libido has suddenly discovered an object in the depths of the unconscious which powerfully attracts it. The life of man, turned wholly to the external by nature, does not ordinarily permit such introversion; there must, therefore, be surmised a certain exceptional condition, that is to say, a lack of external objects, which compels the individual to seek a substitute for them in his own soul. It is, however, difficult to imagine that this rich world has become too poor to offer an object for the love of human atoms; nor can the world and its objects be held accountable for this lack. It offers boundless opportunities for every one. It is rather the <em>incapacity to love which robs mankind of his possibilities</em>. This world is empty to him alone who does not understand how to direct his libido towards objects, and to render them alive and beautiful for himself, for Beauty does not indeed lie in things, but in the feeling that we give to them. That which compels us to create a substitute for ourselves is not the external lack of objects, but our incapacity to lovingly include a thing outside of ourselves. Certainly the difficulties of the conditions of life and the adversities of the struggle for existence may oppress us, yet even adverse external situations would not hinder the giving out of the libido; on the contrary, they may spur us on to the greatest exertions, whereby we bring our whole libido into reality. Real difficulties alone will never be able to force the libido back permanently to such a degree as to give rise, for example, to a neurosis. <em>The conflict, which is the condition of every neurosis, is lacking.</em> The resistance, which opposes its unwillingness to the will, alone has the power to produce that pathogenic introversion which is the starting point of every psychogenic disturbance. The resistance against loving produces the inability to love. Just as the normal libido is comparable to a steady stream which pours its waters broadly into the world of reality, so the resistance, dynamically considered, is comparable, not so much to a rock rearing up in the river bed which is flooded over or surrounded by the stream, as to a backward flow towards the source. A part of the soul desires the outer object; another part, however, harks back to the subjective world, where the airy and fragile palaces of phantasy beckon. One can assume the dualism of the human will for which Bleuler, from the psychiatric point of view, has coined the word “ambitendency”[343] as something generally present, bearing in mind that even the most primitive motor impulse is in opposition; as, for example, in the act of extension, the flexor muscles also become innervated. This normal ambitendency, however, never leads to an inhibition or prevention of the intended act, but is the indispensable preliminary requirement for its perfection and coördination. For a resistance disturbing to this act to arise from this harmony of finely attuned opposition an abnormal plus or minus would be needed on one or the other side. The resistance originates from this added third.[344] This applies also to the duality of the will, from which so many difficulties arise for mankind. The abnormal third frees the pair of opposites, which are normally most intimately united, and causes their manifestation in the form of separate tendencies; it is only thus that they become willingness and unwillingness, which interfere with each other. The Bhagavad-Gîtâ says, “Be thou free of the pairs of opposites.”[345] The harmony thus becomes disharmony. It cannot be my task here to investigate whence the unknown third arises, and what it is. Taken at the roots in the case of our patients, the “nuclear complex” (Freud) reveals itself as the <em>incest problem</em>. The sexual libido regressing to the parents appears as the incest tendency. The reason this path is so easily travelled is due to the enormous indolence of mankind, which will relinquish no object of the past, but will hold it fast forever. The “sacrilegious backward grasp” of which Nietzsche speaks reveals itself, stripped of its incest covering, as an original passive arrest of the libido in its first object of childhood. This indolence is also a passion, as La Rochefoucauld[346] has brilliantly expressed it:</p>
+<p>“Of all passions, that which is least known to ourselves is indolence: it is the most ardent and malignant of them all, although its violence may be insensible, and the injuries it causes may be hidden; if we will consider its power attentively, we will see that it makes itself, upon all occasions, mistress of our sentiments, of our interests, and of our pleasures; it is the anchor, which has the power to arrest the largest vessels; it is a calm more dangerous to the most important affairs than rocks and the worst tempest. The repose of indolence is a secret charm of the soul which suddenly stops the most ardent pursuits and the firmest resolutions; finally to give the true idea of this passion, one must say that indolence is like a beatitude of the soul which consoles it for all its losses and takes the place of all its possessions.”</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-050">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Trong mọi đam mê, ít được ta biết nhất là lười; nó mãnh liệt và ác nhất dù bạo lực không cảm thấy, tổn thương ẩn. Nếu xét quyền nó, ta thấy nó luôn làm chủ tình cảm, lợi ích, khoái lạc; là neo dừng tàu lớn; sự lặng nguy hiểm cho việc lớn hơn đá và bão. Nghỉ của lười là bùa kín của hồn, đột ngột dừng theo đuổi nóng và quyết tâm chắc; nói thật, lười như phúc lạc của hồn an ủi mọi mất và thay mọi sở hữu.”
-
-Đam mê nguy hiểm của người nguyên thủy hiện dưới mặt nạ biểu tượng loạn luân, từ đó sợ loạn luân phải đuổi ta, và phải chinh phục trước hết dưới hình “người mẹ khủng khiếp”.[347] Bà là mẹ vô số ác, gồm rắc rối loạn thần kinh. Từ sương của tàn dư dục lực đình trệ sinh ảo cảnh hại che thực tại đến thích nghi gần bất khả. Ta không xét nền huyễn tưởng loạn luân thêm; gợi ý quan niệm tâm lý thuần đủ. Chỉ hỏi _sức kháng_ dẫn tác giả hướng nội là khó ngoài hữu thức không. Nếu khó ngoài, dục lực bị đập mạnh tạo lũ huyễn tưởng đúng hơn là lược đồ, kế hoạch vượt chướng ngại, ý niệm thực tại cụ thể tìm giải pháp. Đó là suy tư căng, không dẫn thơ chớm ngủ. Trạng thái thụ động không hợp chướng ngại thật; sự đầu hàng thụ động chỉ khuynh hướng khinh giải pháp thật, thích vật thay huyễn tưởng. Tận cùng ta xử lý xung đột trong, có lẽ như hai xung đột trước. Buộc kết luận đối tượng ngoài không thể được yêu vì lượng dục lực trội thích đối tượng huyễn tưởng phải kéo từ sâu vô thức lên bù thực tại thiếu.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Trong mọi đam mê, ít được ta biết nhất là lười; nó mãnh liệt và ác nhất dù bạo lực không cảm thấy, tổn thương ẩn. Nếu xét quyền nó, ta thấy nó luôn làm chủ tình cảm, lợi ích, khoái lạc; là neo dừng tàu lớn; sự lặng nguy hiểm cho việc lớn hơn đá và bão. Nghỉ của lười là bùa kín của hồn, đột ngột dừng theo đuổi nóng và quyết tâm chắc; nói thật, lười như phúc lạc của hồn an ủi mọi mất và thay mọi sở hữu.”</p>
+<p>Đam mê nguy hiểm của người nguyên thủy hiện dưới mặt nạ biểu tượng loạn luân, từ đó sợ loạn luân phải đuổi ta, và phải chinh phục trước hết dưới hình “người mẹ khủng khiếp”.[347] Bà là mẹ vô số ác, gồm rắc rối loạn thần kinh. Từ sương của tàn dư dục lực đình trệ sinh ảo cảnh hại che thực tại đến thích nghi gần bất khả. Ta không xét nền huyễn tưởng loạn luân thêm; gợi ý quan niệm tâm lý thuần đủ. Chỉ hỏi <em>sức kháng</em> dẫn tác giả hướng nội là khó ngoài hữu thức không. Nếu khó ngoài, dục lực bị đập mạnh tạo lũ huyễn tưởng đúng hơn là lược đồ, kế hoạch vượt chướng ngại, ý niệm thực tại cụ thể tìm giải pháp. Đó là suy tư căng, không dẫn thơ chớm ngủ. Trạng thái thụ động không hợp chướng ngại thật; sự đầu hàng thụ động chỉ khuynh hướng khinh giải pháp thật, thích vật thay huyễn tưởng. Tận cùng ta xử lý xung đột trong, có lẽ như hai xung đột trước. Buộc kết luận đối tượng ngoài không thể được yêu vì lượng dục lực trội thích đối tượng huyễn tưởng phải kéo từ sâu vô thức lên bù thực tại thiếu.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-This dangerous passion, belonging above all others to primitive man,
-appears under the hazardous mask of the incest symbol, from which the
-incest fear must drive us away, and which must be conquered, in the
-first place, under the image of the “terrible mother.”[347] It is the
-mother of innumerable evils, not the least of which are neurotic
-troubles. For, especially from the fogs of the arrested remnants of the
-libido, arise the harmful phantasmagoria which so veil reality that
-adaptation becomes almost impossible. However, we will not investigate
-any further in this place the foundations of the incest phantasies. The
-preliminary suggestion of my purely psychologic conception of the incest
-problem may suffice. We are here only concerned with the question
-whether _resistance_ which leads to introversion in our author signifies
-a conscious external difficulty or not. If it were an external
-difficulty, then, indeed, the libido would be violently dammed back, and
-would produce a flood of phantasies, which can best be designated as
-schemes, that is to say, plans as to how the obstacles could be
-overcome. They would be very concrete ideas of reality which seek to
-pave the way for solutions. It would be a strenuous meditation, indeed,
-which would be more likely to lead to anything rather than to a
-hypnagogic poem. The passive condition depicted above in no way fits in
-with a real external obstacle, but, precisely through its passive
-submission, it indicates a tendency which doubtless scorns real
-solutions and prefers phantastic substitutes. Ultimately and essentially
-we are, therefore, dealing with an internal conflict, perhaps after the
-manner of those earlier conflicts which led to the two first unconscious
-creations. We, therefore, are forced to conclude that the external
-object cannot be loved, because a predominant amount of libido prefers a
-phantastic object, which must be brought up from the depths of the
-unconscious as a compensation for the missing reality.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>This dangerous passion, belonging above all others to primitive man, appears under the hazardous mask of the incest symbol, from which the incest fear must drive us away, and which must be conquered, in the first place, under the image of the “terrible mother.”[347] It is the mother of innumerable evils, not the least of which are neurotic troubles. For, especially from the fogs of the arrested remnants of the libido, arise the harmful phantasmagoria which so veil reality that adaptation becomes almost impossible. However, we will not investigate any further in this place the foundations of the incest phantasies. The preliminary suggestion of my purely psychologic conception of the incest problem may suffice. We are here only concerned with the question whether <em>resistance</em> which leads to introversion in our author signifies a conscious external difficulty or not. If it were an external difficulty, then, indeed, the libido would be violently dammed back, and would produce a flood of phantasies, which can best be designated as schemes, that is to say, plans as to how the obstacles could be overcome. They would be very concrete ideas of reality which seek to pave the way for solutions. It would be a strenuous meditation, indeed, which would be more likely to lead to anything rather than to a hypnagogic poem. The passive condition depicted above in no way fits in with a real external obstacle, but, precisely through its passive submission, it indicates a tendency which doubtless scorns real solutions and prefers phantastic substitutes. Ultimately and essentially we are, therefore, dealing with an internal conflict, perhaps after the manner of those earlier conflicts which led to the two first unconscious creations. We, therefore, are forced to conclude that the external object cannot be loved, because a predominant amount of libido prefers a phantastic object, which must be brought up from the depths of the unconscious as a compensation for the missing reality.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-050">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Hiện tượng thị kiến đầu hướng nội thuộc thị kiến chớm ngủ quen thuộc.[348] Như tôi từng giải, chúng là nền thị kiến thật của tự mặc khải biểu tượng của dục lực.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Hiện tượng thị kiến đầu hướng nội thuộc thị kiến chớm ngủ quen thuộc.[348] Như tôi từng giải, chúng là nền thị kiến thật của tự mặc khải biểu tượng của dục lực.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-The visionary phenomena, produced in the first stages of introversion,
-are grouped among the well-known phenomena[348] of hypnagogic vision.
-They form, as I explained in an earlier paper, the foundation of the
-true visions of the symbolic autorevelations of the libido, as we may
-now express it.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>The visionary phenomena, produced in the first stages of introversion, are grouped among the well-known phenomena[348] of hypnagogic vision. They form, as I explained in an earlier paper, the foundation of the true visions of the symbolic autorevelations of the libido, as we may now express it.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-050">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Cô Miller tiếp:
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Cô Miller tiếp:</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-Miss Miller continues:
+    <div class="parallel-cell parallel-en" lang="en">
+<p>Miss Miller continues:</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-050">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Rồi tôi có ấn tượng một thông điệp sắp tới. Dường như trong tôi vọng lời: ‘Xin phán, lạy Chúa, vì tôi tớ Người nghe; xin mở tai con!’”
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Rồi tôi có ấn tượng một thông điệp sắp tới. Dường như trong tôi vọng lời: ‘Xin phán, lạy Chúa, vì tôi tớ Người nghe; xin mở tai con!’”</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Then I had the impression that some communication was immediately
-  impending. It seemed to me as if there were re-echoed in me the words,
-  ‘Speak, O Lord, for Thy servant listens; open Thou mine ears!’”
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“Then I had the impression that some communication was immediately impending. It seemed to me as if there were re-echoed in me the words, ‘Speak, O Lord, for Thy servant listens; open Thou mine ears!’”</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-051">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Đoạn này mô tả ý hướng rất rõ; chính từ “thông điệp” còn là thuật ngữ thông dụng trong giới thần linh học. Những lời Kinh Thánh chứa một lời khẩn cầu hay “cầu nguyện” rõ rệt, tức một ước muốn (dục lực) hướng tới thần tính (phức cảm vô thức). Lời cầu nhắc đến Samuel, i:3, nơi Samuel trong đêm ba lần được Chúa gọi nhưng tưởng Eli gọi mình, cho tới khi Eli bảo rằng chính Chúa đã phán và nếu tên ông lại được gọi thì phải đáp: “Xin phán, lạy Chúa, vì tôi tớ Người nghe!” Người mơ thực ra dùng những lời này theo nghĩa đảo ngược, tức dùng chúng để làm Chúa hiện ra. Bằng cách ấy, cô hướng các ham muốn, dục lực của mình vào chiều sâu vô thức.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Đoạn này mô tả ý hướng rất rõ; chính từ “thông điệp” còn là thuật ngữ thông dụng trong giới thần linh học. Những lời Kinh Thánh chứa một lời khẩn cầu hay “cầu nguyện” rõ rệt, tức một ước muốn (dục lực) hướng tới thần tính (phức cảm vô thức). Lời cầu nhắc đến Samuel, i:3, nơi Samuel trong đêm ba lần được Chúa gọi nhưng tưởng Eli gọi mình, cho tới khi Eli bảo rằng chính Chúa đã phán và nếu tên ông lại được gọi thì phải đáp: “Xin phán, lạy Chúa, vì tôi tớ Người nghe!” Người mơ thực ra dùng những lời này theo nghĩa đảo ngược, tức dùng chúng để làm Chúa hiện ra. Bằng cách ấy, cô hướng các ham muốn, dục lực của mình vào chiều sâu vô thức.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-This passage very clearly describes the intention; the expression
-“communication” is even a current term in spiritualistic circles. The
-Biblical words contain a clear invocation or “prayer,” that is to say, a
-wish (libido) directed towards divinity (the unconscious complex). The
-prayer refers to Samuel, i:3, where Samuel at night was three times
-called by God, but believed that it was Eli calling, until the latter
-informed him that it was God himself who spoke, and that he must answer
-if his name was called again—“Speak, O Lord, for Thy Servant hears!” The
-dreamer uses these words really in an inverse sense, namely, in order to
-produce God with them. With that she directs her desires, her libido,
-into the depths of her unconscious.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>This passage very clearly describes the intention; the expression “communication” is even a current term in spiritualistic circles. The Biblical words contain a clear invocation or “prayer,” that is to say, a wish (libido) directed towards divinity (the unconscious complex). The prayer refers to Samuel, i:3, where Samuel at night was three times called by God, but believed that it was Eli calling, until the latter informed him that it was God himself who spoke, and that he must answer if his name was called again—“Speak, O Lord, for Thy Servant hears!” The dreamer uses these words really in an inverse sense, namely, in order to produce God with them. With that she directs her desires, her libido, into the depths of her unconscious.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-051">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Ta biết rằng, dù các cá nhân cách xa nhau bởi những dị biệt trong nội dung ý thức, họ lại gần giống nhau trong tâm lý vô thức. Với người làm phân tâm học thực hành, nhận ra các phức cảm vô thức điển hình đồng dạng đến mức nào là một ấn tượng đáng kể. Dị biệt chỉ bắt đầu từ cá thể hóa. Sự kiện này đem lại cho một phần cốt yếu trong triết học Schopenhauer và Hartmann một biện minh tâm lý sâu sắc.[349] Tính đồng dạng rất rõ của cơ chế vô thức làm nền tâm lý cho những quan điểm triết học ấy. Vô thức chứa những tàn dư chưa phân hóa của các chức năng tâm lý trước kia, đã bị sự phân hóa cá nhân vượt qua. Phản ứng và sản phẩm của tâm thể động vật có một tính đồng dạng và vững chắc phổ biến; ở con người dường như chỉ còn thấy dấu vết. Đối lập với động vật, con người hiện ra như một cái gì hết sức cá biệt.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Ta biết rằng, dù các cá nhân cách xa nhau bởi những dị biệt trong nội dung ý thức, họ lại gần giống nhau trong tâm lý vô thức. Với người làm phân tâm học thực hành, nhận ra các phức cảm vô thức điển hình đồng dạng đến mức nào là một ấn tượng đáng kể. Dị biệt chỉ bắt đầu từ cá thể hóa. Sự kiện này đem lại cho một phần cốt yếu trong triết học Schopenhauer và Hartmann một biện minh tâm lý sâu sắc.[349] Tính đồng dạng rất rõ của cơ chế vô thức làm nền tâm lý cho những quan điểm triết học ấy. Vô thức chứa những tàn dư chưa phân hóa của các chức năng tâm lý trước kia, đã bị sự phân hóa cá nhân vượt qua. Phản ứng và sản phẩm của tâm thể động vật có một tính đồng dạng và vững chắc phổ biến; ở con người dường như chỉ còn thấy dấu vết. Đối lập với động vật, con người hiện ra như một cái gì hết sức cá biệt.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-We know that, although individuals are widely separated by the
-differences in the contents of their consciousness, they are closely
-alike in their unconscious psychology. It is a significant impression
-for one working in practical psychoanalysis when he realizes how uniform
-are the typical unconscious complexes. Difference first arises from
-individualization. This fact gives to an essential portion of the
-Schopenhauer and Hartmann philosophies a deep psychologic
-justification.[349] The very evident uniformity of the unconscious
-mechanism serves as a psychologic foundation for these philosophic
-views. The unconscious contains the differentiated remnants of the
-earlier psychologic functions overcome by the individual
-differentiation. The reaction and products of the animal psyche are of a
-generally diffused uniformity and solidity, which, among men, may be
-discovered apparently only in traces. Man appears as something
-extraordinarily individual in contrast with animals.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>We know that, although individuals are widely separated by the differences in the contents of their consciousness, they are closely alike in their unconscious psychology. It is a significant impression for one working in practical psychoanalysis when he realizes how uniform are the typical unconscious complexes. Difference first arises from individualization. This fact gives to an essential portion of the Schopenhauer and Hartmann philosophies a deep psychologic justification.[349] The very evident uniformity of the unconscious mechanism serves as a psychologic foundation for these philosophic views. The unconscious contains the differentiated remnants of the earlier psychologic functions overcome by the individual differentiation. The reaction and products of the animal psyche are of a generally diffused uniformity and solidity, which, among men, may be discovered apparently only in traces. Man appears as something extraordinarily individual in contrast with animals.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-051">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Đó có thể là một ảo tưởng khổng lồ, bởi ta có khuynh hướng thích đáng là luôn chỉ nhận ra sự khác nhau giữa các sự vật. Sự thích nghi tâm lý đòi hỏi điều này; nếu không phân biệt các ấn tượng đến từng chi tiết nhỏ nhất, thích nghi tuyệt đối bất khả. Trái với khuynh hướng ấy, ta luôn gặp khó khăn lớn nhất khi nhận ra các quan hệ chung giữa những sự vật mình bận tâm trong đời thường. Với những thứ xa lạ hơn, sự nhận ra ấy dễ hơn nhiều. Chẳng hạn, một người châu Âu hầu như không thể phân biệt các khuôn mặt trong một đám đông người Trung Hoa, dù người Trung Hoa có những cấu tạo gương mặt cá biệt không kém người châu Âu; nhưng với kẻ quan sát từ xa, sự giống nhau trong nét mặt xa lạ của họ nổi bật hơn các dị biệt cá nhân. Khi sống giữa người Trung Hoa, ấn tượng đồng dạng ấy giảm dần, và cuối cùng người Trung Hoa cũng trở thành những cá nhân. Cá tính thuộc về những thực tại có điều kiện bị đánh giá quá cao về mặt lý thuyết vì ý nghĩa thực tiễn của chúng. Nó không thuộc những sự kiện chung sáng rõ áp đảo, bởi thế hiển hiện phổ quát, mà một khoa học phải đặt nền trước hết trên đó. Vì vậy, nội dung cá nhân của ý thức là đối tượng bất lợi nhất có thể tưởng tượng cho tâm lý học, bởi nó che khuất cái có giá trị phổ quát đến mức không còn nhận ra được. Bản chất của ý thức là quá trình thích nghi diễn ra trong những chi tiết nhỏ nhất. Trái lại, vô thức là cái phổ biến; nó không chỉ ràng buộc các cá nhân với nhau trong chủng tộc mà còn nối họ ngược về các dân tộc quá khứ và tâm lý của những dân tộc ấy. Do đó, vì vượt quá cá nhân trong tính phổ quát, vô thức trước hết là đối tượng của một tâm lý học chân chính không tự nhận là tâm-vật lý học.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Đó có thể là một ảo tưởng khổng lồ, bởi ta có khuynh hướng thích đáng là luôn chỉ nhận ra sự khác nhau giữa các sự vật. Sự thích nghi tâm lý đòi hỏi điều này; nếu không phân biệt các ấn tượng đến từng chi tiết nhỏ nhất, thích nghi tuyệt đối bất khả. Trái với khuynh hướng ấy, ta luôn gặp khó khăn lớn nhất khi nhận ra các quan hệ chung giữa những sự vật mình bận tâm trong đời thường. Với những thứ xa lạ hơn, sự nhận ra ấy dễ hơn nhiều. Chẳng hạn, một người châu Âu hầu như không thể phân biệt các khuôn mặt trong một đám đông người Trung Hoa, dù người Trung Hoa có những cấu tạo gương mặt cá biệt không kém người châu Âu; nhưng với kẻ quan sát từ xa, sự giống nhau trong nét mặt xa lạ của họ nổi bật hơn các dị biệt cá nhân. Khi sống giữa người Trung Hoa, ấn tượng đồng dạng ấy giảm dần, và cuối cùng người Trung Hoa cũng trở thành những cá nhân. Cá tính thuộc về những thực tại có điều kiện bị đánh giá quá cao về mặt lý thuyết vì ý nghĩa thực tiễn của chúng. Nó không thuộc những sự kiện chung sáng rõ áp đảo, bởi thế hiển hiện phổ quát, mà một khoa học phải đặt nền trước hết trên đó. Vì vậy, nội dung cá nhân của ý thức là đối tượng bất lợi nhất có thể tưởng tượng cho tâm lý học, bởi nó che khuất cái có giá trị phổ quát đến mức không còn nhận ra được. Bản chất của ý thức là quá trình thích nghi diễn ra trong những chi tiết nhỏ nhất. Trái lại, vô thức là cái phổ biến; nó không chỉ ràng buộc các cá nhân với nhau trong chủng tộc mà còn nối họ ngược về các dân tộc quá khứ và tâm lý của những dân tộc ấy. Do đó, vì vượt quá cá nhân trong tính phổ quát, vô thức trước hết là đối tượng của một tâm lý học chân chính không tự nhận là tâm-vật lý học.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-This might be a tremendous delusion, because we have the appropriate
-tendency always to recognize only the difference of things. This is
-demanded by the psychologic adaptation which, without the most minute
-differentiation of the impressions, would be absolutely impossible. In
-opposition to this tendency we have ever the greatest difficulty in
-recognizing in their common relations the things with which we are
-occupied in every-day life. This recognition becomes much easier with
-things which are more remote from us. For example, it is almost
-impossible for a European to differentiate the faces in a Chinese
-throng, although the Chinese have just as individual facial formations
-as the Europeans, but the similarity of their strange facial expression
-is much more evident to the remote onlooker than their individual
-differences. But when we live among the Chinese then the impression of
-their uniformity disappears more and more, and finally the Chinese
-become individuals also. Individuality belongs to those conditional
-actualities which are greatly overrated theoretically on account of
-their practical significance. It does not belong to those overwhelmingly
-clear and therefore universally obtrusive general facts upon which a
-science must primarily be founded. The individual content of
-consciousness is, therefore, the most unfavorable object imaginable for
-psychology, because it has veiled the universally valid until it has
-become unrecognizable. The essence of consciousness is the process of
-adaptation which takes place in the most minute details. On the other
-hand, the unconscious is the generally diffused, which not only binds
-the individuals among themselves to the race, but also unites them
-backwards with the peoples of the past and their psychology. Thus the
-unconscious, surpassing the individual in its generality, is, in the
-first place, the object of a true psychology, which claims not to be
-psychophysical.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>This might be a tremendous delusion, because we have the appropriate tendency always to recognize only the difference of things. This is demanded by the psychologic adaptation which, without the most minute differentiation of the impressions, would be absolutely impossible. In opposition to this tendency we have ever the greatest difficulty in recognizing in their common relations the things with which we are occupied in every-day life. This recognition becomes much easier with things which are more remote from us. For example, it is almost impossible for a European to differentiate the faces in a Chinese throng, although the Chinese have just as individual facial formations as the Europeans, but the similarity of their strange facial expression is much more evident to the remote onlooker than their individual differences. But when we live among the Chinese then the impression of their uniformity disappears more and more, and finally the Chinese become individuals also. Individuality belongs to those conditional actualities which are greatly overrated theoretically on account of their practical significance. It does not belong to those overwhelmingly clear and therefore universally obtrusive general facts upon which a science must primarily be founded. The individual content of consciousness is, therefore, the most unfavorable object imaginable for psychology, because it has veiled the universally valid until it has become unrecognizable. The essence of consciousness is the process of adaptation which takes place in the most minute details. On the other hand, the unconscious is the generally diffused, which not only binds the individuals among themselves to the race, but also unites them backwards with the peoples of the past and their psychology. Thus the unconscious, surpassing the individual in its generality, is, in the first place, the object of a true psychology, which claims not to be psychophysical.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-051">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Con người như một cá nhân là hiện tượng đáng ngờ, quyền tồn tại của nó từ lập trường sinh học tự nhiên có thể bị tranh cãi nghiêm túc, bởi dưới góc nhìn ấy cá nhân chỉ là một nguyên tử của chủng tộc và chỉ có ý nghĩa như một thành phần của khối đông. Tuy nhiên, lập trường luân lý trao cho con người một khuynh hướng cá nhân tách họ khỏi khối đông; qua nhiều thế kỷ, khuynh hướng ấy dẫn tới sự phát triển của nhân cách. Song hành với nó là sự phát triển của việc sùng bái anh hùng, rồi dẫn tới sự sùng bái cá nhân hiện đại. Những cố gắng của thần học duy lý nhằm giữ lấy Jesus cá nhân như tàn dư cuối cùng và quý giá nhất của thần tính đã biến mất ngoài sức tưởng tượng cũng tương ứng với khuynh hướng này. Về điểm ấy, Giáo hội Công giáo La Mã thực tế hơn: họ đáp ứng nhu cầu chung về một vị anh hùng hữu hình, hay ít nhất được tin là có thật trong lịch sử, bằng cách đặt lên ngai thờ phụng một vị thần thế gian nhỏ bé nhưng có thể nhận thấy rõ ràng, tức Giáo hoàng La Mã, *Pater patrum*, đồng thời là *Pontifex Maximus* của vị Thượng đế vô hình ở trên hay bên trong. Khả năng chứng minh Thượng đế bằng giác quan đương nhiên hỗ trợ quá trình hướng nội tôn giáo, bởi hình người về căn bản làm chuyển di dễ dàng hơn; không dễ hình dung một hữu thể tinh thần như một cái gì đáng yêu hay đáng kính. Khuynh hướng có mặt khắp nơi này được thần học duy lý bí mật gìn giữ qua sự khăng khăng vào một Jesus lịch sử.
-
-Điều đó không có nghĩa con người yêu vị Thượng đế hữu hình; họ không yêu ngài như ngài vốn là, bởi ngài chỉ là một con người, và nếu người sùng đạo muốn yêu nhân loại thì họ có thể đến yêu láng giềng và kẻ thù. Trong Thượng đế, nhân loại chỉ muốn yêu những ý niệm của chính mình, tức những ý niệm họ phóng chiếu vào Thượng đế. Qua đó, họ muốn yêu vô thức của mình: phần tàn dư của nhân loại cổ xưa và quá khứ nhiều thế kỷ trong mọi người, tài sản chung do toàn bộ tiến hóa để lại và ban cho mọi người như ánh nắng và không khí. Nhưng khi yêu di sản ấy, họ yêu cái chung cho tất cả. Như vậy họ quay về với người mẹ của nhân loại, tức tinh thần của chủng tộc, và bằng cách ấy giành lại phần nào mối liên kết cùng sức mạnh bí ẩn, không thể cưỡng lại do cảm giác thuộc về bầy đàn đem lại. Đó là vấn đề của Antæus, kẻ chỉ giữ được sức mạnh khổng lồ nhờ tiếp xúc với đất mẹ. Sự tạm thời rút vào bản thân này, như ta đã thấy, biểu thị một sự thoái lui về mối ràng buộc thơ ấu với cha mẹ; trong những giới hạn nhất định, nó dường như tác động thuận lợi tới tình trạng tâm lý của cá nhân. Nhìn chung có thể chờ đợi rằng hai cơ chế nền tảng của các chứng loạn tâm, chuyển di và hướng nội, ở một mức độ rộng lớn là những phương thức phản ứng bình thường hết sức thích hợp trước các phức cảm: chuyển di như phương tiện thoát khỏi phức cảm để đi vào thực tại; hướng nội như phương tiện tách mình khỏi thực tại thông qua phức cảm.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Con người như một cá nhân là hiện tượng đáng ngờ, quyền tồn tại của nó từ lập trường sinh học tự nhiên có thể bị tranh cãi nghiêm túc, bởi dưới góc nhìn ấy cá nhân chỉ là một nguyên tử của chủng tộc và chỉ có ý nghĩa như một thành phần của khối đông. Tuy nhiên, lập trường luân lý trao cho con người một khuynh hướng cá nhân tách họ khỏi khối đông; qua nhiều thế kỷ, khuynh hướng ấy dẫn tới sự phát triển của nhân cách. Song hành với nó là sự phát triển của việc sùng bái anh hùng, rồi dẫn tới sự sùng bái cá nhân hiện đại. Những cố gắng của thần học duy lý nhằm giữ lấy Jesus cá nhân như tàn dư cuối cùng và quý giá nhất của thần tính đã biến mất ngoài sức tưởng tượng cũng tương ứng với khuynh hướng này. Về điểm ấy, Giáo hội Công giáo La Mã thực tế hơn: họ đáp ứng nhu cầu chung về một vị anh hùng hữu hình, hay ít nhất được tin là có thật trong lịch sử, bằng cách đặt lên ngai thờ phụng một vị thần thế gian nhỏ bé nhưng có thể nhận thấy rõ ràng, tức Giáo hoàng La Mã, <em>Pater patrum</em>, đồng thời là <em>Pontifex Maximus</em> của vị Thượng đế vô hình ở trên hay bên trong. Khả năng chứng minh Thượng đế bằng giác quan đương nhiên hỗ trợ quá trình hướng nội tôn giáo, bởi hình người về căn bản làm chuyển di dễ dàng hơn; không dễ hình dung một hữu thể tinh thần như một cái gì đáng yêu hay đáng kính. Khuynh hướng có mặt khắp nơi này được thần học duy lý bí mật gìn giữ qua sự khăng khăng vào một Jesus lịch sử.</p>
+<p>Điều đó không có nghĩa con người yêu vị Thượng đế hữu hình; họ không yêu ngài như ngài vốn là, bởi ngài chỉ là một con người, và nếu người sùng đạo muốn yêu nhân loại thì họ có thể đến yêu láng giềng và kẻ thù. Trong Thượng đế, nhân loại chỉ muốn yêu những ý niệm của chính mình, tức những ý niệm họ phóng chiếu vào Thượng đế. Qua đó, họ muốn yêu vô thức của mình: phần tàn dư của nhân loại cổ xưa và quá khứ nhiều thế kỷ trong mọi người, tài sản chung do toàn bộ tiến hóa để lại và ban cho mọi người như ánh nắng và không khí. Nhưng khi yêu di sản ấy, họ yêu cái chung cho tất cả. Như vậy họ quay về với người mẹ của nhân loại, tức tinh thần của chủng tộc, và bằng cách ấy giành lại phần nào mối liên kết cùng sức mạnh bí ẩn, không thể cưỡng lại do cảm giác thuộc về bầy đàn đem lại. Đó là vấn đề của Antæus, kẻ chỉ giữ được sức mạnh khổng lồ nhờ tiếp xúc với đất mẹ. Sự tạm thời rút vào bản thân này, như ta đã thấy, biểu thị một sự thoái lui về mối ràng buộc thơ ấu với cha mẹ; trong những giới hạn nhất định, nó dường như tác động thuận lợi tới tình trạng tâm lý của cá nhân. Nhìn chung có thể chờ đợi rằng hai cơ chế nền tảng của các chứng loạn tâm, chuyển di và hướng nội, ở một mức độ rộng lớn là những phương thức phản ứng bình thường hết sức thích hợp trước các phức cảm: chuyển di như phương tiện thoát khỏi phức cảm để đi vào thực tại; hướng nội như phương tiện tách mình khỏi thực tại thông qua phức cảm.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-Man as an individual is a suspicious phenomenon, the right of whose
-existence from a natural biological standpoint could be seriously
-contested, because, from this point of view, the individual is only a
-race atom, and has a significance only as a mass constituent. The
-ethical standpoint, however, gives to the human being an individual
-tendency separating him from the mass, which, in the course of
-centuries, led to the development of personality, hand in hand with
-which developed the hero cult, and has led to the modern individualistic
-cult of personages. The attempts of rationalistic theology to keep hold
-of the personal Jesus as the last and most precious remnant of the
-divinity which has vanished beyond the power of the imagination
-corresponds to this tendency. In this respect the Roman Catholic Church
-was more practical, because she met the general need of the visible, or
-at least historically believed hero, through the fact that she placed
-upon the throne of worship a small but clearly perceptible god of the
-world, namely, the Roman Pope, the Pater patrum, and at the same time
-the Pontifex Maximus of the invisible upper or inner God. The sensuous
-demonstrability of God naturally supports the religious process of
-introversion, because the human figure essentially facilitates the
-transference, for it is not easy to imagine something lovable or
-venerable in a spiritual being. This tendency, everywhere present, has
-been secretly preserved in the rationalistic theology with its Jesus
-historically insisted upon. This does not mean that men loved the
-visible God; they love him, not as he is, for he is merely a man, and
-when the pious wished to love humanity they could go to their neighbors
-and their enemies to love them. Mankind wishes to love in God only their
-ideas, that is to say, the ideas which they project into God. By that
-they wish to love their unconscious, that is, that remnant of ancient
-humanity and the centuries-old past in all people, namely, the common
-property left behind from all development which is given to all men,
-like the sunshine and the air. But in loving this inheritance they love
-that which is common to all. Thus they turn back to the mother of
-humanity, that is to say, to the spirit of the race, and regain in this
-way something of that connection and of that mysterious and irresistible
-power which is imparted by the feeling of belonging to the herd. It is
-the problem of Antæus, who preserves his gigantic strength only through
-contact with mother earth. This temporary withdrawal into one’s self,
-which, as we have already seen, signifies a regression to the childish
-bond to the parent, seems to act favorably, within certain limits, in
-its effect upon the psychologic condition of the individual. It is in
-general to be expected that the two fundamental mechanisms of the
-psychoses, transference and introversion, are to a wide extent extremely
-appropriate methods of normal reaction against complexes; transference
-as a means of escaping from the complex into reality; introversion as a
-means of detaching one’s self from reality through the complex.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>Man as an individual is a suspicious phenomenon, the right of whose existence from a natural biological standpoint could be seriously contested, because, from this point of view, the individual is only a race atom, and has a significance only as a mass constituent. The ethical standpoint, however, gives to the human being an individual tendency separating him from the mass, which, in the course of centuries, led to the development of personality, hand in hand with which developed the hero cult, and has led to the modern individualistic cult of personages. The attempts of rationalistic theology to keep hold of the personal Jesus as the last and most precious remnant of the divinity which has vanished beyond the power of the imagination corresponds to this tendency. In this respect the Roman Catholic Church was more practical, because she met the general need of the visible, or at least historically believed hero, through the fact that she placed upon the throne of worship a small but clearly perceptible god of the world, namely, the Roman Pope, the Pater patrum, and at the same time the Pontifex Maximus of the invisible upper or inner God. The sensuous demonstrability of God naturally supports the religious process of introversion, because the human figure essentially facilitates the transference, for it is not easy to imagine something lovable or venerable in a spiritual being. This tendency, everywhere present, has been secretly preserved in the rationalistic theology with its Jesus historically insisted upon. This does not mean that men loved the visible God; they love him, not as he is, for he is merely a man, and when the pious wished to love humanity they could go to their neighbors and their enemies to love them. Mankind wishes to love in God only their ideas, that is to say, the ideas which they project into God. By that they wish to love their unconscious, that is, that remnant of ancient humanity and the centuries-old past in all people, namely, the common property left behind from all development which is given to all men, like the sunshine and the air. But in loving this inheritance they love that which is common to all. Thus they turn back to the mother of humanity, that is to say, to the spirit of the race, and regain in this way something of that connection and of that mysterious and irresistible power which is imparted by the feeling of belonging to the herd. It is the problem of Antæus, who preserves his gigantic strength only through contact with mother earth. This temporary withdrawal into one’s self, which, as we have already seen, signifies a regression to the childish bond to the parent, seems to act favorably, within certain limits, in its effect upon the psychologic condition of the individual. It is in general to be expected that the two fundamental mechanisms of the psychoses, transference and introversion, are to a wide extent extremely appropriate methods of normal reaction against complexes; transference as a means of escaping from the complex into reality; introversion as a means of detaching one’s self from reality through the complex.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-052">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Sau khi đã tự làm rõ các mục đích chung của cầu nguyện, ta sẵn sàng nghe thêm về thị kiến của người mơ. Sau lời cầu, “đầu một Nhân sư đội khăn Ai Cập” hiện ra rồi nhanh chóng biến mất. Đúng lúc ấy tác giả bị quấy rầy nên tỉnh lại trong chốc lát. Thị kiến này gợi lại huyễn tưởng đã nói trước đó về pho tượng Ai Cập, với cử chỉ cứng đờ hoàn toàn thích hợp ở đây như một hiện tượng thuộc cái gọi là phạm trù chức năng. Những giai đoạn nhẹ của thôi miên được gọi theo thuật ngữ là “Engourdissement” (cứng đờ). Trong toàn thế giới văn minh, từ Nhân sư có cùng nghĩa với câu đố: một sinh vật bí hiểm đặt câu đố, như Nhân sư của Oedipus đứng nơi cổng số phận của ông như lời tuyên cáo biểu tượng về cái không thể tránh. Nhân sư là một biểu hiện nửa thú hình của “hình ảnh người mẹ” có thể gọi là “người mẹ khủng khiếp”, dấu vết của bà xuất hiện nhiều trong thần thoại. Với Oedipus, cách diễn giải ấy là đúng.
-
-Ở đây câu hỏi mở ra. Người ta sẽ phản đối rằng ngoài chữ “Nhân sư” không có gì biện minh cho việc liên hệ với Nhân sư của Oedipus. Vì thiếu chất liệu chủ quan, mà văn bản Miller hoàn toàn không cung cấp cho thị kiến này, một diễn giải cá nhân cũng bị loại trừ. Gợi ý về huyễn tưởng “Ai Cập” (Phần I, Chương II) hoàn toàn không đủ để dùng ở đây. Bởi vậy, nếu còn muốn mạo hiểm tìm hiểu thị kiến, ta buộc phải hướng mình, có lẽ theo một cách quá táo bạo, tới chất liệu dân tộc học sẵn có, với giả định rằng vô thức của con người ngày nay đúc biểu tượng như nó đã làm trong quá khứ xa xôi nhất. Trong hình thức truyền thống, Nhân sư là một sinh vật nửa người nửa thú; một phần của nó phải được diễn giải theo cách áp dụng cho những sản phẩm huyễn tưởng như vậy. Xin độc giả xem lại những suy luận ở phần đầu cuốn sách, nơi các biểu hiện thú hình của dục lực đã được bàn tới. Cách biểu hiện này rất quen thuộc với nhà phân tích qua giấc mơ và huyễn tưởng của người loạn thần kinh, cũng như người bình thường. Xung lực dễ dàng được biểu hiện thành thú vật: bò mộng, ngựa, chó, v.v. Một bệnh nhân của tôi có quan hệ đáng ngờ với phụ nữ, và bắt đầu điều trị với nỗi sợ rằng tôi chắc chắn sẽ cấm các cuộc phiêu lưu tình dục của anh, đã mơ rằng tôi, người thầy thuốc của anh, rất khéo léo dùng giáo ghim lên tường một con vật kỳ lạ, nửa lợn nửa cá sấu. Giấc mơ đầy những biểu hiện thú hình như thế của dục lực. Những sinh vật pha trộn như trong giấc mơ này không hiếm. Bertschinger[350] đã cung cấp một loạt minh họa rất đẹp, trong đó đặc biệt nửa dưới của con vật được biểu hiện theo hình thú.
-
-Dục lực được biểu hiện thú hình là tính dục “động vật” đang ở trạng thái bị dồn nén. Như ta đã thấy, lịch sử của dồn nén trở ngược về vấn đề loạn luân, nơi những động cơ đầu tiên của sức kháng luân lý đối với tính dục xuất hiện. Những đối tượng tận cùng của dục lực bị dồn nén là hình ảnh cha và mẹ; vì vậy các biểu tượng thú hình, trong chừng mực không chỉ biểu trưng dục lực nói chung, có khuynh hướng trình bày cha và mẹ, chẳng hạn cha bằng bò mộng, mẹ bằng bò cái. Từ những gốc rễ này, như đã chỉ ra trước đó, có lẽ nảy sinh những thuộc tính thú hình của Thần tính. Trong chừng mực dục lực bị dồn nén biểu hiện dưới những điều kiện nhất định thành lo âu, các con vật ấy thường mang bản tính kinh khủng. Trong ý thức ta gắn với mẹ bằng mọi dây ràng thiêng liêng; trong mơ bà đuổi theo ta như một con thú khủng khiếp.
-
-Xét về thần thoại, Nhân sư thực sự là một con vật gây sợ, bộc lộ những nét rõ rệt của một dẫn xuất người mẹ. Trong truyền thuyết Oedipus, Nhân sư được Hera sai đến; Hera căm ghét Thebes vì sự ra đời của Bacchus. Bởi Oedipus chinh phục Nhân sư, vốn không gì khác hơn nỗi sợ người mẹ, ông phải cưới Jocasta, mẹ mình, vì ngai vàng và bàn tay của vị nữ vương góa của Thebes thuộc về người giải phóng xứ sở khỏi tai họa Nhân sư. Phả hệ Nhân sư đầy những ám chỉ tới vấn đề đang bàn. Nàng là con gái Echnida, một sinh vật pha trộn: phía trên là thiếu nữ xinh đẹp, phía dưới là con rắn ghê tởm. Sinh vật kép này tương ứng với hình ảnh người mẹ: trên là nửa người đáng yêu, quyến rũ; dưới là nửa thú kinh khiếp, bị cấm kỵ loạn luân biến thành con vật gây sợ. Echnida sinh từ Mẹ Chung, Đất mẹ Gaea; Gaea cùng Tartaros, cõi âm được nhân cách hóa, nơi của những điều kinh hãi, sinh ra nàng. Chính Echnida là mẹ của mọi nỗi kinh hoàng: Chimaera, Scylla, Gorgo, Cerberus khủng khiếp, Sư tử Nemea và con đại bàng ăn gan Prometheus; ngoài ra nàng còn sinh nhiều rồng. Một trong các con trai nàng là Orthrus, con chó của Geryon quái dị bị Hercules giết. Trong cuộc giao hợp loạn luân với con chó này, con trai nàng, Echnida sinh ra Nhân sư. Những chất liệu ấy đủ để đặc trưng lượng dục lực dẫn tới biểu tượng Nhân sư. Nếu bất chấp sự thiếu vắng chất liệu chủ quan, ta dám rút một suy luận từ biểu tượng Nhân sư của tác giả, thì phải nói Nhân sư biểu hiện một lượng dục lực loạn luân nguyên thủy đã tách khỏi dây ràng với mẹ. Có lẽ tốt hơn nên hoãn kết luận ấy cho tới khi xem xét các thị kiến tiếp theo.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Sau khi đã tự làm rõ các mục đích chung của cầu nguyện, ta sẵn sàng nghe thêm về thị kiến của người mơ. Sau lời cầu, “đầu một Nhân sư đội khăn Ai Cập” hiện ra rồi nhanh chóng biến mất. Đúng lúc ấy tác giả bị quấy rầy nên tỉnh lại trong chốc lát. Thị kiến này gợi lại huyễn tưởng đã nói trước đó về pho tượng Ai Cập, với cử chỉ cứng đờ hoàn toàn thích hợp ở đây như một hiện tượng thuộc cái gọi là phạm trù chức năng. Những giai đoạn nhẹ của thôi miên được gọi theo thuật ngữ là “Engourdissement” (cứng đờ). Trong toàn thế giới văn minh, từ Nhân sư có cùng nghĩa với câu đố: một sinh vật bí hiểm đặt câu đố, như Nhân sư của Oedipus đứng nơi cổng số phận của ông như lời tuyên cáo biểu tượng về cái không thể tránh. Nhân sư là một biểu hiện nửa thú hình của “hình ảnh người mẹ” có thể gọi là “người mẹ khủng khiếp”, dấu vết của bà xuất hiện nhiều trong thần thoại. Với Oedipus, cách diễn giải ấy là đúng.</p>
+<p>Ở đây câu hỏi mở ra. Người ta sẽ phản đối rằng ngoài chữ “Nhân sư” không có gì biện minh cho việc liên hệ với Nhân sư của Oedipus. Vì thiếu chất liệu chủ quan, mà văn bản Miller hoàn toàn không cung cấp cho thị kiến này, một diễn giải cá nhân cũng bị loại trừ. Gợi ý về huyễn tưởng “Ai Cập” (Phần I, Chương II) hoàn toàn không đủ để dùng ở đây. Bởi vậy, nếu còn muốn mạo hiểm tìm hiểu thị kiến, ta buộc phải hướng mình, có lẽ theo một cách quá táo bạo, tới chất liệu dân tộc học sẵn có, với giả định rằng vô thức của con người ngày nay đúc biểu tượng như nó đã làm trong quá khứ xa xôi nhất. Trong hình thức truyền thống, Nhân sư là một sinh vật nửa người nửa thú; một phần của nó phải được diễn giải theo cách áp dụng cho những sản phẩm huyễn tưởng như vậy. Xin độc giả xem lại những suy luận ở phần đầu cuốn sách, nơi các biểu hiện thú hình của dục lực đã được bàn tới. Cách biểu hiện này rất quen thuộc với nhà phân tích qua giấc mơ và huyễn tưởng của người loạn thần kinh, cũng như người bình thường. Xung lực dễ dàng được biểu hiện thành thú vật: bò mộng, ngựa, chó, v.v. Một bệnh nhân của tôi có quan hệ đáng ngờ với phụ nữ, và bắt đầu điều trị với nỗi sợ rằng tôi chắc chắn sẽ cấm các cuộc phiêu lưu tình dục của anh, đã mơ rằng tôi, người thầy thuốc của anh, rất khéo léo dùng giáo ghim lên tường một con vật kỳ lạ, nửa lợn nửa cá sấu. Giấc mơ đầy những biểu hiện thú hình như thế của dục lực. Những sinh vật pha trộn như trong giấc mơ này không hiếm. Bertschinger[350] đã cung cấp một loạt minh họa rất đẹp, trong đó đặc biệt nửa dưới của con vật được biểu hiện theo hình thú.</p>
+<p>Dục lực được biểu hiện thú hình là tính dục “động vật” đang ở trạng thái bị dồn nén. Như ta đã thấy, lịch sử của dồn nén trở ngược về vấn đề loạn luân, nơi những động cơ đầu tiên của sức kháng luân lý đối với tính dục xuất hiện. Những đối tượng tận cùng của dục lực bị dồn nén là hình ảnh cha và mẹ; vì vậy các biểu tượng thú hình, trong chừng mực không chỉ biểu trưng dục lực nói chung, có khuynh hướng trình bày cha và mẹ, chẳng hạn cha bằng bò mộng, mẹ bằng bò cái. Từ những gốc rễ này, như đã chỉ ra trước đó, có lẽ nảy sinh những thuộc tính thú hình của Thần tính. Trong chừng mực dục lực bị dồn nén biểu hiện dưới những điều kiện nhất định thành lo âu, các con vật ấy thường mang bản tính kinh khủng. Trong ý thức ta gắn với mẹ bằng mọi dây ràng thiêng liêng; trong mơ bà đuổi theo ta như một con thú khủng khiếp.</p>
+<p>Xét về thần thoại, Nhân sư thực sự là một con vật gây sợ, bộc lộ những nét rõ rệt của một dẫn xuất người mẹ. Trong truyền thuyết Oedipus, Nhân sư được Hera sai đến; Hera căm ghét Thebes vì sự ra đời của Bacchus. Bởi Oedipus chinh phục Nhân sư, vốn không gì khác hơn nỗi sợ người mẹ, ông phải cưới Jocasta, mẹ mình, vì ngai vàng và bàn tay của vị nữ vương góa của Thebes thuộc về người giải phóng xứ sở khỏi tai họa Nhân sư. Phả hệ Nhân sư đầy những ám chỉ tới vấn đề đang bàn. Nàng là con gái Echnida, một sinh vật pha trộn: phía trên là thiếu nữ xinh đẹp, phía dưới là con rắn ghê tởm. Sinh vật kép này tương ứng với hình ảnh người mẹ: trên là nửa người đáng yêu, quyến rũ; dưới là nửa thú kinh khiếp, bị cấm kỵ loạn luân biến thành con vật gây sợ. Echnida sinh từ Mẹ Chung, Đất mẹ Gaea; Gaea cùng Tartaros, cõi âm được nhân cách hóa, nơi của những điều kinh hãi, sinh ra nàng. Chính Echnida là mẹ của mọi nỗi kinh hoàng: Chimaera, Scylla, Gorgo, Cerberus khủng khiếp, Sư tử Nemea và con đại bàng ăn gan Prometheus; ngoài ra nàng còn sinh nhiều rồng. Một trong các con trai nàng là Orthrus, con chó của Geryon quái dị bị Hercules giết. Trong cuộc giao hợp loạn luân với con chó này, con trai nàng, Echnida sinh ra Nhân sư. Những chất liệu ấy đủ để đặc trưng lượng dục lực dẫn tới biểu tượng Nhân sư. Nếu bất chấp sự thiếu vắng chất liệu chủ quan, ta dám rút một suy luận từ biểu tượng Nhân sư của tác giả, thì phải nói Nhân sư biểu hiện một lượng dục lực loạn luân nguyên thủy đã tách khỏi dây ràng với mẹ. Có lẽ tốt hơn nên hoãn kết luận ấy cho tới khi xem xét các thị kiến tiếp theo.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-After we have informed ourselves about the general purposes of prayer,
-we are prepared to hear more about the vision of our dreamer. After the
-prayer, “the head of a sphinx with an Egyptian headdress” appeared, only
-to vanish quickly. Here the author was disturbed, so that for a moment
-she awoke. This vision recalls the previously mentioned phantasy of the
-Egyptian statue, whose rigid gesture is entirely in place here as a
-phenomenon of the so-called functional category. The light stages of the
-hypnosis are designated technically as “Engourdissement” (stiffening).
-The word Sphinx in the whole civilized world signifies the same as
-riddle: a puzzling creature who proposes riddles, like the Sphinx of
-Oedipus, standing at the portal of his fate like a symbolic proclamation
-of the inevitable. The Sphinx is a semi-theriomorphic representation of
-that “mother image” which may be designated as the “terrible mother,” of
-whom many traces are found in mythology. This interpretation is correct
-for Oedipus. Here the question is opened. The objection will be raised
-that nothing except the word “Sphinx” justifies the allusion to the
-Sphinx of Oedipus. On account of the lack of subjective materials, which
-in the Miller text are wholly lacking in regard to this vision, an
-individual interpretation would also be excluded. The suggestion of an
-“Egyptian” phantasy (Part I, Chapter II) is entirely insufficient to be
-employed here. Therefore we are compelled, if we wish to venture at all
-upon an understanding of this vision, to direct ourselves—perhaps in all
-too daring a manner—to the available ethnographic material under the
-assumption that the unconscious of the present-day man coins its symbols
-as was done in the most remote past. The Sphinx, in its traditional
-form, is a half-human, half-animal creature, which we must, in part,
-interpret in the way that is applicable to such phantastic products. The
-reader is directed to the deductions in the first part of this volume
-where the theriomorphic representations of the libido were discussed.
-This manner of representation is very familiar to the analyst, through
-the dreams and phantasies of neurotics (and of normal men). The impulse
-is readily represented as an animal, as a bull, horse, dog, etc. One of
-my patients, who had questionable relations with women, and who began
-the treatment with the fear, so to speak, that I would surely forbid him
-his sexual adventures, dreamed that I (his physician) very skilfully
-speared to the wall a strange animal, half pig, half crocodile. Dreams
-swarm with such theriomorphic representations of the libido. Mixed
-beings, such as are in this dream, are not rare. A series of very
-beautiful illustrations, where especially the lower half of the animal
-was represented theriomorphically, has been furnished by
-Bertschinger.[350] The libido which was represented theriomorphically is
-the “animal” sexuality which is in a repressed state. The history of
-repression, as we have seen, goes back to the incest problem, where the
-first motives for moral resistance against sexuality display themselves.
-The objects of the repressed libido are, in the last degree, the images
-of father and mother; therefore the theriomorphic symbols, in so far as
-they do not symbolize merely the libido in general, have a tendency to
-present father and mother (for example, father represented by a bull,
-mother by a cow). From these roots, as we pointed out earlier, might
-probably arise the theriomorphic attributes of the Divinity. In as far
-as the repressed libido manifests itself under certain conditions, as
-anxiety, these animals are generally of a horrible nature. In
-consciousness we are attached by all sacred bonds to the mother; in the
-dream she pursues us as a terrible animal. The Sphinx, mythologically
-considered, is actually a fear animal, which reveals distinct traits of
-a mother derivate. In the Oedipus legend the Sphinx is sent by Hera, who
-hates Thebes on account of the birth of Bacchus; because Oedipus
-conquers the Sphinx, which is nothing but fear of the mother, he must
-marry Jocasta, his mother, for the throne and the hand of the widowed
-queen of Thebes belonged to him who freed the land from the plague of
-the Sphinx. The genealogy of the Sphinx is rich in allusions to the
-problem touched upon here. She is a daughter of Echnida, a mixed being;
-a beautiful maiden above, a hideous serpent below. This double creature
-corresponds to the picture of the mother; above, the human, lovely and
-attractive half; below, the horrible animal half, converted into a fear
-animal through the incest prohibition. Echnida is derived from the
-All-mother, the mother Earth, Gaea, who, with Tartaros, the personified
-underworld (the place of horrors), brought her forth. Echnida herself is
-the mother of all terrors, of the Chimaera, Scylla, Gorgo, of the
-horrible Cerberus, of the Nemean Lion, and of the eagle who devoured the
-liver of Prometheus; besides this she gave birth to a number of dragons.
-One of her sons is Orthrus, the dog of the monstrous Geryon, who was
-killed by Hercules. With this dog, her son, Echnida, in incestuous
-intercourse, produced the Sphinx. These materials will suffice to
-characterize that amount of libido which led to the Sphinx symbol. If,
-in spite of the lack of subjective material, we may venture to draw an
-inference from the Sphinx symbol of our author, we must say that the
-Sphinx represents an original incestuous amount of libido detached from
-the bond to the mother. Perhaps it is better to postpone this conclusion
-until we have examined the following visions.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>After we have informed ourselves about the general purposes of prayer, we are prepared to hear more about the vision of our dreamer. After the prayer, “the head of a sphinx with an Egyptian headdress” appeared, only to vanish quickly. Here the author was disturbed, so that for a moment she awoke. This vision recalls the previously mentioned phantasy of the Egyptian statue, whose rigid gesture is entirely in place here as a phenomenon of the so-called functional category. The light stages of the hypnosis are designated technically as “Engourdissement” (stiffening). The word Sphinx in the whole civilized world signifies the same as riddle: a puzzling creature who proposes riddles, like the Sphinx of Oedipus, standing at the portal of his fate like a symbolic proclamation of the inevitable. The Sphinx is a semi-theriomorphic representation of that “mother image” which may be designated as the “terrible mother,” of whom many traces are found in mythology. This interpretation is correct for Oedipus. Here the question is opened. The objection will be raised that nothing except the word “Sphinx” justifies the allusion to the Sphinx of Oedipus. On account of the lack of subjective materials, which in the Miller text are wholly lacking in regard to this vision, an individual interpretation would also be excluded. The suggestion of an “Egyptian” phantasy (Part I, Chapter II) is entirely insufficient to be employed here. Therefore we are compelled, if we wish to venture at all upon an understanding of this vision, to direct ourselves—perhaps in all too daring a manner—to the available ethnographic material under the assumption that the unconscious of the present-day man coins its symbols as was done in the most remote past. The Sphinx, in its traditional form, is a half-human, half-animal creature, which we must, in part, interpret in the way that is applicable to such phantastic products. The reader is directed to the deductions in the first part of this volume where the theriomorphic representations of the libido were discussed. This manner of representation is very familiar to the analyst, through the dreams and phantasies of neurotics (and of normal men). The impulse is readily represented as an animal, as a bull, horse, dog, etc. One of my patients, who had questionable relations with women, and who began the treatment with the fear, so to speak, that I would surely forbid him his sexual adventures, dreamed that I (his physician) very skilfully speared to the wall a strange animal, half pig, half crocodile. Dreams swarm with such theriomorphic representations of the libido. Mixed beings, such as are in this dream, are not rare. A series of very beautiful illustrations, where especially the lower half of the animal was represented theriomorphically, has been furnished by Bertschinger.[350] The libido which was represented theriomorphically is the “animal” sexuality which is in a repressed state. The history of repression, as we have seen, goes back to the incest problem, where the first motives for moral resistance against sexuality display themselves. The objects of the repressed libido are, in the last degree, the images of father and mother; therefore the theriomorphic symbols, in so far as they do not symbolize merely the libido in general, have a tendency to present father and mother (for example, father represented by a bull, mother by a cow). From these roots, as we pointed out earlier, might probably arise the theriomorphic attributes of the Divinity. In as far as the repressed libido manifests itself under certain conditions, as anxiety, these animals are generally of a horrible nature. In consciousness we are attached by all sacred bonds to the mother; in the dream she pursues us as a terrible animal. The Sphinx, mythologically considered, is actually a fear animal, which reveals distinct traits of a mother derivate. In the Oedipus legend the Sphinx is sent by Hera, who hates Thebes on account of the birth of Bacchus; because Oedipus conquers the Sphinx, which is nothing but fear of the mother, he must marry Jocasta, his mother, for the throne and the hand of the widowed queen of Thebes belonged to him who freed the land from the plague of the Sphinx. The genealogy of the Sphinx is rich in allusions to the problem touched upon here. She is a daughter of Echnida, a mixed being; a beautiful maiden above, a hideous serpent below. This double creature corresponds to the picture of the mother; above, the human, lovely and attractive half; below, the horrible animal half, converted into a fear animal through the incest prohibition. Echnida is derived from the All-mother, the mother Earth, Gaea, who, with Tartaros, the personified underworld (the place of horrors), brought her forth. Echnida herself is the mother of all terrors, of the Chimaera, Scylla, Gorgo, of the horrible Cerberus, of the Nemean Lion, and of the eagle who devoured the liver of Prometheus; besides this she gave birth to a number of dragons. One of her sons is Orthrus, the dog of the monstrous Geryon, who was killed by Hercules. With this dog, her son, Echnida, in incestuous intercourse, produced the Sphinx. These materials will suffice to characterize that amount of libido which led to the Sphinx symbol. If, in spite of the lack of subjective material, we may venture to draw an inference from the Sphinx symbol of our author, we must say that the Sphinx represents an original incestuous amount of libido detached from the bond to the mother. Perhaps it is better to postpone this conclusion until we have examined the following visions.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-052">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Sau khi cô Miller tập trung trở lại, thị kiến tiếp tục phát triển:
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Sau khi cô Miller tập trung trở lại, thị kiến tiếp tục phát triển:</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-After Miss Miller had concentrated herself again, the vision developed
-further:
-    </div>
-  </section>
-  <section class="parallel-row" data-source-chunk="chunk-052">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Đột nhiên một người Aztec hiện ra, mọi chi tiết tuyệt đối rõ ràng; hai bàn tay mở rộng, các ngón lớn, đầu nhìn nghiêng, mặc giáp, mũ đội giống đồ trang sức bằng lông của người Indian châu Mỹ. Toàn thể phần nào gợi điêu khắc Mexico.”
-    </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Suddenly an Aztec appeared, absolutely clear in every detail; the
-  hands spread open, with large fingers, the head in profile, armored,
-  headdress similar to the feather ornaments of the American Indian. The
-  whole was somewhat suggestive of Mexican sculpture.”
+    <div class="parallel-cell parallel-en" lang="en">
+<p>After Miss Miller had concentrated herself again, the vision developed further:</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-052">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Tính chất Ai Cập cổ của Nhân sư ở đây được thay bằng thời cổ châu Mỹ, bằng người Aztec. Ý tưởng cốt yếu không phải Ai Cập cũng không phải Mexico, vì hai cái không thể thay cho nhau; mà là nhân tố chủ quan người mơ sản xuất từ quá khứ của chính mình. Trong phân tích người Mỹ, tôi thường quan sát thấy một số phức cảm vô thức, tức tính dục bị dồn nén, được biểu hiện bằng biểu tượng người da đen hay người Indian. Chẳng hạn, khi người châu Âu kể trong mơ: “Rồi một kẻ rách rưới, bẩn thỉu đi tới,” thì với người Mỹ và người sống ở miền nhiệt đới đó là một người da đen. Với người châu Âu là kẻ lang thang hay tội phạm, còn với người Mỹ là người da đen hay người Indian biểu hiện nhân cách tính dục bị dồn nén và bị coi là thấp kém của chính cá nhân. Cũng nên đi vào chi tiết thị kiến này, bởi có nhiều điều đáng chú ý. Mũ lông, tự nhiên phải làm từ lông đại bàng, là một thứ bùa phép. Khi trang sức bằng lông chim ấy, người anh hùng đồng thời nhận lấy phần nào tính chất giống mặt trời của nó, cũng như lòng can đảm và sức mạnh của kẻ thù được chiếm lấy bằng việc nuốt tim hay lấy da đầu của hắn. Đồng thời, mào lông là vương miện tương đương các tia mặt trời. Ý nghĩa lịch sử của việc đồng nhất với Mặt trời đã được thấy trong phần đầu.[351]
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Đột nhiên một người Aztec hiện ra, mọi chi tiết tuyệt đối rõ ràng; hai bàn tay mở rộng, các ngón lớn, đầu nhìn nghiêng, mặc giáp, mũ đội giống đồ trang sức bằng lông của người Indian châu Mỹ. Toàn thể phần nào gợi điêu khắc Mexico.”</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-The ancient Egyptian character of the Sphinx is replaced here by
-American antiquity—by the Aztec. The essential idea is neither Egypt nor
-Mexico, for the two could not be interchanged; but it is the subjective
-factor which the dreamer produces from her own past. I have frequently
-observed in the analysis of Americans that certain unconscious
-complexes, i.e. repressed sexuality, are represented by the symbol of a
-Negro or an Indian; for example, when a European tells in his dream,
-“Then came a ragged, dirty individual,” for Americans and for those who
-live in the tropics it is a Negro. When with Europeans it is a vagabond
-or a criminal, with Americans it is a Negro or an Indian which
-represents the individual’s own repressed sexual personality, and the
-one considered inferior. It is also desirable to go into the particulars
-of this vision, as there are various things worthy of notice. The
-feather cap, which naturally had to consist of eagles’ feathers, is a
-sort of magic charm. The hero assumes at the same time something of the
-sun-like character of this bird when he adorns himself with its
-feathers, just as the courage and strength of the enemy are appropriated
-in swallowing his heart or taking his scalp. At the same time, the
-feather crest is a crown which is equivalent to the rays of the sun. The
-historical importance of the Sun identification has been seen in the
-first part.[351]
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“Suddenly an Aztec appeared, absolutely clear in every detail; the hands spread open, with large fingers, the head in profile, armored, headdress similar to the feather ornaments of the American Indian. The whole was somewhat suggestive of Mexican sculpture.”</p>
+    </div>
+  </section>
+  <section class="parallel-row" data-source-chunk="chunk-052">
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Tính chất Ai Cập cổ của Nhân sư ở đây được thay bằng thời cổ châu Mỹ, bằng người Aztec. Ý tưởng cốt yếu không phải Ai Cập cũng không phải Mexico, vì hai cái không thể thay cho nhau; mà là nhân tố chủ quan người mơ sản xuất từ quá khứ của chính mình. Trong phân tích người Mỹ, tôi thường quan sát thấy một số phức cảm vô thức, tức tính dục bị dồn nén, được biểu hiện bằng biểu tượng người da đen hay người Indian. Chẳng hạn, khi người châu Âu kể trong mơ: “Rồi một kẻ rách rưới, bẩn thỉu đi tới,” thì với người Mỹ và người sống ở miền nhiệt đới đó là một người da đen. Với người châu Âu là kẻ lang thang hay tội phạm, còn với người Mỹ là người da đen hay người Indian biểu hiện nhân cách tính dục bị dồn nén và bị coi là thấp kém của chính cá nhân. Cũng nên đi vào chi tiết thị kiến này, bởi có nhiều điều đáng chú ý. Mũ lông, tự nhiên phải làm từ lông đại bàng, là một thứ bùa phép. Khi trang sức bằng lông chim ấy, người anh hùng đồng thời nhận lấy phần nào tính chất giống mặt trời của nó, cũng như lòng can đảm và sức mạnh của kẻ thù được chiếm lấy bằng việc nuốt tim hay lấy da đầu của hắn. Đồng thời, mào lông là vương miện tương đương các tia mặt trời. Ý nghĩa lịch sử của việc đồng nhất với Mặt trời đã được thấy trong phần đầu.[351]</p>
+    </div>
+    <div class="parallel-cell parallel-en" lang="en">
+<p>The ancient Egyptian character of the Sphinx is replaced here by American antiquity—by the Aztec. The essential idea is neither Egypt nor Mexico, for the two could not be interchanged; but it is the subjective factor which the dreamer produces from her own past. I have frequently observed in the analysis of Americans that certain unconscious complexes, i.e. repressed sexuality, are represented by the symbol of a Negro or an Indian; for example, when a European tells in his dream, “Then came a ragged, dirty individual,” for Americans and for those who live in the tropics it is a Negro. When with Europeans it is a vagabond or a criminal, with Americans it is a Negro or an Indian which represents the individual’s own repressed sexual personality, and the one considered inferior. It is also desirable to go into the particulars of this vision, as there are various things worthy of notice. The feather cap, which naturally had to consist of eagles’ feathers, is a sort of magic charm. The hero assumes at the same time something of the sun-like character of this bird when he adorns himself with its feathers, just as the courage and strength of the enemy are appropriated in swallowing his heart or taking his scalp. At the same time, the feather crest is a crown which is equivalent to the rays of the sun. The historical importance of the Sun identification has been seen in the first part.[351]</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-053">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Sự chú ý đặc biệt gắn với bàn tay được mô tả là “mở”, và các ngón được mô tả là “lớn”. Việc điểm nhấn rõ rệt rơi vào bàn tay là điều có ý nghĩa. Đúng ra người ta dễ chờ đợi một mô tả nét mặt hơn. Ai cũng biết cử chỉ bàn tay có ý nghĩa; tiếc rằng ở đây ta không biết gì về nó. Tuy vậy, có thể nhắc một huyễn tưởng song song cũng đặt trọng âm lên hai bàn tay. Trong trạng thái chớm ngủ, một bệnh nhân thấy mẹ mình được vẽ trên tường như một bức họa trong nhà thờ Byzantine. Bà giơ một bàn tay lên, xòe rộng, các ngón tách ra. Các ngón rất lớn, đầu ngón phồng thành núm và mỗi ngón được một quầng sáng nhỏ bao quanh. Liên tưởng tức thời với hình ảnh này là các ngón chân ếch có đĩa hút ở đầu, rồi sự giống với dương vật. Bối cảnh cổ xưa của hình ảnh người mẹ này cũng quan trọng. Rõ ràng trong huyễn tưởng ấy, bàn tay có nghĩa dương vật. Diễn giải này được xác nhận bởi một huyễn tưởng tiếp theo rất đáng chú ý của cùng bệnh nhân. Anh thấy một vật giống “pháo thăng thiên” bay lên từ tay mẹ; nhìn kỹ hơn, nó biến thành một con chim sáng với đôi cánh vàng, rồi trong ý nghĩ anh thành một con trĩ vàng. Ở chương trước ta đã thấy bàn tay thực sự mang nghĩa dương vật, sinh thành, và nghĩa ấy giữ vai trò lớn trong việc tạo ra lửa. Liên quan huyễn tưởng này chỉ cần một nhận xét: lửa được khoan ra bằng tay, vì vậy nó đến từ bàn tay; Agni, lửa, được thờ như một con chim cánh vàng.[352] Việc đó là bàn tay của mẹ cực kỳ có ý nghĩa. Tôi phải tự từ chối cám dỗ đi sâu hơn. Chỉ cần thông qua các huyễn tưởng bàn tay song song ấy chỉ ra ý nghĩa khả hữu của bàn tay người Aztec.
-
-Với Nhân sư, ta đã gợi đến người mẹ. Người Aztec thay chỗ Nhân sư, qua bàn tay đầy ám gợi, chỉ tới những huyễn tưởng song song trong đó bàn tay mang tính dương vật thực sự thuộc về người mẹ. Tương tự, ta gặp một bối cảnh cổ trong các huyễn tưởng song song. Ý nghĩa của cái cổ xưa, mà kinh nghiệm cho thấy là biểu tượng của cái “thơ ấu”, được cô Miller xác nhận trong chú giải cho các huyễn tưởng của mình; cô nói:
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Sự chú ý đặc biệt gắn với bàn tay được mô tả là “mở”, và các ngón được mô tả là “lớn”. Việc điểm nhấn rõ rệt rơi vào bàn tay là điều có ý nghĩa. Đúng ra người ta dễ chờ đợi một mô tả nét mặt hơn. Ai cũng biết cử chỉ bàn tay có ý nghĩa; tiếc rằng ở đây ta không biết gì về nó. Tuy vậy, có thể nhắc một huyễn tưởng song song cũng đặt trọng âm lên hai bàn tay. Trong trạng thái chớm ngủ, một bệnh nhân thấy mẹ mình được vẽ trên tường như một bức họa trong nhà thờ Byzantine. Bà giơ một bàn tay lên, xòe rộng, các ngón tách ra. Các ngón rất lớn, đầu ngón phồng thành núm và mỗi ngón được một quầng sáng nhỏ bao quanh. Liên tưởng tức thời với hình ảnh này là các ngón chân ếch có đĩa hút ở đầu, rồi sự giống với dương vật. Bối cảnh cổ xưa của hình ảnh người mẹ này cũng quan trọng. Rõ ràng trong huyễn tưởng ấy, bàn tay có nghĩa dương vật. Diễn giải này được xác nhận bởi một huyễn tưởng tiếp theo rất đáng chú ý của cùng bệnh nhân. Anh thấy một vật giống “pháo thăng thiên” bay lên từ tay mẹ; nhìn kỹ hơn, nó biến thành một con chim sáng với đôi cánh vàng, rồi trong ý nghĩ anh thành một con trĩ vàng. Ở chương trước ta đã thấy bàn tay thực sự mang nghĩa dương vật, sinh thành, và nghĩa ấy giữ vai trò lớn trong việc tạo ra lửa. Liên quan huyễn tưởng này chỉ cần một nhận xét: lửa được khoan ra bằng tay, vì vậy nó đến từ bàn tay; Agni, lửa, được thờ như một con chim cánh vàng.[352] Việc đó là bàn tay của mẹ cực kỳ có ý nghĩa. Tôi phải tự từ chối cám dỗ đi sâu hơn. Chỉ cần thông qua các huyễn tưởng bàn tay song song ấy chỉ ra ý nghĩa khả hữu của bàn tay người Aztec.</p>
+<p>Với Nhân sư, ta đã gợi đến người mẹ. Người Aztec thay chỗ Nhân sư, qua bàn tay đầy ám gợi, chỉ tới những huyễn tưởng song song trong đó bàn tay mang tính dương vật thực sự thuộc về người mẹ. Tương tự, ta gặp một bối cảnh cổ trong các huyễn tưởng song song. Ý nghĩa của cái cổ xưa, mà kinh nghiệm cho thấy là biểu tượng của cái “thơ ấu”, được cô Miller xác nhận trong chú giải cho các huyễn tưởng của mình; cô nói:</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-Especial interest attaches to the hand, which is described as “open,”
-and the fingers, which are described as “large.” It is significant that
-it is the hand upon which the distinct emphasis falls. One might rather
-have expected a description of the facial expression. It is well known
-that the gesture of the hand is significant; unfortunately, we know
-nothing about that here. Nevertheless, a parallel phantasy might be
-mentioned, which also puts the emphasis upon hands. A patient in a
-hypnagogic condition saw his mother painted on a wall, like a painting
-in a Byzantine church. She held one hand up, open wide, with fingers
-spread apart. The fingers were very large, swollen into knobs on the
-ends, and each surrounded by a small halo. The immediate association
-with this picture was the fingers of a frog with sucking discs at the
-ends. Then the similarity to the penis. The ancient setting of this
-mother picture is also of importance. Evidently the hand had, in this
-phantasy, a phallic meaning. This interpretation was confirmed by a
-further very remarkable phantasy of the same patient. He saw something
-like a “sky-rocket” ascending from his mother’s hand, which at a closer
-survey becomes a shining bird with golden wings, a golden pheasant, as
-it then occurs to his mind. We have seen in the previous chapter that
-the hand has actually a phallic, generative meaning, and that this
-meaning plays a great part in the production of fire. In connection with
-this phantasy, there is but one observation to make: fire was bored with
-the hand; therefore it comes from the hand; Agni, the fire, was
-worshipped as a golden-winged bird.[352] It is extremely significant
-that it is the mother’s hand. I must deny myself the temptation to enter
-more deeply into this. Let it be sufficient to have pointed out the
-possible significance of the hand of the Aztec by means of these
-parallel hand phantasies. We have mentioned the mother suggestively with
-the Sphinx. The Aztec taking the place of the Sphinx points, through his
-suggestive hand, to parallel phantasies in which the phallic hand really
-belongs to the mother. Likewise we encounter an antique setting in
-parallel phantasies. The significance of the antique, which experience
-has shown to be the symbol for “infantile,” is confirmed by Miss Miller
-in this connection in the annotation to her phantasies, for she says:
+    <div class="parallel-cell parallel-en" lang="en">
+<p>Especial interest attaches to the hand, which is described as “open,” and the fingers, which are described as “large.” It is significant that it is the hand upon which the distinct emphasis falls. One might rather have expected a description of the facial expression. It is well known that the gesture of the hand is significant; unfortunately, we know nothing about that here. Nevertheless, a parallel phantasy might be mentioned, which also puts the emphasis upon hands. A patient in a hypnagogic condition saw his mother painted on a wall, like a painting in a Byzantine church. She held one hand up, open wide, with fingers spread apart. The fingers were very large, swollen into knobs on the ends, and each surrounded by a small halo. The immediate association with this picture was the fingers of a frog with sucking discs at the ends. Then the similarity to the penis. The ancient setting of this mother picture is also of importance. Evidently the hand had, in this phantasy, a phallic meaning. This interpretation was confirmed by a further very remarkable phantasy of the same patient. He saw something like a “sky-rocket” ascending from his mother’s hand, which at a closer survey becomes a shining bird with golden wings, a golden pheasant, as it then occurs to his mind. We have seen in the previous chapter that the hand has actually a phallic, generative meaning, and that this meaning plays a great part in the production of fire. In connection with this phantasy, there is but one observation to make: fire was bored with the hand; therefore it comes from the hand; Agni, the fire, was worshipped as a golden-winged bird.[352] It is extremely significant that it is the mother’s hand. I must deny myself the temptation to enter more deeply into this. Let it be sufficient to have pointed out the possible significance of the hand of the Aztec by means of these parallel hand phantasies. We have mentioned the mother suggestively with the Sphinx. The Aztec taking the place of the Sphinx points, through his suggestive hand, to parallel phantasies in which the phallic hand really belongs to the mother. Likewise we encounter an antique setting in parallel phantasies. The significance of the antique, which experience has shown to be the symbol for “infantile,” is confirmed by Miss Miller in this connection in the annotation to her phantasies, for she says:</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-053">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Trong thời thơ ấu, tôi đặc biệt quan tâm tới các di vật Aztec và lịch sử Peru cùng người Inca.”
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Trong thời thơ ấu, tôi đặc biệt quan tâm tới các di vật Aztec và lịch sử Peru cùng người Inca.”</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“In my childhood, I took a special interest in the Aztec fragments and
-  in the history of Peru and of the Incas.”
-    </div>
-  </section>
-  <section class="parallel-row" data-source-chunk="chunk-053">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Qua hai cuộc phân tích trẻ em đã công bố, ta có được cái nhìn vào thế giới nhỏ của trẻ, và thấy những mối quan tâm cùng câu hỏi nóng bỏng âm thầm vây quanh cha mẹ, cũng như trong một thời gian dài cha mẹ là những đối tượng của sự quan tâm lớn nhất.[353] Vì vậy, ta có lý khi nghi rằng bối cảnh cổ áp vào “người xưa”, tức cha mẹ, và do đó người Aztec này mang trong mình điều gì đó của cha hoặc mẹ. Cho tới đây các gợi ý gián tiếp chỉ về người mẹ; điều ấy không có gì lạ ở một cô gái Mỹ, bởi người Mỹ, do sự tách rời cực độ khỏi người cha, được đặc trưng bởi một phức cảm mẹ hết sức lớn, lại gắn với địa vị xã hội đặc biệt của phụ nữ tại Hoa Kỳ. Địa vị ấy tạo ra một tính nam đặc biệt ở những phụ nữ có năng lực, rất dễ cho phép việc biểu tượng hóa thành hình người đàn ông.[354]
-    </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-Through the two analyses of children which have been published we have
-attained an insight into the child’s small world, and have seen what
-burning interests and questions secretly surround the parents, and that
-the parents are, for a long time, the objects of the greatest
-interest.[353] We are, therefore, justified in suspecting that the
-antique setting applies to the “ancients,” that is to say, the parents,
-and that consequently this Aztec has something of the father or mother
-in himself. Up to this time indirect hints point only to the mother,
-which is nothing remarkable in an American girl, because Americans, as a
-result of the extreme detachment from the father, are characterized by a
-most enormous mother complex, which again is connected with the especial
-social position of woman in the United States. This position brings
-about a special masculinity among capable women, which easily makes
-possible the symbolizing into a masculine figure.[354]
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“In my childhood, I took a special interest in the Aztec fragments and in the history of Peru and of the Incas.”</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-053">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Sau thị kiến này, cô Miller cảm thấy một cái tên tự hình thành “từng chút một”, dường như thuộc về người Aztec, “con trai một Inca của Peru”. Tên ấy là “Chi-wan-to-pel”. Như tác giả ngụ ý, một cái gì tương tự thuộc về ký ức thời thơ ấu của cô. Hành vi đặt tên, cũng như phép rửa, là điều cực kỳ quan trọng đối với việc tạo lập một nhân cách, bởi từ thời xưa người ta đã gán cho tên gọi một quyền năng ma thuật; chẳng hạn, nhờ tên mà linh hồn người chết có thể được triệu gọi. Trong thần thoại, biết tên một người nghĩa là có quyền lực đối với người ấy. Như một ví dụ quen thuộc, tôi nhắc truyện cổ tích “Rumpelstilzchen”. Trong một thần thoại Ai Cập, Isis vĩnh viễn cướp quyền lực của thần Mặt trời Rê bằng cách buộc ông nói cho bà tên thật. Vì vậy, đặt tên nghĩa là trao quyền lực, khoác cho một nhân cách xác định.[355]
-
-Về chính cái tên, tác giả nhận xét rằng nó làm cô nhớ rất nhiều tới cái tên gây ấn tượng Popocatepetl, một cái tên thuộc những ký ức học đường không thể quên. Trước sự phẫn nộ tột độ của bệnh nhân, nó rất thường nổi lên trong một cuộc phân tích, trong mơ hay huyễn tưởng, mang theo trò đùa cũ người ta từng nghe ở trường, từng tự kể rồi sau đó lại quên. Dù có thể do dự khi coi trò đùa bất kính ấy là quan trọng về tâm lý, ta vẫn phải hỏi tại sao nó xuất hiện. Cũng phải đặt câu hỏi ngược: tại sao luôn là Popocatepetl mà không phải Iztaccihuatl kế bên, hay Orizaba còn cao hơn và cũng rõ ràng không kém? Cái sau chắc chắn có tên đẹp hơn, dễ phát âm hơn. Popocatepetl gây ấn tượng vì cái tên tượng thanh. Trong tiếng Anh có từ “to pop” (súng đồ chơi), được coi là tượng thanh; trong tiếng Đức có *Hinterpommern*, *Pumpernickel*, *Bombe*, *Petarde* (*le pet* = trung tiện). Từ Đức thường gặp *Popo* (Podex) quả không tồn tại trong tiếng Anh, nhưng trung tiện trong lời trẻ con được gọi là “to poop”. Hành vi đại tiện thường được gọi là “to pop”. Một tên đùa cho phần sau thân thể là “the bum”. (*Poop* còn nghĩa là phần đuôi tàu.) Trong tiếng Pháp, *pouf!* là từ tượng thanh; *pouffer* = *platzen* (nổ), *la poupe* = đuôi tàu, *le poupard* = em bé bế trên tay, *la poupée* = búp bê. *Poupon* là tên âu yếm dành cho đứa trẻ má phính. Trong tiếng Hà Lan *pop*, tiếng Đức *Puppe* và Latin *puppis* = búp bê; tuy nhiên trong Plautus, từ ấy cũng được dùng đùa cho phần sau cơ thể; *pupus* nghĩa là trẻ con; *pupula* = bé gái, búp bê nhỏ. Từ Hy Lạp ποππύζω chỉ một âm nứt, bật hay thổi. Nó được dùng cho hôn; Theocritus còn dùng cho tiếng đi kèm việc thổi sáo. Những song song từ nguyên cho thấy một quan hệ đáng chú ý giữa phần thân thể đang xét và đứa trẻ. Ta chỉ nhắc quan hệ này ở đây rồi lập tức bỏ xuống, bởi câu hỏi ấy về sau sẽ đòi ta chú ý.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Qua hai cuộc phân tích trẻ em đã công bố, ta có được cái nhìn vào thế giới nhỏ của trẻ, và thấy những mối quan tâm cùng câu hỏi nóng bỏng âm thầm vây quanh cha mẹ, cũng như trong một thời gian dài cha mẹ là những đối tượng của sự quan tâm lớn nhất.[353] Vì vậy, ta có lý khi nghi rằng bối cảnh cổ áp vào “người xưa”, tức cha mẹ, và do đó người Aztec này mang trong mình điều gì đó của cha hoặc mẹ. Cho tới đây các gợi ý gián tiếp chỉ về người mẹ; điều ấy không có gì lạ ở một cô gái Mỹ, bởi người Mỹ, do sự tách rời cực độ khỏi người cha, được đặc trưng bởi một phức cảm mẹ hết sức lớn, lại gắn với địa vị xã hội đặc biệt của phụ nữ tại Hoa Kỳ. Địa vị ấy tạo ra một tính nam đặc biệt ở những phụ nữ có năng lực, rất dễ cho phép việc biểu tượng hóa thành hình người đàn ông.[354]</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-After this vision, Miss Miller felt that a name formed itself “bit by
-bit,” which seemed to belong to this Aztec—“the son of an Inca of Peru.”
-The name is “Chi-wan-to-pel.” As the author intimated, something similar
-to this belonged to her childish reminiscences. The act of naming is,
-like baptism, something exceedingly important for the creation of a
-personality, because, since olden times, a magic power has been
-attributed to the name, with which, for example, the spirit of the dead
-can be conjured. To know the name of any one means, in mythology, to
-have power over that one. As a well-known example I mention the fairy
-tale of “Rumpelstilzchen.” In an Egyptian myth, Isis robs the Sun god Rê
-permanently of his power by compelling him to tell her his real name.
-Therefore, to give a name means to give power, invest with a definite
-personality.[355] The author observed, in regard to the name itself,
-that it reminded her very much of the impressive name Popocatepetl, a
-name which belongs to unforgettable school memories, and, to the
-greatest indignation of the patient, very often emerges in an analysis
-in a dream or phantasy and brings with it that same old joke which one
-heard in school, told oneself and later again forgot. Although one might
-hesitate to consider this unhallowed joke as of psychologic importance,
-still one must inquire for the reason of its being. One must also put,
-as a counter question, Why is it always Popocatepetl and not the
-neighboring Iztaccihuatl, or the even higher and just as clear Orizaba?
-The last has certainly the more beautiful and more easily pronounced
-name. Popocatepetl is impressive because of its onomatopoetic name. In
-English the word is “to pop” (popgun), which is here considered as
-onomatopoesy; in German the words are _Hinterpommern_, _Pumpernickel_;
-_Bombe_; _Petarde_ (_le pet_ = flatus). The frequent German word _Popo_
-(Podex) does not indeed exist in English, but flatus is designated as
-“to poop” in childish speech. The act of defecation is often designated
-as “to pop.” A joking name for the posterior part is “the bum.” (Poop
-also means the rear end of a ship.) In French, _pouf!_ is onomatopoetic;
-_pouffer_ = _platzen_ (to explode), _la poupe_ = rear end of ship, _le
-poupard_ = the baby in arms, _la poupée_ = doll. _Poupon_ is a pet name
-for a chubby-faced child. In Dutch _pop_, German _Puppe_ and Latin
-_puppis_ = doll; in Plautus, however, it is also used jokingly for the
-posterior part of the body; _pupus_ means child; _pupula_ = girl, little
-dollie. The Greek word ποππύζω designates a cracking, snapping or
-blowing sound. It is used of kissing; by Theocritus also of the
-associated noise of flute blowing. The etymologic parallels show a
-remarkable relationship between the part of the body in question and the
-child. This relationship we will mention here, only to let it drop at
-once, as this question will claim our attention later.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>Through the two analyses of children which have been published we have attained an insight into the child’s small world, and have seen what burning interests and questions secretly surround the parents, and that the parents are, for a long time, the objects of the greatest interest.[353] We are, therefore, justified in suspecting that the antique setting applies to the “ancients,” that is to say, the parents, and that consequently this Aztec has something of the father or mother in himself. Up to this time indirect hints point only to the mother, which is nothing remarkable in an American girl, because Americans, as a result of the extreme detachment from the father, are characterized by a most enormous mother complex, which again is connected with the especial social position of woman in the United States. This position brings about a special masculinity among capable women, which easily makes possible the symbolizing into a masculine figure.[354]</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-053">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Thời thơ ấu, một bệnh nhân của tôi luôn nối hành vi đại tiện với huyễn tưởng rằng hậu môn mình là núi lửa và một vụ phun trào dữ dội diễn ra, khí nổ và dung nham trào ra. Những từ chỉ các biến cố nguyên tố của tự nhiên nguyên thủy không hề thơ; hãy nghĩ tới hiện tượng sao băng đẹp đẽ mà tiếng Đức gọi hết sức thiếu thi vị là “Sternschnuppe” (bấc sao cháy âm ỉ). Một số người Indian Nam Mỹ gọi sao băng là “nước tiểu của các vì sao”. Theo nguyên tắc ít sức kháng nhất, biểu thức được lấy từ nguồn gần nhất sẵn có. Chẳng hạn, biểu thức hoán dụ chỉ tiểu tiện được chuyển thành *Schiffens*, “mưa”.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Sau thị kiến này, cô Miller cảm thấy một cái tên tự hình thành “từng chút một”, dường như thuộc về người Aztec, “con trai một Inca của Peru”. Tên ấy là “Chi-wan-to-pel”. Như tác giả ngụ ý, một cái gì tương tự thuộc về ký ức thời thơ ấu của cô. Hành vi đặt tên, cũng như phép rửa, là điều cực kỳ quan trọng đối với việc tạo lập một nhân cách, bởi từ thời xưa người ta đã gán cho tên gọi một quyền năng ma thuật; chẳng hạn, nhờ tên mà linh hồn người chết có thể được triệu gọi. Trong thần thoại, biết tên một người nghĩa là có quyền lực đối với người ấy. Như một ví dụ quen thuộc, tôi nhắc truyện cổ tích “Rumpelstilzchen”. Trong một thần thoại Ai Cập, Isis vĩnh viễn cướp quyền lực của thần Mặt trời Rê bằng cách buộc ông nói cho bà tên thật. Vì vậy, đặt tên nghĩa là trao quyền lực, khoác cho một nhân cách xác định.[355]</p>
+<p>Về chính cái tên, tác giả nhận xét rằng nó làm cô nhớ rất nhiều tới cái tên gây ấn tượng Popocatepetl, một cái tên thuộc những ký ức học đường không thể quên. Trước sự phẫn nộ tột độ của bệnh nhân, nó rất thường nổi lên trong một cuộc phân tích, trong mơ hay huyễn tưởng, mang theo trò đùa cũ người ta từng nghe ở trường, từng tự kể rồi sau đó lại quên. Dù có thể do dự khi coi trò đùa bất kính ấy là quan trọng về tâm lý, ta vẫn phải hỏi tại sao nó xuất hiện. Cũng phải đặt câu hỏi ngược: tại sao luôn là Popocatepetl mà không phải Iztaccihuatl kế bên, hay Orizaba còn cao hơn và cũng rõ ràng không kém? Cái sau chắc chắn có tên đẹp hơn, dễ phát âm hơn. Popocatepetl gây ấn tượng vì cái tên tượng thanh. Trong tiếng Anh có từ “to pop” (súng đồ chơi), được coi là tượng thanh; trong tiếng Đức có <em>Hinterpommern</em>, <em>Pumpernickel</em>, <em>Bombe</em>, <em>Petarde</em> (<em>le pet</em> = trung tiện). Từ Đức thường gặp <em>Popo</em> (Podex) quả không tồn tại trong tiếng Anh, nhưng trung tiện trong lời trẻ con được gọi là “to poop”. Hành vi đại tiện thường được gọi là “to pop”. Một tên đùa cho phần sau thân thể là “the bum”. (<em>Poop</em> còn nghĩa là phần đuôi tàu.) Trong tiếng Pháp, <em>pouf!</em> là từ tượng thanh; <em>pouffer</em> = <em>platzen</em> (nổ), <em>la poupe</em> = đuôi tàu, <em>le poupard</em> = em bé bế trên tay, <em>la poupée</em> = búp bê. <em>Poupon</em> là tên âu yếm dành cho đứa trẻ má phính. Trong tiếng Hà Lan <em>pop</em>, tiếng Đức <em>Puppe</em> và Latin <em>puppis</em> = búp bê; tuy nhiên trong Plautus, từ ấy cũng được dùng đùa cho phần sau cơ thể; <em>pupus</em> nghĩa là trẻ con; <em>pupula</em> = bé gái, búp bê nhỏ. Từ Hy Lạp ποππύζω chỉ một âm nứt, bật hay thổi. Nó được dùng cho hôn; Theocritus còn dùng cho tiếng đi kèm việc thổi sáo. Những song song từ nguyên cho thấy một quan hệ đáng chú ý giữa phần thân thể đang xét và đứa trẻ. Ta chỉ nhắc quan hệ này ở đây rồi lập tức bỏ xuống, bởi câu hỏi ấy về sau sẽ đòi ta chú ý.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-One of my patients in his childhood had always connected the act of
-defecation with a phantasy that his posterior was a volcano and a
-violent eruption took place, explosion of gases and gushings forth of
-lava. The terms for the elemental occurrences of nature are originally
-not at all poetical; one thinks, for example, of the beautiful
-phenomenon of the meteor, which the German language most unpoetically
-calls “Sternschnuppe” (the smouldering wick of a star). Certain South
-American Indians call the shooting star the “urine of the stars.”
-According to the principle of the least resistance, expressions are
-taken from the nearest source available. (For example, the transference
-of the metonymic expression of urination as _Schiffens_, “to rain.”)
+    <div class="parallel-cell parallel-en" lang="en">
+<p>After this vision, Miss Miller felt that a name formed itself “bit by bit,” which seemed to belong to this Aztec—“the son of an Inca of Peru.” The name is “Chi-wan-to-pel.” As the author intimated, something similar to this belonged to her childish reminiscences. The act of naming is, like baptism, something exceedingly important for the creation of a personality, because, since olden times, a magic power has been attributed to the name, with which, for example, the spirit of the dead can be conjured. To know the name of any one means, in mythology, to have power over that one. As a well-known example I mention the fairy tale of “Rumpelstilzchen.” In an Egyptian myth, Isis robs the Sun god Rê permanently of his power by compelling him to tell her his real name. Therefore, to give a name means to give power, invest with a definite personality.[355] The author observed, in regard to the name itself, that it reminded her very much of the impressive name Popocatepetl, a name which belongs to unforgettable school memories, and, to the greatest indignation of the patient, very often emerges in an analysis in a dream or phantasy and brings with it that same old joke which one heard in school, told oneself and later again forgot. Although one might hesitate to consider this unhallowed joke as of psychologic importance, still one must inquire for the reason of its being. One must also put, as a counter question, Why is it always Popocatepetl and not the neighboring Iztaccihuatl, or the even higher and just as clear Orizaba? The last has certainly the more beautiful and more easily pronounced name. Popocatepetl is impressive because of its onomatopoetic name. In English the word is “to pop” (popgun), which is here considered as onomatopoesy; in German the words are <em>Hinterpommern</em>, <em>Pumpernickel</em>; <em>Bombe</em>; <em>Petarde</em> (<em>le pet</em> = flatus). The frequent German word <em>Popo</em> (Podex) does not indeed exist in English, but flatus is designated as “to poop” in childish speech. The act of defecation is often designated as “to pop.” A joking name for the posterior part is “the bum.” (Poop also means the rear end of a ship.) In French, <em>pouf!</em> is onomatopoetic; <em>pouffer</em> = <em>platzen</em> (to explode), <em>la poupe</em> = rear end of ship, <em>le poupard</em> = the baby in arms, <em>la poupée</em> = doll. <em>Poupon</em> is a pet name for a chubby-faced child. In Dutch <em>pop</em>, German <em>Puppe</em> and Latin <em>puppis</em> = doll; in Plautus, however, it is also used jokingly for the posterior part of the body; <em>pupus</em> means child; <em>pupula</em> = girl, little dollie. The Greek word ποππύζω designates a cracking, snapping or blowing sound. It is used of kissing; by Theocritus also of the associated noise of flute blowing. The etymologic parallels show a remarkable relationship between the part of the body in question and the child. This relationship we will mention here, only to let it drop at once, as this question will claim our attention later.</p>
+    </div>
+  </section>
+  <section class="parallel-row" data-source-chunk="chunk-053">
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Thời thơ ấu, một bệnh nhân của tôi luôn nối hành vi đại tiện với huyễn tưởng rằng hậu môn mình là núi lửa và một vụ phun trào dữ dội diễn ra, khí nổ và dung nham trào ra. Những từ chỉ các biến cố nguyên tố của tự nhiên nguyên thủy không hề thơ; hãy nghĩ tới hiện tượng sao băng đẹp đẽ mà tiếng Đức gọi hết sức thiếu thi vị là “Sternschnuppe” (bấc sao cháy âm ỉ). Một số người Indian Nam Mỹ gọi sao băng là “nước tiểu của các vì sao”. Theo nguyên tắc ít sức kháng nhất, biểu thức được lấy từ nguồn gần nhất sẵn có. Chẳng hạn, biểu thức hoán dụ chỉ tiểu tiện được chuyển thành <em>Schiffens</em>, “mưa”.</p>
+    </div>
+    <div class="parallel-cell parallel-en" lang="en">
+<p>One of my patients in his childhood had always connected the act of defecation with a phantasy that his posterior was a volcano and a violent eruption took place, explosion of gases and gushings forth of lava. The terms for the elemental occurrences of nature are originally not at all poetical; one thinks, for example, of the beautiful phenomenon of the meteor, which the German language most unpoetically calls “Sternschnuppe” (the smouldering wick of a star). Certain South American Indians call the shooting star the “urine of the stars.” According to the principle of the least resistance, expressions are taken from the nearest source available. (For example, the transference of the metonymic expression of urination as <em>Schiffens</em>, “to rain.”)</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-054">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Giờ đây dường như rất khó hiểu vì sao hình tượng huyền bí Chiwantopel, người được cô Miller trong một chú thích so sánh với linh hồn điều khiển của đồng cốt thần linh học,[356] lại bị đặt trong một khu vực mang tiếng xấu đến mức bản tính, tức tên gọi, của nhân vật bị kéo vào quan hệ với chính phần thân thể ấy. Muốn hiểu khả năng này, ta phải nhận ra rằng khi sản xuất từ vô thức, cái đầu tiên được đưa ra là chất liệu thơ ấu đã mất khỏi ký ức từ lâu. Vì vậy, phải đứng ở lập trường của thời kỳ khi chất liệu thơ ấu ấy còn nằm trên bề mặt. Nếu một đối tượng hết sức được tôn kính trong vô thức lại có quan hệ với hậu môn, ta phải kết luận rằng qua đó một giá trị cao đã được biểu đạt. Câu hỏi chỉ là điều này có tương ứng với tâm lý trẻ em không.
-
-Trước khi đi vào câu hỏi ấy, phải nói rằng vùng hậu môn liên hệ rất gần với sự tôn kính. Người ta nghĩ tới phân theo truyền thống của Đại Mogul. Một truyện phương Đông kể điều tương tự về các hiệp sĩ Cơ Đốc đã xức mình bằng phân của giáo hoàng và các hồng y để trở nên đáng sợ. Một bệnh nhân được đặc trưng bởi sự tôn kính đặc biệt đối với cha có huyễn tưởng thấy cha mình ngồi trên bồn cầu một cách đường bệ, và những người đi ngang nhiệt thành chào ông.[357] Như các ví dụ ấy cho thấy, các quan hệ hậu môn tuyệt nhiên không loại trừ định giá cao hay kính trọng; điều này cũng dễ thấy trong mối liên hệ mật thiết giữa phân và vàng.[358] Ở đây cái vô giá trị nhất bước vào quan hệ gần gũi nhất với cái quý giá nhất. Điều ấy cũng xảy ra trong định giá tôn giáo. Tôi từng phát hiện, khi ấy vô cùng kinh ngạc, rằng một bệnh nhân trẻ được giáo dục rất sùng đạo trong mơ đã biểu hiện Đấng Chịu Đóng đinh dưới đáy một chiếc bô vẽ hoa xanh, tức dưới hình thức phân. Đối lập quá lớn đến mức ta phải giả định các định giá thời thơ ấu quả khác hẳn của ta. Thực tế đúng như vậy. Trẻ em dành cho hành vi đại tiện và sản phẩm của nó một sự quý trọng và quan tâm[359] mà về sau chỉ người nghi bệnh mới còn có thể có. Ta không hiểu mối quan tâm ấy cho tới khi biết rằng trẻ từ rất sớm nối nó với một lý thuyết sinh sản.[360] Dòng dục lực đổ tới có lẽ giải thích mối quan tâm khổng lồ đối với hành vi này. Trẻ thấy đây là cách một cái gì được làm ra, một cái gì đi ra.
-
-Đứa trẻ tôi đã kể trong tiểu luận nhỏ “Über Konflikte der kindlichen Seele”, có một lý thuyết sinh hậu môn phát triển rõ như bé Hans được Freud giới thiệu, về sau có thói quen ngồi rất lâu trong nhà vệ sinh. Một lần người cha mất kiên nhẫn, tới cửa và gọi: “Ra khỏi đó đi; con đang làm gì vậy?” Từ bên trong có tiếng đáp: “Một cỗ xe nhỏ và hai con ngựa.” Đứa trẻ đang làm một cỗ xe nhỏ và hai con ngựa, tức những thứ lúc ấy nó đặc biệt mong muốn. Bằng cách này người ta có thể làm ra điều mình muốn, và vật được làm là vật được mong. Đứa trẻ thiết tha mong một búp bê, hay trong sâu thẳm, một đứa trẻ thật. Nghĩa là, đứa trẻ tập cho nhiệm vụ sinh học tương lai; theo cách nói chung mọi thứ được sản xuất, nó tự làm ra búp bê[361] như đại diện cho đứa trẻ hay cho vật được mong nói chung.[362]
-
-Tôi được một bệnh nhân kể một huyễn tưởng song song thời thơ ấu. Trong nhà vệ sinh có một khe tường. Cô tưởng tượng từ khe ấy một bà tiên sẽ bước ra và trao cho cô mọi thứ cô mong. “Locus” vốn được biết là nơi của những giấc mơ, nơi nhiều thứ được mong và tạo ra mà về sau người ta không còn ngờ có nguồn gốc tại đó. Lombroso[363] kể một huyễn tưởng bệnh lý thích hợp ở đây về hai nghệ sĩ điên. Mỗi người đều coi mình là Thượng đế và kẻ cai trị thế giới. Họ tạo ra hay sản xuất thế giới bằng cách làm nó đi ra từ trực tràng, cũng như trứng chim phát sinh trong ống dẫn trứng. Một trong hai nghệ sĩ có năng khiếu nghệ thuật thực sự. Ông vẽ một bức tranh trong đó mình đang thực hiện hành vi sáng tạo: thế giới đi ra từ hậu môn; dương vật cương hoàn toàn; ông khỏa thân, được phụ nữ vây quanh và mang đủ mọi biểu chương quyền lực. Phân, theo một nghĩa nhất định, là vật được mong; vì thế nó nhận định giá tương ứng.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Giờ đây dường như rất khó hiểu vì sao hình tượng huyền bí Chiwantopel, người được cô Miller trong một chú thích so sánh với linh hồn điều khiển của đồng cốt thần linh học,[356] lại bị đặt trong một khu vực mang tiếng xấu đến mức bản tính, tức tên gọi, của nhân vật bị kéo vào quan hệ với chính phần thân thể ấy. Muốn hiểu khả năng này, ta phải nhận ra rằng khi sản xuất từ vô thức, cái đầu tiên được đưa ra là chất liệu thơ ấu đã mất khỏi ký ức từ lâu. Vì vậy, phải đứng ở lập trường của thời kỳ khi chất liệu thơ ấu ấy còn nằm trên bề mặt. Nếu một đối tượng hết sức được tôn kính trong vô thức lại có quan hệ với hậu môn, ta phải kết luận rằng qua đó một giá trị cao đã được biểu đạt. Câu hỏi chỉ là điều này có tương ứng với tâm lý trẻ em không.</p>
+<p>Trước khi đi vào câu hỏi ấy, phải nói rằng vùng hậu môn liên hệ rất gần với sự tôn kính. Người ta nghĩ tới phân theo truyền thống của Đại Mogul. Một truyện phương Đông kể điều tương tự về các hiệp sĩ Cơ Đốc đã xức mình bằng phân của giáo hoàng và các hồng y để trở nên đáng sợ. Một bệnh nhân được đặc trưng bởi sự tôn kính đặc biệt đối với cha có huyễn tưởng thấy cha mình ngồi trên bồn cầu một cách đường bệ, và những người đi ngang nhiệt thành chào ông.[357] Như các ví dụ ấy cho thấy, các quan hệ hậu môn tuyệt nhiên không loại trừ định giá cao hay kính trọng; điều này cũng dễ thấy trong mối liên hệ mật thiết giữa phân và vàng.[358] Ở đây cái vô giá trị nhất bước vào quan hệ gần gũi nhất với cái quý giá nhất. Điều ấy cũng xảy ra trong định giá tôn giáo. Tôi từng phát hiện, khi ấy vô cùng kinh ngạc, rằng một bệnh nhân trẻ được giáo dục rất sùng đạo trong mơ đã biểu hiện Đấng Chịu Đóng đinh dưới đáy một chiếc bô vẽ hoa xanh, tức dưới hình thức phân. Đối lập quá lớn đến mức ta phải giả định các định giá thời thơ ấu quả khác hẳn của ta. Thực tế đúng như vậy. Trẻ em dành cho hành vi đại tiện và sản phẩm của nó một sự quý trọng và quan tâm[359] mà về sau chỉ người nghi bệnh mới còn có thể có. Ta không hiểu mối quan tâm ấy cho tới khi biết rằng trẻ từ rất sớm nối nó với một lý thuyết sinh sản.[360] Dòng dục lực đổ tới có lẽ giải thích mối quan tâm khổng lồ đối với hành vi này. Trẻ thấy đây là cách một cái gì được làm ra, một cái gì đi ra.</p>
+<p>Đứa trẻ tôi đã kể trong tiểu luận nhỏ “Über Konflikte der kindlichen Seele”, có một lý thuyết sinh hậu môn phát triển rõ như bé Hans được Freud giới thiệu, về sau có thói quen ngồi rất lâu trong nhà vệ sinh. Một lần người cha mất kiên nhẫn, tới cửa và gọi: “Ra khỏi đó đi; con đang làm gì vậy?” Từ bên trong có tiếng đáp: “Một cỗ xe nhỏ và hai con ngựa.” Đứa trẻ đang làm một cỗ xe nhỏ và hai con ngựa, tức những thứ lúc ấy nó đặc biệt mong muốn. Bằng cách này người ta có thể làm ra điều mình muốn, và vật được làm là vật được mong. Đứa trẻ thiết tha mong một búp bê, hay trong sâu thẳm, một đứa trẻ thật. Nghĩa là, đứa trẻ tập cho nhiệm vụ sinh học tương lai; theo cách nói chung mọi thứ được sản xuất, nó tự làm ra búp bê[361] như đại diện cho đứa trẻ hay cho vật được mong nói chung.[362]</p>
+<p>Tôi được một bệnh nhân kể một huyễn tưởng song song thời thơ ấu. Trong nhà vệ sinh có một khe tường. Cô tưởng tượng từ khe ấy một bà tiên sẽ bước ra và trao cho cô mọi thứ cô mong. “Locus” vốn được biết là nơi của những giấc mơ, nơi nhiều thứ được mong và tạo ra mà về sau người ta không còn ngờ có nguồn gốc tại đó. Lombroso[363] kể một huyễn tưởng bệnh lý thích hợp ở đây về hai nghệ sĩ điên. Mỗi người đều coi mình là Thượng đế và kẻ cai trị thế giới. Họ tạo ra hay sản xuất thế giới bằng cách làm nó đi ra từ trực tràng, cũng như trứng chim phát sinh trong ống dẫn trứng. Một trong hai nghệ sĩ có năng khiếu nghệ thuật thực sự. Ông vẽ một bức tranh trong đó mình đang thực hiện hành vi sáng tạo: thế giới đi ra từ hậu môn; dương vật cương hoàn toàn; ông khỏa thân, được phụ nữ vây quanh và mang đủ mọi biểu chương quyền lực. Phân, theo một nghĩa nhất định, là vật được mong; vì thế nó nhận định giá tương ứng.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-Now it seems to be very obscure why the mystical figure of Chiwantopel,
-whom Miss Miller, in a note, compares to the control spirit of the
-spiritualistic medium,[356] is found in such a disreputable neighborhood
-that his nature (name) was brought into relation with this particular
-part of the body. In order to understand this possibility, we must
-realize that when we produce from the unconscious the first to be
-brought forth is the infantile material long lost in memory. One must,
-therefore, take the point of view of that time in which this infantile
-material was still on the surface. If now a much-honored object is
-related in the unconscious to the anus, then one must conclude that
-something of a high valuation was expressed thereby. The question is
-only whether this corresponds to the psychology of the child. Before we
-enter upon this question, it must be stated that the anal region is very
-closely connected with veneration. One thinks of the traditional fæces
-of the Great Mogul. An Oriental tale has the same to say of Christian
-knights, who anointed themselves with the excrement of the pope and
-cardinals in order to make themselves formidable. A patient who is
-characterized by a special veneration for her father had a phantasy that
-she saw her father sitting upon the toilet in a dignified manner, and
-people going past greeted him effusively.[357] The association of the
-anal relations by no means excludes high valuation or esteem, as is
-shown by these examples, and as is easily seen from the intimate
-connection of fæces and gold.[358] Here the most worthless comes into
-the closest relation with the most valuable. This also happens in
-religious valuations. I discovered (at that time to my great
-astonishment) that a young patient, very religiously trained,
-represented in a dream the Crucified on the bottom of a blue-flowered
-chamber pot, namely, in the form of excrements. The contrast is so
-enormous that one must assume that the valuations of childhood must
-indeed be very different from ours. This is actually the truth. Children
-bring to the act of defecation and the products of this an esteem and
-interest[359] which later on is possible only to the hypochondriac. We
-do not comprehend this interest until we learn that the child very early
-connects with it a theory of propagation.[360] The libido afflux
-probably accounts for the enormous interest in this act. The child sees
-that this is the way in which something is produced, in which something
-comes out. The same child whom I reported in the little brochure “Über
-Konflikte der kindlichen Seele,” and who had a well-developed anal
-theory of birth, like little Hans, whom Freud made known to us, later
-contracted a habit of staying a long time on the toilet. Once the father
-grew impatient, went to the toilet and called, “Do come out of there;
-what are you making?” Whereupon the answer came from within, “A little
-wagon and two ponies.” The child was making a little wagon and two
-ponies, that is to say, things which at that time she especially wished
-for. In this way one can make what one wishes, and the thing made is the
-thing wished for. The child wishes earnestly for a doll or, at heart,
-for a real child. (That is, the child practised for his future
-biological task, and in the way in which everything in general is
-produced he made the doll[361] himself as representative of the child or
-of the thing wished for in general.[362]) From a patient I have learned
-a parallel phantasy of her childhood. In the toilet there was a crevice
-in the wall. She phantasied that from this crevice a fairy would come
-out and present her with everything for which she wished. The “locus” is
-known to be the place of dreams where much was wished for and created
-which later would no longer be suspected of having this place of origin.
-A pathological phantasy in place here is told us by Lombroso,[363]
-concerning two insane artists. Each of them considered himself God and
-the ruler of the world. They created or produced the world by making it
-come forth from the rectum, just as the egg of birds originates in the
-egg canal. One of these two artists was endowed with a true artistic
-sense. He painted a picture in which he was just in the act of creation;
-the world came forth from his anus; the membrum was in full erection; he
-was naked, surrounded by women, and with all insignia of his power. The
-excrement is in a certain sense the thing wished for, and on that
-account it receives the corresponding valuation. When I first understood
-this connection, an observation made long ago, and which disturbed me
-greatly because I never rightly understood it, became clear to me. It
-concerned an educated patient who, under very tragic circumstances, had
-to be separated from her husband and child, and was brought into the
-insane asylum. She exhibited a typical apathy and slovenliness which was
-considered as affective mental deterioration. Even at that time I
-doubted this deterioration, and was inclined to regard it as a secondary
-adjustment. I took especial pains to ascertain how I could discover the
-existence of the affect in this case. Finally, after more than three
-hours’ hard work, I succeeded in finding a train of thought which
-suddenly brought the patient into a completely adequate and therefore
-strongly emotional state. At this moment the affective connection with
-her was completely reëstablished. That happened in the forenoon. When I
-returned at the appointed time in the evening to the ward to see her she
-had, for my reception, smeared herself from head to foot with excrement,
-and cried laughingly, “Do I please you so?” She had never done that
-before; it was plainly destined for me. The impression which I received
-was one of a personal affront and, as a result of this, I was convinced
-for years after of the affective deterioration of such cases. Now we
-understand this act as an infantile ceremony of welcome or a declaration
-of love.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>Now it seems to be very obscure why the mystical figure of Chiwantopel, whom Miss Miller, in a note, compares to the control spirit of the spiritualistic medium,[356] is found in such a disreputable neighborhood that his nature (name) was brought into relation with this particular part of the body. In order to understand this possibility, we must realize that when we produce from the unconscious the first to be brought forth is the infantile material long lost in memory. One must, therefore, take the point of view of that time in which this infantile material was still on the surface. If now a much-honored object is related in the unconscious to the anus, then one must conclude that something of a high valuation was expressed thereby. The question is only whether this corresponds to the psychology of the child. Before we enter upon this question, it must be stated that the anal region is very closely connected with veneration. One thinks of the traditional fæces of the Great Mogul. An Oriental tale has the same to say of Christian knights, who anointed themselves with the excrement of the pope and cardinals in order to make themselves formidable. A patient who is characterized by a special veneration for her father had a phantasy that she saw her father sitting upon the toilet in a dignified manner, and people going past greeted him effusively.[357] The association of the anal relations by no means excludes high valuation or esteem, as is shown by these examples, and as is easily seen from the intimate connection of fæces and gold.[358] Here the most worthless comes into the closest relation with the most valuable. This also happens in religious valuations. I discovered (at that time to my great astonishment) that a young patient, very religiously trained, represented in a dream the Crucified on the bottom of a blue-flowered chamber pot, namely, in the form of excrements. The contrast is so enormous that one must assume that the valuations of childhood must indeed be very different from ours. This is actually the truth. Children bring to the act of defecation and the products of this an esteem and interest[359] which later on is possible only to the hypochondriac. We do not comprehend this interest until we learn that the child very early connects with it a theory of propagation.[360] The libido afflux probably accounts for the enormous interest in this act. The child sees that this is the way in which something is produced, in which something comes out. The same child whom I reported in the little brochure “Über Konflikte der kindlichen Seele,” and who had a well-developed anal theory of birth, like little Hans, whom Freud made known to us, later contracted a habit of staying a long time on the toilet. Once the father grew impatient, went to the toilet and called, “Do come out of there; what are you making?” Whereupon the answer came from within, “A little wagon and two ponies.” The child was making a little wagon and two ponies, that is to say, things which at that time she especially wished for. In this way one can make what one wishes, and the thing made is the thing wished for. The child wishes earnestly for a doll or, at heart, for a real child. (That is, the child practised for his future biological task, and in the way in which everything in general is produced he made the doll[361] himself as representative of the child or of the thing wished for in general.[362]) From a patient I have learned a parallel phantasy of her childhood. In the toilet there was a crevice in the wall. She phantasied that from this crevice a fairy would come out and present her with everything for which she wished. The “locus” is known to be the place of dreams where much was wished for and created which later would no longer be suspected of having this place of origin. A pathological phantasy in place here is told us by Lombroso,[363] concerning two insane artists. Each of them considered himself God and the ruler of the world. They created or produced the world by making it come forth from the rectum, just as the egg of birds originates in the egg canal. One of these two artists was endowed with a true artistic sense. He painted a picture in which he was just in the act of creation; the world came forth from his anus; the membrum was in full erection; he was naked, surrounded by women, and with all insignia of his power. The excrement is in a certain sense the thing wished for, and on that account it receives the corresponding valuation. When I first understood this connection, an observation made long ago, and which disturbed me greatly because I never rightly understood it, became clear to me. It concerned an educated patient who, under very tragic circumstances, had to be separated from her husband and child, and was brought into the insane asylum. She exhibited a typical apathy and slovenliness which was considered as affective mental deterioration. Even at that time I doubted this deterioration, and was inclined to regard it as a secondary adjustment. I took especial pains to ascertain how I could discover the existence of the affect in this case. Finally, after more than three hours’ hard work, I succeeded in finding a train of thought which suddenly brought the patient into a completely adequate and therefore strongly emotional state. At this moment the affective connection with her was completely reëstablished. That happened in the forenoon. When I returned at the appointed time in the evening to the ward to see her she had, for my reception, smeared herself from head to foot with excrement, and cried laughingly, “Do I please you so?” She had never done that before; it was plainly destined for me. The impression which I received was one of a personal affront and, as a result of this, I was convinced for years after of the affective deterioration of such cases. Now we understand this act as an infantile ceremony of welcome or a declaration of love.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-054">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Khi lần đầu hiểu mối liên hệ này, một quan sát từ lâu, từng làm tôi hết sức bối rối vì chưa bao giờ hiểu đúng, bỗng trở nên sáng rõ. Đó là một bệnh nhân có học, trong hoàn cảnh rất bi thảm phải xa chồng con và bị đưa vào nhà thương điên. Bà biểu hiện sự thờ ơ và nhếch nhác điển hình, được xem là suy thoái cảm xúc tinh thần. Ngay khi ấy tôi đã nghi ngờ sự suy thoái này và thiên về coi nó là một thích nghi thứ cấp. Tôi đặc biệt cố tìm cách phát hiện sự tồn tại của cảm xúc trong trường hợp này. Cuối cùng, sau hơn ba giờ làm việc khó nhọc, tôi tìm được một chuỗi ý nghĩ đột ngột đưa bệnh nhân vào một trạng thái hoàn toàn thích đáng và vì thế đầy cảm xúc mạnh. Ngay lúc ấy mối liên hệ cảm xúc với bà được tái lập hoàn toàn. Việc đó xảy ra buổi sáng. Khi tôi trở lại khu bệnh vào giờ hẹn buổi tối để gặp bà, nhằm đón tôi bà đã bôi phân từ đầu tới chân và vừa cười vừa kêu: “Tôi có làm ông hài lòng không?” Trước đó bà chưa từng làm vậy; rõ ràng hành vi dành cho tôi. Ấn tượng tôi nhận là một sự xúc phạm cá nhân, và vì thế trong nhiều năm sau tôi vẫn tin những trường hợp như vậy bị suy thoái cảm xúc. Giờ ta hiểu hành vi này như một nghi thức chào đón thơ ấu hay một lời tuyên bố tình yêu.
-
-Vì vậy, nguồn gốc của Chiwantopel, tức một nhân cách vô thức, theo nghĩa của giải thích trước là: “Tôi tự làm, sản xuất, phát minh ra anh ta.” Đó là một kiểu sáng tạo người hay sinh nở qua đường hậu môn. Những người đầu tiên được làm từ phân, đất của thợ gốm hay đất sét. Từ Latin *lutum*, thực sự nghĩa là “đất ẩm”, còn có nghĩa chuyển là bùn bẩn. Trong Plautus, nó thậm chí là một lời chửi, gần như “Đồ cặn bã.” Sinh từ hậu môn cũng nhắc ta mô-típ “ném ra sau mình”. Một ví dụ quen thuộc là mệnh lệnh sấm truyền Deucalion và Pyrrha, hai người duy nhất sống sót sau đại hồng thủy, nhận được. Họ phải ném ra sau mình xương của người mẹ vĩ đại. Họ bèn ném đá ra sau, và từ đá nhân loại sinh ra. Theo một truyền thuyết, các Dactyli cũng sinh theo cách tương tự từ bụi mà nữ thần rừng Anchiale ném ra sau mình.
-
-Các sản phẩm hậu môn còn gắn với ý nghĩa hài hước. Trong chuyện cười dân gian, phân thường được coi là một đài kỷ niệm hay dấu ghi nhớ; đối với tội phạm, nó giữ vai trò đặc biệt dưới hình thức *grumus merdæ*. Ai cũng biết chuyện vui về người được linh hồn dẫn qua những lối quanh co như mê cung tới kho báu giấu kín; sau khi đã bỏ lại mọi món quần áo, hắn đặt một bãi phân làm cột mốc cuối cùng trên đường. Trong quá khứ xa hơn, một dấu như vậy có ý nghĩa lớn ngang phân thú vật dùng để chỉ hướng đã đi. Những đài kỷ niệm đơn sơ, “các hình đá nhỏ”, đã thay dấu mau hỏng này.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Khi lần đầu hiểu mối liên hệ này, một quan sát từ lâu, từng làm tôi hết sức bối rối vì chưa bao giờ hiểu đúng, bỗng trở nên sáng rõ. Đó là một bệnh nhân có học, trong hoàn cảnh rất bi thảm phải xa chồng con và bị đưa vào nhà thương điên. Bà biểu hiện sự thờ ơ và nhếch nhác điển hình, được xem là suy thoái cảm xúc tinh thần. Ngay khi ấy tôi đã nghi ngờ sự suy thoái này và thiên về coi nó là một thích nghi thứ cấp. Tôi đặc biệt cố tìm cách phát hiện sự tồn tại của cảm xúc trong trường hợp này. Cuối cùng, sau hơn ba giờ làm việc khó nhọc, tôi tìm được một chuỗi ý nghĩ đột ngột đưa bệnh nhân vào một trạng thái hoàn toàn thích đáng và vì thế đầy cảm xúc mạnh. Ngay lúc ấy mối liên hệ cảm xúc với bà được tái lập hoàn toàn. Việc đó xảy ra buổi sáng. Khi tôi trở lại khu bệnh vào giờ hẹn buổi tối để gặp bà, nhằm đón tôi bà đã bôi phân từ đầu tới chân và vừa cười vừa kêu: “Tôi có làm ông hài lòng không?” Trước đó bà chưa từng làm vậy; rõ ràng hành vi dành cho tôi. Ấn tượng tôi nhận là một sự xúc phạm cá nhân, và vì thế trong nhiều năm sau tôi vẫn tin những trường hợp như vậy bị suy thoái cảm xúc. Giờ ta hiểu hành vi này như một nghi thức chào đón thơ ấu hay một lời tuyên bố tình yêu.</p>
+<p>Vì vậy, nguồn gốc của Chiwantopel, tức một nhân cách vô thức, theo nghĩa của giải thích trước là: “Tôi tự làm, sản xuất, phát minh ra anh ta.” Đó là một kiểu sáng tạo người hay sinh nở qua đường hậu môn. Những người đầu tiên được làm từ phân, đất của thợ gốm hay đất sét. Từ Latin <em>lutum</em>, thực sự nghĩa là “đất ẩm”, còn có nghĩa chuyển là bùn bẩn. Trong Plautus, nó thậm chí là một lời chửi, gần như “Đồ cặn bã.” Sinh từ hậu môn cũng nhắc ta mô-típ “ném ra sau mình”. Một ví dụ quen thuộc là mệnh lệnh sấm truyền Deucalion và Pyrrha, hai người duy nhất sống sót sau đại hồng thủy, nhận được. Họ phải ném ra sau mình xương của người mẹ vĩ đại. Họ bèn ném đá ra sau, và từ đá nhân loại sinh ra. Theo một truyền thuyết, các Dactyli cũng sinh theo cách tương tự từ bụi mà nữ thần rừng Anchiale ném ra sau mình.</p>
+<p>Các sản phẩm hậu môn còn gắn với ý nghĩa hài hước. Trong chuyện cười dân gian, phân thường được coi là một đài kỷ niệm hay dấu ghi nhớ; đối với tội phạm, nó giữ vai trò đặc biệt dưới hình thức <em>grumus merdæ</em>. Ai cũng biết chuyện vui về người được linh hồn dẫn qua những lối quanh co như mê cung tới kho báu giấu kín; sau khi đã bỏ lại mọi món quần áo, hắn đặt một bãi phân làm cột mốc cuối cùng trên đường. Trong quá khứ xa hơn, một dấu như vậy có ý nghĩa lớn ngang phân thú vật dùng để chỉ hướng đã đi. Những đài kỷ niệm đơn sơ, “các hình đá nhỏ”, đã thay dấu mau hỏng này.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-The origin of Chiwantopel, that is to say, an unconscious personality,
-therefore means, in the sense of the previous explanation, “I make,
-produce, invent him myself.” It is a sort of human creation or birth by
-the anal route. The first people were made from excrement, potter’s
-earth, or clay. The Latin _lutum_, which really means “moistened earth,”
-also has the transferred meaning of dirt. In Plautus it is even a term
-of abuse, something like “You scum.” The birth from the anus also
-reminds us of the motive of “throwing behind oneself.” A well-known
-example is the oracular command, which Deucalion and Pyrrha, who were
-the only survivors from the great flood, received. They were to throw
-behind them the bones of the great mother. They then threw behind them
-stones, from which mankind sprang. According to a tradition, the Dactyli
-in a similar manner sprang from dust, which the nymph Anchiale threw
-behind her. There is also humorous significance attached to the anal
-products. The excrements are often considered in popular humor as a
-monument or memorial (which plays a special part in regard to the
-criminal in the form of _grumus merdæ_); every one knows the humorous
-story of the man who, led by the spirit through labyrinthian passages to
-a hidden treasure, after he had shed all his pieces of clothing,
-deposited excrement as a last guide post on his road. In a more distant
-past a sign of this kind possessed as great a significance as the dung
-of animals to indicate the direction taken. Simple monuments (“little
-stone figures”) have taken the place of this perishable mark.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>The origin of Chiwantopel, that is to say, an unconscious personality, therefore means, in the sense of the previous explanation, “I make, produce, invent him myself.” It is a sort of human creation or birth by the anal route. The first people were made from excrement, potter’s earth, or clay. The Latin <em>lutum</em>, which really means “moistened earth,” also has the transferred meaning of dirt. In Plautus it is even a term of abuse, something like “You scum.” The birth from the anus also reminds us of the motive of “throwing behind oneself.” A well-known example is the oracular command, which Deucalion and Pyrrha, who were the only survivors from the great flood, received. They were to throw behind them the bones of the great mother. They then threw behind them stones, from which mankind sprang. According to a tradition, the Dactyli in a similar manner sprang from dust, which the nymph Anchiale threw behind her. There is also humorous significance attached to the anal products. The excrements are often considered in popular humor as a monument or memorial (which plays a special part in regard to the criminal in the form of <em>grumus merdæ</em>); every one knows the humorous story of the man who, led by the spirit through labyrinthian passages to a hidden treasure, after he had shed all his pieces of clothing, deposited excrement as a last guide post on his road. In a more distant past a sign of this kind possessed as great a significance as the dung of animals to indicate the direction taken. Simple monuments (“little stone figures”) have taken the place of this perishable mark.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-054">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Đáng chú ý là cô Miller dẫn một trường hợp khác, nơi một cái tên đột ngột tự xông vào, song song với việc Chiwantopel trồi lên ý thức: A-ha-ma-ra-ma, kèm cảm giác nó liên quan tới một điều gì của Assyria.[364] Như một nguồn khả hữu, cô nghĩ tới “Asurabama, người làm các viên gạch chữ hình nêm”,[365] những văn kiện bất hoại bằng đất sét, các đài kỷ niệm của lịch sử cổ xưa nhất. Nếu không nhấn mạnh rằng các viên gạch là “chữ hình nêm”, thì cách nói có thể mang nghĩa nước đôi là “gạch hình nêm”, một nghĩa gợi cách diễn giải của ta hơn cách của tác giả.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Đáng chú ý là cô Miller dẫn một trường hợp khác, nơi một cái tên đột ngột tự xông vào, song song với việc Chiwantopel trồi lên ý thức: A-ha-ma-ra-ma, kèm cảm giác nó liên quan tới một điều gì của Assyria.[364] Như một nguồn khả hữu, cô nghĩ tới “Asurabama, người làm các viên gạch chữ hình nêm”,[365] những văn kiện bất hoại bằng đất sét, các đài kỷ niệm của lịch sử cổ xưa nhất. Nếu không nhấn mạnh rằng các viên gạch là “chữ hình nêm”, thì cách nói có thể mang nghĩa nước đôi là “gạch hình nêm”, một nghĩa gợi cách diễn giải của ta hơn cách của tác giả.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-It is noteworthy that Miss Miller quotes another case, where a name
-suddenly obtruded itself, parallel to the emerging into consciousness of
-Chiwantopel, namely, A-ha-ma-ra-ma, with the feeling that it dealt with
-something Assyrian.[364] As a possible source of this, there occurred to
-her “Asurabama, who made cuneiform bricks,”[365] those imperishable
-documents made from clay: the monuments of the most ancient history. If
-it were not emphasized that the bricks are “cuneiform,” then it might
-mean ambiguously “wedged-shaped bricks,” which is more suggestive of our
-interpretation than that of the author.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>It is noteworthy that Miss Miller quotes another case, where a name suddenly obtruded itself, parallel to the emerging into consciousness of Chiwantopel, namely, A-ha-ma-ra-ma, with the feeling that it dealt with something Assyrian.[364] As a possible source of this, there occurred to her “Asurabama, who made cuneiform bricks,”[365] those imperishable documents made from clay: the monuments of the most ancient history. If it were not emphasized that the bricks are “cuneiform,” then it might mean ambiguously “wedged-shaped bricks,” which is more suggestive of our interpretation than that of the author.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Cô Miller nhận xét rằng ngoài tên “Asurabama”, cô còn nghĩ tới “Ahasuerus” hay “Ahasverus”. Huyễn tưởng này dẫn tới một phương diện rất khác của vấn đề nhân cách vô thức. Trong khi các chất liệu trước để lộ điều gì đó thuộc lý thuyết sáng tạo thơ ấu, huyễn tưởng này mở ra một viễn cảnh vào động lực học của sự sáng tạo nhân cách trong vô thức. Như ai cũng biết, Ahasver là Người Do Thái Lang thang; đặc trưng của ông là cuộc phiêu bạt bất tận, không yên nghỉ cho tới ngày tận thế. Việc tác giả nghĩ đúng tới cái tên này cho phép ta lần theo dấu vết ấy. Truyền thuyết Ahasver, có những dấu vết văn học đầu tiên thuộc thế kỷ mười ba, dường như có nguồn gốc phương Tây và thuộc những ý niệm mang sinh lực không thể hủy. Hình tượng Người Do Thái Lang thang được gia công văn học nhiều hơn hình tượng Faust, và gần như toàn bộ công việc ấy thuộc thế kỷ vừa qua. Dù hình tượng không mang tên Ahasver, nó vẫn hiện diện dưới tên khác, có lẽ là Bá tước St. Germain, người Rosicrucian bí ẩn được bảo đảm bất tử và có nơi cư trú tạm thời, tức xứ sở, cũng được biết rõ như vậy.[366]
-
-Dù không thể truy chuyện Ahasver về trước thế kỷ mười ba, truyền thống truyền miệng có thể lùi xa hơn nhiều, và không phải bất khả khi có một cây cầu nối sang phương Đông. Ở đó có hình tượng song song Chidr, hay “al Chadir”, “Chidher trẻ mãi” được Rueckert ca tụng. Truyền thuyết thuần Hồi giáo. Tuy nhiên, nét đặc biệt là Chidher không chỉ là một vị thánh mà trong các giới Sufi[367] còn vươn tới ý nghĩa thần thánh. Trước tính độc thần nghiêm ngặt của Islam, người ta dễ nghĩ Chidher là một thần linh Ả Rập tiền Hồi giáo, khó được tôn giáo mới chính thức công nhận nhưng có thể được dung nạp vì lý do chính trị. Song không có gì chứng minh điều ấy. Những dấu vết đầu tiên của Chidher được tìm thấy trong các chú giải Koran của Buchâri và Tabare, và trong một chú giải về một đoạn đáng chú ý ở sura thứ mười tám của Koran.
-
-Sura thứ mười tám mang tên “hang động”, tức theo hang của bảy người ngủ; theo truyền thuyết, họ ngủ ở đó 309 năm, nhờ vậy thoát khỏi bức hại và tỉnh dậy trong một thời đại mới. Truyền thuyết của họ được kể trong sura thứ mười tám, kèm nhiều suy tưởng. Ý tưởng thỏa nguyện ước muốn trong truyền thuyết rất rõ. Chất liệu huyền nhiệm của nó là mô hình bất biến về hành trình Mặt trời. Mặt trời lặn theo chu kỳ nhưng không chết. Nó ẩn trong dạ biển hay một hang dưới đất,[368] và buổi sáng được “sinh lại” nguyên vẹn. Ngôn ngữ khoác cho hiện tượng thiên văn ấy mang tính biểu tượng rõ ràng: Mặt trời trở về dạ mẹ, rồi sau một thời gian lại sinh ra. Dĩ nhiên biến cố này đúng ra là một hành vi loạn luân; thần thoại còn giữ những dấu vết rõ rệt, không kém phần quan trọng là việc các thần chết rồi phục sinh đều là tình nhân của chính mẹ mình, hoặc đã tự sinh ra qua mẹ. Christ, như “Thượng đế thành xác thịt”, đã tự sinh mình qua Mary; Mithra cũng làm vậy. Các thần này không thể lầm là thần Mặt trời, bởi Mặt trời cũng làm điều ấy để tự đổi mới.
-
-Đương nhiên không thể giả định thiên văn học có trước rồi các quan niệm về thần mới theo sau; quá trình, như luôn vậy, diễn ra ngược lại. Thậm chí đúng là những bùa phép tái sinh nguyên thủy, phép rửa, đủ loại tập tục mê tín liên quan việc chữa người bệnh, v.v., đã được phóng chiếu lên trời. Những người trẻ ấy sinh ra từ hang, dạ của đất mẹ, như các thần Mặt trời trong một thời đại mới; đó là cách họ chiến thắng cái chết. Trong chừng mực ấy họ bất tử. Giờ thật thú vị khi thấy, sau những suy tưởng luân lý dài trong cùng sura, Koran đi tới đoạn sau, đặc biệt quan trọng đối với nguồn gốc thần thoại Chidher. Vì vậy tôi dẫn nguyên văn Koran:
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Cô Miller nhận xét rằng ngoài tên “Asurabama”, cô còn nghĩ tới “Ahasuerus” hay “Ahasverus”. Huyễn tưởng này dẫn tới một phương diện rất khác của vấn đề nhân cách vô thức. Trong khi các chất liệu trước để lộ điều gì đó thuộc lý thuyết sáng tạo thơ ấu, huyễn tưởng này mở ra một viễn cảnh vào động lực học của sự sáng tạo nhân cách trong vô thức. Như ai cũng biết, Ahasver là Người Do Thái Lang thang; đặc trưng của ông là cuộc phiêu bạt bất tận, không yên nghỉ cho tới ngày tận thế. Việc tác giả nghĩ đúng tới cái tên này cho phép ta lần theo dấu vết ấy. Truyền thuyết Ahasver, có những dấu vết văn học đầu tiên thuộc thế kỷ mười ba, dường như có nguồn gốc phương Tây và thuộc những ý niệm mang sinh lực không thể hủy. Hình tượng Người Do Thái Lang thang được gia công văn học nhiều hơn hình tượng Faust, và gần như toàn bộ công việc ấy thuộc thế kỷ vừa qua. Dù hình tượng không mang tên Ahasver, nó vẫn hiện diện dưới tên khác, có lẽ là Bá tước St. Germain, người Rosicrucian bí ẩn được bảo đảm bất tử và có nơi cư trú tạm thời, tức xứ sở, cũng được biết rõ như vậy.[366]</p>
+<p>Dù không thể truy chuyện Ahasver về trước thế kỷ mười ba, truyền thống truyền miệng có thể lùi xa hơn nhiều, và không phải bất khả khi có một cây cầu nối sang phương Đông. Ở đó có hình tượng song song Chidr, hay “al Chadir”, “Chidher trẻ mãi” được Rueckert ca tụng. Truyền thuyết thuần Hồi giáo. Tuy nhiên, nét đặc biệt là Chidher không chỉ là một vị thánh mà trong các giới Sufi[367] còn vươn tới ý nghĩa thần thánh. Trước tính độc thần nghiêm ngặt của Islam, người ta dễ nghĩ Chidher là một thần linh Ả Rập tiền Hồi giáo, khó được tôn giáo mới chính thức công nhận nhưng có thể được dung nạp vì lý do chính trị. Song không có gì chứng minh điều ấy. Những dấu vết đầu tiên của Chidher được tìm thấy trong các chú giải Koran của Buchâri và Tabare, và trong một chú giải về một đoạn đáng chú ý ở sura thứ mười tám của Koran.</p>
+<p>Sura thứ mười tám mang tên “hang động”, tức theo hang của bảy người ngủ; theo truyền thuyết, họ ngủ ở đó 309 năm, nhờ vậy thoát khỏi bức hại và tỉnh dậy trong một thời đại mới. Truyền thuyết của họ được kể trong sura thứ mười tám, kèm nhiều suy tưởng. Ý tưởng thỏa nguyện ước muốn trong truyền thuyết rất rõ. Chất liệu huyền nhiệm của nó là mô hình bất biến về hành trình Mặt trời. Mặt trời lặn theo chu kỳ nhưng không chết. Nó ẩn trong dạ biển hay một hang dưới đất,[368] và buổi sáng được “sinh lại” nguyên vẹn. Ngôn ngữ khoác cho hiện tượng thiên văn ấy mang tính biểu tượng rõ ràng: Mặt trời trở về dạ mẹ, rồi sau một thời gian lại sinh ra. Dĩ nhiên biến cố này đúng ra là một hành vi loạn luân; thần thoại còn giữ những dấu vết rõ rệt, không kém phần quan trọng là việc các thần chết rồi phục sinh đều là tình nhân của chính mẹ mình, hoặc đã tự sinh ra qua mẹ. Christ, như “Thượng đế thành xác thịt”, đã tự sinh mình qua Mary; Mithra cũng làm vậy. Các thần này không thể lầm là thần Mặt trời, bởi Mặt trời cũng làm điều ấy để tự đổi mới.</p>
+<p>Đương nhiên không thể giả định thiên văn học có trước rồi các quan niệm về thần mới theo sau; quá trình, như luôn vậy, diễn ra ngược lại. Thậm chí đúng là những bùa phép tái sinh nguyên thủy, phép rửa, đủ loại tập tục mê tín liên quan việc chữa người bệnh, v.v., đã được phóng chiếu lên trời. Những người trẻ ấy sinh ra từ hang, dạ của đất mẹ, như các thần Mặt trời trong một thời đại mới; đó là cách họ chiến thắng cái chết. Trong chừng mực ấy họ bất tử. Giờ thật thú vị khi thấy, sau những suy tưởng luân lý dài trong cùng sura, Koran đi tới đoạn sau, đặc biệt quan trọng đối với nguồn gốc thần thoại Chidher. Vì vậy tôi dẫn nguyên văn Koran:</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-Miss Miller remarks that besides the name “Asurabama” she also thought
-of “Ahasuerus” or “Ahasverus.” This phantasy leads to a very different
-aspect of the problem of the unconscious personality. While the previous
-materials betrayed to us something of the infantile theory of creation,
-this phantasy opens up a vista into the dynamics of the unconscious
-creation of personality. Ahasver is, as is well known, the Wandering
-Jew; he is characterized by endless and restless wanderings until the
-end of the world. The fact that the author has thought of this
-particular name justifies us in following this trail. The legend of
-Ahasver, the first literary traces of which belong to the thirteenth
-century, seems to be of Occidental origin, and belongs to those ideas
-which possess indestructible vital energy. The figure of the Wandering
-Jew has undergone more literary elaboration than the figure of Faust,
-and nearly all of this work belongs to the last century. If the figure
-is not called Ahasver, still it is there under another name, perhaps as
-Count of St. Germain, the mysterious Rosicrucian, whose immortality was
-assured, and whose temporary residence (the land) was equally
-known.[366] Although the stories about Ahasver cannot be traced back any
-earlier than the thirteenth century, the oral tradition can reach back
-considerably further, and it is not an impossibility that a bridge to
-the Orient exists. There is the parallel figure of Chidr, or “al
-Chadir,” the “ever-youthful Chidher” celebrated in song by Rueckert. The
-legend is purely Islamitic. The peculiar feature, however, is that
-Chidher is not only a saint, but in Sufic circles[367] rises even to
-divine significance. In view of the severe monotheism of Islam, one is
-inclined to think of Chidher as a pre-Islamitic Arabian divinity who
-would hardly be officially recognized by the new religion, but might
-have been tolerated on political grounds. But there is nothing to prove
-that. The first traces of Chidher are found in the commentaries of the
-Koran, Buchâri and Tabare and in a commentary to a noteworthy passage of
-the eighteenth sura of the Koran. The eighteenth sura is entitled “the
-cave,” that is, after the cave of the seven sleepers, who, according to
-the legend, slept there for 309 years, and thus escaped persecution, and
-awoke in a new era. Their legend is recounted in the eighteenth sura,
-and divers reflections were associated with it. The wish-fulfilment idea
-of the legend is very clear. The mystic material for it is the immutable
-model of the Sun’s course. The Sun sets periodically, but does not die.
-It hides in the womb of the sea or in a subterranean cave,[368] and in
-the morning is “born again,” complete. The language in which this
-astronomic occurrence is clothed is one of clear symbolism; the Sun
-returns into the mother’s womb, and after some time is again born. Of
-course, this event is properly an incestuous act, of which, in
-mythology, clear traces are still retained, not the least of which is
-the circumstance that the dying and resurrected gods are the lovers of
-their own mothers or have generated themselves through their own
-mothers. Christ as the “God becoming flesh” has generated himself
-through Mary; Mithra has done the same. These Gods are unmistakable
-Sun-gods, for the Sun also does this, in order to again renew himself.
-Naturally, it is not to be assumed that astronomy came first and these
-conceptions of gods afterwards; the process was, as always, inverted,
-and it is even true that primitive magic charms of rebirth, baptism,
-superstitious usages of all sorts, concerning the cure of the sick,
-etc., were projected into the heavens. These youths were born from the
-cave (the womb of mother earth), like the Sun-gods, in a new era, and
-this was the way they vanquished death. In this far they were immortal.
-It is now interesting to see how the Koran comes, after long ethical
-contemplations in the course of the same sura, to the following passage,
-which is of especial significance for the origin of the Chidher myth.
-For this reason I quote the Koran literally:
+    <div class="parallel-cell parallel-en" lang="en">
+<p>Miss Miller remarks that besides the name “Asurabama” she also thought of “Ahasuerus” or “Ahasverus.” This phantasy leads to a very different aspect of the problem of the unconscious personality. While the previous materials betrayed to us something of the infantile theory of creation, this phantasy opens up a vista into the dynamics of the unconscious creation of personality. Ahasver is, as is well known, the Wandering Jew; he is characterized by endless and restless wanderings until the end of the world. The fact that the author has thought of this particular name justifies us in following this trail. The legend of Ahasver, the first literary traces of which belong to the thirteenth century, seems to be of Occidental origin, and belongs to those ideas which possess indestructible vital energy. The figure of the Wandering Jew has undergone more literary elaboration than the figure of Faust, and nearly all of this work belongs to the last century. If the figure is not called Ahasver, still it is there under another name, perhaps as Count of St. Germain, the mysterious Rosicrucian, whose immortality was assured, and whose temporary residence (the land) was equally known.[366] Although the stories about Ahasver cannot be traced back any earlier than the thirteenth century, the oral tradition can reach back considerably further, and it is not an impossibility that a bridge to the Orient exists. There is the parallel figure of Chidr, or “al Chadir,” the “ever-youthful Chidher” celebrated in song by Rueckert. The legend is purely Islamitic. The peculiar feature, however, is that Chidher is not only a saint, but in Sufic circles[367] rises even to divine significance. In view of the severe monotheism of Islam, one is inclined to think of Chidher as a pre-Islamitic Arabian divinity who would hardly be officially recognized by the new religion, but might have been tolerated on political grounds. But there is nothing to prove that. The first traces of Chidher are found in the commentaries of the Koran, Buchâri and Tabare and in a commentary to a noteworthy passage of the eighteenth sura of the Koran. The eighteenth sura is entitled “the cave,” that is, after the cave of the seven sleepers, who, according to the legend, slept there for 309 years, and thus escaped persecution, and awoke in a new era. Their legend is recounted in the eighteenth sura, and divers reflections were associated with it. The wish-fulfilment idea of the legend is very clear. The mystic material for it is the immutable model of the Sun’s course. The Sun sets periodically, but does not die. It hides in the womb of the sea or in a subterranean cave,[368] and in the morning is “born again,” complete. The language in which this astronomic occurrence is clothed is one of clear symbolism; the Sun returns into the mother’s womb, and after some time is again born. Of course, this event is properly an incestuous act, of which, in mythology, clear traces are still retained, not the least of which is the circumstance that the dying and resurrected gods are the lovers of their own mothers or have generated themselves through their own mothers. Christ as the “God becoming flesh” has generated himself through Mary; Mithra has done the same. These Gods are unmistakable Sun-gods, for the Sun also does this, in order to again renew himself. Naturally, it is not to be assumed that astronomy came first and these conceptions of gods afterwards; the process was, as always, inverted, and it is even true that primitive magic charms of rebirth, baptism, superstitious usages of all sorts, concerning the cure of the sick, etc., were projected into the heavens. These youths were born from the cave (the womb of mother earth), like the Sun-gods, in a new era, and this was the way they vanquished death. In this far they were immortal. It is now interesting to see how the Koran comes, after long ethical contemplations in the course of the same sura, to the following passage, which is of especial significance for the origin of the Chidher myth. For this reason I quote the Koran literally:</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Hãy nhớ khi Moses nói với tôi tớ mình: ‘Ta sẽ không dừng cho tới khi tới chỗ hợp lưu của hai biển, hoặc ta sẽ đi tám mươi năm.’
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Hãy nhớ khi Moses nói với tôi tớ mình: ‘Ta sẽ không dừng cho tới khi tới chỗ hợp lưu của hai biển, hoặc ta sẽ đi tám mươi năm.’</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Remember when Moses said to his servant, ‘I will not stop till I
-  reach the confluence of the two seas, or for eighty years will I
-  journey on.’
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“Remember when Moses said to his servant, ‘I will not stop till I reach the confluence of the two seas, or for eighty years will I journey on.’</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Nhưng khi họ tới chỗ hợp lưu, họ quên con cá của mình, và nó tự do tìm đường ra biển.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Nhưng khi họ tới chỗ hợp lưu, họ quên con cá của mình, và nó tự do tìm đường ra biển.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“But when they reached their confluence they forgot their fish, and it
-  took its way in the sea at will.
-    </div>
-  </section>
-  <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Khi đã đi qua, Moses nói với tôi tớ: ‘Hãy mang bữa sáng ra, vì giờ đây cuộc hành trình này đã làm chúng ta mệt nhọc.’
-    </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“And when they had passed on, Moses said to his servant, ‘Bring us our
-  morning meal, for now we have incurred weariness from this our
-  journey.’
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“But when they reached their confluence they forgot their fish, and it took its way in the sea at will.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Người ấy nói: ‘Ngài nghĩ sao? Khi chúng ta tới tảng đá nghỉ, quả thật tôi đã quên con cá; không ai ngoài Satan khiến tôi quên nhắc tới nó; và nó đã tìm đường ra biển theo một cách kỳ diệu.’
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Khi đã đi qua, Moses nói với tôi tớ: ‘Hãy mang bữa sáng ra, vì giờ đây cuộc hành trình này đã làm chúng ta mệt nhọc.’</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“He said, ‘What thinkest thou? When we repaired to the rock for rest,
-  then verily I forgot the fish; and none but Satan made me forget it,
-  so as not to mention it; and it hath taken its way in the sea in a
-  wondrous sort.’
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“And when they had passed on, Moses said to his servant, ‘Bring us our morning meal, for now we have incurred weariness from this our journey.’</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Ông nói: ‘Đó chính là điều ta tìm.’ Rồi cả hai quay lại, lần theo dấu chân mình.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Người ấy nói: ‘Ngài nghĩ sao? Khi chúng ta tới tảng đá nghỉ, quả thật tôi đã quên con cá; không ai ngoài Satan khiến tôi quên nhắc tới nó; và nó đã tìm đường ra biển theo một cách kỳ diệu.’</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“He said, ‘It is this we were in quest of.’ So they both went back
-  retracing their footsteps.
-    </div>
-  </section>
-  <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Bấy giờ họ tìm thấy một trong các tôi tớ của Ta, người được Ta ban lòng thương xót và được Ta dạy bằng tri thức của Ta;[369]
-    </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Then found they one of our servants to whom we had vouchsafed our
-  mercy, and whom we had instructed with our knowledge;[369]
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“He said, ‘What thinkest thou? When we repaired to the rock for rest, then verily I forgot the fish; and none but Satan made me forget it, so as not to mention it; and it hath taken its way in the sea in a wondrous sort.’</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Moses nói với người: ‘Tôi có thể theo ngài để ngài dạy tôi, nhằm được dẫn đường bởi điều ngài đã được dạy không?’
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Ông nói: ‘Đó chính là điều ta tìm.’ Rồi cả hai quay lại, lần theo dấu chân mình.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Moses said to him, ‘Shall I follow thee that thou teach me, for
-  guidance of that which thou hast been taught?’
-    </div>
-  </section>
-  <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Người nói: ‘Quả thật, ngươi tuyệt nhiên không thể kiên nhẫn với ta; và sao ngươi có thể kiên nhẫn trong những việc mà ý nghĩa ngươi không hiểu?’” — Bản dịch Rodwell, trang 188.
-    </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“He said, ‘Verily, thou canst by no means have patience with me; and
-  how canst thou be patient in matters whose meaning thou comprehendest
-  not?’”—Trans. Rodwell, page 188.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“He said, ‘It is this we were in quest of.’ So they both went back retracing their footsteps.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Moses lúc này đi cùng người tôi tớ bí ẩn của Thượng đế, người làm nhiều việc Moses không thể hiểu. Cuối cùng, Người Không Biết từ biệt Moses và nói với ông như sau:
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Bấy giờ họ tìm thấy một trong các tôi tớ của Ta, người được Ta ban lòng thương xót và được Ta dạy bằng tri thức của Ta;[369]</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-Moses now accompanies the mysterious servant of God, who does divers
-things which Moses cannot comprehend; finally, the Unknown takes leave
-of Moses, and speaks to him as follows:
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“Then found they one of our servants to whom we had vouchsafed our mercy, and whom we had instructed with our knowledge;[369]</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Họ sẽ hỏi ngươi về Dhoulkarnein (người hai sừng).[370] Hãy nói: ‘Ta sẽ kể cho các ngươi một chuyện về người.’
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Moses nói với người: ‘Tôi có thể theo ngài để ngài dạy tôi, nhằm được dẫn đường bởi điều ngài đã được dạy không?’</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“They will ask thee of Dhoulkarnein (the two-horned).[370] Say: ‘I
-  will recite to you an account of him.’
-    </div>
-  </section>
-  <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Quả thật, Ta đã lập quyền lực của người trên mặt đất và ban cho người một phương tiện hoàn thành mọi mục đích; thế là người theo đường mình;
-    </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Verily, we established his power upon the earth and we gave him a
-  means to accomplish every end, so he followed his way;
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“Moses said to him, ‘Shall I follow thee that thou teach me, for guidance of that which thou hast been taught?’</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Cho tới khi tới nơi mặt trời lặn, người thấy nó lặn trong một khu rừng bùn lầy; và ngay gần đó, người thấy một dân tộc....”
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Người nói: ‘Quả thật, ngươi tuyệt nhiên không thể kiên nhẫn với ta; và sao ngươi có thể kiên nhẫn trong những việc mà ý nghĩa ngươi không hiểu?’” — Bản dịch Rodwell, trang 188.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Until when he reached the setting of the sun, he found it to set in a
-  miry forest; and hard by, he found a people....”
-    </div>
-  </section>
-  <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Sau đó là một suy tưởng luân lý; rồi câu chuyện tiếp:
-    </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-Now follows a moral reflection; then the narrative continues:
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“He said, ‘Verily, thou canst by no means have patience with me; and how canst thou be patient in matters whose meaning thou comprehendest not?’”—Trans. Rodwell, page 188.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Rồi người tiếp tục hành trình cho tới khi tới nơi mặt trời mọc....”
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Moses lúc này đi cùng người tôi tớ bí ẩn của Thượng đế, người làm nhiều việc Moses không thể hiểu. Cuối cùng, Người Không Biết từ biệt Moses và nói với ông như sau:</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Then he followed his course further until he came to the place where
-  the sun rises....”
-    </div>
-  </section>
-  <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Nếu giờ ta muốn biết người tôi tớ không rõ của Thượng đế là ai, đoạn này cho biết: _người là Dhulqarnein, Alexander, Mặt trời; người đi tới nơi lặn và đi tới nơi mọc_. Đoạn về người tôi tớ không rõ của Thượng đế được các nhà chú giải giải thích bằng một truyền thuyết xác định. Người tôi tớ là Chidher, “người xanh tươi”, kẻ phiêu bạt không mệt mỏi lang thang hàng trăm, hàng nghìn năm qua đất và biển; thầy và cố vấn của người sùng đạo; người thông thái trong tri thức thần linh, kẻ bất tử.[371] Uy tín của Tabari gắn Chidher với Dhulqarnein; người ta nói Chidher đã tới “dòng sự sống” với tư cách người theo Alexander, và cả hai vô tình uống nước ấy nên trở thành bất tử. Hơn nữa, _các nhà chú giải xưa đồng nhất Chidher với Elias_, người cũng không chết mà _được đưa lên Trời trong cỗ xe lửa_. Elias là _Helios_.[372]
-
-Cần nhận thấy Ahasver cũng có sự tồn tại nhờ một đoạn tối nghĩa trong thánh thư Cơ Đốc. Đoạn này nằm ở Matthew xvi:28. Trước hết là cảnh Christ chỉ định Peter làm tảng đá của giáo hội và bổ nhiệm ông làm người quản quyền lực của mình.[373] Sau đó là lời tiên tri về cái chết của Christ, rồi tới đoạn:
-    </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-If now we wish to know who is the unknown servant of God, we are told in
-this passage _he is Dhulqarnein, Alexander, the Sun; he goes to the
-place of setting and he goes to the place of rising_. The passage about
-the unknown servant of God is explained by the commentaries in a
-well-defined legend. The servant is Chidher, “the verdant one,” the
-never-tiring wanderer, who roams for hundreds and thousands of years
-over lands and seas, the teacher and counsellor of pious men; the one
-wise in divine knowledge—the immortal.[371] The authority of the Tabari
-associates Chidher with Dhulqarnein; Chidher is said to have reached the
-“stream of life” as a follower of Alexander, and both unwittingly had
-drunk of it, so that they became immortal. Moreover, _Chidher is
-identified by the old commentators with Elias_, who also did not die,
-but _who was taken to Heaven in a fiery chariot_. Elias is
-_Helios_.[372] It is to be observed that Ahasver also owes his existence
-to an obscure place in the holy Christian scriptures. This place is to
-be found in Matthew xvi:28. First comes the scene where Christ appoints
-Peter as the rock of his church, and nominates him the governor of his
-power.[373] After that follows the prophecy of his death, and then comes
-the passage:
+    <div class="parallel-cell parallel-en" lang="en">
+<p>Moses now accompanies the mysterious servant of God, who does divers things which Moses cannot comprehend; finally, the Unknown takes leave of Moses, and speaks to him as follows:</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Quả thật, ta nói cùng các ngươi, có vài người đứng đây sẽ không nếm cái chết cho tới khi thấy Con Người đến trong vương quốc của ngài.”
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Họ sẽ hỏi ngươi về Dhoulkarnein (người hai sừng).[370] Hãy nói: ‘Ta sẽ kể cho các ngươi một chuyện về người.’</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Verily, I say unto you, there be some standing here, which shall not
-  taste of death till they see the Son of Man coming in his kingdom.”
-    </div>
-  </section>
-  <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Tiếp theo là cảnh biến hình:
-    </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-Here follows the scene of the transfiguration:
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“They will ask thee of Dhoulkarnein (the two-horned).[370] Say: ‘I will recite to you an account of him.’</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Và ngài biến hình trước họ; mặt ngài sáng như mặt trời, áo ngài trắng như ánh sáng.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Quả thật, Ta đã lập quyền lực của người trên mặt đất và ban cho người một phương tiện hoàn thành mọi mục đích; thế là người theo đường mình;</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“And was transfigured before them: and his face did shine as the sun,
-  and his raiment was white as the light.
-    </div>
-  </section>
-  <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Và kìa, Moses cùng Elias hiện ra nói chuyện với ngài.
-    </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“And behold there appeared unto them Moses and Elias talking with him.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“Verily, we established his power upon the earth and we gave him a means to accomplish every end, so he followed his way;</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-055">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Bấy giờ Peter thưa Jesus: ‘Lạy Chúa, chúng con ở đây thật tốt; nếu ngài muốn, xin để chúng con dựng ba lều tại đây: một cho ngài, một cho Moses và một cho Elias.’”[374]
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Cho tới khi tới nơi mặt trời lặn, người thấy nó lặn trong một khu rừng bùn lầy; và ngay gần đó, người thấy một dân tộc....”</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Then answered Peter and said unto Jesus, ‘Lord, it is good for us to
-  be here; if thou wilt, let us make here three tabernacles; one for
-  thee and one for Moses and one for Elias.’”[374]
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“Until when he reached the setting of the sun, he found it to set in a miry forest; and hard by, he found a people....”</p>
+    </div>
+  </section>
+  <section class="parallel-row" data-source-chunk="chunk-055">
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Sau đó là một suy tưởng luân lý; rồi câu chuyện tiếp:</p>
+    </div>
+    <div class="parallel-cell parallel-en" lang="en">
+<p>Now follows a moral reflection; then the narrative continues:</p>
+    </div>
+  </section>
+  <section class="parallel-row" data-source-chunk="chunk-055">
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Rồi người tiếp tục hành trình cho tới khi tới nơi mặt trời mọc....”</p>
+    </div>
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“Then he followed his course further until he came to the place where the sun rises....”</p>
+    </div>
+  </section>
+  <section class="parallel-row" data-source-chunk="chunk-055">
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Nếu giờ ta muốn biết người tôi tớ không rõ của Thượng đế là ai, đoạn này cho biết: <em>người là Dhulqarnein, Alexander, Mặt trời; người đi tới nơi lặn và đi tới nơi mọc</em>. Đoạn về người tôi tớ không rõ của Thượng đế được các nhà chú giải giải thích bằng một truyền thuyết xác định. Người tôi tớ là Chidher, “người xanh tươi”, kẻ phiêu bạt không mệt mỏi lang thang hàng trăm, hàng nghìn năm qua đất và biển; thầy và cố vấn của người sùng đạo; người thông thái trong tri thức thần linh, kẻ bất tử.[371] Uy tín của Tabari gắn Chidher với Dhulqarnein; người ta nói Chidher đã tới “dòng sự sống” với tư cách người theo Alexander, và cả hai vô tình uống nước ấy nên trở thành bất tử. Hơn nữa, <em>các nhà chú giải xưa đồng nhất Chidher với Elias</em>, người cũng không chết mà <em>được đưa lên Trời trong cỗ xe lửa</em>. Elias là <em>Helios</em>.[372]</p>
+<p>Cần nhận thấy Ahasver cũng có sự tồn tại nhờ một đoạn tối nghĩa trong thánh thư Cơ Đốc. Đoạn này nằm ở Matthew xvi:28. Trước hết là cảnh Christ chỉ định Peter làm tảng đá của giáo hội và bổ nhiệm ông làm người quản quyền lực của mình.[373] Sau đó là lời tiên tri về cái chết của Christ, rồi tới đoạn:</p>
+    </div>
+    <div class="parallel-cell parallel-en" lang="en">
+<p>If now we wish to know who is the unknown servant of God, we are told in this passage <em>he is Dhulqarnein, Alexander, the Sun; he goes to the place of setting and he goes to the place of rising</em>. The passage about the unknown servant of God is explained by the commentaries in a well-defined legend. The servant is Chidher, “the verdant one,” the never-tiring wanderer, who roams for hundreds and thousands of years over lands and seas, the teacher and counsellor of pious men; the one wise in divine knowledge—the immortal.[371] The authority of the Tabari associates Chidher with Dhulqarnein; Chidher is said to have reached the “stream of life” as a follower of Alexander, and both unwittingly had drunk of it, so that they became immortal. Moreover, <em>Chidher is identified by the old commentators with Elias</em>, who also did not die, but <em>who was taken to Heaven in a fiery chariot</em>. Elias is <em>Helios</em>.[372] It is to be observed that Ahasver also owes his existence to an obscure place in the holy Christian scriptures. This place is to be found in Matthew xvi:28. First comes the scene where Christ appoints Peter as the rock of his church, and nominates him the governor of his power.[373] After that follows the prophecy of his death, and then comes the passage:</p>
+    </div>
+  </section>
+  <section class="parallel-row" data-source-chunk="chunk-055">
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Quả thật, ta nói cùng các ngươi, có vài người đứng đây sẽ không nếm cái chết cho tới khi thấy Con Người đến trong vương quốc của ngài.”</p>
+    </div>
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“Verily, I say unto you, there be some standing here, which shall not taste of death till they see the Son of Man coming in his kingdom.”</p>
+    </div>
+  </section>
+  <section class="parallel-row" data-source-chunk="chunk-055">
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Tiếp theo là cảnh biến hình:</p>
+    </div>
+    <div class="parallel-cell parallel-en" lang="en">
+<p>Here follows the scene of the transfiguration:</p>
+    </div>
+  </section>
+  <section class="parallel-row" data-source-chunk="chunk-055">
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Và ngài biến hình trước họ; mặt ngài sáng như mặt trời, áo ngài trắng như ánh sáng.</p>
+    </div>
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“And was transfigured before them: and his face did shine as the sun, and his raiment was white as the light.</p>
+    </div>
+  </section>
+  <section class="parallel-row" data-source-chunk="chunk-055">
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Và kìa, Moses cùng Elias hiện ra nói chuyện với ngài.</p>
+    </div>
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“And behold there appeared unto them Moses and Elias talking with him.</p>
+    </div>
+  </section>
+  <section class="parallel-row" data-source-chunk="chunk-055">
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Bấy giờ Peter thưa Jesus: ‘Lạy Chúa, chúng con ở đây thật tốt; nếu ngài muốn, xin để chúng con dựng ba lều tại đây: một cho ngài, một cho Moses và một cho Elias.’”[374]</p>
+    </div>
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“Then answered Peter and said unto Jesus, ‘Lord, it is good for us to be here; if thou wilt, let us make here three tabernacles; one for thee and one for Moses and one for Elias.’”[374]</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-056">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Từ những đoạn ấy, có vẻ Christ đứng trên cùng bình diện với Elias mà không bị đồng nhất với ông,[375] dù dân chúng xem Christ là Elias. Sự thăng thiên đặt Christ đồng nhất với Elias. Lời tiên tri của Christ cho thấy ngoài ngài còn có một hay nhiều kẻ bất tử sẽ không chết cho tới Parousia. Theo John xxi:22, chàng John được coi là một trong những kẻ bất tử ấy; trong truyền thuyết, quả thực ông không chết mà chỉ ngủ trong đất tới Parousia, và vẫn thở khiến bụi xoáy quanh mộ.[376] Rõ ràng có những cây cầu đi được từ Christ, qua Elias, tới Chidher và Ahasuerus. Một bản kể truyền thuyết[377] nói Dhulqarnein dẫn bạn mình Chidher tới “nguồn sự sống” để người uống lấy bất tử.[378] Alexander cũng tắm trong dòng sự sống và thực hiện nghi thức tẩy rửa. Như tôi đã nói trong một chú thích trước, theo Matthew xvii:12, John the Baptist là Elias, do đó về căn bản đồng nhất với Chidher.
-
-Tuy nhiên, cần chú ý rằng trong truyền thuyết Ả Rập, Chidher xuất hiện đúng hơn như người đồng hành hay người được tháp tùng: Chidher với Dhulqarnein hoặc với Elias, “giống như họ”, hay được đồng nhất với họ.[379] Vì vậy có hai hình tượng tương tự, giống nhau nhưng vẫn riêng biệt. Tình thế tương ứng trong truyền thuyết Cơ Đốc nằm ở cảnh bên sông Jordan, nơi John dẫn Christ tới “nguồn sự sống”. Ở đó Christ là người dưới, John là người trên, tương tự Dhulqarnein và Chidher, hay Chidher và Moses, cũng như Elias. Đặc biệt quan hệ sau khiến Vollers so sánh Chidher và Elias, một phía với Gilgamesh và người anh em hữu tử Eabani, phía kia với Dioscuri, một người bất tử, người còn lại hữu tử. Quan hệ ấy cũng thấy giữa Christ và John the Baptist,[380] một mặt, và Christ cùng Peter, mặt khác.
-
-Song song cuối chỉ có thể được giải thích qua so sánh với các huyền nhiệm Mithra, nơi nội dung bí truyền bộc lộ cho ta qua các đài kỷ niệm. Trên phù điêu đá cẩm thạch Mithra ở Klagenfurt,[381] Mithra có quầng sáng đội vương miện cho Helios, người hoặc quỳ trước ông hoặc từ dưới bay lên phía ông. Trên một đài Mithra ở Osterburken, Mithra được biểu hiện tay phải giữ vai con bò huyền nhiệm phía trên Helios; Helios cúi đứng trước ông, tay trái đặt lên chuôi kiếm. Giữa họ trên mặt đất có một vương miện. Cumont nhận xét cảnh này có lẽ biểu hiện nguyên mẫu thần linh của nghi lễ khai tâm vào cấp Miles, nơi người thụ pháp được trao kiếm và vương miện. Như vậy Helios được bổ nhiệm làm Miles của Mithra. Nói chung, Mithra dường như giữ vai trò người bảo trợ Helios, nhắc ta tới sự táo bạo của Hercules đối với Helios. Trên đường tới Geryon, Helios thiêu quá nóng; Hercules nổi giận, đe dọa ông bằng những mũi tên không bao giờ trượt. Helios buộc phải nhượng bộ và cho người anh hùng mượn thuyền Mặt trời, con thuyền ông thường dùng vượt biển. Nhờ thế Hercules trở lại Erythia, tới đàn bò của Geryon.[382]
-
-Trên đài ở Klagenfurt, Mithra còn được biểu hiện đang siết tay Helios, hoặc để từ biệt, hoặc để chuẩn nhận. Trong cảnh khác, Mithra bước lên Cỗ xe Helios, để thăng thiên hay thực hiện “Hành trình biển”.[383] Cumont cho rằng Mithra ban cho Helios một kiểu lễ tấn phong và hiến thánh ông bằng quyền năng thần linh khi tự tay đội vương miện cho ông. Quan hệ này tương ứng với quan hệ Christ–Peter. Qua biểu tượng con gà trống, Peter mang tính chất một thần Mặt trời. Sau sự thăng thiên, hay hành trình biển, của Christ, ông là giáo chủ hữu hình của thần tính; vì vậy ông chịu cùng cái chết, đóng đinh, như Christ, rồi trở thành đại thần La Mã, *Sol invictus*, chính Giáo hội chinh phục và khải hoàn được hiện thân trong Giáo hoàng. Trong cảnh Malchus, ông luôn được trình bày như miles của Christ, người được trao kiếm, và như tảng đá trên đó Giáo hội được dựng. Vương miện[384] cũng được trao cho người có quyền trói buộc và giải phóng. Vậy Christ, như Mặt trời, là Thượng đế hữu hình; còn Giáo hoàng, như người thừa kế các Cæsar La Mã, là *solis invicti comes*. Mặt trời lặn chỉ định một người kế vị rồi tấn phong người ấy bằng quyền lực mặt trời.[385] Dhulqarnein trao Chidher sự sống vĩnh cửu. Chidher truyền sự thông thái cho Moses.[386] Thậm chí có một bản kể rằng người tôi tớ hay quên của Joshua uống từ giếng sự sống, nhờ đó thành bất tử; để trừng phạt, Chidher và Moses đặt người ấy vào một con thuyền rồi thả ra biển. Lại một mảnh thần thoại mặt trời, mô-típ “hành trình biển”.[387]
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Từ những đoạn ấy, có vẻ Christ đứng trên cùng bình diện với Elias mà không bị đồng nhất với ông,[375] dù dân chúng xem Christ là Elias. Sự thăng thiên đặt Christ đồng nhất với Elias. Lời tiên tri của Christ cho thấy ngoài ngài còn có một hay nhiều kẻ bất tử sẽ không chết cho tới Parousia. Theo John xxi:22, chàng John được coi là một trong những kẻ bất tử ấy; trong truyền thuyết, quả thực ông không chết mà chỉ ngủ trong đất tới Parousia, và vẫn thở khiến bụi xoáy quanh mộ.[376] Rõ ràng có những cây cầu đi được từ Christ, qua Elias, tới Chidher và Ahasuerus. Một bản kể truyền thuyết[377] nói Dhulqarnein dẫn bạn mình Chidher tới “nguồn sự sống” để người uống lấy bất tử.[378] Alexander cũng tắm trong dòng sự sống và thực hiện nghi thức tẩy rửa. Như tôi đã nói trong một chú thích trước, theo Matthew xvii:12, John the Baptist là Elias, do đó về căn bản đồng nhất với Chidher.</p>
+<p>Tuy nhiên, cần chú ý rằng trong truyền thuyết Ả Rập, Chidher xuất hiện đúng hơn như người đồng hành hay người được tháp tùng: Chidher với Dhulqarnein hoặc với Elias, “giống như họ”, hay được đồng nhất với họ.[379] Vì vậy có hai hình tượng tương tự, giống nhau nhưng vẫn riêng biệt. Tình thế tương ứng trong truyền thuyết Cơ Đốc nằm ở cảnh bên sông Jordan, nơi John dẫn Christ tới “nguồn sự sống”. Ở đó Christ là người dưới, John là người trên, tương tự Dhulqarnein và Chidher, hay Chidher và Moses, cũng như Elias. Đặc biệt quan hệ sau khiến Vollers so sánh Chidher và Elias, một phía với Gilgamesh và người anh em hữu tử Eabani, phía kia với Dioscuri, một người bất tử, người còn lại hữu tử. Quan hệ ấy cũng thấy giữa Christ và John the Baptist,[380] một mặt, và Christ cùng Peter, mặt khác.</p>
+<p>Song song cuối chỉ có thể được giải thích qua so sánh với các huyền nhiệm Mithra, nơi nội dung bí truyền bộc lộ cho ta qua các đài kỷ niệm. Trên phù điêu đá cẩm thạch Mithra ở Klagenfurt,[381] Mithra có quầng sáng đội vương miện cho Helios, người hoặc quỳ trước ông hoặc từ dưới bay lên phía ông. Trên một đài Mithra ở Osterburken, Mithra được biểu hiện tay phải giữ vai con bò huyền nhiệm phía trên Helios; Helios cúi đứng trước ông, tay trái đặt lên chuôi kiếm. Giữa họ trên mặt đất có một vương miện. Cumont nhận xét cảnh này có lẽ biểu hiện nguyên mẫu thần linh của nghi lễ khai tâm vào cấp Miles, nơi người thụ pháp được trao kiếm và vương miện. Như vậy Helios được bổ nhiệm làm Miles của Mithra. Nói chung, Mithra dường như giữ vai trò người bảo trợ Helios, nhắc ta tới sự táo bạo của Hercules đối với Helios. Trên đường tới Geryon, Helios thiêu quá nóng; Hercules nổi giận, đe dọa ông bằng những mũi tên không bao giờ trượt. Helios buộc phải nhượng bộ và cho người anh hùng mượn thuyền Mặt trời, con thuyền ông thường dùng vượt biển. Nhờ thế Hercules trở lại Erythia, tới đàn bò của Geryon.[382]</p>
+<p>Trên đài ở Klagenfurt, Mithra còn được biểu hiện đang siết tay Helios, hoặc để từ biệt, hoặc để chuẩn nhận. Trong cảnh khác, Mithra bước lên Cỗ xe Helios, để thăng thiên hay thực hiện “Hành trình biển”.[383] Cumont cho rằng Mithra ban cho Helios một kiểu lễ tấn phong và hiến thánh ông bằng quyền năng thần linh khi tự tay đội vương miện cho ông. Quan hệ này tương ứng với quan hệ Christ–Peter. Qua biểu tượng con gà trống, Peter mang tính chất một thần Mặt trời. Sau sự thăng thiên, hay hành trình biển, của Christ, ông là giáo chủ hữu hình của thần tính; vì vậy ông chịu cùng cái chết, đóng đinh, như Christ, rồi trở thành đại thần La Mã, <em>Sol invictus</em>, chính Giáo hội chinh phục và khải hoàn được hiện thân trong Giáo hoàng. Trong cảnh Malchus, ông luôn được trình bày như miles của Christ, người được trao kiếm, và như tảng đá trên đó Giáo hội được dựng. Vương miện[384] cũng được trao cho người có quyền trói buộc và giải phóng. Vậy Christ, như Mặt trời, là Thượng đế hữu hình; còn Giáo hoàng, như người thừa kế các Cæsar La Mã, là <em>solis invicti comes</em>. Mặt trời lặn chỉ định một người kế vị rồi tấn phong người ấy bằng quyền lực mặt trời.[385] Dhulqarnein trao Chidher sự sống vĩnh cửu. Chidher truyền sự thông thái cho Moses.[386] Thậm chí có một bản kể rằng người tôi tớ hay quên của Joshua uống từ giếng sự sống, nhờ đó thành bất tử; để trừng phạt, Chidher và Moses đặt người ấy vào một con thuyền rồi thả ra biển. Lại một mảnh thần thoại mặt trời, mô-típ “hành trình biển”.[387]</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-From these passages it appears that Christ stands on the same plane as
-Elias, without being identified with him,[375] although the people
-consider him as Elias. The ascension places Christ as identical with
-Elias. The prophecy of Christ shows that there exist aside from himself
-one or more immortals who shall not die until Parousai. According to
-John xxi: 22nd verse, the boy John was considered as one of these
-immortals, and in the legend he is, in fact, not dead but merely
-sleeping in the ground until Parousai, and breathes so that the dust
-swirls round his grave.[376] As is evident, there are passable bridges
-from Christ by way of Elias to Chidher and Ahasuerus. It is said in an
-account of this legend[377] that Dhulqarnein led his friend Chidher to
-the “source of life” in order to have him drink of immortality.[378]
-Alexander also bathed in the stream of life and performed the ritual
-ablutions. As I previously mentioned in a footnote, according to Matthew
-xvii: 12th verse, John the Baptist is Elias, therefore primarily
-identical with Chidher. Now, however, it is to be noted that in the
-Arabian legend Chidher appears rather as a companion or accompanied
-(Chidher with Dhulqarnein or with Elias, “like unto them”; or identified
-with them[379]). There are therefore, two similar figures who resemble
-each other, but who, nevertheless, are distinct. The analogous situation
-in the Christian legend is found in the scene by the Jordan where John
-leads Christ to the “source of life.” Christ is there, the subordinate,
-John the superior, similar to Dhulqarnein and Chidher, or Chidher and
-Moses, also Elias. The latter relation especially is such that Vollers
-compares Chidher and Elias, on the one side, with Gilgamesh and his
-mortal brother Eabani; on the other side, with the Dioscuri, one of whom
-is immortal, the other mortal. This relation is also found in Christ and
-John the Baptist,[380] on the one hand, and Christ and Peter, on the
-other. The last-named parallel only finds its explanation through
-comparison with the Mithraic mysteries, where the esoteric contents are
-revealed to us through monuments. Upon the Mithraic marble relief of
-Klagenfurt[381] it is represented how with a halo Mithra crowns Helios,
-who either kneels before him or else floats up to him from below. Mithra
-is represented on a Mithraic monument of Osterburken as holding in his
-right hand the shoulder of the mystic ox above Helios, who stands bowed
-down before him, the left hand resting on a sword hilt. A crown lies
-between them on the ground. Cumont observes about this scene that it
-probably represents the divine prototype of the ceremony of the
-initiation into the degree of Miles, in which a sword and a crown were
-conferred upon the mystic. Helios is, therefore, appointed the Miles of
-Mithra. In a general way, Mithra seems to occupy the rôle of patron to
-Helios, which reminds us of the boldness of Hercules towards Helios.
-Upon his journey towards Geryon, Helios burns too hotly; Hercules, full
-of anger, threatens him with his never-failing arrows. Therefore, Helios
-is compelled to yield, and lends to the hero his Sun ship, with which he
-was accustomed to journey across the sea. Thus Hercules returns to
-Erythia, to the cattle herds of Geryon.[382] On the monument at
-Klagenfurt, Mithra is furthermore represented pressing Helios’s hand,
-either in farewell or as a ratification. In a further scene Mithra
-mounts the Chariot of Helios, either for the ascension or the “Sea
-Journey.”[383] Cumont is of the opinion that Mithra gives to Helios a
-sort of ceremonious investiture and consecrates him with his divine
-power by crowning him with his own hands. This relation corresponds to
-that of Christ to Peter. Peter, through his symbol, the cock, has the
-character of a sun-god. After the ascension (or sea journey) of Christ,
-he is the visible pontiff of the divinity; he suffers, therefore, the
-same death (crucifixion) as Christ, and becomes the great Roman deity
-(_Sol invictus_), the conquering, triumphant Church itself, embodied in
-the Pope. In the scene of Malchus he is always shown as the miles of
-Christ, to whom the sword is granted, and as the rock upon which the
-Church is founded. The crown[384] is also given to him who possesses the
-power to bind and to set free. Thus, Christ, like the Sun, is the
-visible God, whereas the Pope, like the heir of the Roman Cæsars, is
-_solis invicti comes_. The setting sun appoints a successor whom he
-invests with the power of the sun.[385] Dhulqarnein gives Chidher
-eternal life. Chidher communicates his wisdom to Moses.[386] There even
-exists a report according to which the forgetful servant of Joshua
-drinks from the well of life, whereupon he becomes immortal, and is
-placed in a ship by Chidher and Moses, as a punishment, and is cast out
-to sea, once more a fragment of a sun myth, the motive of the “sea
-journey.”[387]
+    <div class="parallel-cell parallel-en" lang="en">
+<p>From these passages it appears that Christ stands on the same plane as Elias, without being identified with him,[375] although the people consider him as Elias. The ascension places Christ as identical with Elias. The prophecy of Christ shows that there exist aside from himself one or more immortals who shall not die until Parousai. According to John xxi: 22nd verse, the boy John was considered as one of these immortals, and in the legend he is, in fact, not dead but merely sleeping in the ground until Parousai, and breathes so that the dust swirls round his grave.[376] As is evident, there are passable bridges from Christ by way of Elias to Chidher and Ahasuerus. It is said in an account of this legend[377] that Dhulqarnein led his friend Chidher to the “source of life” in order to have him drink of immortality.[378] Alexander also bathed in the stream of life and performed the ritual ablutions. As I previously mentioned in a footnote, according to Matthew xvii: 12th verse, John the Baptist is Elias, therefore primarily identical with Chidher. Now, however, it is to be noted that in the Arabian legend Chidher appears rather as a companion or accompanied (Chidher with Dhulqarnein or with Elias, “like unto them”; or identified with them[379]). There are therefore, two similar figures who resemble each other, but who, nevertheless, are distinct. The analogous situation in the Christian legend is found in the scene by the Jordan where John leads Christ to the “source of life.” Christ is there, the subordinate, John the superior, similar to Dhulqarnein and Chidher, or Chidher and Moses, also Elias. The latter relation especially is such that Vollers compares Chidher and Elias, on the one side, with Gilgamesh and his mortal brother Eabani; on the other side, with the Dioscuri, one of whom is immortal, the other mortal. This relation is also found in Christ and John the Baptist,[380] on the one hand, and Christ and Peter, on the other. The last-named parallel only finds its explanation through comparison with the Mithraic mysteries, where the esoteric contents are revealed to us through monuments. Upon the Mithraic marble relief of Klagenfurt[381] it is represented how with a halo Mithra crowns Helios, who either kneels before him or else floats up to him from below. Mithra is represented on a Mithraic monument of Osterburken as holding in his right hand the shoulder of the mystic ox above Helios, who stands bowed down before him, the left hand resting on a sword hilt. A crown lies between them on the ground. Cumont observes about this scene that it probably represents the divine prototype of the ceremony of the initiation into the degree of Miles, in which a sword and a crown were conferred upon the mystic. Helios is, therefore, appointed the Miles of Mithra. In a general way, Mithra seems to occupy the rôle of patron to Helios, which reminds us of the boldness of Hercules towards Helios. Upon his journey towards Geryon, Helios burns too hotly; Hercules, full of anger, threatens him with his never-failing arrows. Therefore, Helios is compelled to yield, and lends to the hero his Sun ship, with which he was accustomed to journey across the sea. Thus Hercules returns to Erythia, to the cattle herds of Geryon.[382] On the monument at Klagenfurt, Mithra is furthermore represented pressing Helios’s hand, either in farewell or as a ratification. In a further scene Mithra mounts the Chariot of Helios, either for the ascension or the “Sea Journey.”[383] Cumont is of the opinion that Mithra gives to Helios a sort of ceremonious investiture and consecrates him with his divine power by crowning him with his own hands. This relation corresponds to that of Christ to Peter. Peter, through his symbol, the cock, has the character of a sun-god. After the ascension (or sea journey) of Christ, he is the visible pontiff of the divinity; he suffers, therefore, the same death (crucifixion) as Christ, and becomes the great Roman deity (<em>Sol invictus</em>), the conquering, triumphant Church itself, embodied in the Pope. In the scene of Malchus he is always shown as the miles of Christ, to whom the sword is granted, and as the rock upon which the Church is founded. The crown[384] is also given to him who possesses the power to bind and to set free. Thus, Christ, like the Sun, is the visible God, whereas the Pope, like the heir of the Roman Cæsars, is <em>solis invicti comes</em>. The setting sun appoints a successor whom he invests with the power of the sun.[385] Dhulqarnein gives Chidher eternal life. Chidher communicates his wisdom to Moses.[386] There even exists a report according to which the forgetful servant of Joshua drinks from the well of life, whereupon he becomes immortal, and is placed in a ship by Chidher and Moses, as a punishment, and is cast out to sea, once more a fragment of a sun myth, the motive of the “sea journey.”[387]</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-056">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Biểu tượng nguyên thủy chỉ phần Hoàng đạo nơi Mặt trời, vào Đông chí, lại bước vào hành trình hằng năm là dấu dê-cá, αἰγωκέρως. Mặt trời như dê trèo lên núi cao nhất, rồi về sau đi vào nước như cá. Cá là biểu tượng của đứa trẻ,[388] bởi trước khi sinh, đứa trẻ sống trong nước như cá; Mặt trời vì lao xuống biển cũng trở thành cả trẻ lẫn cá. Nhưng cá còn là biểu tượng dương vật,[389] đồng thời là biểu tượng người nữ.[390] Nói gọn, cá là biểu tượng dục lực, và dường như chủ yếu là biểu tượng _cho sự đổi mới dục lực_.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Biểu tượng nguyên thủy chỉ phần Hoàng đạo nơi Mặt trời, vào Đông chí, lại bước vào hành trình hằng năm là dấu dê-cá, αἰγωκέρως. Mặt trời như dê trèo lên núi cao nhất, rồi về sau đi vào nước như cá. Cá là biểu tượng của đứa trẻ,[388] bởi trước khi sinh, đứa trẻ sống trong nước như cá; Mặt trời vì lao xuống biển cũng trở thành cả trẻ lẫn cá. Nhưng cá còn là biểu tượng dương vật,[389] đồng thời là biểu tượng người nữ.[390] Nói gọn, cá là biểu tượng dục lực, và dường như chủ yếu là biểu tượng <em>cho sự đổi mới dục lực</em>.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-The primitive symbol, which designates that portion of the Zodiac in
-which the Sun, with the Winter Solstice, again enters upon the yearly
-course, is the goat, fish sign, the αἰγωκέρως. The Sun mounts like a
-goat to the highest mountain, and later goes into the water as a fish.
-The fish is the symbol of the child,[388] for the child before his birth
-lives in the water like a fish, and the Sun, because it plunges into the
-sea, becomes equally child and fish. The fish, however, is also a
-phallic symbol,[389] also a symbol for the woman.[390] Briefly stated,
-the fish is a libido symbol, and, indeed, as it seems predominately _for
-the renewal of the libido_.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>The primitive symbol, which designates that portion of the Zodiac in which the Sun, with the Winter Solstice, again enters upon the yearly course, is the goat, fish sign, the αἰγωκέρως. The Sun mounts like a goat to the highest mountain, and later goes into the water as a fish. The fish is the symbol of the child,[388] for the child before his birth lives in the water like a fish, and the Sun, because it plunges into the sea, becomes equally child and fish. The fish, however, is also a phallic symbol,[389] also a symbol for the woman.[390] Briefly stated, the fish is a libido symbol, and, indeed, as it seems predominately <em>for the renewal of the libido</em>.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-056">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Cuộc đi của Moses cùng tôi tớ là một hành trình đời sống, tám mươi năm. Họ già đi và mất sinh lực, dục lực, tức mất con cá “tìm đường ra biển theo một cách kỳ diệu”, nghĩa là mặt trời lặn. Khi nhận ra sự mất mát, tại nơi có “nguồn sự sống”, nơi cá chết sống lại rồi nhảy xuống biển, họ phát hiện Chidher ngồi trên đất, quấn trong áo choàng.[391] Theo một bản khác, ông ngồi trên đảo giữa biển, hay “nơi ướt nhất trên mặt đất”; tức ông vừa _được sinh từ chiều sâu người mẹ_. Nơi con cá biến mất, Chidher, “người xanh tươi”, sinh ra như “con trai của nước sâu”, đầu phủ kín, một Cabir, người công bố minh triết thần linh; Oannes-Ea Babylon cổ, được biểu hiện dưới hình cá và mỗi ngày từ biển đi lên như cá để dạy dân chúng sự thông thái.[392] Tên ông được nối với tên John. Khi mặt trời đổi mới mọc lên, tất cả những gì sống trong bóng tối như thủy vật hay cá, bị mọi nỗi kinh hoàng của đêm và cái chết vây quanh,[393] trở thành bầu trời lửa sáng của ban ngày. Vì vậy lời John the Baptist[394] mang ý nghĩa đặc biệt:
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Cuộc đi của Moses cùng tôi tớ là một hành trình đời sống, tám mươi năm. Họ già đi và mất sinh lực, dục lực, tức mất con cá “tìm đường ra biển theo một cách kỳ diệu”, nghĩa là mặt trời lặn. Khi nhận ra sự mất mát, tại nơi có “nguồn sự sống”, nơi cá chết sống lại rồi nhảy xuống biển, họ phát hiện Chidher ngồi trên đất, quấn trong áo choàng.[391] Theo một bản khác, ông ngồi trên đảo giữa biển, hay “nơi ướt nhất trên mặt đất”; tức ông vừa <em>được sinh từ chiều sâu người mẹ</em>. Nơi con cá biến mất, Chidher, “người xanh tươi”, sinh ra như “con trai của nước sâu”, đầu phủ kín, một Cabir, người công bố minh triết thần linh; Oannes-Ea Babylon cổ, được biểu hiện dưới hình cá và mỗi ngày từ biển đi lên như cá để dạy dân chúng sự thông thái.[392] Tên ông được nối với tên John. Khi mặt trời đổi mới mọc lên, tất cả những gì sống trong bóng tối như thủy vật hay cá, bị mọi nỗi kinh hoàng của đêm và cái chết vây quanh,[393] trở thành bầu trời lửa sáng của ban ngày. Vì vậy lời John the Baptist[394] mang ý nghĩa đặc biệt:</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-The journey of Moses with his servant is a life-journey (eighty years).
-They grow old and lose their life force (libido), that is, they lose the
-fish which “pursues its course in a marvellous manner to the sea,” which
-means the setting of the sun. When the two notice their loss, they
-discover at the place where the “source of life” is found (where the
-dead fish revived and sprang into the sea) Chidher wrapped in his
-mantle,[391] sitting on the ground. According to another version, he sat
-on an island in the sea, or “in the wettest place on earth,” that is, he
-was just _born from the maternal depths_. Where the fish vanished
-Chidher, “the verdant one,” was born as a “son of the deep waters,” his
-head veiled, a Cabir, a proclaimer of divine wisdom; the old Babylonian
-Oannes-Ea, who was represented in the form of a fish, and daily came
-from the sea as a fish to teach the people wisdom.[392] His name was
-brought into connection with John’s. With the rising of the renewed sun
-all that lived in darkness, as water-animal or fish, surrounded by all
-terrors of night and death,[393] became as the shining fiery firmament
-of the day. Thus the words of John the Baptist[394] gain especial
-meaning:
+    <div class="parallel-cell parallel-en" lang="en">
+<p>The journey of Moses with his servant is a life-journey (eighty years). They grow old and lose their life force (libido), that is, they lose the fish which “pursues its course in a marvellous manner to the sea,” which means the setting of the sun. When the two notice their loss, they discover at the place where the “source of life” is found (where the dead fish revived and sprang into the sea) Chidher wrapped in his mantle,[391] sitting on the ground. According to another version, he sat on an island in the sea, or “in the wettest place on earth,” that is, he was just <em>born from the maternal depths</em>. Where the fish vanished Chidher, “the verdant one,” was born as a “son of the deep waters,” his head veiled, a Cabir, a proclaimer of divine wisdom; the old Babylonian Oannes-Ea, who was represented in the form of a fish, and daily came from the sea as a fish to teach the people wisdom.[392] His name was brought into connection with John’s. With the rising of the renewed sun all that lived in darkness, as water-animal or fish, surrounded by all terrors of night and death,[393] became as the shining fiery firmament of the day. Thus the words of John the Baptist[394] gain especial meaning:</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-056">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Ta quả thật làm phép rửa cho các ngươi bằng nước để ăn năn; nhưng người đến sau ta mạnh hơn ta, ta không đáng mang giày cho người; người sẽ làm phép rửa cho các ngươi bằng Thánh Linh và lửa.”
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Ta quả thật làm phép rửa cho các ngươi bằng nước để ăn năn; nhưng người đến sau ta mạnh hơn ta, ta không đáng mang giày cho người; người sẽ làm phép rửa cho các ngươi bằng Thánh Linh và lửa.”</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“I indeed baptize you with water unto repentance, but he that cometh
-  after me is mightier than I, whose shoes I am not worthy to bear; he
-  shall baptize you with the Holy Ghost and with fire.”
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“I indeed baptize you with water unto repentance, but he that cometh after me is mightier than I, whose shoes I am not worthy to bear; he shall baptize you with the Holy Ghost and with fire.”</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-056">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Cùng Vollers, ta cũng có thể so sánh Chidher và Elias, tức Moses và tôi tớ Joshua, với Gilgamesh và người anh em Eabani. Gilgamesh lang thang khắp thế gian, bị lo âu và khao khát thúc đẩy đi tìm bất tử. Đường ông vượt biển tới nhà hiền triết Utnapishtim, Noah, người biết cách đi qua nước chết. Tại đó Gilgamesh phải lặn xuống đáy biển tìm cây cỏ phép sẽ dẫn ông về xứ người. Khi ông trở lại quê hương, một con rắn cướp mất cây phép; con cá lại trượt xuống biển. Nhưng trên đường trở về từ xứ phúc lạc, một thủy thủ bất tử đi cùng ông; do lời nguyền của Utnapishtim đày ải, người ấy bị cấm trở lại xứ phúc lạc. Hành trình Gilgamesh mất mục đích vì cây phép bị mất; thay vào đó, một kẻ bất tử đi cùng ông, nhưng từ những mảnh sử thi ta không biết được số phận người ấy. Kẻ bất tử bị đày này là nguyên mẫu của Ahasver, như Jensen[395] đã nhận xét xác đáng.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Cùng Vollers, ta cũng có thể so sánh Chidher và Elias, tức Moses và tôi tớ Joshua, với Gilgamesh và người anh em Eabani. Gilgamesh lang thang khắp thế gian, bị lo âu và khao khát thúc đẩy đi tìm bất tử. Đường ông vượt biển tới nhà hiền triết Utnapishtim, Noah, người biết cách đi qua nước chết. Tại đó Gilgamesh phải lặn xuống đáy biển tìm cây cỏ phép sẽ dẫn ông về xứ người. Khi ông trở lại quê hương, một con rắn cướp mất cây phép; con cá lại trượt xuống biển. Nhưng trên đường trở về từ xứ phúc lạc, một thủy thủ bất tử đi cùng ông; do lời nguyền của Utnapishtim đày ải, người ấy bị cấm trở lại xứ phúc lạc. Hành trình Gilgamesh mất mục đích vì cây phép bị mất; thay vào đó, một kẻ bất tử đi cùng ông, nhưng từ những mảnh sử thi ta không biết được số phận người ấy. Kẻ bất tử bị đày này là nguyên mẫu của Ahasver, như Jensen[395] đã nhận xét xác đáng.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-With Vollers we may also compare Chidher and Elias (Moses and his
-servant Joshua) with Gilgamesh and his brother Eabani. Gilgamesh
-wandered through the world, driven by anxiety and longing, to find
-immortality. His path led him across the seas to the wise Utnapishtim
-(Noah), who knew how to cross the waters of death. There Gilgamesh had
-to dive down to the bottom of the sea for the magical herb which was to
-lead him back to the land of men. When he had come again to his native
-land a serpent stole the magic plant from him (the fish again slid into
-the sea). But on the return from the land of the blessed an immortal
-mariner accompanied him, who, banished by a curse of Utnapishtim, was
-forbidden to return to the land of the blessed. Gilgamesh’s journey had
-lost its purpose on account of the loss of the magic herb; instead he is
-accompanied by an immortal, whose fate, indeed, we cannot learn from the
-fragments of the epic. This banished immortal is the model for Ahasver,
-as Jensen[395] aptly remarked.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>With Vollers we may also compare Chidher and Elias (Moses and his servant Joshua) with Gilgamesh and his brother Eabani. Gilgamesh wandered through the world, driven by anxiety and longing, to find immortality. His path led him across the seas to the wise Utnapishtim (Noah), who knew how to cross the waters of death. There Gilgamesh had to dive down to the bottom of the sea for the magical herb which was to lead him back to the land of men. When he had come again to his native land a serpent stole the magic plant from him (the fish again slid into the sea). But on the return from the land of the blessed an immortal mariner accompanied him, who, banished by a curse of Utnapishtim, was forbidden to return to the land of the blessed. Gilgamesh’s journey had lost its purpose on account of the loss of the magic herb; instead he is accompanied by an immortal, whose fate, indeed, we cannot learn from the fragments of the epic. This banished immortal is the model for Ahasver, as Jensen[395] aptly remarked.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-057">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Một lần nữa ta gặp mô-típ Dioscuri: hữu tử và bất tử, mặt trời lặn và mặt trời mọc. _Mô-típ này cũng được biểu hiện như thể phóng chiếu ra từ người anh hùng._
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Một lần nữa ta gặp mô-típ Dioscuri: hữu tử và bất tử, mặt trời lặn và mặt trời mọc. <em>Mô-típ này cũng được biểu hiện như thể phóng chiếu ra từ người anh hùng.</em></p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-Again we encounter the motive of the Dioscuri, mortal and immortal,
-setting and rising sun. This _motive is also represented as if projected
-from the hero_.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>Again we encounter the motive of the Dioscuri, mortal and immortal, setting and rising sun. This <em>motive is also represented as if projected from the hero</em>.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-057">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Trong biểu hiện tôn giáo, *Sacrificium Mithriacum*, lễ hiến tế bò mộng, rất thường được hai Dadophore Cautes và Cautopates đứng hai bên, một người giơ đuốc lên, người kia hạ đuốc xuống. Họ biểu hiện hai anh em bộc lộ tính chất qua vị trí biểu tượng của ngọn đuốc. Không phải vô nghĩa khi Cumont nối họ với các “erotes” mộ táng, những thần linh nhỏ có ý nghĩa truyền thống với ngọn đuốc lật ngược. Một người được cho là tượng trưng cái chết, người kia sự sống. Tôi không thể không nhắc sự giống nhau giữa *Sacrificium Mithriacum*, nơi bò hiến tế ở giữa được các Dadophore đứng hai bên, với lễ hiến tế chiên con, hay cừu đực, của Cơ Đốc giáo. Đấng Chịu Đóng đinh theo truyền thống cũng có hai tên trộm đứng hai bên; một kẻ lên Thiên đường, kẻ kia xuống Địa ngục.[396] Ý niệm hữu tử và bất tử dường như cũng đã đi vào việc thờ phụng Cơ Đốc.
-
-Các thần Semitic thường được biểu hiện với hai Paredroi đứng hai bên; chẳng hạn Baal xứ Edessa đi cùng Aziz và Monimoz, tức Baal như Mặt trời đi cùng Mars và Mercury theo giáo lý thiên văn. Theo quan điểm Chaldea, các thần được nhóm thành bộ ba. Cũng thuộc vòng ý niệm này là Tam vị nhất thể, ý tưởng Thượng đế ba ngôi, trong đó Christ phải được xét trong sự hợp nhất với Cha và Thánh Linh. Hai tên trộm cũng thuộc nội tại của Christ. Như Cumont chỉ ra, hai Dadophore không gì khác ngoài những nhánh tách ra[397] từ hình tượng chính Mithra, người mang tính chất tam phân bí ẩn. Theo một bản kể của Dionysus Areopagita, các pháp sư cử hành một lễ hội “τοῦ τριπλασίου Μίθρου”.[398][399] Plutarch cũng có một nhận xét chỉ tới Tam vị nhất thể về Ormuzd: τρὶς ἑαυτὸν αὐξήσας ἀπέστησε τοῦ ἡλίου.[400] Tam vị nhất thể, như ba trạng thái khác nhau của một nhất thể, cũng là tư tưởng Cơ Đốc. Trước hết, điều này gợi một thần thoại mặt trời. Một nhận xét của Macrobius 1:18 dường như hỗ trợ ý tưởng ấy:
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Trong biểu hiện tôn giáo, <em>Sacrificium Mithriacum</em>, lễ hiến tế bò mộng, rất thường được hai Dadophore Cautes và Cautopates đứng hai bên, một người giơ đuốc lên, người kia hạ đuốc xuống. Họ biểu hiện hai anh em bộc lộ tính chất qua vị trí biểu tượng của ngọn đuốc. Không phải vô nghĩa khi Cumont nối họ với các “erotes” mộ táng, những thần linh nhỏ có ý nghĩa truyền thống với ngọn đuốc lật ngược. Một người được cho là tượng trưng cái chết, người kia sự sống. Tôi không thể không nhắc sự giống nhau giữa <em>Sacrificium Mithriacum</em>, nơi bò hiến tế ở giữa được các Dadophore đứng hai bên, với lễ hiến tế chiên con, hay cừu đực, của Cơ Đốc giáo. Đấng Chịu Đóng đinh theo truyền thống cũng có hai tên trộm đứng hai bên; một kẻ lên Thiên đường, kẻ kia xuống Địa ngục.[396] Ý niệm hữu tử và bất tử dường như cũng đã đi vào việc thờ phụng Cơ Đốc.</p>
+<p>Các thần Semitic thường được biểu hiện với hai Paredroi đứng hai bên; chẳng hạn Baal xứ Edessa đi cùng Aziz và Monimoz, tức Baal như Mặt trời đi cùng Mars và Mercury theo giáo lý thiên văn. Theo quan điểm Chaldea, các thần được nhóm thành bộ ba. Cũng thuộc vòng ý niệm này là Tam vị nhất thể, ý tưởng Thượng đế ba ngôi, trong đó Christ phải được xét trong sự hợp nhất với Cha và Thánh Linh. Hai tên trộm cũng thuộc nội tại của Christ. Như Cumont chỉ ra, hai Dadophore không gì khác ngoài những nhánh tách ra[397] từ hình tượng chính Mithra, người mang tính chất tam phân bí ẩn. Theo một bản kể của Dionysus Areopagita, các pháp sư cử hành một lễ hội “τοῦ τριπλασίου Μίθρου”.[398][399] Plutarch cũng có một nhận xét chỉ tới Tam vị nhất thể về Ormuzd: τρὶς ἑαυτὸν αὐξήσας ἀπέστησε τοῦ ἡλίου.[400] Tam vị nhất thể, như ba trạng thái khác nhau của một nhất thể, cũng là tư tưởng Cơ Đốc. Trước hết, điều này gợi một thần thoại mặt trời. Một nhận xét của Macrobius 1:18 dường như hỗ trợ ý tưởng ấy:</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-The Sacrificium Mithriacum (the sacrifice of the bull) is in its
-religious representation very often flanked by the two Dadophores,
-Cautes and Cautopates, one with a raised and the other with a lowered
-torch. They represent brothers who reveal their character through the
-symbolic position of the torch. Cumont connects them, not without
-meaning, with the sepulchral “erotes” who as genii with the reversed
-torches have traditional meaning. The one is supposed to stand for death
-and the other for life. I cannot refrain from mentioning the similarity
-between the Sacrificium Mithriacum (where the sacrificed bull in the
-centre is flanked on both sides by Dadophores) to the Christian
-sacrifice of the lamb (ram). The Crucified is also traditionally flanked
-by the two thieves, one of whom ascends to Paradise, while the other
-descends to Hell.[396] The idea of the mortal and the immortal seems to
-have passed also into the Christian worship. Semitic gods are often
-represented as flanked by two Paredroi; for example, Baal of Edessa,
-accompanied by Aziz and Monimoz (Baal as the Sun, accompanied by Mars
-and Mercury, as expressed in astronomical teachings). According to the
-Chaldean view, the gods are grouped into triads. In this circle of ideas
-belongs also the Trinity, the idea of the triune God, in which Christ
-must be considered in his unity with the Father and the Holy Ghost. So,
-too, do the two thieves belong inwardly to Christ. The two Dadophores
-are, as Cumont points out, nothing but offshoots[397] from the chief
-figure of Mithra, to whom belongs a mysterious threefold character.
-According to an account of Dionysus Areopagita, the magicians celebrated
-a festival, “τοῦ τριπλασίου Μίθρου.”[398][399] An observation likewise
-referring to the Trinity is made by Plutarch concerning Ormuzd: τρὶς
-ἑαυτὸν αὐξήσας ἀπέστησε τοῦ ἡλίου.[400] The Trinity, as three different
-states of the unity, is also a Christian thought. In the very first
-place this suggests a sun myth. An observation by Macrobius 1:18 seems
-to lend support to this idea:
+    <div class="parallel-cell parallel-en" lang="en">
+<p>The Sacrificium Mithriacum (the sacrifice of the bull) is in its religious representation very often flanked by the two Dadophores, Cautes and Cautopates, one with a raised and the other with a lowered torch. They represent brothers who reveal their character through the symbolic position of the torch. Cumont connects them, not without meaning, with the sepulchral “erotes” who as genii with the reversed torches have traditional meaning. The one is supposed to stand for death and the other for life. I cannot refrain from mentioning the similarity between the Sacrificium Mithriacum (where the sacrificed bull in the centre is flanked on both sides by Dadophores) to the Christian sacrifice of the lamb (ram). The Crucified is also traditionally flanked by the two thieves, one of whom ascends to Paradise, while the other descends to Hell.[396] The idea of the mortal and the immortal seems to have passed also into the Christian worship. Semitic gods are often represented as flanked by two Paredroi; for example, Baal of Edessa, accompanied by Aziz and Monimoz (Baal as the Sun, accompanied by Mars and Mercury, as expressed in astronomical teachings). According to the Chaldean view, the gods are grouped into triads. In this circle of ideas belongs also the Trinity, the idea of the triune God, in which Christ must be considered in his unity with the Father and the Holy Ghost. So, too, do the two thieves belong inwardly to Christ. The two Dadophores are, as Cumont points out, nothing but offshoots[397] from the chief figure of Mithra, to whom belongs a mysterious threefold character. According to an account of Dionysus Areopagita, the magicians celebrated a festival, “τοῦ τριπλασίου Μίθρου.”[398][399] An observation likewise referring to the Trinity is made by Plutarch concerning Ormuzd: τρὶς ἑαυτὸν αὐξήσας ἀπέστησε τοῦ ἡλίου.[400] The Trinity, as three different states of the unity, is also a Christian thought. In the very first place this suggests a sun myth. An observation by Macrobius 1:18 seems to lend support to this idea:</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-057">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Hæ autem ætatum diversitates ad solem referuntur, ut parvulus videatur hiemali solstitio, qualem Aegyptii proferunt ex adyto die certa, ... æquinoctio vernali figura iuvenis ornatur. Postea statuitur ætas ejus plenissima effigie barbæ solstitio æstivo ... exunde per diminutiones veluti senescenti quarta forma deus figuratur.”[401][402]
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Hæ autem ætatum diversitates ad solem referuntur, ut parvulus videatur hiemali solstitio, qualem Aegyptii proferunt ex adyto die certa, ... æquinoctio vernali figura iuvenis ornatur. Postea statuitur ætas ejus plenissima effigie barbæ solstitio æstivo ... exunde per diminutiones veluti senescenti quarta forma deus figuratur.”[401][402]</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Hæ autem ætatum diversitates ad solem referuntur, ut parvulus
-  videatur hiemali solstitio, qualem Aegyptii proferunt ex adyto die
-  certa, ... æquinoctio vernali figura iuvenis ornatur. Postea statuitur
-  ætas ejus plenissima effigie barbæ solstitio æstivo ... exunde per
-  diminutiones veluti senescenti quarta forma deus figuratur.”[401][402]
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“Hæ autem ætatum diversitates ad solem referuntur, ut parvulus videatur hiemali solstitio, qualem Aegyptii proferunt ex adyto die certa, ... æquinoctio vernali figura iuvenis ornatur. Postea statuitur ætas ejus plenissima effigie barbæ solstitio æstivo ... exunde per diminutiones veluti senescenti quarta forma deus figuratur.”[401][402]</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-057">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Như Cumont nhận xét, Cautes và Cautapates đôi khi cầm trong tay đầu bò mộng và một con bọ cạp.[403] Kim Ngưu và Hổ Cáp là các dấu điểm phân, chỉ rõ cảnh hiến tế trước hết liên quan chu kỳ Mặt trời: Mặt trời mọc tự hiến ở Hạ chí, và Mặt trời lặn. Trong cảnh hiến tế, biểu tượng mặt trời mọc và lặn không dễ trình bày; vì vậy ý tưởng này bị tách khỏi hình ảnh hiến tế.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Như Cumont nhận xét, Cautes và Cautapates đôi khi cầm trong tay đầu bò mộng và một con bọ cạp.[403] Kim Ngưu và Hổ Cáp là các dấu điểm phân, chỉ rõ cảnh hiến tế trước hết liên quan chu kỳ Mặt trời: Mặt trời mọc tự hiến ở Hạ chí, và Mặt trời lặn. Trong cảnh hiến tế, biểu tượng mặt trời mọc và lặn không dễ trình bày; vì vậy ý tưởng này bị tách khỏi hình ảnh hiến tế.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-As Cumont observes, Cautes and Cautapates occasionally carry in their
-hands the head of a bull, and a scorpion.[403] Taurus and Scorpio are
-equinoctial signs, which clearly indicate that the sacrificial scene
-refers primarily to the Sun cycle; the rising Sun, which sacrifices
-itself at the summer solstice, and the setting Sun. In the sacrificial
-scene the symbol of the rising and setting Sun was not easily
-represented; therefore, this idea was removed from the sacrificial
-image.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>As Cumont observes, Cautes and Cautapates occasionally carry in their hands the head of a bull, and a scorpion.[403] Taurus and Scorpio are equinoctial signs, which clearly indicate that the sacrificial scene refers primarily to the Sun cycle; the rising Sun, which sacrifices itself at the summer solstice, and the setting Sun. In the sacrificial scene the symbol of the rising and setting Sun was not easily represented; therefore, this idea was removed from the sacrificial image.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-057">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Ở trên ta đã chỉ ra Dioscuri biểu hiện một ý tưởng tương tự, dù dưới hình thức hơi khác: một mặt trời luôn hữu tử, mặt trời kia bất tử. Bởi toàn bộ thần thoại mặt trời này chỉ là một phóng chiếu tâm lý lên trời, luận đề nền tảng có lẽ như sau: cũng như con người gồm một phần hữu tử và một phần bất tử, mặt trời là một cặp anh em,[404] một hữu tử, một bất tử. Tư tưởng này nằm dưới toàn bộ thần học nói chung. Con người quả là hữu tử, nhưng có vài người bất tử, hoặc trong ta có một cái gì bất tử. Vì thế các thần, “một Chidher hay một St. Germain”, là phần bất tử của ta; dù không thể hiểu, nó cư ngụ đâu đó giữa chúng ta.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Ở trên ta đã chỉ ra Dioscuri biểu hiện một ý tưởng tương tự, dù dưới hình thức hơi khác: một mặt trời luôn hữu tử, mặt trời kia bất tử. Bởi toàn bộ thần thoại mặt trời này chỉ là một phóng chiếu tâm lý lên trời, luận đề nền tảng có lẽ như sau: cũng như con người gồm một phần hữu tử và một phần bất tử, mặt trời là một cặp anh em,[404] một hữu tử, một bất tử. Tư tưởng này nằm dưới toàn bộ thần học nói chung. Con người quả là hữu tử, nhưng có vài người bất tử, hoặc trong ta có một cái gì bất tử. Vì thế các thần, “một Chidher hay một St. Germain”, là phần bất tử của ta; dù không thể hiểu, nó cư ngụ đâu đó giữa chúng ta.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-We have pointed out above that the Dioscuri represent a similar idea,
-although in a somewhat different form; the one sun is always mortal, the
-other immortal. As this entire sun mythology is merely a psychologic
-projection to the heavens, the fundamental thesis probably is as
-follows; just as man consists of a mortal and immortal part, so the sun
-is a pair of brothers,[404] one being mortal, the other immortal. This
-thought lies at the basis of all theology in general. Man is, indeed,
-mortal, but there are some who are immortal, or there is something in us
-which is immortal. Thus the gods, “a Chidher or a St. Germain,” are our
-immortal part, which, though incomprehensible, dwells among us
-somewhere.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>We have pointed out above that the Dioscuri represent a similar idea, although in a somewhat different form; the one sun is always mortal, the other immortal. As this entire sun mythology is merely a psychologic projection to the heavens, the fundamental thesis probably is as follows; just as man consists of a mortal and immortal part, so the sun is a pair of brothers,[404] one being mortal, the other immortal. This thought lies at the basis of all theology in general. Man is, indeed, mortal, but there are some who are immortal, or there is something in us which is immortal. Thus the gods, “a Chidher or a St. Germain,” are our immortal part, which, though incomprehensible, dwells among us somewhere.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-057">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-So sánh với mặt trời dạy đi dạy lại rằng các thần là dục lực. Đó là phần bất tử của ta, vì nó biểu hiện mối dây qua đó ta cảm thấy mình không bao giờ bị dập tắt trong chủng tộc.[405] Nó là sự sống từ sự sống của nhân loại. Những nguồn của nó dâng lên từ chiều sâu vô thức, cũng như sự sống nói chung của ta, đến từ gốc rễ toàn nhân loại; bởi ta thực sự chỉ là một cành bẻ khỏi mẹ rồi đem trồng lại.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>So sánh với mặt trời dạy đi dạy lại rằng các thần là dục lực. Đó là phần bất tử của ta, vì nó biểu hiện mối dây qua đó ta cảm thấy mình không bao giờ bị dập tắt trong chủng tộc.[405] Nó là sự sống từ sự sống của nhân loại. Những nguồn của nó dâng lên từ chiều sâu vô thức, cũng như sự sống nói chung của ta, đến từ gốc rễ toàn nhân loại; bởi ta thực sự chỉ là một cành bẻ khỏi mẹ rồi đem trồng lại.</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-Comparison with the sun teaches us over and over again that the gods are
-libido. It is that part of us which is immortal, since it represents
-that bond through which we feel that in the race we are never
-extinguished.[405] It is life from the life of mankind. Its springs,
-which well up from the depths of the unconscious, come, as does our life
-in general, from the root of the whole of humanity, since we are indeed
-only a twig broken off from the mother and transplanted.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>Comparison with the sun teaches us over and over again that the gods are libido. It is that part of us which is immortal, since it represents that bond through which we feel that in the race we are never extinguished.[405] It is life from the life of mankind. Its springs, which well up from the depths of the unconscious, come, as does our life in general, from the root of the whole of humanity, since we are indeed only a twig broken off from the mother and transplanted.</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-057">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Vì cái thần linh trong ta là dục lực,[406] ta không nên ngạc nhiên rằng trong thần học mình đã mang theo những biểu hiện cổ từ thời xưa, trao cho Thượng đế hình tượng ba ngôi. Ta lấy τριπλάσιον Θεόν[407] này từ biểu tượng dương vật, tính nguyên thủy của nó khó có thể tranh cãi.[408] Bộ phận sinh dục nam là nền cho Tam vị nhất thể ấy. Có một sự kiện giải phẫu rằng một tinh hoàn thường nằm hơi cao hơn tinh hoàn kia, và cũng có một mê tín rất cổ nhưng vẫn sống rằng một tinh hoàn sinh con trai, tinh hoàn kia sinh con gái.[409]
-
-Một phù điêu Babylon muộn trong sưu tập Lajard[410] dường như phù hợp quan điểm này. Giữa hình là một vị thần lưỡng tính, có gương mặt nam và nữ.[411] Bên phải, phía nam, có một con rắn với quầng mặt trời quanh đầu; bên trái, phía nữ, cũng có một con rắn với mặt trăng phía trên. Trên đầu vị thần có ba ngôi sao. Toàn bộ tổ hợp dường như xác nhận Tam vị nhất thể[412] của biểu hiện. Rắn Mặt trời bên phải là nam; rắn bên trái là nữ, được mặt trăng chỉ dấu. Hình ảnh còn có một hậu tố biểu tượng tính dục, khiến ý nghĩa tính dục của toàn thể hiển hiện. Ở phía nam có một hình thoi, biểu tượng được ưa dùng của bộ phận sinh dục nữ; ở phía nữ có một bánh xe hay vành bánh. Bánh xe luôn chỉ Mặt trời, nhưng các nan được làm dày và nở lớn ở đầu, gợi biểu tượng dương vật. Dường như đó là một bánh xe dương vật, không xa lạ với thời cổ. Có những phù điêu tục nơi Cupid quay một bánh xe làm toàn bằng dương vật.[413]
-
-Không chỉ con rắn gợi ý nghĩa dương vật của Mặt trời; từ vô số bằng chứng, tôi dẫn một trường hợp đặc biệt rõ. Trong bộ sưu tập cổ ở Verona, tôi tìm thấy một minh văn huyền nhiệm La Mã muộn có các biểu hiện sau:
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Vì cái thần linh trong ta là dục lực,[406] ta không nên ngạc nhiên rằng trong thần học mình đã mang theo những biểu hiện cổ từ thời xưa, trao cho Thượng đế hình tượng ba ngôi. Ta lấy τριπλάσιον Θεόν[407] này từ biểu tượng dương vật, tính nguyên thủy của nó khó có thể tranh cãi.[408] Bộ phận sinh dục nam là nền cho Tam vị nhất thể ấy. Có một sự kiện giải phẫu rằng một tinh hoàn thường nằm hơi cao hơn tinh hoàn kia, và cũng có một mê tín rất cổ nhưng vẫn sống rằng một tinh hoàn sinh con trai, tinh hoàn kia sinh con gái.[409]</p>
+<p>Một phù điêu Babylon muộn trong sưu tập Lajard[410] dường như phù hợp quan điểm này. Giữa hình là một vị thần lưỡng tính, có gương mặt nam và nữ.[411] Bên phải, phía nam, có một con rắn với quầng mặt trời quanh đầu; bên trái, phía nữ, cũng có một con rắn với mặt trăng phía trên. Trên đầu vị thần có ba ngôi sao. Toàn bộ tổ hợp dường như xác nhận Tam vị nhất thể[412] của biểu hiện. Rắn Mặt trời bên phải là nam; rắn bên trái là nữ, được mặt trăng chỉ dấu. Hình ảnh còn có một hậu tố biểu tượng tính dục, khiến ý nghĩa tính dục của toàn thể hiển hiện. Ở phía nam có một hình thoi, biểu tượng được ưa dùng của bộ phận sinh dục nữ; ở phía nữ có một bánh xe hay vành bánh. Bánh xe luôn chỉ Mặt trời, nhưng các nan được làm dày và nở lớn ở đầu, gợi biểu tượng dương vật. Dường như đó là một bánh xe dương vật, không xa lạ với thời cổ. Có những phù điêu tục nơi Cupid quay một bánh xe làm toàn bằng dương vật.[413]</p>
+<p>Không chỉ con rắn gợi ý nghĩa dương vật của Mặt trời; từ vô số bằng chứng, tôi dẫn một trường hợp đặc biệt rõ. Trong bộ sưu tập cổ ở Verona, tôi tìm thấy một minh văn huyền nhiệm La Mã muộn có các biểu hiện sau:</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-Since the divine in us is the libido,[406] we must not wonder that we
-have taken along with us in our theology ancient representations from
-olden times, which give the triune figure to the God. We have taken this
-τριπλάσιον Θεόν[407] from the phallic symbolism, the originality of
-which may well be uncontested.[408] The male genitals are the basis for
-this Trinity. It is an anatomical fact that one testicle is generally
-placed somewhat higher than the other, and it is also a very old, but,
-nevertheless, still surviving, superstition that one testicle generates
-a boy and the other a girl.[409] A late Babylonian bas-relief from
-Lajard’s[410] collection seems to be in accordance with this view. In
-the middle of the image stands an androgynous god (masculine and
-feminine face[411]); upon the right, male side, is found a serpent, with
-a sun halo round its head; upon the left, female side, there is also a
-serpent, with the moon above its head. Above the head of the god there
-are three stars. This ensemble would seem to confirm the Trinity[412] of
-the representation. The Sun serpent at the right side is male; the
-serpent at the left side is female (signified by the moon). This image
-possesses a symbolic sexual suffix, which makes the sexual significance
-of the whole obtrusive. Upon the male side a rhomb is found—a favorite
-symbol of the female genitals; upon the female side there is a wheel or
-felly. A wheel always refers to the Sun, but the spokes are thickened
-and enlarged at the ends, which suggests phallic symbolism. It seems to
-be a phallic wheel, which was not unknown in antiquity. There are
-obscene bas-reliefs where Cupid turns a wheel of nothing but
-phalli.[413] It is not only the serpent which suggests the phallic
-significance of the Sun; I quote one especially marked case, from an
-abundance of proof. In the antique collection at Verona I discovered a
-late Roman mystic inscription in which are the following
-representations:
+    <div class="parallel-cell parallel-en" lang="en">
+<p>Since the divine in us is the libido,[406] we must not wonder that we have taken along with us in our theology ancient representations from olden times, which give the triune figure to the God. We have taken this τριπλάσιον Θεόν[407] from the phallic symbolism, the originality of which may well be uncontested.[408] The male genitals are the basis for this Trinity. It is an anatomical fact that one testicle is generally placed somewhat higher than the other, and it is also a very old, but, nevertheless, still surviving, superstition that one testicle generates a boy and the other a girl.[409] A late Babylonian bas-relief from Lajard’s[410] collection seems to be in accordance with this view. In the middle of the image stands an androgynous god (masculine and feminine face[411]); upon the right, male side, is found a serpent, with a sun halo round its head; upon the left, female side, there is also a serpent, with the moon above its head. Above the head of the god there are three stars. This ensemble would seem to confirm the Trinity[412] of the representation. The Sun serpent at the right side is male; the serpent at the left side is female (signified by the moon). This image possesses a symbolic sexual suffix, which makes the sexual significance of the whole obtrusive. Upon the male side a rhomb is found—a favorite symbol of the female genitals; upon the female side there is a wheel or felly. A wheel always refers to the Sun, but the spokes are thickened and enlarged at the ends, which suggests phallic symbolism. It seems to be a phallic wheel, which was not unknown in antiquity. There are obscene bas-reliefs where Cupid turns a wheel of nothing but phalli.[413] It is not only the serpent which suggests the phallic significance of the Sun; I quote one especially marked case, from an abundance of proof. In the antique collection at Verona I discovered a late Roman mystic inscription in which are the following representations:</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-057">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-[Minh họa]
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>[Minh họa]</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-[Illustration]
-    </div>
-  </section>
-  <section class="parallel-row" data-source-chunk="chunk-058">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-Các biểu tượng ấy dễ đọc: Mặt trời—Dương vật, Mặt trăng—Âm đạo (Tử cung). Diễn giải này được một hình khác trong cùng bộ sưu tập xác nhận. Ở đó cũng có biểu hiện ấy, chỉ khác chiếc bình[414] được thay bằng hình một phụ nữ. Những hình dập trên tiền, nơi giữa là cây cọ bị rắn quấn, hai bên là hai hòn đá, tức tinh hoàn; hoặc giữa là một hòn đá bị rắn quấn, bên phải cây cọ, bên trái vỏ sò, tức bộ phận sinh dục nữ,[415] cũng nên được diễn giải tương tự. Trong *Researches* của Lajard, “Sự thờ phụng Venus”, có một đồng tiền Perga, nơi Artemis xứ Perga được biểu hiện bằng hòn đá hình nón, mang tính dương vật, đứng giữa một người đàn ông, được cho là Men, và một hình nữ, được cho là Artemis. Trên một phù điêu Attica, Men, tức Lunus, xuất hiện dường như cầm giáo nhưng về căn bản là một quyền trượng mang nghĩa dương vật; hai bên là Pan cầm chùy, dương vật, và một hình nữ.[416] Biểu hiện truyền thống Đấng Chịu Đóng đinh với John và Mary đứng hai bên liên hệ chặt với vòng ý niệm này, đúng như Đấng Chịu Đóng đinh với hai tên trộm.
-
-Từ đây ta thấy bên cạnh Mặt trời, phép so sánh nguyên thủy hơn nhiều giữa dục lực và dương vật cứ hiện lên lại. Một dấu vết đặc biệt còn đáng nhắc. Dadophor Cautapates, người biểu hiện Mithra, cũng được trình bày cùng gà trống[417] và quả thông. Nhưng đó là các thuộc tính của thần Phrygia Men, vị thần có sự thờ phụng lan rộng. Men được biểu hiện với Pileus,[418] quả thông và gà trống, cũng dưới hình một thiếu niên, như các Dadophore là những hình trẻ. Thuộc tính cuối nối họ cùng Men với các Cabiri. Men liên hệ rất gần với Attis, con trai và tình nhân của Cybele. Trong thời các Cæsar La Mã, Men và Attis hoàn toàn được đồng nhất như đã nói. Attis cũng đội Pileus như Men, Mithra và các Dadophore. Là con trai và tình nhân của mẹ mình, ông lại dẫn ta tới nguồn của dục lực loạn luân tạo tôn giáo này, tức người mẹ. Trong việc thờ Attis–Cybele, loạn luân dẫn một cách hợp logic tới thiến nghi lễ, bởi người Anh hùng bị mẹ làm điên đã tự cắt xẻo.[419]
-
-Hiện giờ tôi phải thôi đi sâu vào việc này vì vấn đề loạn luân sẽ được bàn ở phần cuối. Gợi ý sau là đủ: từ nhiều hướng khác nhau, phân tích biểu tượng dục lực luôn dẫn trở lại loạn luân với mẹ. Do đó ta có thể phỏng đoán rằng khao khát của dục lực được nâng lên thành Thượng đế, bị dồn nén vào vô thức, là một khao khát loạn luân nguyên thủy liên quan người mẹ. Qua việc từ bỏ nam tính đối với người yêu đầu tiên, người mẹ, yếu tố nữ trở nên cực kỳ trội; từ đó có tính lưỡng tính mạnh của Đấng Cứu chuộc chết rồi phục sinh.
-
-Việc những người anh hùng này gần như luôn là kẻ lang thang[420] là một biểu tượng tâm lý rõ. Lang thang là biểu hiện của khao khát,[421] của ham muốn không yên không bao giờ tìm thấy đối tượng, bởi không tự biết, nó tìm người mẹ đã mất. Liên tưởng lang thang khiến phép so sánh với Mặt trời dễ hiểu; dưới phương diện ấy, các anh hùng luôn giống Mặt trời lang thang, dường như biện minh cho việc thần thoại anh hùng là thần thoại mặt trời. Nhưng theo tôi, thần thoại anh hùng là thần thoại của chính vô thức đau khổ của ta, mang khao khát không thể dập đối với mọi nguồn sâu nhất của hữu thể mình: đối với thân thể người mẹ, và qua đó đối với sự hiệp thông cùng sự sống vô hạn trong vô số hình thức tồn tại. Ở đây tôi phải đưa vào lời của bậc Thầy đã đoán thấy gốc sâu nhất của khao khát kiểu Faust:
-    </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-These symbols are easily read: Sun—Phallus, Moon—Vagina (Uterus). This
-interpretation is confirmed by another figure of the same collection.
-There the same representation is found, only the vessel[414] is replaced
-by the figure of a woman. The impressions on coins, where in the middle
-a palm is seen encoiled by a snake, flanked by two stones (testicles),
-or else in the middle a stone encircled by a snake; to the right a palm,
-to the left a shell (female genitals[415]), should be interpreted in a
-similar manner. In Lajard’s “Researches” (“The Cult of Venus”) there is
-a coin of Perga, where Artemis of Perga is represented by a conical
-stone (phallic) flanked by a man (claimed to be Men) and by a female
-figure (claimed to be Artemis). Men (the so-called Lunus) is found upon
-an Attic bas-relief apparently with the spear but fundamentally a
-sceptre with a phallic significance, flanked by Pan with a club
-(phallus) and a female figure.[416] The traditional representation of
-the Crucified flanked by John and Mary is closely associated with this
-circle of ideas, precisely as is the Crucified with the thieves. From
-this we see how, beside the Sun, there emerges again and again the much
-more primitive comparison of the libido with the phallus. An especial
-trace still deserves mention here. The Dadophor Cautapates, who
-represents Mithra, is also represented with the cock[417] and the
-pineapple. But these are the attributes of the Phrygian god Men, whose
-cult was widely diffused. Men was represented with Pileus,[418] the
-pineapple and the cock, also in the form of a boy, just as the
-Dadophores are boyish figures. (This last-named property relates them
-with Men to the Cabiri.) Men has a very close connection with Attis, the
-son and lover of Cybele. In the time of the Roman Cæsars, Men and Attis
-were entirely identified, as stated above. Attis also wears the Pileus
-like Men, Mithra and the Dadophores. As the son and lover of his mother
-he again leads us to the source of this religion-creating incest libido,
-namely, to the mother. Incest leads logically to ceremonial castration
-in the Attic-Cybele cult, for the Hero, driven insane by his mother,
-mutilates himself.[419] I must at present forego entering more deeply
-into this matter, because the incest problem is to be discussed at the
-close. Let this suggestion suffice—that from different directions the
-analysis of the libido symbolism always leads back again to the mother
-incest. Therefore, we may surmise that the longing of the libido raised
-to God (repressed into the unconscious) is a primitive, incestuous one
-which concerns the mother. Through renouncing the virility to the first
-beloved, the mother, the feminine element becomes extremely predominant;
-hence the strongly androgynous character of the dying and resurrected
-Redeemer. That these heroes are nearly always wanderers[420] is a
-psychologically clear symbolism. The wandering is a representation of
-longing,[421] of the ever-restless desire, which nowhere finds its
-object, for, unknown to itself, it seeks the lost mother. The wandering
-association renders the Sun comparison easily intelligible; also, under
-this aspect, the heroes always resemble the wandering Sun, which seems
-to justify the fact that the myth of the hero is a sun myth. But the
-myth of the hero, however, is, as it appears to me, the myth of our own
-suffering unconscious, which has an unquenchable longing for all the
-deepest sources of our own being; for the body of the mother, and
-through it for communion with infinite life in the countless forms of
-existence. Here I must introduce the words of the Master who has divined
-the deepest roots of Faustian longings:
+    <div class="parallel-cell parallel-en" lang="en">
+<p>[Illustration]</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-058">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Bất đắc dĩ, ta tiết lộ một huyền nhiệm cao hơn.—
-      Trong cô tịch, các Nữ thần ngự trị,
-      Không Không gian quanh họ, nơi chốn và thời gian càng không:
-      Chỉ nói về họ cũng khiến lời lúng túng.
-      Họ là CÁC BÀ MẸ!
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>Các biểu tượng ấy dễ đọc: Mặt trời—Dương vật, Mặt trăng—Âm đạo (Tử cung). Diễn giải này được một hình khác trong cùng bộ sưu tập xác nhận. Ở đó cũng có biểu hiện ấy, chỉ khác chiếc bình[414] được thay bằng hình một phụ nữ. Những hình dập trên tiền, nơi giữa là cây cọ bị rắn quấn, hai bên là hai hòn đá, tức tinh hoàn; hoặc giữa là một hòn đá bị rắn quấn, bên phải cây cọ, bên trái vỏ sò, tức bộ phận sinh dục nữ,[415] cũng nên được diễn giải tương tự. Trong <em>Researches</em> của Lajard, “Sự thờ phụng Venus”, có một đồng tiền Perga, nơi Artemis xứ Perga được biểu hiện bằng hòn đá hình nón, mang tính dương vật, đứng giữa một người đàn ông, được cho là Men, và một hình nữ, được cho là Artemis. Trên một phù điêu Attica, Men, tức Lunus, xuất hiện dường như cầm giáo nhưng về căn bản là một quyền trượng mang nghĩa dương vật; hai bên là Pan cầm chùy, dương vật, và một hình nữ.[416] Biểu hiện truyền thống Đấng Chịu Đóng đinh với John và Mary đứng hai bên liên hệ chặt với vòng ý niệm này, đúng như Đấng Chịu Đóng đinh với hai tên trộm.</p>
+<p>Từ đây ta thấy bên cạnh Mặt trời, phép so sánh nguyên thủy hơn nhiều giữa dục lực và dương vật cứ hiện lên lại. Một dấu vết đặc biệt còn đáng nhắc. Dadophor Cautapates, người biểu hiện Mithra, cũng được trình bày cùng gà trống[417] và quả thông. Nhưng đó là các thuộc tính của thần Phrygia Men, vị thần có sự thờ phụng lan rộng. Men được biểu hiện với Pileus,[418] quả thông và gà trống, cũng dưới hình một thiếu niên, như các Dadophore là những hình trẻ. Thuộc tính cuối nối họ cùng Men với các Cabiri. Men liên hệ rất gần với Attis, con trai và tình nhân của Cybele. Trong thời các Cæsar La Mã, Men và Attis hoàn toàn được đồng nhất như đã nói. Attis cũng đội Pileus như Men, Mithra và các Dadophore. Là con trai và tình nhân của mẹ mình, ông lại dẫn ta tới nguồn của dục lực loạn luân tạo tôn giáo này, tức người mẹ. Trong việc thờ Attis–Cybele, loạn luân dẫn một cách hợp logic tới thiến nghi lễ, bởi người Anh hùng bị mẹ làm điên đã tự cắt xẻo.[419]</p>
+<p>Hiện giờ tôi phải thôi đi sâu vào việc này vì vấn đề loạn luân sẽ được bàn ở phần cuối. Gợi ý sau là đủ: từ nhiều hướng khác nhau, phân tích biểu tượng dục lực luôn dẫn trở lại loạn luân với mẹ. Do đó ta có thể phỏng đoán rằng khao khát của dục lực được nâng lên thành Thượng đế, bị dồn nén vào vô thức, là một khao khát loạn luân nguyên thủy liên quan người mẹ. Qua việc từ bỏ nam tính đối với người yêu đầu tiên, người mẹ, yếu tố nữ trở nên cực kỳ trội; từ đó có tính lưỡng tính mạnh của Đấng Cứu chuộc chết rồi phục sinh.</p>
+<p>Việc những người anh hùng này gần như luôn là kẻ lang thang[420] là một biểu tượng tâm lý rõ. Lang thang là biểu hiện của khao khát,[421] của ham muốn không yên không bao giờ tìm thấy đối tượng, bởi không tự biết, nó tìm người mẹ đã mất. Liên tưởng lang thang khiến phép so sánh với Mặt trời dễ hiểu; dưới phương diện ấy, các anh hùng luôn giống Mặt trời lang thang, dường như biện minh cho việc thần thoại anh hùng là thần thoại mặt trời. Nhưng theo tôi, thần thoại anh hùng là thần thoại của chính vô thức đau khổ của ta, mang khao khát không thể dập đối với mọi nguồn sâu nhất của hữu thể mình: đối với thân thể người mẹ, và qua đó đối với sự hiệp thông cùng sự sống vô hạn trong vô số hình thức tồn tại. Ở đây tôi phải đưa vào lời của bậc Thầy đã đoán thấy gốc sâu nhất của khao khát kiểu Faust:</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Unwilling, I reveal a loftier mystery.—
-      In solitude are throned the Goddesses,
-      No Space around them, Place and Time still less:
-      Only to speak of them embarrasses.
-      They are THE MOTHERS!
+    <div class="parallel-cell parallel-en" lang="en">
+<p>These symbols are easily read: Sun—Phallus, Moon—Vagina (Uterus). This interpretation is confirmed by another figure of the same collection. There the same representation is found, only the vessel[414] is replaced by the figure of a woman. The impressions on coins, where in the middle a palm is seen encoiled by a snake, flanked by two stones (testicles), or else in the middle a stone encircled by a snake; to the right a palm, to the left a shell (female genitals[415]), should be interpreted in a similar manner. In Lajard’s “Researches” (“The Cult of Venus”) there is a coin of Perga, where Artemis of Perga is represented by a conical stone (phallic) flanked by a man (claimed to be Men) and by a female figure (claimed to be Artemis). Men (the so-called Lunus) is found upon an Attic bas-relief apparently with the spear but fundamentally a sceptre with a phallic significance, flanked by Pan with a club (phallus) and a female figure.[416] The traditional representation of the Crucified flanked by John and Mary is closely associated with this circle of ideas, precisely as is the Crucified with the thieves. From this we see how, beside the Sun, there emerges again and again the much more primitive comparison of the libido with the phallus. An especial trace still deserves mention here. The Dadophor Cautapates, who represents Mithra, is also represented with the cock[417] and the pineapple. But these are the attributes of the Phrygian god Men, whose cult was widely diffused. Men was represented with Pileus,[418] the pineapple and the cock, also in the form of a boy, just as the Dadophores are boyish figures. (This last-named property relates them with Men to the Cabiri.) Men has a very close connection with Attis, the son and lover of Cybele. In the time of the Roman Cæsars, Men and Attis were entirely identified, as stated above. Attis also wears the Pileus like Men, Mithra and the Dadophores. As the son and lover of his mother he again leads us to the source of this religion-creating incest libido, namely, to the mother. Incest leads logically to ceremonial castration in the Attic-Cybele cult, for the Hero, driven insane by his mother, mutilates himself.[419] I must at present forego entering more deeply into this matter, because the incest problem is to be discussed at the close. Let this suggestion suffice—that from different directions the analysis of the libido symbolism always leads back again to the mother incest. Therefore, we may surmise that the longing of the libido raised to God (repressed into the unconscious) is a primitive, incestuous one which concerns the mother. Through renouncing the virility to the first beloved, the mother, the feminine element becomes extremely predominant; hence the strongly androgynous character of the dying and resurrected Redeemer. That these heroes are nearly always wanderers[420] is a psychologically clear symbolism. The wandering is a representation of longing,[421] of the ever-restless desire, which nowhere finds its object, for, unknown to itself, it seeks the lost mother. The wandering association renders the Sun comparison easily intelligible; also, under this aspect, the heroes always resemble the wandering Sun, which seems to justify the fact that the myth of the hero is a sun myth. But the myth of the hero, however, is, as it appears to me, the myth of our own suffering unconscious, which has an unquenchable longing for all the deepest sources of our own being; for the body of the mother, and through it for communion with infinite life in the countless forms of existence. Here I must introduce the words of the Master who has divined the deepest roots of Faustian longings:</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-058">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Những Nữ thần các ngươi không biết,
-      Người Hữu tử—chúng ta cũng miễn cưỡng gọi tên.
-      Muốn tới họ, ngươi phải đào xuống tận sâu thẳm:
-      Chính lỗi của ngươi khiến ta phải cầu họ giúp.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<pre>“Bất đắc dĩ, ta tiết lộ một huyền nhiệm cao hơn.—
+  Trong cô tịch, các Nữ thần ngự trị,
+  Không Không gian quanh họ, nơi chốn và thời gian càng không:
+  Chỉ nói về họ cũng khiến lời lúng túng.
+  Họ là CÁC BÀ MẸ!</pre>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Goddesses unknown to ye,
-      The Mortals,—named by us unwillingly.
-      Delve in the deepest depths must thou to reach them:
-      ’Tis thine own fault that we for help beseech them.
-    </div>
-  </section>
-  <section class="parallel-row" data-source-chunk="chunk-058">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Đường ở đâu?
-    </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Where is the way?
+    <div class="parallel-cell parallel-en" lang="en">
+<pre>“Unwilling, I reveal a loftier mystery.—
+  In solitude are throned the Goddesses,
+  No Space around them, Place and Time still less:
+  Only to speak of them embarrasses.
+  They are THE MOTHERS!</pre>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-058">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Không đường! Tới Cái Không-thể-tới,
-      Chưa chân nào từng đặt! Một đường tới Cái Không-thể-cầu,
-      Chưa lời nào từng xin! Ngươi sẵn sàng chưa?
-      Không ổ khóa, không then cài để mở!
-      Qua những cô tịch vô cùng, ngươi sẽ bị cuốn trôi!
-      Ngươi đã dám qua cô tịch và hoang mạc chưa?
-      Dẫu ngươi từng bơi tới bờ xa nhất đại dương
-      Và nhìn khoảng vô biên ở đó,
-      Ngươi vẫn còn thấy lớp sóng nối lớp sóng chuyển động,
-      Dù tai họa treo gần buộc ngươi kinh sợ.
-      Ngươi còn thấy một điều—trong sắc lục ngọc mờ
-      Của biển yên ru, cá heo vui đùa;
-      Còn thấy mây bay, mặt trời, trăng và sao;
-      Trong Hư không vô tận xa kia, ngươi sẽ chẳng thấy gì—
-      Không nghe bước chân mình rơi, không gặp
-      Một chỗ vững để bàn chân nghỉ.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<pre>“Những Nữ thần các ngươi không biết,
+  Người Hữu tử—chúng ta cũng miễn cưỡng gọi tên.
+  Muốn tới họ, ngươi phải đào xuống tận sâu thẳm:
+  Chính lỗi của ngươi khiến ta phải cầu họ giúp.</pre>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“No way! To the Unreachable,
-      Ne’er to be trodden! A way to the Unbeseechable,
-      Never to be besought! Art thou prepared?
-      There are no locks, no latches to be lifted!
-      Through endless solitudes shalt thou be drifted!
-      Hast thou through solitudes and deserts dared?
-      And hadst thou swum to farthest verge of ocean
-      And there the boundless space beheld,
-      Still hadst thou seen wave after wave in motion,
-      Even though impending doom thy fear compelled.
-      Thou hadst seen something—in the beryl dim
-      Of peace-lulled seas, the sportive dolphins swim;
-      Hadst seen the flying clouds, sun, moon and star;
-      Nought shalt thou see in endless Void afar—
-      Not hear thy footstep fall, nor meet
-      A stable spot to rest thy feet.
+    <div class="parallel-cell parallel-en" lang="en">
+<pre>“Goddesses unknown to ye,
+  The Mortals,—named by us unwillingly.
+  Delve in the deepest depths must thou to reach them:
+  ’Tis thine own fault that we for help beseech them.</pre>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-058">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Đây, cầm chiếc chìa khóa!
-      Chìa sẽ đánh hơi đúng nơi giữa mọi nơi;
-      Theo nó xuống! Nó sẽ dẫn ngươi tới các Bà Mẹ.
+    <div class="parallel-cell parallel-vi" lang="vi">
+<p>“Đường ở đâu?</p>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Here, take this key!
-      The Key will scent the true place from all others;
-      Follow it down! ‘Twill lead thee to the Mothers.
+    <div class="parallel-cell parallel-en" lang="en">
+<p>“Where is the way?</p>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-058">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Vậy hãy đi xuống! Ta cũng có thể nói: Đi lên!
-      Đều như nhau. _Thoát khỏi Cái Được Tạo_
-      Tới những hình vô dạng trong không gian giải phóng!
-      Hãy hưởng cái đã tan biến từ lâu!
-      Ở đó đám đông xoáy, như mây mở thành mây;
-      Rồi duỗi tay, vung cao chiếc chìa ngươi giữ!
+    <div class="parallel-cell parallel-vi" lang="vi">
+<pre>“Không đường! Tới Cái Không-thể-tới,
+  Chưa chân nào từng đặt! Một đường tới Cái Không-thể-cầu,
+  Chưa lời nào từng xin! Ngươi sẵn sàng chưa?
+  Không ổ khóa, không then cài để mở!
+  Qua những cô tịch vô cùng, ngươi sẽ bị cuốn trôi!
+  Ngươi đã dám qua cô tịch và hoang mạc chưa?
+  Dẫu ngươi từng bơi tới bờ xa nhất đại dương
+  Và nhìn khoảng vô biên ở đó,
+  Ngươi vẫn còn thấy lớp sóng nối lớp sóng chuyển động,
+  Dù tai họa treo gần buộc ngươi kinh sợ.
+  Ngươi còn thấy một điều—trong sắc lục ngọc mờ
+  Của biển yên ru, cá heo vui đùa;
+  Còn thấy mây bay, mặt trời, trăng và sao;
+  Trong Hư không vô tận xa kia, ngươi sẽ chẳng thấy gì—
+  Không nghe bước chân mình rơi, không gặp
+  Một chỗ vững để bàn chân nghỉ.</pre>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“Descend then! I could also say: Ascend!
-      ’Twere all the same. _Escape from the Created_
-      To shapeless forms in liberated spaces!
-      Enjoy what long ere this was dissipated!
-      There whirls the press, like clouds on clouds unfolding;
-      Then with stretched arm swing high the key thou’rt holding!
+    <div class="parallel-cell parallel-en" lang="en">
+<pre>“No way! To the Unreachable,
+  Ne’er to be trodden! A way to the Unbeseechable,
+  Never to be besought! Art thou prepared?
+  There are no locks, no latches to be lifted!
+  Through endless solitudes shalt thou be drifted!
+  Hast thou through solitudes and deserts dared?
+  And hadst thou swum to farthest verge of ocean
+  And there the boundless space beheld,
+  Still hadst thou seen wave after wave in motion,
+  Even though impending doom thy fear compelled.
+  Thou hadst seen something—in the beryl dim
+  Of peace-lulled seas, the sportive dolphins swim;
+  Hadst seen the flying clouds, sun, moon and star;
+  Nought shalt thou see in endless Void afar—
+  Not hear thy footstep fall, nor meet
+  A stable spot to rest thy feet.</pre>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-058">
-    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">
-“Cuối cùng một kiềng ba chân rực cháy[422] báo cho ngươi
-      Rằng nơi đó là đáy sâu tuyệt đối.
-      Ánh nó sẽ cho ngươi thấy các Bà Mẹ,
-      Người ngồi, người đứng hay bước đi,
-      Theo ý mình: Hình thành, Biến hình,
-      Sự tái tạo vĩnh cửu của Tâm trí Vĩnh cửu,
-      Hình thể mọi Sinh vật—trôi tự do ở đó.
-      Họ sẽ không thấy ngươi! vì họ chỉ thấy bóng ma.
-      Vậy hãy lấy can đảm—hiểm nguy khi ấy lớn.
-      Tới kiềng trước khi ngươi do dự,
-      Và chạm nó bằng chìa.”
+    <div class="parallel-cell parallel-vi" lang="vi">
+<pre>“Đây, cầm chiếc chìa khóa!
+  Chìa sẽ đánh hơi đúng nơi giữa mọi nơi;
+  Theo nó xuống! Nó sẽ dẫn ngươi tới các Bà Mẹ.</pre>
     </div>
-    <div class="parallel-cell parallel-en" lang="en" markdown="1">
-“At last a blazing tripod,[422] tells thee this,
-      That there the utterly deepest bottom is.
-      Its light to thee will then the Mothers show,
-      Some in their seats, the others stand or go,
-      At their own will: Formation, Transformation,
-      The Eternal Mind’s eternal recreation,
-      Forms of all Creatures,—there are floating free.
-      They’ll see thee not! for only wraiths they see.
-      So pluck up heart,—the danger then is great.
-      Go to the tripod ere thou hesitate,
-      And touch it with the key.”
+    <div class="parallel-cell parallel-en" lang="en">
+<pre>“Here, take this key!
+  The Key will scent the true place from all others;
+  Follow it down! ‘Twill lead thee to the Mothers.</pre>
+    </div>
+  </section>
+  <section class="parallel-row" data-source-chunk="chunk-058">
+    <div class="parallel-cell parallel-vi" lang="vi">
+<pre>“Vậy hãy đi xuống! Ta cũng có thể nói: Đi lên!
+  Đều như nhau. _Thoát khỏi Cái Được Tạo_
+  Tới những hình vô dạng trong không gian giải phóng!
+  Hãy hưởng cái đã tan biến từ lâu!
+  Ở đó đám đông xoáy, như mây mở thành mây;
+  Rồi duỗi tay, vung cao chiếc chìa ngươi giữ!</pre>
+    </div>
+    <div class="parallel-cell parallel-en" lang="en">
+<pre>“Descend then! I could also say: Ascend!
+  ’Twere all the same. _Escape from the Created_
+  To shapeless forms in liberated spaces!
+  Enjoy what long ere this was dissipated!
+  There whirls the press, like clouds on clouds unfolding;
+  Then with stretched arm swing high the key thou’rt holding!</pre>
+    </div>
+  </section>
+  <section class="parallel-row" data-source-chunk="chunk-058">
+    <div class="parallel-cell parallel-vi" lang="vi">
+<pre>“Cuối cùng một kiềng ba chân rực cháy[422] báo cho ngươi
+  Rằng nơi đó là đáy sâu tuyệt đối.
+  Ánh nó sẽ cho ngươi thấy các Bà Mẹ,
+  Người ngồi, người đứng hay bước đi,
+  Theo ý mình: Hình thành, Biến hình,
+  Sự tái tạo vĩnh cửu của Tâm trí Vĩnh cửu,
+  Hình thể mọi Sinh vật—trôi tự do ở đó.
+  Họ sẽ không thấy ngươi! vì họ chỉ thấy bóng ma.
+  Vậy hãy lấy can đảm—hiểm nguy khi ấy lớn.
+  Tới kiềng trước khi ngươi do dự,
+  Và chạm nó bằng chìa.”</pre>
+    </div>
+    <div class="parallel-cell parallel-en" lang="en">
+<pre>“At last a blazing tripod,[422] tells thee this,
+  That there the utterly deepest bottom is.
+  Its light to thee will then the Mothers show,
+  Some in their seats, the others stand or go,
+  At their own will: Formation, Transformation,
+  The Eternal Mind’s eternal recreation,
+  Forms of all Creatures,—there are floating free.
+  They’ll see thee not! for only wraiths they see.
+  So pluck up heart,—the danger then is great.
+  Go to the tripod ere thou hesitate,
+  And touch it with the key.”</pre>
     </div>
   </section>
 </div>

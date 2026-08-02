@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.import_jung_bilingual import align_blocks, front_matter, render_parallel_rows, SECTIONS
+from scripts.import_jung_bilingual import align_blocks, front_matter, render_block, render_parallel_rows, SECTIONS
 
 
 class JungImporterTest(unittest.TestCase):
@@ -25,6 +25,12 @@ class JungImporterTest(unittest.TestCase):
         self.assertIn('credit_name: "Kevin T.N"', rendered)
         self.assertIn("parallel_layout: true", rendered)
         self.assertIn("book_landing: true", rendered)
+
+    def test_blocks_are_rendered_to_html_without_nested_markdown(self) -> None:
+        self.assertEqual(render_block("## Tiêu đề"), "<h2>Tiêu đề</h2>")
+        rendered = render_parallel_rows([(["Một *ý*."], ["An *idea*."], "chunk-001")])
+        self.assertIn("<em>ý</em>", rendered)
+        self.assertNotIn('markdown="1"', rendered)
 
 
 if __name__ == "__main__":

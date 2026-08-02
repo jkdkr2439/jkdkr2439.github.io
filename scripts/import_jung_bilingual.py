@@ -116,15 +116,48 @@ def partition_sections(rows: list[tuple[list[str], list[str], str]]) -> list[lis
     return buckets
 
 
+def render_inline(text: str) -> str:
+    value = html.escape(text, quote=False)
+    value = re.sub(r"!\[([^]]*)\]\(([^)]+)\)", r'<img src="\2" alt="\1">', value)
+    value = re.sub(r"\[([^]]+)\]\(([^)]+)\)", r'<a href="\2">\1</a>', value)
+    value = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", value)
+    value = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<em>\1</em>", value)
+    value = re.sub(r"(?<!_)_([^_]+)_(?!_)", r"<em>\1</em>", value)
+    return value
+
+
+def render_block(block: str) -> str:
+    lines = block.splitlines()
+    first = lines[0].strip()
+    heading = re.match(r"^(#{1,3})\s+(.+)$", first)
+    if heading and len(lines) == 1:
+        level = len(heading.group(1))
+        return f"<h{level}>{render_inline(heading.group(2))}</h{level}>"
+    if all(line.lstrip().startswith(">") for line in lines if line.strip()):
+        quote = " ".join(line.lstrip()[1:].strip() for line in lines)
+        return f"<blockquote><p>{render_inline(quote)}</p></blockquote>"
+    if any(line.startswith("    ") or line.startswith("\t") for line in lines):
+        return f"<pre>{html.escape(chr(10).join(line[4:] if line.startswith('    ') else line for line in lines))}</pre>"
+    if len(lines) > 1 and all(re.match(r"^\s*(?:[-*]|\d+[.)])\s+", line) for line in lines if line.strip()):
+        items = "".join(f"<li>{render_inline(re.sub(r'^\\s*(?:[-*]|\\d+[.)])\\s+', '', line))}</li>" for line in lines if line.strip())
+        return f"<ul>{items}</ul>"
+    paragraph = " ".join(line.strip() for line in lines)
+    return f"<p>{render_inline(paragraph)}</p>"
+
+
+def render_block_group(blocks: list[str]) -> str:
+    return "\n".join(render_block(block) for block in blocks)
+
+
 def render_parallel_rows(rows: list[tuple[list[str], list[str], str]]) -> str:
     rendered = ['<div class="parallel-text" data-language-order="vi-en">']
     for vi_blocks, en_blocks, chunk in rows:
         rendered.append(f'  <section class="parallel-row" data-source-chunk="{html.escape(chunk)}">')
-        rendered.append('    <div class="parallel-cell parallel-vi" lang="vi" markdown="1">')
-        rendered.append("\n\n".join(vi_blocks))
+        rendered.append('    <div class="parallel-cell parallel-vi" lang="vi">')
+        rendered.append(render_block_group(vi_blocks))
         rendered.append("    </div>")
-        rendered.append('    <div class="parallel-cell parallel-en" lang="en" markdown="1">')
-        rendered.append("\n\n".join(en_blocks))
+        rendered.append('    <div class="parallel-cell parallel-en" lang="en">')
+        rendered.append(render_block_group(en_blocks))
         rendered.append("    </div>")
         rendered.append("  </section>")
     rendered.append("</div>")
