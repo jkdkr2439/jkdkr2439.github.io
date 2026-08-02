@@ -528,7 +528,8 @@ body {
 .reader-body p {
   margin-bottom: 1.2em;
   color: #1a1a1a;
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
   hyphens: none;
   line-height: 1.76;
 }
