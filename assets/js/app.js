@@ -123,8 +123,8 @@ function bookChapterId(url) {
 function renderBookChapter(url) {
   const p = posts[url];
   const englishBody = p.bodyEn || `<p class="translation-pending">${interfaceLanguage === 'en'
-    ? 'The English edition has not passed its translation gates yet.'
-    : 'Bản tiếng Anh chưa vượt qua đủ các gate dịch thuật nên chưa được công bố.'}</p>`;
+    ? 'The English version is still missing. What excellent timing to learn Vietnamese.'
+    : 'Chưa có bản tiếng Anh. Đúng lúc để đi học tiếng Việt rồi đấy.'}</p>`;
   return `<article class="book-chapter" id="${bookChapterId(url)}" data-url="${url}">
     <div class="reader-meta"><span>${p.date}</span><span style="color:var(--red)">${interfaceLanguage === 'en' ? p.tagEn : p.tagVi}</span><span class="reader-credit">${interfaceLanguage === 'en' ? p.creditEn : p.creditVi}</span></div>
     <div class="reader-columns">
@@ -191,8 +191,8 @@ function showPost(url, sourceEl, updateAddress = true) {
     englishPanel.classList.add('is-missing');
     document.getElementById('reader-body-en').innerHTML =
       `<p class="translation-pending">${interfaceLanguage === 'en'
-        ? 'The English edition has not passed its translation gates yet.'
-        : 'Bản tiếng Anh chưa vượt qua đủ các gate dịch thuật nên chưa được công bố.'}</p>`;
+        ? 'The English version is still missing. What excellent timing to learn Vietnamese.'
+        : 'Chưa có bản tiếng Anh. Đúng lúc để đi học tiếng Việt rồi đấy.'}</p>`;
   }
 
   // Active state
