@@ -2,7 +2,7 @@
 layout: post
 title: "Phần II · Chương V — Biểu tượng của người mẹ và tái sinh"
 title_en: "Part II · Chapter V — Symbolism of the Mother and of Rebirth"
-date: 2026-08-03
+date: 2026-08-02
 tag: "Dịch thuật"
 tag_en: "Translation"
 source_author: "C. G. Jung"

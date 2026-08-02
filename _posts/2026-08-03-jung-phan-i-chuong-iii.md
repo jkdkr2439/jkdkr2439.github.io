@@ -2,7 +2,7 @@
 layout: post
 title: "Phần I · Chương III — Thánh ca Sáng thế"
 title_en: "Part I · Chapter III — The Hymn of Creation"
-date: 2026-08-03
+date: 2026-08-02
 tag: "Dịch thuật"
 tag_en: "Translation"
 source_author: "C. G. Jung"

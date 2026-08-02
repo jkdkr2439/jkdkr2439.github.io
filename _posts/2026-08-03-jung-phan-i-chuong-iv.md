@@ -2,7 +2,7 @@
 layout: post
 title: "Phần I · Chương IV — Khúc ca của con ngài"
 title_en: "Part I · Chapter IV — The Song of the Moth"
-date: 2026-08-03
+date: 2026-08-02
 tag: "Dịch thuật"
 tag_en: "Translation"
 source_author: "C. G. Jung"

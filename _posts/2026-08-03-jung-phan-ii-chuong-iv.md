@@ -2,7 +2,7 @@
 layout: post
 title: "Phần II · Chương IV — Nguồn gốc vô thức của người anh hùng"
 title_en: "Part II · Chapter IV — The Unconscious Origin of the Hero"
-date: 2026-08-03
+date: 2026-08-02
 tag: "Dịch thuật"
 tag_en: "Translation"
 source_author: "C. G. Jung"

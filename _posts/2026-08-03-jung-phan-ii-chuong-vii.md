@@ -2,7 +2,7 @@
 layout: post
 title: "Phần II · Chương VII — Vai trò kép của người mẹ"
 title_en: "Part II · Chapter VII — The Dual Mother Role"
-date: 2026-08-03
+date: 2026-08-02
 tag: "Dịch thuật"
 tag_en: "Translation"
 source_author: "C. G. Jung"

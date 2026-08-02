@@ -2,7 +2,7 @@
 layout: post
 title: "Phần II · Chương VI — Cuộc chiến giải thoát khỏi người mẹ"
 title_en: "Part II · Chapter VI — The Battle for Deliverance from the Mother"
-date: 2026-08-03
+date: 2026-08-02
 tag: "Dịch thuật"
 tag_en: "Translation"
 source_author: "C. G. Jung"

@@ -2,7 +2,7 @@
 layout: post
 title: "TÂM LÝ HỌC VÔ THỨC"
 title_en: "PSYCHOLOGY OF THE UNCONSCIOUS"
-date: 2026-08-03
+date: 2026-08-02
 tag: "Dịch thuật"
 tag_en: "Translation"
 source_author: "C. G. Jung"

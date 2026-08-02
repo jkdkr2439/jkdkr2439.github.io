@@ -2,7 +2,7 @@
 layout: post
 title: "Phần II · Chương II — Khái niệm và lý thuyết phát sinh của dục lực"
 title_en: "Part II · Chapter II — The Conception and the Genetic Theory of Libido"
-date: 2026-08-03
+date: 2026-08-02
 tag: "Dịch thuật"
 tag_en: "Translation"
 source_author: "C. G. Jung"

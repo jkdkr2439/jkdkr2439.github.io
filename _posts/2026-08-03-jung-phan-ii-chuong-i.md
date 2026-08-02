@@ -2,7 +2,7 @@
 layout: post
 title: "Phần II · Chương I — Các phương diện của dục lực"
 title_en: "Part II · Chapter I — The Aspects of the Libido"
-date: 2026-08-03
+date: 2026-08-02
 tag: "Dịch thuật"
 tag_en: "Translation"
 source_author: "C. G. Jung"

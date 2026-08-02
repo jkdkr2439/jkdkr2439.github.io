@@ -2,7 +2,7 @@
 layout: post
 title: "Phần I · Chương II — Những huyễn tưởng của Miller"
 title_en: "Part I · Chapter II — The Miller Phantasies"
-date: 2026-08-03
+date: 2026-08-02
 tag: "Dịch thuật"
 tag_en: "Translation"
 source_author: "C. G. Jung"

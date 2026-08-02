@@ -137,7 +137,7 @@ def front_matter(section: Section, number: int | None) -> str:
         "layout: post",
         f'title: "{section.title_vi}"',
         f'title_en: "{section.title_en}"',
-        "date: 2026-08-03",
+        "date: 2026-08-02",
         'tag: "Dịch thuật"',
         'tag_en: "Translation"',
         'source_author: "C. G. Jung"',
