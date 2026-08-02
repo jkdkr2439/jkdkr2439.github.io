@@ -19,7 +19,8 @@ const injectedPosts = {
     bodyEn: {% if english_document %}{{ english_document.content | markdownify | jsonify }}{% else %}null{% endif %},
     bookEdition: {{ post.book_edition | default: "" | jsonify }},
     chapterNumber: {{ post.chapter_number | default: 0 | jsonify }},
-    bookLanding: {{ post.book_landing | default: false | jsonify }}
+    bookLanding: {{ post.book_landing | default: false | jsonify }},
+    parallelLayout: {{ post.parallel_layout | default: false | jsonify }}
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 };

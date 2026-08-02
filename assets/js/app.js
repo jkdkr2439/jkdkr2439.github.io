@@ -125,6 +125,13 @@ function bookChapterId(url) {
 
 function renderBookChapter(url) {
   const p = posts[url];
+  if (p.parallelLayout) {
+    return `<article class="book-chapter parallel-book-chapter" id="${bookChapterId(url)}" data-url="${url}">
+      <div class="reader-meta"><span>${p.date}</span><span style="color:var(--red)">${interfaceLanguage === 'en' ? p.tagEn : p.tagVi}</span><span class="reader-credit">${interfaceLanguage === 'en' ? p.creditEn : p.creditVi}</span></div>
+      <div class="parallel-book-heading"><span class="reader-language-label">VI · EN</span><h1 class="reader-title">${interfaceLanguage === 'en' ? p.titleEn : p.titleVi}</h1></div>
+      <div class="reader-body parallel-reader-body">${p.bodyVi}</div>
+    </article>`;
+  }
   const englishBody = p.bodyEn || `<p class="translation-pending">${MISSING_ENGLISH_MESSAGE}</p>`;
   return `<article class="book-chapter" id="${bookChapterId(url)}" data-url="${url}">
     <div class="reader-meta"><span>${p.date}</span><span style="color:var(--red)">${interfaceLanguage === 'en' ? p.tagEn : p.tagVi}</span><span class="reader-credit">${interfaceLanguage === 'en' ? p.creditEn : p.creditVi}</span></div>
@@ -185,10 +192,18 @@ function showPost(url, sourceEl, updateAddress = true) {
   document.getElementById('reader-body-vi').innerHTML = p.bodyVi;
 
   const englishPanel = document.getElementById('reader-panel-en');
-  if (p.bodyEn) {
+  const vietnamesePanel = document.getElementById('reader-body-vi').closest('.reader-language-panel');
+  document.querySelector('.reader-columns').classList.toggle('is-parallel-layout', Boolean(p.parallelLayout));
+  vietnamesePanel.classList.toggle('is-parallel-layout', Boolean(p.parallelLayout));
+  if (p.parallelLayout) {
+    document.getElementById('reader-title-vi').textContent = interfaceLanguage === 'en' ? p.titleEn : p.titleVi;
+    englishPanel.classList.add('is-parallel-hidden');
+  } else if (p.bodyEn) {
+    englishPanel.classList.remove('is-parallel-hidden');
     englishPanel.classList.remove('is-missing');
     document.getElementById('reader-body-en').innerHTML = p.bodyEn;
   } else {
+    englishPanel.classList.remove('is-parallel-hidden');
     englishPanel.classList.add('is-missing');
     document.getElementById('reader-body-en').innerHTML =
       `<p class="translation-pending">${MISSING_ENGLISH_MESSAGE}</p>`;

@@ -149,6 +149,7 @@
       {% endif %}
 
       {% assign translation_posts = site.posts | where: "tag", "Dịch thuật" %}
+      {% assign translation_posts = translation_posts | where_exp: "post", "post.library_hidden != true" %}
       {% if translation_posts.size > 0 %}
       <details class="translation-tree tree-section" id="section-dich-thuat">
         <summary class="tree-folder">
