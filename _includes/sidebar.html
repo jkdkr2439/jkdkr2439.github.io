@@ -43,7 +43,7 @@
           <span class="count">{{ mischief_posts | size }}</span>
         </summary>
         <div class="tree-items" style="display:block;">
-          {% assign mischief_sections = "Thơ|Poetry,Truyện|Fiction,Luận|Essays" | split: "," %}
+          {% assign mischief_sections = "Thơ|Poetry,Truyện|Fiction,Luận|Essays,Diễn văn|Fictional Addresses" | split: "," %}
           {% for section_pair in mischief_sections %}
           {% assign section_names = section_pair | split: "|" %}
           {% assign section_vi = section_names[0] %}
