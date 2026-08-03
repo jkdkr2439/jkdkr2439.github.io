@@ -2,7 +2,7 @@
 layout: post
 title: "Sau bản cáo trạng: Gen Z còn vận động được bằng cách nào?"
 title_en: "After the Indictment: What Can Gen Z Actually Do?"
-date: 2026-08-04
+date: 2026-08-03
 tag: Nhận thức luận
 tag_en: Epistemology
 author: Kevin T.N
