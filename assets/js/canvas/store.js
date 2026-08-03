@@ -19,7 +19,11 @@
 
   window.DNHCanvasStore = Object.freeze({
     getState: () => state,
-    setDomain: domain => contracts.acceptsDomain(domain) ? commit({domain}) : state,
+    setDomain: domain => {
+      if (!contracts.acceptsDomain(domain)) return state;
+      try { localStorage.setItem('canvas.contextCollapsed', 'false'); } catch (_) {}
+      return commit({domain, contextCollapsed: false});
+    },
     toggleContext: () => {
       const next = !state.contextCollapsed;
       try { localStorage.setItem('canvas.contextCollapsed', String(next)); } catch (_) {}
