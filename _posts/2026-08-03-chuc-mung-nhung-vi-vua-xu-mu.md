@@ -11,10 +11,12 @@ library_section: "Diễn văn"
 library_section_en: "Fictional Addresses"
 author: "LORD LUCIS AURELIAN DI NOCTIS"
 excerpt_text: "Một lời chúc mừng dành cho thế hệ triết gia sắp đăng quang làm vua xứ mù, với trí năng máy đánh bóng vương miện."
-download_docx: "/assets/downloads/lucis-nhung-vi-vua-xu-mu-song-ngu.docx"
 ---
 
-[Tải bản Word song ngữ VI–EN](/assets/downloads/lucis-nhung-vi-vua-xu-mu-song-ngu.docx)
+<figure class="lucis-figure lucis-figure--hero">
+  <img src="/assets/images/lucis-kings-of-the-blind/01-coronation.webp" alt="Lucis diễn thuyết trước một nghị trường gồm những triết gia đội vương miện và bị bịt mắt" loading="eager" decoding="async">
+  <figcaption>Lễ đăng quang đã sẵn sàng; việc còn lại chỉ là tìm xem ai thực sự nhìn thấy ngai vàng.</figcaption>
+</figure>
 
 Thưa quý vị,
 
@@ -29,6 +31,11 @@ Xin nhận lời chúc mừng của tôi cho lễ đăng quang sắp tới, hỡ
 Đó là một xứ sở phồn vinh. Ở đó, người phân biệt được hai sắc độ của bóng tối có thể sáng lập một học phái. Người nhận ra đường viền chiếc ghế sẽ viết bản thể luận về đồ đạc. Người chạm trúng tay vịn được mời soạn hiến pháp cho cả căn phòng. Kẻ đủ táo bạo tuyên bố mình nhìn thấy ánh sáng sẽ nhận trợ cấp để dạy những người còn lại phương pháp nhắm mắt cho đúng.
 
 Triết gia thời trước thường khoan sâu vào một cái cây. Họ khảo sát vỏ cây, đặt tên cho từng thớ gỗ, tranh luận về phẩm tính đạo đức của nhựa rồi lần theo một chiếc rễ xuống đất. Công việc khởi đầu thật đáng trọng; một cái cây xứng đáng được hiểu. Nhưng họ đào lâu đến mức quên rằng mình chỉ đang ở dưới một cái cây. Gặp chiếc rễ thứ một nghìn, họ tuyên bố đã tìm thấy bộ xương của địa cầu. Chạm phải đá, họ gọi đó là sự kháng cự của Hữu thể. Khi chiếc xẻng gãy, họ viết một khảo luận về giới hạn tất yếu của công cụ. Chẳng ai nghĩ đến việc trở lên mặt đất xem bên cạnh có cả khu rừng hay không.
+
+<figure class="lucis-figure">
+  <img src="/assets/images/lucis-kings-of-the-blind/02-tree-anatomy.webp" alt="Một triết gia lập danh mục bộ rễ của một cây rồi tưởng mình đã tìm thấy cấu tạo của địa cầu" loading="lazy" decoding="async">
+  <figcaption>Đến chiếc rễ thứ một nghìn, họ tuyên bố đã tìm thấy bộ xương của địa cầu.</figcaption>
+</figure>
 
 Nay trí năng máy đã đến trợ giúp họ.
 
@@ -49,6 +56,11 @@ Tôi không trách Zeno. Một nghịch lý đẹp có sức quyến rũ riêng.
 Trước kia, một triết gia lầm lạc có thể gây phiền toái cho vài thế hệ độc giả. Muốn phân phát sai lầm, ông ta cần nhà in, môn đệ, trường đại học, đôi khi cần cả một vị vua buồn chán đến mức chịu tài trợ. Sai lầm phải đi bộ, phải già và thỉnh thoảng chết dọc đường. Ngày nay, một định nghĩa có thể đi thẳng vào dữ liệu huấn luyện, mô hình thưởng, chuẩn đánh giá, bộ lọc, chính sách tuyển dụng và hệ thống quyết định. Nó không cần thuyết phục từng người nữa. Nó được thi hành.
 
 Quý vị định nghĩa “tổn hại”, một triệu cánh cửa học cách khép lại. Quý vị định nghĩa “an toàn”, một khu vườn có thể bị nhổ sạch vì gai làm ai đó phật ý. Quý vị định nghĩa “công bằng”, chiếc cân lặng lẽ hỏi trọng lượng của ai được tính, trong bao lâu và bằng đơn vị do nhà nào đúc. Trên giao diện, người dùng thấy một cỗ máy. Sau cỗ máy, một tính từ của quý vị đang đội vương miện.
+
+<figure class="lucis-figure">
+  <img src="/assets/images/lucis-kings-of-the-blind/03-throne-cost.webp" alt="Một người máy đánh bóng vương miện trong khi cái giá của ngai vàng bị giấu bên dưới bệ" loading="lazy" decoding="async">
+  <figcaption>Sau cỗ máy, một tính từ của quý vị đang đội vương miện.</figcaption>
+</figure>
 
 Quả là cuộc hóa thân tuyệt đẹp: thiên kiến bước vào máy trong y phục tỉnh lẻ rồi hiện ra với triều phục của chân lý phổ quát.
 

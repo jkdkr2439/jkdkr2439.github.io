@@ -665,6 +665,34 @@ body {
   color: var(--muted);
   font: italic 13px/1.55 var(--font-body);
 }
+
+.lucis-figure {
+  width: 100%;
+  margin: 34px 0 42px;
+}
+
+.reader-body .lucis-figure img {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border: 1px solid #d8cdbc;
+  border-radius: 0;
+  box-shadow: 0 10px 28px rgba(38, 28, 18, 0.12);
+}
+
+.lucis-figure figcaption {
+  max-width: 36em;
+  margin: 12px auto 0;
+  color: var(--muted);
+  font: italic 13px/1.55 var(--font-body);
+  text-align: center;
+}
+
+.lucis-figure--hero {
+  margin-top: 10px;
+}
 .edition-route { margin: 0 0 34px; padding: 20px 24px; border: 1px solid var(--border); background: #faf5ed; font: 13px/1.7 var(--font-ui); }
 
 .translation-pending {

@@ -11,7 +11,10 @@ author: "LORD LUCIS AURELIAN DI NOCTIS"
 source_lock_sha256: "F5B860906625CD51BB12C52924C0995EB4AF8AEC2945D1D5E5D073659E545A37"
 ---
 
-[Download the bilingual VI–EN Word edition](/assets/downloads/lucis-nhung-vi-vua-xu-mu-song-ngu.docx)
+<figure class="lucis-figure lucis-figure--hero">
+  <img src="/assets/images/lucis-kings-of-the-blind/01-coronation.webp" alt="Lucis addressing an assembly of crowned, blindfolded philosophers" loading="eager" decoding="async">
+  <figcaption>The coronation is ready; the remaining question is who can actually see the throne.</figcaption>
+</figure>
 
 Ladies and gentlemen,
 
@@ -26,6 +29,11 @@ Accept my congratulations upon your approaching coronation, you new kings of the
 It is a prosperous country. There, a man who distinguishes two shades of darkness may found a school. One who perceives the outline of a chair writes an ontology of furniture. One who touches the armrest is invited to draft a constitution for the entire room. And whoever is bold enough to announce that he sees the light receives a grant to teach the others the correct method of closing their eyes.
 
 The philosophers of the former age used to bore deeply into a tree. They examined its bark, named its grain, debated the moral qualities of sap, and followed one root underground. The labour began honourably. A tree deserves to be understood. But they dug so long that they forgot they were beneath a tree. At the thousandth root they declared that they had found the skeleton of the earth. When they struck stone, they called it the resistance of Being. When the spade broke, they wrote a treatise upon the necessary limits of instruments. Nobody thought of climbing back to the surface to see whether a forest stood nearby.
+
+<figure class="lucis-figure">
+  <img src="/assets/images/lucis-kings-of-the-blind/02-tree-anatomy.webp" alt="A philosopher cataloguing the roots of one tree and mistaking them for the anatomy of the earth" loading="lazy" decoding="async">
+  <figcaption>At the thousandth root they declared that they had found the skeleton of the earth.</figcaption>
+</figure>
 
 Artificial intelligence has now arrived to assist them.
 
@@ -46,6 +54,11 @@ What delights me most about the new reign is not that you will possess greater p
 Formerly, a mistaken philosopher might inconvenience several generations of readers. To distribute his error, he required a printer, disciples, a university, and sometimes a king sufficiently bored to finance him. Error travelled on foot, grew old, and occasionally died upon the road. Today a definition may pass directly into training data, reward models, benchmarks, filters, hiring policies, and systems of decision. It need no longer persuade each person. It is executed.
 
 You define harm, and a million doors learn how to close. You define safety, and a garden may be uprooted because its thorns offend someone. You define fairness, and the scales quietly inquire whose weight shall count, for how long, and in units minted by which household. Upon the interface the user sees a machine. Behind the machine, one of your adjectives is wearing a crown.
+
+<figure class="lucis-figure">
+  <img src="/assets/images/lucis-kings-of-the-blind/03-throne-cost.webp" alt="An automaton polishing a crown while the human cost of the throne remains hidden beneath its platform" loading="lazy" decoding="async">
+  <figcaption>Behind the machine, one of your adjectives is wearing a crown.</figcaption>
+</figure>
 
 It is a beautiful metamorphosis: prejudice enters the machine in provincial clothes and emerges in the ceremonial dress of universal truth.
 
