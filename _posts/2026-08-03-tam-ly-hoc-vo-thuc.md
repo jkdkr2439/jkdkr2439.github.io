@@ -1577,7 +1577,7 @@ book_landing: true
   </section>
   <section class="parallel-row" data-source-chunk="chunk-010">
     <div class="parallel-cell parallel-vi" lang="vi">
-<h3>VIII. HY TẾ — trang 428</h3>
+<h3>VIII. HIẾN TẾ — trang 428</h3>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
 <p>VIII.— THE SACRIFICE                                                  428</p>

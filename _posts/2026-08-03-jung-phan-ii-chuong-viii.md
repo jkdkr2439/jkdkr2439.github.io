@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Phần II · Chương VIII — Hy tế"
+title: "Phần II · Chương VIII — Hiến tế"
 title_en: "Part II · Chapter VIII — The Sacrifice"
 date: 2026-08-02
 tag: "Dịch thuật"
