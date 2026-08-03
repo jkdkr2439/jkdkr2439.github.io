@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "default_domain": "basic-epistemology",
+  "zones": [
+    {"key": "anchor", "module": "knowledge-domains"},
+    {"key": "context", "module": "context-tree"},
+    {"key": "stage", "module": "content-stage"}
+  ],
+  "modules": [
+    {
+      "key": "knowledge-domains",
+      "zone": "anchor",
+      "input": ["domains", "domain", "language"],
+      "process": "select-domain",
+      "output": ["canvas.select-domain"],
+      "dependencies": ["canvas-registry", "canvas-store"]
+    },
+    {
+      "key": "context-tree",
+      "zone": "context",
+      "input": ["domain", "contextCollapsed", "language"],
+      "process": "render-domain-context",
+      "output": ["canvas.toggle-context", "show-post", "show-book"],
+      "dependencies": ["canvas-registry", "canvas-store", "post-registry", "book-manifest"]
+    },
+    {
+      "key": "content-stage",
+      "zone": "stage",
+      "input": ["route", "language"],
+      "process": "render-existing-reader",
+      "output": ["canvas.sync-route"],
+      "dependencies": ["post-registry", "book-manifest", "content-router"]
+    }
+  ],
+  "domains": [
+    {
+      "key": "basic-epistemology",
+      "label_vi": "Nhận Thức Luận Căn Bản",
+      "label_en": "Basic Epistemology",
+      "source": {"type": "tag", "value": "Nhận thức luận căn bản"},
+      "pinned": true
+    },
+    {
+      "key": "power",
+      "label_vi": "Quyền lực",
+      "label_en": "Power",
+      "source": {"type": "tag", "value": "Quyền lực"}
+    },
+    {
+      "key": "criticism",
+      "label_vi": "Phản biện",
+      "label_en": "Criticism",
+      "source": {"type": "tag", "value": "Phản biện"}
+    },
+    {
+      "key": "machine-intelligence",
+      "label_vi": "Trí năng máy",
+      "label_en": "Machine Intelligence",
+      "source": {"type": "tag", "value": "Trí năng máy"}
+    },
+    {
+      "key": "existential",
+      "label_vi": "Hiện sinh",
+      "label_en": "Existential",
+      "source": {"type": "tag", "value": "Hiện sinh"}
+    },
+    {
+      "key": "epistemology",
+      "label_vi": "Nhận thức luận",
+      "label_en": "Epistemology",
+      "source": {"type": "tag", "value": "Nhận thức luận"}
+    },
+    {
+      "key": "self-narrative",
+      "label_vi": "Tự sự",
+      "label_en": "Self Narrative",
+      "source": {"type": "tag", "value": "Tự sự"}
+    },
+    {
+      "key": "literary-mischief",
+      "label_vi": "Nghịch văn",
+      "label_en": "Literary Mischief",
+      "source": {"type": "collection", "value": "Nghịch văn"}
+    },
+    {
+      "key": "translation",
+      "label_vi": "Dịch thuật",
+      "label_en": "Translation",
+      "source": {"type": "translation", "value": "Dịch thuật"},
+      "books": ["tam-ly-hoc-vo-thuc"]
+    }
+  ]
+}

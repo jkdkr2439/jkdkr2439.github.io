@@ -1,0 +1,41 @@
+.context-zone {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--border);
+  background: var(--bg);
+  overflow: hidden;
+  transition: opacity .16s ease;
+}
+
+.context-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 76px;
+  padding: 15px 14px 13px 18px;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-ui);
+}
+
+.context-header > div { min-width: 0; }
+.context-kicker { display: block; margin-bottom: 4px; color: var(--red); font: 700 9px/1 var(--font-ui); letter-spacing: .12em; }
+.context-header strong { display: block; overflow: hidden; font: 700 13px/1.35 var(--font-ui); text-overflow: ellipsis; white-space: nowrap; }
+.context-collapse { width: 28px; height: 28px; border: 1px solid var(--border); background: var(--bg-panel); color: var(--muted); font: 22px/1 var(--font-text); cursor: pointer; }
+.context-collapse:hover, .context-collapse:focus-visible { color: var(--ink); border-color: var(--ink); }
+
+.context-tree.sidebar { width: 100%; min-width: 0; flex: 1; border: 0; background: transparent; }
+.context-tree > .tree { padding-top: 8px; }
+.context-tree [data-context-panel] { display: none; }
+.context-tree [data-context-panel].is-active-context { display: block; }
+.context-tree .tree-folder { padding-left: 18px; padding-right: 14px; }
+.context-tree .tree-item { padding-left: 30px; padding-right: 14px; }
+.context-tree .tree-subfolder { padding-left: 28px; padding-right: 14px; }
+.context-tree .tree-author .tree-item { padding-left: 42px; }
+.context-tree .pinned-book-tree { order: initial; margin-top: 4px; }
+
+@media (max-width: 768px) {
+  .context-zone { border-right: 0; border-bottom: 1px solid var(--border); }
+  .context-header { min-height: 52px; padding: 10px 14px; }
+  .context-tree.sidebar { max-height: calc(48vh - 52px); }
+  .context-collapse { transform: rotate(90deg); }
+}

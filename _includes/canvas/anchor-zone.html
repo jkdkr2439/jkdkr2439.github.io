@@ -1,0 +1,27 @@
+<nav class="canvas-zone anchor-zone" id="canvas-anchor" data-canvas-zone="anchor" data-module="knowledge-domains" aria-label="Cognitive domains">
+  <div class="anchor-brand">
+    <a class="sidebar-logo" href="{{ '/' | relative_url }}" data-action="show-home" data-vi-label="Về trang chủ Kevin T.N" data-en-label="Go to Kevin T.N homepage" aria-label="Về trang chủ Kevin T.N">Kevin T.N</a>
+    <div class="sidebar-tagline" data-vi="Viết để tư duy, không phải để đẹp." data-en="Writing to think, not to decorate.">Viết để tư duy, không phải để đẹp.</div>
+  </div>
+
+  <div class="anchor-tools">
+    <button type="button" class="refresh-library" data-action="refresh-library" data-vi-label="Làm mới thư viện" data-en-label="Refresh library" aria-label="Làm mới thư viện" title="Làm mới thư viện">&#x21BB;</button>
+    <div class="ui-language-switch" aria-label="Interface language">
+      <button type="button" class="active" data-action="set-language" data-ui-language="vi">VI</button>
+      <button type="button" data-action="set-language" data-ui-language="en">EN</button>
+    </div>
+  </div>
+
+  <div class="anchor-domains" role="list">
+    {% for domain in site.data.canvas.domains %}
+    <button type="button" class="anchor-domain{% if domain.pinned %} is-pinned{% endif %}" role="listitem" data-canvas-action="select-domain" data-domain="{{ domain.key }}" aria-pressed="false">
+      {% if domain.pinned %}<span class="pin-badge" data-vi="GHIM" data-en="PIN">GHIM</span>{% endif %}
+      <span class="anchor-domain-label" data-vi="{{ domain.label_vi | escape }}" data-en="{{ domain.label_en | escape }}">{{ domain.label_vi }}</span>
+    </button>
+    {% endfor %}
+  </div>
+
+  <div class="anchor-footer">
+    <a href="#about" data-action="show-about" data-vi="Về tác giả" data-en="About">Về tác giả</a>
+  </div>
+</nav>

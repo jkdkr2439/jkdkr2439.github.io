@@ -28,6 +28,7 @@ function setInterfaceLanguage(language) {
     control.setAttribute('aria-label', label);
     control.setAttribute('title', label);
   });
+  window.DNHCanvas?.setLanguage(interfaceLanguage);
 
   const activeItem = document.querySelector('.tree-item.active');
   if (currentBookKey) showBook(currentBookKey, activeItem?.dataset.url || null, false);
@@ -148,6 +149,7 @@ function showBook(bookKey, targetUrl = null, updateAddress = true) {
   const urls = manifest.urls.filter(isKnownPostUrl);
   if (!urls.length) return false;
   currentBookKey = bookKey;
+  window.DNHCanvas?.syncRoute({type: 'book', key: bookKey});
 
   document.getElementById('reader-empty').style.display = 'none';
   document.getElementById('home-content').style.display = 'none';
@@ -168,7 +170,7 @@ function showBook(bookKey, targetUrl = null, updateAddress = true) {
   const reader = document.getElementById('reader');
   reader.scrollTop = 0;
   if (targetUrl) requestAnimationFrame(() => document.getElementById(bookChapterId(activeUrl))?.scrollIntoView({behavior: 'smooth', block: 'start'}));
-  if (updateAddress) history.replaceState({book: bookKey}, '', `${location.pathname}?book=${bookKey}`);
+  if (updateAddress) history.replaceState({book: bookKey}, '', routeAddress({book: bookKey}));
   return false;
 }
 
@@ -176,6 +178,7 @@ function showPost(url, sourceEl, updateAddress = true) {
   if (!isKnownPostUrl(url)) return false;
   const p = posts[url];
   currentBookKey = null;
+  window.DNHCanvas?.syncRoute({type: 'post', url});
 
   document.getElementById('reader-empty').style.display = 'none';
   document.getElementById('home-content').style.display = 'none';
@@ -215,10 +218,18 @@ function showPost(url, sourceEl, updateAddress = true) {
 
   document.getElementById('reader').scrollTop = 0;
   if (updateAddress) {
-    const nextAddress = `${location.pathname}?post=${encodeURIComponent(url)}`;
+    const nextAddress = routeAddress({post: url});
     history.replaceState({post: url}, '', nextAddress);
   }
   return false;
+}
+
+function routeAddress(params = {}) {
+  const search = new URLSearchParams(params);
+  const domain = window.DNHCanvas?.getState()?.domain;
+  if (domain) search.set('domain', domain);
+  const query = search.toString();
+  return `${location.pathname}${query ? `?${query}` : ''}`;
 }
 
 function showAbout() {

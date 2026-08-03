@@ -23,6 +23,22 @@ The production blog is treated as a data-to-view compiler, not as one editable p
 
 Display is isolated in includes and CSS.
 
+## Site Canvas
+
+The browser UI follows `Canvas → Zone → Module`. `_data/canvas.json` is the
+sole authority for zone placement, module ownership and cognitive-domain
+order. The canvas owns layout and presentation state; the existing content
+router remains the sole authority for home, post, book and about routes.
+
+Each UI module declares recursive IPOD:
+
+- **Input:** accepted state fields and registry resources.
+- **Process:** its bounded transformation and rendering behavior.
+- **Output:** owned DOM and declared canvas events.
+- **Dependencies:** the only registries, stores and zones it may use.
+
+A module never queries, mutates or styles another module's internals.
+
 ## Non-negotiable invariants
 
 1. A book contains exactly its manifest landing page and ordered manifest chapters.

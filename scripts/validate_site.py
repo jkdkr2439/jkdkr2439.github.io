@@ -6,6 +6,8 @@ import re
 import json
 from pathlib import Path
 
+from validate_canvas import validate_canvas
+
 
 ROOT = Path(__file__).resolve().parents[1]
 POSTS = ROOT / "_posts"
@@ -35,14 +37,16 @@ def front_matter(path: Path) -> dict:
 
 
 def main() -> None:
-    failures: list[str] = []
+    failures: list[str] = validate_canvas()
     shell = (ROOT / "index.html").read_text(encoding="utf-8")
     for required in (
         "<!DOCTYPE html>",
-        "{% include sidebar.html %}",
-        "{% include reader.html %}",
+        "{% include canvas/shell.html %}",
         "/assets/css/site.css",
+        "/assets/css/canvas.css",
         "/assets/js/post-registry.js",
+        "/assets/js/canvas/registry.js",
+        "/assets/js/canvas/orchestrator.js",
         "/assets/js/app.js",
         "{% assign build_version = site.time | date: '%s' %}",
     ):
@@ -52,7 +56,10 @@ def main() -> None:
         failures.append("index shell exceeds 4 KiB; move logic or markup to its owner module")
     for versioned_asset in (
         "/assets/css/site.css' | relative_url }}?v={{ build_version }}",
+        "/assets/css/canvas.css' | relative_url }}?v={{ build_version }}",
         "/assets/js/post-registry.js' | relative_url }}?v={{ build_version }}",
+        "/assets/js/canvas/registry.js' | relative_url }}?v={{ build_version }}",
+        "/assets/js/canvas/orchestrator.js' | relative_url }}?v={{ build_version }}",
         "/assets/js/app.js' | relative_url }}?v={{ build_version }}",
     ):
         if versioned_asset not in shell:
