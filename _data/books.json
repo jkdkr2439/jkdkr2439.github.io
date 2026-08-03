@@ -48,6 +48,9 @@
   "tam-ly-hoc-vo-thuc": {
     "title_vi": "Tâm lý học Vô thức",
     "title_en": "Psychology of the Unconscious",
+    "translation_category_key": "tam-ly-hoc",
+    "translation_category_vi": "Tâm lý học",
+    "translation_category_en": "Psychology",
     "landing": "tam-ly-hoc-vo-thuc",
     "chapters": [
       "jung-phan-i-dan-nhap",

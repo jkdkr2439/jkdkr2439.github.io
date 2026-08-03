@@ -158,6 +158,70 @@
           <span class="count">{{ translation_posts | size }}</span>
         </summary>
         <div class="tree-items" style="display:block;">
+          {% capture translation_category_key_string %}
+          {% for book_pair in site.data.books %}
+            {% if book_pair[1].translation_category_key %}
+              |{{ book_pair[1].translation_category_key }}
+            {% endif %}
+          {% endfor %}
+          {% endcapture %}
+          {% assign translation_category_keys = translation_category_key_string | strip | remove_first: "|" | split: "|" | uniq %}
+          {% for category_key in translation_category_keys %}
+            {% assign category_vi = category_key %}
+            {% assign category_en = category_key %}
+            {% assign category_book_count = 0 %}
+            {% for book_pair in site.data.books %}
+              {% if book_pair[1].translation_category_key == category_key %}
+                {% assign category_vi = book_pair[1].translation_category_vi %}
+                {% assign category_en = book_pair[1].translation_category_en %}
+                {% assign category_book_count = category_book_count | plus: 1 %}
+              {% endif %}
+            {% endfor %}
+          <details class="tree-author translation-category" open>
+            <summary class="tree-subfolder">
+              <span class="icon">▶</span>
+              <span data-vi="{{ category_vi | escape }}" data-en="{{ category_en | escape }}">{{ category_vi }}</span>
+              <span class="count" data-vi="{{ category_book_count }} sách" data-en="{{ category_book_count }} books">{{ category_book_count }} sách</span>
+            </summary>
+            <div>
+              {% for book_pair in site.data.books %}
+                {% if book_pair[1].translation_category_key == category_key %}
+                <details class="tree-author book-volume translation-book" open>
+                  <summary class="tree-subfolder">
+                    <span class="icon">▶</span>
+                    <span data-vi="{{ book_pair[1].title_vi | escape }}" data-en="{{ book_pair[1].title_en | escape }}">{{ book_pair[1].title_vi }}</span>
+                    <span class="count">{{ book_pair[1].chapters | size }}</span>
+                  </summary>
+                  <div>
+                    <a class="tree-item book-title-item" href="{{ '/' | relative_url }}?book={{ book_pair[0] }}" data-action="show-book" data-book="{{ book_pair[0] }}">
+                      <span class="book-title-mark">◆</span>
+                      <span data-vi="Đọc trọn sách" data-en="Read continuously">Đọc trọn sách</span>
+                    </a>
+                    {% assign landing_matches = site.posts | where: "slug", book_pair[1].landing %}
+                    {% assign landing_post = landing_matches | first %}
+                    {% if landing_post %}
+                    <a class="tree-item" href="{{ '/' | relative_url }}?post={{ landing_post.url | url_encode }}" data-action="show-post" data-url="{{ landing_post.url }}">
+                      <span class="chapter-index">00</span>
+                      <span data-vi="Tựa sách" data-en="Title page">Tựa sách</span>
+                    </a>
+                    {% endif %}
+                    {% for chapter_slug in book_pair[1].chapters %}
+                      {% assign chapter_matches = site.posts | where: "slug", chapter_slug %}
+                      {% assign post = chapter_matches | first %}
+                      {% if post %}
+                      <a class="tree-item chapter-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" data-action="show-post" data-url="{{ post.url }}">
+                        <span class="chapter-index">{{ post.chapter_label }}</span>
+                        <span data-vi="{{ post.title | escape }}" data-en="{{ post.title_en | default: post.title | escape }}">{{ post.title }}</span>
+                      </a>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                </details>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </details>
+          {% endfor %}
           {% assign source_authors = translation_posts | map: "source_author" | uniq | sort %}
           {% for source_author in source_authors %}
           {% assign author_posts = translation_posts | where: "source_author", source_author %}

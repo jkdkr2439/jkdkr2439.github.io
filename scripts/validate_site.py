@@ -68,6 +68,13 @@ def main() -> None:
     books = json.loads(BOOKS.read_text(encoding="utf-8"))
     claimed: dict[str, str] = {}
     for book_id, book in books.items():
+        category_values = (
+            book.get("translation_category_key"),
+            book.get("translation_category_vi"),
+            book.get("translation_category_en"),
+        )
+        if any(category_values) and not all(category_values):
+            failures.append(f"{book_id}: translation category requires key, VI label and EN label")
         members = [book.get("landing"), *(book.get("chapters") or [])]
         if not members[0]:
             failures.append(f"{book_id}: missing landing slug")
