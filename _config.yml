@@ -20,5 +20,4 @@ exclude:
   - "*.bat"
   - "*.py"
   - "*.txt"
-  - "*.docx"
   - README.md

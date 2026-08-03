@@ -6,4 +6,5 @@ _site/
 *.py
 *.txt
 *.docx
+!assets/downloads/*.docx
 Gemfile.lock
