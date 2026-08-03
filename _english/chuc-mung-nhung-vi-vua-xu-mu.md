@@ -1,5 +1,6 @@
 ---
 layout: post
+slug_key: "chuc-mung-nhung-vi-vua-xu-mu"
 title: "Congratulations to the Kings of the Blind"
 title_vi: "Chúc mừng những vị vua xứ mù"
 date: 2026-08-03
