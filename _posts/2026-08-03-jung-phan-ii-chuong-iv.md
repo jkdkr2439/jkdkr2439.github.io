@@ -504,12 +504,12 @@ chapter_label: "09"
 <p>Since the divine in us is the libido,[406] we must not wonder that we have taken along with us in our theology ancient representations from olden times, which give the triune figure to the God. We have taken this τριπλάσιον Θεόν[407] from the phallic symbolism, the originality of which may well be uncontested.[408] The male genitals are the basis for this Trinity. It is an anatomical fact that one testicle is generally placed somewhat higher than the other, and it is also a very old, but, nevertheless, still surviving, superstition that one testicle generates a boy and the other a girl.[409] A late Babylonian bas-relief from Lajard’s[410] collection seems to be in accordance with this view. In the middle of the image stands an androgynous god (masculine and feminine face[411]); upon the right, male side, is found a serpent, with a sun halo round its head; upon the left, female side, there is also a serpent, with the moon above its head. Above the head of the god there are three stars. This ensemble would seem to confirm the Trinity[412] of the representation. The Sun serpent at the right side is male; the serpent at the left side is female (signified by the moon). This image possesses a symbolic sexual suffix, which makes the sexual significance of the whole obtrusive. Upon the male side a rhomb is found—a favorite symbol of the female genitals; upon the female side there is a wheel or felly. A wheel always refers to the Sun, but the spokes are thickened and enlarged at the ends, which suggests phallic symbolism. It seems to be a phallic wheel, which was not unknown in antiquity. There are obscene bas-reliefs where Cupid turns a wheel of nothing but phalli.[413] It is not only the serpent which suggests the phallic significance of the Sun; I quote one especially marked case, from an abundance of proof. In the antique collection at Verona I discovered a late Roman mystic inscription in which are the following representations:</p>
     </div>
   </section>
-  <section class="parallel-row" data-source-chunk="chunk-057">
+  <section class="parallel-row jung-figure" data-source-chunk="chunk-057">
     <div class="parallel-cell parallel-vi" lang="vi">
-<p>[Minh họa]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_229.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_229.jpg" alt="Biểu tượng Mặt trời, Mặt trăng, rắn và chiếc bình" loading="lazy" decoding="async"></a><figcaption>Biểu tượng thần bí La Mã hậu kỳ</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<p>[Illustration]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_229.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_229.jpg" alt="Sun, moon, serpent, and vessel symbols" loading="lazy" decoding="async"></a><figcaption>Late Roman mystic symbols</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-058">

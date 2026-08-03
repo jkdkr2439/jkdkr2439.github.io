@@ -1419,12 +1419,12 @@ chapter_label: "12"
 <p>Such parallels show how little human personality and how much divine, that is to say, universally human, is found in the Christ mystery. No man is or, indeed, ever was, a hero, for the hero is a god, and, therefore, impersonal and generally applicable to all. Christ is a “spirit,” as is shown in the very early Christian interpretation. In different places of the earth, and in the most varied forms and in the coloring of various periods, the Savior-hero appears as a fruit of the entrance of the libido into the personal maternal depths. The Bacchian consecrations represented upon the Farnese relief contain a scene where a mystic wrapped in a mantle, drawn over his head, was led to Silen, who holds the “λῖχνον” (chalice), covered with a cloth. The covering of the head signifies death. The mystic dies, figuratively, like the seed corn, grows again and comes to the corn harvest. Proclus relates that the mystics were buried up to their necks. The Christian church as a place of religious ceremony is really nothing but the grave of a hero (catacombs). The believer descends into the grave, in order to rise from the dead with the hero. That the meaning underlying the church is that of the mother’s womb can scarcely be doubted. The symbols of Mass are so distinct that the mythology of the sacred act peeps out everywhere. It is the magic charm of rebirth. The veneration of the Holy Sepulchre is most plain in this respect. A striking example is the Holy Sepulchre of St. Stefano in Bologna. The church itself, a very old polygonal building, consists of the remains of a temple to Isis. The interior contains an artificial spelæum, a so-called Holy Sepulchre, into which one creeps through a very little door. After a long sojourn, the believer reappears reborn from this mother’s womb. An Etruscan ossuarium in the archeological museum in Florence is at the same time a statue of Matuta, the goddess of death; the clay figure of the goddess is hollowed within as a receptacle for the ashes. The representations indicate that Matuta is the mother. Her chair is adorned with sphinxes, as a fitting symbol for the mother of death.</p>
     </div>
   </section>
-  <section class="parallel-row" data-source-chunk="chunk-088">
+  <section class="parallel-row jung-figure" data-source-chunk="chunk-088">
     <div class="parallel-cell parallel-vi" lang="vi">
-<p>[Minh họa: MỘ THÁNH S. STEFANO Ở BOLOGNA]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_380fp.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_380fp.jpg" alt="Ngôi Mộ Thánh tại S. Stefano ở Bologna" loading="lazy" decoding="async"></a><figcaption>Cái gọi là Mộ Thánh tại S. Stefano ở Bologna</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<p>[Illustration: THE SO-CALLED HOLY SEPULCHRE OF S. STEFANO AT BOLOGNA]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_380fp.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_380fp.jpg" alt="The Holy Sepulchre at S. Stefano in Bologna" loading="lazy" decoding="async"></a><figcaption>The so-called Holy Sepulchre of S. Stefano at Bologna</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-088">
@@ -1512,12 +1512,12 @@ chapter_label: "12"
 <p>It is the typical myth of the work of the hero, distributed over the entire world. He takes to a boat, fights with the sea monster, is devoured, he defends himself against being bitten or crushed[684] (resistance or stamping motive); having arrived in the interior of the “whale dragon,” he seeks the vital organ, which he cuts off or in some way destroys. Often the death of the monster occurs as the result of a fire which the hero secretly makes within him; he mysteriously creates in the womb of death life, the rising sun. Thus dies the fish, which drifts ashore, where, with the assistance of “birds,” the hero again attains the light of day.[685] The bird in this sense probably means the reascent of the sun, the longing of the libido, the rebirth of the phœnix. (The longing is very frequently represented by the symbol of hovering.) The sun symbol of the bird rising from the water is (etymologically) contained in the singing swan. “Swan” is derived from the root <em>sven</em>, like sun and tone. (See the preceding.) This act signifies rebirth, and the bringing forth of life from the mother,[686] and by this means the ultimate destruction of death, which, according to a Negro myth, has come into the world, through the mistake of an old woman, who, at the time of the general casting of skins (for men renewed their youth through casting their skin like snakes), drew on, through absent-mindedness, her old skin instead of a new one, and as a result died. But the effect of such an act could not be of any duration. Again and again troubles of the hero are renewed, always under the symbol of deliverance from the mother. Just as Hera (as the pursuing mother) is the real source of the great deeds of Hercules, so does Nokomis allow Hiawatha no rest, and raises up new difficulties in his path, in form of desperate adventures in which the hero may perhaps conquer, but also, perhaps, may perish. The libido of mankind is always in advance of his consciousness; unless his libido calls him forth to new dangers he sinks into slothful inactivity or, on the other hand, childish longing for the mother overcomes him at the summit of his existence, and he allows himself to become pitifully weak, instead of striving with desperate courage towards the highest. The mother becomes the demon, who summons the hero to adventure, and who also places in his path the poisonous serpent, which will strike him. Thus Nokomis, in the ninth song, calls Hiawatha, points with her hand to the west, where the sun sets in purple splendor, and says to him:</p>
     </div>
   </section>
-  <section class="parallel-row" data-source-chunk="chunk-089">
+  <section class="parallel-row jung-figure" data-source-chunk="chunk-089">
     <div class="parallel-cell parallel-vi" lang="vi">
-<p>[Minh họa: MATUTA, MỘT PIETÀ ETRURIA]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_383fp.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_383fp.jpg" alt="Matuta, một Pietà Etruria" loading="lazy" decoding="async"></a><figcaption>Matuta, một Pietà Etruria</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<p>[Illustration: MATUTA, AN ETRUSCAN PIETÀ]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_383fp.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_383fp.jpg" alt="Matuta, an Etruscan Pietà" loading="lazy" decoding="async"></a><figcaption>Matuta, an Etruscan Pietà</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-089">
@@ -2248,12 +2248,12 @@ chapter_label: "12"
 <p>The cup is the receptacle, the maternal womb, of the god resurrected in the wine; the cup is the cavern where the serpent dwells, the god who sheds his skin, in the state of metamorphosis; for Christ is also the serpent. These symbolisms are used in an obscure connection in I Corinthians, verse 10: Paul writes of the Jews who “were all baptized unto Moses in the cloud and in the sea” (also reborn) and “did all drink the same spiritual drink; for they drank of that spiritual rock that followed them, and that rock was Christ.” They drank from the mother (the generative rock, birth from the rock) the milk of rejuvenation, the mead of immortality, and this Rock was Christ, here identified with the mother, because he is the symbolic representative of the mother libido. When we drink from the cup, then we drink from the mother’s breast immortality and everlasting salvation. Paul wrote of the Jews that they ate and then rose up to dance and to indulge in fornication, and then twenty-three thousand of them were swept off by the plague of serpents. The remedy for the survivors, however, was the sight of a serpent hanging on a pole. From it was derived the cure.</p>
     </div>
   </section>
-  <section class="parallel-row" data-source-chunk="chunk-095">
+  <section class="parallel-row jung-figure" data-source-chunk="chunk-095">
     <div class="parallel-cell parallel-vi" lang="vi">
-<p>[Minh họa: RỒNG TRONG CHÉN]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_410fp.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_410fp.jpg" alt="Con rồng trong chén" loading="lazy" decoding="async"></a><figcaption>Con rồng trong chén</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<p>[Illustration: THE DRAGON IN THE GOBLET]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_410fp.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_410fp.jpg" alt="The dragon in the goblet" loading="lazy" decoding="async"></a><figcaption>The dragon in the goblet</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-095">

@@ -130,12 +130,12 @@ chapter_label: "10"
 <p>All these sea-going gods are sun symbols. They are enclosed in a chest or an ark for the “night journey on the sea” (Frobenius), often together with a woman (again an inversion of the actual situation, but in support of the motive of continuous cohabitation, which we have met above). During the night journey on the sea the Sun-god is enclosed in the mother’s womb, oftentimes threatened by dangers of all kinds. Instead of many individual examples, I will content myself with reproducing the scheme which Frobenius has constructed from numberless myths of this sort:</p>
     </div>
   </section>
-  <section class="parallel-row" data-source-chunk="chunk-059">
+  <section class="parallel-row jung-figure" data-source-chunk="chunk-059">
     <div class="parallel-cell parallel-vi" lang="vi">
-<p>[Minh họa: <em>Nuốt</em> <em>Tây</em> <em>Đông</em> <em>Chuyển động T–Đ—(hành trình biển)</em> <em>Nóng–tóc</em> <em>Trượt ra</em> <em>Mở</em> <em>Cập bờ</em> <em>Hành trình biển</em> <em>Đốt lửa hoặc Cắt tim</em>]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_238.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_238.jpg" alt="Sơ đồ hành trình biển của Frobenius" loading="lazy" decoding="async"></a><figcaption>Sơ đồ của Frobenius: nuốt, hành trình biển, đốt lửa, cắt tim và thoát ra</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<p>[Illustration: <em>To devour</em> <em>West</em> <em>East</em> <em>W-E movement—(sea journey)</em> <em>Heat-hair</em> <em>To slip out</em> <em>To open</em> <em>To land</em> <em>Sea journey</em> <em>To set on fire or To cut off the heart</em>]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_238.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_238.jpg" alt="Frobenius's sea-journey scheme" loading="lazy" decoding="async"></a><figcaption>Frobenius's scheme: to devour, sea journey, to set on fire, to cut off the heart, and to escape</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-059">
@@ -819,12 +819,12 @@ chapter_label: "10"
 <p>(This same motive returns in the Kyffhäuser saga.)</p>
     </div>
   </section>
-  <section class="parallel-row" data-source-chunk="chunk-066">
+  <section class="parallel-row jung-figure" data-source-chunk="chunk-066">
     <div class="parallel-cell parallel-vi" lang="vi">
-<p>[Minh họa: SỰ SINH SÔI TIẾP SAU HIẾN TẾ MITHRA]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_269fp.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_269fp.jpg" alt="Sự sinh sôi tiếp sau hiến tế Mithra" loading="lazy" decoding="async"></a><figcaption>Sự sinh sôi tiếp sau hiến tế Mithra</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<p>[Illustration: FRUCTIFICATION FOLLOWING UPON THE MITHRAIC SACRIFICE]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_269fp.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_269fp.jpg" alt="Fructification following upon the Mithraic sacrifice" loading="lazy" decoding="async"></a><figcaption>Fructification following upon the Mithraic sacrifice</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-066">
@@ -1044,12 +1044,12 @@ chapter_label: "10"
 <p>Ship and tree of the dead (death ship and death tree) are here closely connected. The conception is that Râ, born from the tree, ascends (Osiris in the Erika). The representation of the sun-god Mithra is probably explained in the same way. He is represented upon the Heddernheim relief, with half his body arising from the top of a tree. (In the same way numerous other monuments show Mithra half embodied in the rock, and illustrate a rock birth, similar to Men.) Frequently there is a stream near the birthplace of Mithra. This conglomeration of symbols is also found in the birth of Aschanes, the first Saxon king, who grew from the Harz rocks, which are in the midst of the wood[505] near a fountain.[506] Here we find all the mother symbols united—earth, wood, water, three forms of tangible matter. We can wonder no longer that in the Middle Ages the tree was poetically addressed with the title of honor, “mistress.” Likewise it is not astonishing that the Christian legend transformed the tree of death, the cross, into the tree of life, so that Christ was often represented on a living and fruit-bearing tree. This reversion of the cross symbol to the tree of life, which even in Babylon was an important and authentic religious symbol, is also considered entirely probable by Zöckler,[507] an authority on the history of the cross. The pre-Christian meaning of the symbol does not contradict this interpretation; on the contrary, its meaning is life. The appearance of the cross in the sun worship (here the cross with equal arms, and the swastika cross, as representative of the sun’s rays), as well as in the cult of the goddess of love (Isis with the crux ansata, the rope, the speculum veneris ♀, etc.), in no way contradicts the previous historical meaning. The Christian legend has made abundant use of this symbolism.</p>
     </div>
   </section>
-  <section class="parallel-row" data-source-chunk="chunk-068">
+  <section class="parallel-row jung-figure" data-source-chunk="chunk-068">
     <div class="parallel-cell parallel-vi" lang="vi">
-<p>[Minh họa: CHRIST TRÊN CÂY SỰ SỐNG]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_278fp.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_278fp.jpg" alt="Đức Kitô trên Cây Sự sống" loading="lazy" decoding="async"></a><figcaption>Đức Kitô trên Cây Sự sống</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<p>[Illustration: CHRIST ON THE TREE OF LIFE]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_278fp.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_278fp.jpg" alt="Christ on the Tree of Life" loading="lazy" decoding="async"></a><figcaption>Christ on the Tree of Life</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-068">
@@ -1542,12 +1542,12 @@ one.”</pre>
 <p>The symbol of the tree encoiled by the serpent may also be translated as the mother defended from incest by resistance. This symbol is by no means rare upon Mithraic monuments. The rock encircled by a snake is to be comprehended similarly, because Mithra is one born from a rock. The menace of the new-born by the snake (Mithra, Hercules) is made clear through the legend of Lilith and Lamia. Python, the dragon of Leto, and Poine, who devastates the land of Crotopus, are sent by the father of the new-born. This idea indicates the localization, well known in psychoanalysis, of the incest anxiety in the father. The father represents the active repulse of the incest wish of the son. The crime, unconsciously wished for by the son, is imputed to the father under the guise of a pretended murderous purpose, this being the cause of the mortal fear of the son for the father, a frequent neurotic symptom. In conformity with this idea, the monster to be overcome by the young hero is frequently a giant, the guardian of the treasure or the woman. A striking example is the giant Chumbaba in the Gilgamesh epic, who protected the garden of Ishtar;[545] he is overcome by Gilgamesh, whereby Ishtar is won. Thereupon she makes erotic advances towards Gilgamesh.[546] This data should be sufficient to render intelligible the rôle of Horus in Plutarch, especially the violent usage of Isis. Through overpowering the mother the hero becomes equal to the sun; he reproduces himself. He wins the strength of the invincible sun, the power of eternal rejuvenation. We thus understand a series of representations from the Mithraic myth on the Heddernheim relief. There we see, first of all, the birth of Mithra from the top of the tree; the next representation shows him carrying the conquered bull (comparable to the monstrous bull overcome by Gilgamesh). This bull signifies the concentrated significance of the monster, the father, who as giant and dangerous animal embodies the incest prohibition, and agrees with the individual libido of the sun-hero, which he overcomes by self-sacrifice. The third picture represents Mithra, when he grasps the head ornament of the sun, the nimbus. This act recalls to us, first of all, the violence of Horus towards Isis; secondly, the Christian basic thought, <em>that those who have overcome attain the crown of eternal life</em>. On the fourth picture Sol kneels before Mithra. These last two representations show plainly that Mithra has taken to himself the strength of the sun, so that he becomes the lord of the sun as well. He has conquered “his animal nature,” the bull. The animal knows no incest prohibition; man is, therefore, man because he conquers the incest wish, that is, the animal nature. Thus Mithra has sacrificed his animal nature, the incest wish, and with that has overcome the mother, that is to say, “the terrible death-bringing mother.” A solution is already anticipated in the Gilgamesh epic through the formal renunciation of the horrible Ishtar by the hero. The overcoming of the mother in the Mithraic sacrifice, which had almost an ascetic character, took place no longer by the archaic overpowering, but through the renunciation, the sacrifice of the wish. The primitive thought of incestuous reproduction through entrance into the mother’s womb had already been displaced, because man was so far advanced in domestication that he believed that the eternal life of the sun is reached, not through the perpetration of incest, but through the sacrifice of the incest wish. This important change expressed in the Mithraic mystery finds its full expression for the first time in the symbol of the crucified God. A bleeding human sacrifice was hung on the tree of life for Adam’s sins.[547] The first-born sacrifices its life to the mother when he suffers, hanging on the branch, a disgraceful and painful death, a mode of death which belongs to the most ignominious forms of execution, which Roman antiquity had reserved for only the lowest criminal. Thus the hero dies, as if he had committed the most shameful crime; he does this by returning into the birth-giving branch of the tree of life, at the same time paying for his guilt with the pangs of death. The animal nature is repressed most powerfully in this deed of the highest courage and the greatest renunciation; therefore, a greater salvation is to be expected for humanity, because such a deed alone seems appropriate to expiate Adam’s guilt.</p>
     </div>
   </section>
-  <section class="parallel-row" data-source-chunk="chunk-071">
+  <section class="parallel-row jung-figure" data-source-chunk="chunk-071">
     <div class="parallel-cell parallel-vi" lang="vi">
-<p>[Minh họa: HIẾN TẾ BÒ CỦA MITHRA]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_294fp.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_294fp.jpg" alt="Cảnh Mithra hiến tế bò" loading="lazy" decoding="async"></a><figcaption>Hiến tế bò của Mithra</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<p>[Illustration: BULL-SACRIFICE OF MITHRA]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_294fp.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_294fp.jpg" alt="Bull-sacrifice of Mithra" loading="lazy" decoding="async"></a><figcaption>Bull-sacrifice of Mithra</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-071">

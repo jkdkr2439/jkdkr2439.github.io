@@ -24,12 +24,12 @@ book_landing: true
 <p>PSYCHOLOGY OF THE UNCONSCIOUS</p>
     </div>
   </section>
-  <section class="parallel-row" data-source-chunk="chunk-001">
+  <section class="parallel-row jung-figure" data-source-chunk="chunk-001">
     <div class="parallel-cell parallel-vi" lang="vi">
-<p><em>[Minh họa: BÁC SĨ C. G. JUNG — “TÂM LÝ HỌC VÔ THỨC”]</em></p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_frontispiece.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_frontispiece.jpg" alt="Chân dung Bác sĩ C. G. Jung" decoding="async"></a><figcaption>Bác sĩ C. G. Jung — <em>Tâm lý học Vô thức</em></figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<p>[Illustration: DR. C. G. JUNG “PSYCHOLOGY OF THE UNCONSCIOUS”]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_frontispiece.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_frontispiece.jpg" alt="Portrait of Dr. C. G. Jung" decoding="async"></a><figcaption>Dr. C. G. Jung — <em>Psychology of the Unconscious</em></figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-001">
@@ -57,12 +57,19 @@ book_landing: true
            of the New York Post Graduate Medical School</pre>
     </div>
   </section>
+  <section class="parallel-row jung-figure" data-source-chunk="chunk-001">
+    <div class="parallel-cell parallel-vi" lang="vi">
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/title.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/title.jpg" alt="Ấn huy hiệu trên trang tên sách năm 1916" loading="lazy" decoding="async"></a><figcaption>Ấn huy hiệu trên trang tên sách, 1916</figcaption></figure>
+    </div>
+    <div class="parallel-cell parallel-en" lang="en">
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/title.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/title.jpg" alt="Publisher's device on the 1916 title page" loading="lazy" decoding="async"></a><figcaption>Publisher's device on the 1916 title page</figcaption></figure>
+    </div>
+  </section>
   <section class="parallel-row" data-source-chunk="chunk-001">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p><strong>Bản dịch tiếng Anh được ủy quyền, kèm dẫn nhập: Beatrice M. Hinkle, M.D.</strong>, Khoa Thần kinh, Trường Y Đại học Cornell và Trường Y Sau đại học New York</p>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<p>[Illustration]</p>
 <pre>MOFFAT, YARD AND COMPANY
                             NEW YORK
                               1916</pre>

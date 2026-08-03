@@ -1705,12 +1705,12 @@ goddesses of old, are dwelling.”</pre>
 <p>The serpent as an instrument of sacrifice has already been abundantly illustrated. (Legend of St. Silvester, trial of the virgins, wounding of Rê and Philoctetes, symbolism of the lance and arrow.) It is the destroying knife; but, according to the principle of the “Occide moriturus” also the phallus, the sacrificial act represents a coitus act as well.[848] The religious significance of the serpent as a cave-dwelling, chthonic animal points to a further thought; namely, to the creeping into the mother’s womb in the form of a serpent.[849] As the horse is the brother, so the serpent is the sister of Chiwantopel. This close relation refers to a fellowship of these animals and their characters with the hero. We know of the horse that, as a rule, he is not an animal of fear, although, mythologically, he has at times this meaning. He signifies much more the living, positive part of the libido, the striving towards continual renewal, whereas the serpent, as a rule, represents the fear, the fear of death,[850] and is thought of as the antithesis to the phallus. This antithesis between horse and serpent, mythologically between bull and serpent, represents an opposition of the libido within itself, a striving forwards and a striving backwards at one and the same time.[851] It is not only as if the libido might be an irresistible striving forward, an endless life and will for construction, such as Schopenhauer has formulated in his world will, death and every end being some malignancy or fatality coming from without, but the libido, corresponding to the sun, also wills the destruction of its creation. In the first half of life its will is for growth, in the second half of life it hints, softly at first, and then audibly, at its will for death. And just as in youth the impulse to unlimited growth often lies under the enveloping covering of a resistance against life, so also does the will of the old to die frequently lie under the covering of a stubborn resistance against the end.</p>
     </div>
   </section>
-  <section class="parallel-row" data-source-chunk="chunk-108">
+  <section class="parallel-row jung-figure" data-source-chunk="chunk-108">
     <div class="parallel-cell parallel-vi" lang="vi">
-<p>[Minh họa: PRIAPUS VÀ CON RẮN]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_481.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_481.jpg" alt="Priapus và con rắn" loading="lazy" decoding="async"></a><figcaption>Priapus và con rắn</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<p>[Illustration: PRIAPUS AND SERPENT]</p>
+<figure><a href="/assets/images/tam-ly-hoc-vo-thuc/i_481.jpg" target="_blank" rel="noopener"><img src="/assets/images/tam-ly-hoc-vo-thuc/i_481.jpg" alt="Priapus and serpent" loading="lazy" decoding="async"></a><figcaption>Priapus and serpent</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chunk-108">
