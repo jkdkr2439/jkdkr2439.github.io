@@ -13,7 +13,7 @@ parallel_layout: true
 library_hidden: true
 book_landing: true
 ---
-<aside class="edition-route"><strong>Tuyến văn bản:</strong> Đức nguyên tác <em>Wandlungen und Symbole der Libido</em> → bản Anh ngữ 1916 của Beatrice M. Hinkle → bản Việt ngữ của Kevin T.N. Đây không phải bản dịch trực tiếp từ tiếng Đức và không phải bản Jung sửa đổi sâu năm 1952.</aside>
+<aside class="edition-route"><strong>Tuyến văn bản:</strong> Nguyên tác tiếng Đức <em>Wandlungen und Symbole der Libido</em> → bản Anh ngữ năm 1916 của Beatrice M. Hinkle → bản Việt ngữ của Kevin T.N. Đây không phải bản dịch trực tiếp từ tiếng Đức và không phải bản Jung sửa đổi sâu năm 1952.</aside>
 
 <div class="parallel-text" data-language-order="vi-en">
   <section class="parallel-row" data-source-chunk="chunk-001">
