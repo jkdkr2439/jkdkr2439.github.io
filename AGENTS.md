@@ -9,6 +9,11 @@ This repository is a DIPOD data-to-view compiler. Before changing anything:
 5. Run `python -B -m P_Process.validation.run_all` and the owning tests.
 6. Publish only a verified generated artifact.
 
+The public root is a platform, not the Writing implementation. Global identity,
+locale, registry, lifecycle, and legacy routing belong to the Site Canvas.
+Posts, books, sidebar behavior, and the reader belong to Writing at `/writing/`.
+Never fix a Writing problem by adding module-specific branches to the platform.
+
 ## Ownership
 
 - Canonical content, media, manifests, config, identity, and knowledge: `D_Data/`
@@ -16,6 +21,8 @@ This repository is a DIPOD data-to-view compiler. Before changing anything:
 - Validation, tests, tools, build, and publishing: `P_Process/`
 - Output contracts, fixtures, reports, and evidence: `O_Output/`
 - Layouts, includes, CSS, JavaScript, and pages: `D_Display/`
+- Shared browser runtime kernel: `P_Process/platform/`
+- Minimal root shell and registry projection: `D_Display/platform/`
 - GitHub validation and Pages deployment: `.github/`
 
 ## Non-negotiable rules

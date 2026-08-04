@@ -16,10 +16,11 @@ class _References(HTMLParser):
                 self.values.append(value)
 
 
-def _route_file(site: Path, route: str) -> Path:
+def _route_file(site: Path, route: str, mount: str = "") -> Path:
+    base = site / mount if mount else site
     if route == "/":
-        return site / "index.html"
-    return site.joinpath(*PurePosixPath(route.strip("/")).parts, "index.html")
+        return base / "index.html"
+    return base.joinpath(*PurePosixPath(route.strip("/")).parts, "index.html")
 
 
 def _local_target(site: Path, page: Path, reference: str) -> Path | None:
@@ -42,15 +43,18 @@ def validate_artifact(site: Path, baseline: dict) -> list[str]:
     site = site.resolve()
     failures: list[str] = []
     for route in baseline.get("routes", []):
+        if not _route_file(site, route, "writing").is_file():
+            failures.append(f"missing Writing baseline route: {route}")
+    for route in ("/", "/writing/", "/products/", "/papers/", "/media/", "/connect/"):
         if not _route_file(site, route).is_file():
-            failures.append(f"missing baseline route: {route}")
+            failures.append(f"missing platform route: {route}")
 
     index = site / "index.html"
     index_text = index.read_text(encoding="utf-8") if index.is_file() else ""
     if "Content-Security-Policy" not in index_text:
         failures.append("homepage is missing Content-Security-Policy")
-    if "data-site-canvas" not in index_text:
-        failures.append("homepage is missing data-site-canvas")
+    if "platform-root" not in index_text:
+        failures.append("homepage is missing platform-root")
 
     for page in sorted(site.rglob("*.html")):
         text = page.read_text(encoding="utf-8")

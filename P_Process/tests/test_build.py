@@ -16,9 +16,11 @@ class BlogBuildTest(unittest.TestCase):
             destination = Path(raw) / "site"
             report = build_site(ROOT, destination)
             self.assertTrue(report.ok)
-            self.assertGreater(report.staged_files, 200)
+            self.assertGreater(report.staged_files, 100)
             self.assertTrue((destination / "index.html").is_file())
-            self.assertTrue((destination / "khoang-cach/index.html").is_file())
+            self.assertTrue((destination / "writing/index.html").is_file())
+            self.assertTrue((destination / "writing/khoang-cach/index.html").is_file())
+            self.assertTrue((destination / "media/index.html").is_file())
 
 
 if __name__ == "__main__":

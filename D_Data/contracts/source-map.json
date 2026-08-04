@@ -8,9 +8,11 @@
     "D_Display/layouts": "_layouts",
     "D_Display/includes": "_includes",
     "D_Display/assets": "assets"
+    ,"D_Data/config/jekyll_plugins": "_plugins"
   },
   "files": {
     "D_Data/config/jekyll.yml": "_config.yml",
+    "D_Data/config/writing.yml": "_config.writing.yml",
     "D_Data/config/dependencies/Gemfile": "Gemfile",
     "D_Display/pages/index.html": "index.html",
     "D_Display/pages/about.md": "about.md"

@@ -1,0 +1,7 @@
+{
+  "goal": "compose Site Canvas root with the existing Writing module",
+  "input": {"platform_registry":"D_Data/platform/registry/modules.json","writing_source_map":"D_Data/contracts/source-map.json","writing_mount":"/writing/"},
+  "process": ["validate platform contracts","build explicit platform owners","stage canonical Writing sources","build Jekyll with the Writing mount profile","prefix root media references in ephemeral Writing output","reject owner collisions","atomically compose and validate the artifact"],
+  "output": {"artifact_files":142,"platform_modules":5,"writing_baseline_routes":78,"legacy_redirect":"/?post=... -> /writing/?post=..."},
+  "data_feedback": {"canonical_content_bytes_changed":false,"platform_fault_boundary_tested":true,"locale_persistence_tested":true}
+}

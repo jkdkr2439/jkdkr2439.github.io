@@ -1,9 +1,11 @@
 {
   "version": 1,
   "required_routes_source": "O_Output/fixtures/baseline.json",
+  "layout_contract": "D_Data/contracts/artifact-layout.json",
+  "platform_registry": "D_Data/platform/registry/modules.json",
   "required_homepage_markers": [
     "Content-Security-Policy",
-    "data-site-canvas"
+    "platform-root"
   ],
   "forbidden_secret_prefixes": [
     "ghp_",

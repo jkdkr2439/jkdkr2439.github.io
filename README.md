@@ -1,15 +1,15 @@
 # Danh Nghĩa Hệ
 
-Production blog source organized as a recursive DIPOD/IPOD system for reliable human and AI maintenance.
+Production site source organized as a recursive DIPOD/IPOD system. A minimal Site Canvas owns `/`; the Jekyll reader is an independently built Writing module at `/writing/`.
 
 ## Source flow
 
 ```text
 D_Data -> I_Input -> P_Process -> O_Output -> feedback Data
-                 \-> D_Display -> generated site
+                 \-> D_Display -> Canvas + Writing -> composed site
 ```
 
-`main` contains canonical source. Jekyll conventions are generated in a temporary staging tree. A verified static artifact is deployed to `gh-pages`.
+`main` contains canonical source. Canvas and Writing build independently in temporary trees, then an atomic compositor mounts Writing under `/writing/`. The registry also declares Products, Papers, Media, and Connect; Media owns the YouTube capability.
 
 ## Validate
 
@@ -18,6 +18,7 @@ $env:BUNDLE_PATH = 'C:\tmp\blog-jekyll-bundle'
 python -B -m P_Process.validation.run_all
 python -B -m unittest discover -s P_Process/tests -p 'test_*.py' -v
 node --check D_Display/assets/js/app.js
+node --test P_Process/tests/platform/*.test.mjs
 node P_Process/tests/browser/test_canvas_store.js
 ```
 

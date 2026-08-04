@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 class ArtifactContractTest(unittest.TestCase):
-    def test_homepage_requires_the_live_canvas_marker(self) -> None:
+    def test_homepage_requires_the_live_platform_marker(self) -> None:
         from P_Process.validation.artifact import validate_artifact
 
         with tempfile.TemporaryDirectory() as raw:
@@ -21,7 +21,7 @@ class ArtifactContractTest(unittest.TestCase):
                 encoding="utf-8",
             )
             self.assertIn(
-                "homepage is missing data-site-canvas",
+                "homepage is missing platform-root",
                 validate_artifact(site, {"routes": ["/"]}),
             )
 
