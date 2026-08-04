@@ -33,9 +33,20 @@ def build_platform(root: Path, destination: Path) -> PlatformBuildReport:
         (root / "D_Data/platform/registry/modules.json").read_text(encoding="utf-8")
     )
     for module in registry["modules"]:
+        page = destination / module["route"].strip("/") / "index.html"
+        if module["entry"] == "media":
+            page.parent.mkdir(parents=True)
+            page.write_text(
+                "<!doctype html><html lang=\"vi\"><meta charset=\"utf-8\">"
+                "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">"
+                "<meta http-equiv=\"refresh\" content=\"0;url=/#media\">"
+                "<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'none'; object-src 'none'; base-uri 'none'\">"
+                "<title>Media</title><p><a href=\"/#media\">Open Media · Mở Media</a></p></html>\n",
+                encoding="utf-8",
+            )
+            continue
         if module["state"] != "planned":
             continue
-        page = destination / module["route"].strip("/") / "index.html"
         page.parent.mkdir(parents=True)
         page.write_text(
             "<!doctype html><html lang=\"vi\"><meta charset=\"utf-8\">"

@@ -28,5 +28,6 @@ async function boot() {
     }
   }):({mount:mountDestination}),shell,identity,locale});
   await runtime.boot();
+  if(window.location.hash==='#media')document.querySelector('[data-module-id="media"]')?.click();
 }
 boot();
