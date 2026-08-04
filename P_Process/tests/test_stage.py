@@ -13,7 +13,9 @@ class JekyllStageTest(unittest.TestCase):
         (root / "D_Data/manifests").mkdir(parents=True)
         (root / "D_Display/assets/js").mkdir(parents=True)
         (root / "D_Display/pages").mkdir(parents=True)
-        (root / "D_Data/content/posts/a.md").write_text("post", encoding="utf-8")
+        (root / "D_Data/content/posts/a.md").write_text(
+            "![hero](/assets/images/a.png)", encoding="utf-8"
+        )
         (root / "D_Data/manifests/books.json").write_text("{}", encoding="utf-8")
         (root / "D_Display/assets/js/app.js").write_text("void 0;", encoding="utf-8")
         (root / "D_Display/pages/index.html").write_text("index", encoding="utf-8")
@@ -47,6 +49,14 @@ class JekyllStageTest(unittest.TestCase):
             self.assertTrue((stage / "_data/books.json").is_file())
             self.assertTrue((stage / "assets/js/app.js").is_file())
             self.assertTrue((stage / "index.html").is_file())
+            self.assertIn(
+                "/writing/assets/images/a.png",
+                (stage / "_posts/a.md").read_text(encoding="utf-8"),
+            )
+            self.assertIn(
+                "/assets/images/a.png",
+                (root / "D_Data/content/posts/a.md").read_text(encoding="utf-8"),
+            )
 
     def test_source_map_rejects_duplicate_destination(self) -> None:
         from I_Input.jekyll.source_map import SourceMapError, load_source_map_file
