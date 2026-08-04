@@ -4,6 +4,9 @@ import tempfile
 import unittest
 
 
+ROOT = Path(__file__).resolve().parents[2]
+
+
 class JekyllStageTest(unittest.TestCase):
     def _fixture(self, root: Path) -> None:
         (root / "D_Data/content/posts").mkdir(parents=True)
@@ -66,6 +69,17 @@ class JekyllStageTest(unittest.TestCase):
 
             with self.assertRaisesRegex(SourceMapError, "duplicate destination: index.html"):
                 load_source_map_file(contract, root)
+
+    def test_repository_contract_stages_the_current_blog(self) -> None:
+        from I_Input.jekyll.stage import stage_site
+
+        with tempfile.TemporaryDirectory() as raw:
+            stage = Path(raw) / "stage"
+            report = stage_site(ROOT, stage)
+            self.assertEqual((), report.collisions)
+            self.assertTrue((stage / "_posts/2026-06-20-khoang-cach.md").is_file())
+            self.assertTrue((stage / "assets/js/app.js").is_file())
+            self.assertTrue((stage / "assets/images/tam-ly-hoc-vo-thuc/title.jpg").is_file())
 
 
 if __name__ == "__main__":

@@ -6,10 +6,10 @@ import re
 import json
 from pathlib import Path
 
-from validate_canvas import validate_canvas
+from P_Process.validation.canvas import validate_canvas
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 POSTS = ROOT / "D_Data" / "content" / "posts"
 BOOKS = ROOT / "D_Data" / "manifests" / "books.json"
 

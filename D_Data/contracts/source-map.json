@@ -3,7 +3,6 @@
   "directories": {
     "D_Data/content/posts": "_posts",
     "D_Data/content/english": "_english",
-    "D_Data/content/sources": "_sources",
     "D_Data/manifests": "_data",
     "D_Data/media/assets/images": "assets/images",
     "D_Display/layouts": "_layouts",

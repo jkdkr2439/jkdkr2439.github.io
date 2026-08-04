@@ -4,7 +4,13 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.import_jung_bilingual import align_blocks, front_matter, render_block, render_parallel_rows, SECTIONS
+from P_Process.tools.import_jung_bilingual import (
+    SECTIONS,
+    align_blocks,
+    front_matter,
+    render_block,
+    render_parallel_rows,
+)
 
 
 class JungImporterTest(unittest.TestCase):

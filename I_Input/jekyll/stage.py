@@ -30,7 +30,7 @@ def stage_site(root: Path, destination: Path, contract: Path | None = None) -> S
         temporary.mkdir()
         for entry in source_map.directories:
             target = temporary / entry.destination
-            shutil.copytree(entry.source, target)
+            shutil.copytree(entry.source, target, dirs_exist_ok=True)
             copied.extend(
                 path.relative_to(temporary).as_posix()
                 for path in target.rglob("*")
