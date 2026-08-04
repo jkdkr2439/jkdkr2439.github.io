@@ -3,7 +3,7 @@
   "required_routes_source": "O_Output/fixtures/baseline.json",
   "required_homepage_markers": [
     "Content-Security-Policy",
-    "data-canvas-root"
+    "data-site-canvas"
   ],
   "forbidden_secret_prefixes": [
     "ghp_",

@@ -11,6 +11,20 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 class ArtifactContractTest(unittest.TestCase):
+    def test_homepage_requires_the_live_canvas_marker(self) -> None:
+        from P_Process.validation.artifact import validate_artifact
+
+        with tempfile.TemporaryDirectory() as raw:
+            site = Path(raw)
+            (site / "index.html").write_text(
+                '<meta http-equiv="Content-Security-Policy">',
+                encoding="utf-8",
+            )
+            self.assertIn(
+                "homepage is missing data-site-canvas",
+                validate_artifact(site, {"routes": ["/"]}),
+            )
+
     def test_real_artifact_satisfies_baseline_routes_and_security(self) -> None:
         from P_Process.validation.artifact import validate_artifact
 

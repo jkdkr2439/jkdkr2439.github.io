@@ -49,6 +49,8 @@ def validate_artifact(site: Path, baseline: dict) -> list[str]:
     index_text = index.read_text(encoding="utf-8") if index.is_file() else ""
     if "Content-Security-Policy" not in index_text:
         failures.append("homepage is missing Content-Security-Policy")
+    if "data-site-canvas" not in index_text:
+        failures.append("homepage is missing data-site-canvas")
 
     for page in sorted(site.rglob("*.html")):
         text = page.read_text(encoding="utf-8")
