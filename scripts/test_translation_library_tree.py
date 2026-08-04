@@ -10,7 +10,9 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class TranslationLibraryTreeTest(unittest.TestCase):
     def test_jung_book_has_bilingual_psychology_category(self) -> None:
-        books = json.loads((ROOT / "_data" / "books.json").read_text(encoding="utf-8"))
+        books = json.loads(
+            (ROOT / "D_Data" / "manifests" / "books.json").read_text(encoding="utf-8")
+        )
         jung = books["tam-ly-hoc-vo-thuc"]
         self.assertEqual("Tâm lý học", jung["translation_category_vi"])
         self.assertEqual("Psychology", jung["translation_category_en"])

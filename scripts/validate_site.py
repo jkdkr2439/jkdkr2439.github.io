@@ -10,8 +10,8 @@ from validate_canvas import validate_canvas
 
 
 ROOT = Path(__file__).resolve().parents[1]
-POSTS = ROOT / "_posts"
-BOOKS = ROOT / "_data" / "books.json"
+POSTS = ROOT / "D_Data" / "content" / "posts"
+BOOKS = ROOT / "D_Data" / "manifests" / "books.json"
 
 
 def front_matter(path: Path) -> dict:

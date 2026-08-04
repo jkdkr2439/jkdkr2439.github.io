@@ -10,7 +10,9 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class CanvasContractTest(unittest.TestCase):
     def test_manifest_declares_unique_zones_modules_and_domains(self) -> None:
-        manifest = json.loads((ROOT / "_data" / "canvas.json").read_text(encoding="utf-8"))
+        manifest = json.loads(
+            (ROOT / "D_Data" / "manifests" / "canvas.json").read_text(encoding="utf-8")
+        )
         self.assertEqual(["anchor", "context", "stage"], [zone["key"] for zone in manifest["zones"]])
         module_keys = [module["key"] for module in manifest["modules"]]
         self.assertEqual(len(module_keys), len(set(module_keys)))

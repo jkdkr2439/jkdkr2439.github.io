@@ -6,7 +6,9 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ASSET_DIR = ROOT / "assets" / "images" / "tam-ly-hoc-vo-thuc"
+ASSET_DIR = (
+    ROOT / "D_Data" / "media" / "assets" / "images" / "tam-ly-hoc-vo-thuc"
+)
 FILENAMES = (
     "i_frontispiece.jpg",
     "title.jpg",
@@ -26,10 +28,16 @@ class JungIllustrationsTest(unittest.TestCase):
     def setUp(self) -> None:
         self.posts = "\n".join(
             path.read_text(encoding="utf-8")
-            for path in sorted((ROOT / "_posts").glob("2026-08-03-jung-*.md"))
+            for path in sorted(
+                (ROOT / "D_Data" / "content" / "posts").glob("2026-08-03-jung-*.md")
+            )
         )
         self.posts += "\n" + (
-            ROOT / "_posts" / "2026-08-03-tam-ly-hoc-vo-thuc.md"
+            ROOT
+            / "D_Data"
+            / "content"
+            / "posts"
+            / "2026-08-03-tam-ly-hoc-vo-thuc.md"
         ).read_text(encoding="utf-8")
 
     def test_all_canonical_jpegs_are_local(self) -> None:

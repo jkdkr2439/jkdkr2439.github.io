@@ -203,7 +203,13 @@ def import_book(project_root: Path, site_root: Path) -> list[Path]:
     created: list[Path] = []
     for index, (section, section_rows) in enumerate(zip(SECTIONS, buckets)):
         number = None if index == 0 else index
-        path = site_root / "_posts" / f"2026-08-03-{section.slug}.md"
+        path = (
+            site_root
+            / "D_Data"
+            / "content"
+            / "posts"
+            / f"2026-08-03-{section.slug}.md"
+        )
         edition_note = ""
         if index == 0:
             edition_note = (

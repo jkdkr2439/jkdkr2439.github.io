@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-POSTS = ROOT / "_posts"
+POSTS = ROOT / "D_Data" / "content" / "posts"
 
 
 class JungEditorialConsistencyTest(unittest.TestCase):

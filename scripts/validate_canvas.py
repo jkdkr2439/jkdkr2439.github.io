@@ -7,8 +7,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CANVAS = ROOT / "_data" / "canvas.json"
-BOOKS = ROOT / "_data" / "books.json"
+CANVAS = ROOT / "D_Data" / "manifests" / "canvas.json"
+BOOKS = ROOT / "D_Data" / "manifests" / "books.json"
 REQUIRED_ZONES = ("anchor", "context", "stage")
 SOURCE_TYPES = {"tag", "collection", "translation"}
 
