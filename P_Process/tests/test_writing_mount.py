@@ -24,6 +24,12 @@ class WritingMountTest(unittest.TestCase):
         self.assertIn("{{ '/' | relative_url }}?book=", sidebar)
         self.assertIn("{{ '/' | relative_url }}", shell)
 
+    def test_writing_navigation_has_a_persistent_homepage_control(self) -> None:
+        shell = (ROOT / "D_Display/includes/canvas/anchor-zone.html").read_text(encoding="utf-8")
+        self.assertIn('class="writing-home-control"', shell)
+        self.assertIn('href="/"', shell)
+        self.assertIn('data-home-icon', shell)
+
 
 if __name__ == "__main__":
     unittest.main()

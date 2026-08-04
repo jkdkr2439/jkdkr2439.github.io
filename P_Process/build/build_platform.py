@@ -34,14 +34,15 @@ def build_platform(root: Path, destination: Path) -> PlatformBuildReport:
     )
     for module in registry["modules"]:
         page = destination / module["route"].strip("/") / "index.html"
-        if module["entry"] == "media":
+        if module["entry"] in {"media", "connect"}:
+            anchor = module["entry"]
             page.parent.mkdir(parents=True)
             page.write_text(
                 "<!doctype html><html lang=\"vi\"><meta charset=\"utf-8\">"
                 "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">"
-                "<meta http-equiv=\"refresh\" content=\"0;url=/#media\">"
+                f"<meta http-equiv=\"refresh\" content=\"0;url=/#{anchor}\">"
                 "<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'none'; object-src 'none'; base-uri 'none'\">"
-                "<title>Media</title><p><a href=\"/#media\">Open Media · Mở Media</a></p></html>\n",
+                f"<title>{escape(module['labels']['vi'])}</title><p><a href=\"/#{anchor}\">Open · Mở</a></p></html>\n",
                 encoding="utf-8",
             )
             continue

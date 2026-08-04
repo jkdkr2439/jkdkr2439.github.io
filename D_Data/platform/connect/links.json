@@ -1,0 +1,10 @@
+{
+  "heading":{"vi":"Kết nối","en":"Connect"},
+  "title":{"vi":"Theo dõi Danh Nghĩa Hệ","en":"Follow Name · Meaning · Frame"},
+  "description":{"vi":"Video, bài viết dài và những cập nhật ngắn nằm ở ba cánh cửa này.","en":"Video, long-form writing, and shorter updates live behind these three doors."},
+  "links":[
+    {"id":"youtube","url":"https://www.youtube.com/@danhnghiahe","label":{"vi":"YouTube · Danh Nghĩa Hệ","en":"YouTube · Name Meaning Frame"}},
+    {"id":"substack","url":"https://substack.com/@kevin595311","label":{"vi":"Substack · Kevin","en":"Substack · Kevin"}},
+    {"id":"facebook","url":"https://www.facebook.com/profile.php?id=61579333393862","label":{"vi":"Facebook · Kevin T.N","en":"Facebook · Kevin T.N"}}
+  ]
+}

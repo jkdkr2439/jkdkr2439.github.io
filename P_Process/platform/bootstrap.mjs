@@ -1,8 +1,10 @@
 import { loadIdentity, loadRegistry } from '../../I_Input/platform/load_registry.mjs';
 import { loadMedia } from '../../I_Input/platform/load_media.mjs';
+import { loadConnect } from '../../I_Input/platform/load_connect.mjs';
 import { createShell } from '../../D_Display/platform/shell.mjs';
 import { mount as mountDestination } from '../../D_Display/platform/destination.mjs';
 import { createMediaPanel } from '../../D_Display/platform/media/panel.mjs';
+import { mount as mountConnect } from '../../D_Display/platform/connect/frame.mjs';
 import { createLocaleService } from './locale.mjs';
 import { createRuntime } from './runtime.mjs';
 import { createMediaController } from './media/controller.mjs';
@@ -24,10 +26,10 @@ async function boot() {
   const runtime = createRuntime({loadRegistry,loadModule:async manifest=>manifest.entry==='media'?({
     mount(args){
       const controller=createMediaController({load:loadMedia,view:mediaView,locale,emit:args.emit});
-      return mountDestination({...args,activate:async()=>{await controller.toggle();return controller.isOpen()}});
+      return controller.mount();
     }
-  }):({mount:mountDestination}),shell,identity,locale});
+  }):manifest.entry==='connect'?({mount(args){return mountConnect({...args,load:loadConnect})}}):({mount:mountDestination}),shell,identity,locale});
   await runtime.boot();
-  if(window.location.hash==='#media')document.querySelector('[data-module-id="media"]')?.click();
+  if(window.location.hash==='#media')document.querySelector('#media')?.setAttribute('tabindex','-1');
 }
 boot();

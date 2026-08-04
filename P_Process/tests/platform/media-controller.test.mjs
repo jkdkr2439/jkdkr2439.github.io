@@ -9,7 +9,7 @@ const valid = {
   playlists:[{id:'playlist-01',url:'https://www.youtube.com/watch?v=one',thumbnail:'D_Data/media/assets/images/youtube-playlists/playlist-01.jpg',name:{vi:'Một',en:'One'}}],
 };
 
-test('loads Media once and reuses it across disclosure toggles', async () => {
+test('mounts Media once as a persistent surface and follows locale', async () => {
   let loads = 0;
   const renders = [], expanded = [];
   const locale = {get:()=> 'vi', subscribe(fn){this.listener=fn; return ()=>{};}};
@@ -19,12 +19,11 @@ test('loads Media once and reuses it across disclosure toggles', async () => {
     locale,
     emit(){}
   });
-  await controller.toggle();
-  await controller.toggle();
-  await controller.toggle();
+  await controller.mount();
+  await controller.mount();
   locale.listener('en');
   assert.equal(loads, 1);
-  assert.deepEqual(expanded, [true,false,true]);
+  assert.deepEqual(expanded, [true]);
   assert.deepEqual(renders, [[1,'vi'],[1,'en']]);
 });
 
@@ -36,8 +35,7 @@ test('contains invalid Media data inside its own view', async () => {
     locale:{get:()=> 'vi',subscribe:()=>()=>{}},
     emit:(action,result,code)=>events.push({action,result,code}),
   });
-  await controller.open();
-  assert.equal(controller.isOpen(), false);
+  await controller.mount();
   assert.deepEqual(failures, ['MEDIA_DATA_INVALID']);
   assert.deepEqual(events.at(-1), {action:'load-media',result:'rejected',code:'INVALID_MEDIA_URL'});
 });

@@ -7,6 +7,13 @@ test('accepts the canonical five-module platform registry', async () => {
   const registry = JSON.parse(await readFile('D_Data/platform/registry/modules.json', 'utf8'));
   const result = validateRegistry(registry);
   assert.deepEqual(result.accepted.map(({id}) => id), ['writing', 'products', 'papers', 'media', 'connect']);
+  assert.deepEqual(result.accepted.map(({id,entry,slot}) => ({id,entry,slot})), [
+    {id:'writing',entry:'destination',slot:'destinations'},
+    {id:'products',entry:'destination',slot:'destinations'},
+    {id:'papers',entry:'destination',slot:'destinations'},
+    {id:'media',entry:'media',slot:'media'},
+    {id:'connect',entry:'connect',slot:'connect'},
+  ]);
   assert.deepEqual(result.rejected, []);
 });
 

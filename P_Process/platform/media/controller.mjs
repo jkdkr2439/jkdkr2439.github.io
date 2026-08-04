@@ -2,7 +2,7 @@ import { validateMedia } from './contracts.mjs';
 
 export function createMediaController({load, view, locale, emit}) {
   let model = null;
-  let opened = false;
+  let mounted = false;
   let pending = null;
   locale.subscribe(language => { if (model) view.render(model, language); });
 
@@ -27,18 +27,13 @@ export function createMediaController({load, view, locale, emit}) {
     return pending;
   };
 
-  const open = async () => {
+  const mount = async () => {
     if (!await ensureLoaded()) return false;
-    opened = true;
+    if (mounted) return true;
+    mounted = true;
     view.setExpanded(true);
-    emit('toggle-media','accepted','OPEN');
+    emit('mount-media','accepted');
     return true;
   };
-  const close = () => {
-    opened = false;
-    view.setExpanded(false);
-    emit('toggle-media','accepted','CLOSED');
-    return true;
-  };
-  return {open, close, isOpen:()=>opened, toggle:()=>opened ? Promise.resolve(close()) : open()};
+  return {mount};
 }
