@@ -26,6 +26,13 @@ class BlogBuildTest(unittest.TestCase):
             writing_home = (destination / "writing/index.html").read_text(encoding="utf-8")
             self.assertNotIn("home-listening-room", writing_home)
             self.assertNotIn("playlist-link", writing_home)
+            from P_Process.validation.writing_artifact import validate_writing_images
+            self.assertEqual([], validate_writing_images(destination))
+            registry = (destination / "writing/assets/js/post-registry.js").read_text(encoding="utf-8")
+            self.assertIn(
+                "/writing/assets/images/doi-song-de-danh/doi-song-de-danh-hero.png",
+                registry,
+            )
 
 
 if __name__ == "__main__":
