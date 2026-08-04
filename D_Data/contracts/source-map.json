@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "directories": {
+    "D_Data/content/posts": "_posts",
+    "D_Data/content/english": "_english",
+    "D_Data/content/sources": "_sources",
+    "D_Data/manifests": "_data",
+    "D_Data/media/assets/images": "assets/images",
+    "D_Display/layouts": "_layouts",
+    "D_Display/includes": "_includes",
+    "D_Display/assets": "assets"
+  },
+  "files": {
+    "D_Data/config/jekyll.yml": "_config.yml",
+    "D_Data/config/dependencies/Gemfile": "Gemfile",
+    "D_Display/pages/index.html": "index.html",
+    "D_Display/pages/about.md": "about.md"
+  }
+}
