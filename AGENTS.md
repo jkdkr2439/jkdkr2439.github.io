@@ -14,6 +14,9 @@ locale, registry, lifecycle, and legacy routing belong to the Site Canvas.
 Posts, books, sidebar behavior, and the reader belong to Writing at `/writing/`.
 Never fix a Writing problem by adding module-specific branches to the platform.
 
+For every new article, translation, chapter, or article image, follow
+`D_Data/knowledge/runbooks/PUBLISH_ARTICLE.md` before editing canonical Data.
+
 ## Ownership
 
 - Canonical content, media, manifests, config, identity, and knowledge: `D_Data/`
