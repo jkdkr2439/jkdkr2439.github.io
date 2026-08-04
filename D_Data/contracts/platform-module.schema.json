@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Site Canvas module",
+  "type": "object",
+  "required": ["id", "version", "state", "route", "slot", "labels", "purpose", "entry", "builder", "health_contract", "dependencies", "capabilities"],
+  "properties": {
+    "state": {"enum": ["active", "planned", "disabled"]},
+    "route": {"type": "string", "pattern": "^/.+/$"},
+    "dependencies": {"type": "array", "items": {"type": "string"}},
+    "capabilities": {"type": "array", "items": {"type": "string"}}
+  }
+}

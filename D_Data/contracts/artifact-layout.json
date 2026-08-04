@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "owners": {
+    "/": "platform",
+    "/assets/platform/": "platform",
+    "/writing/": "writing",
+    "/products/": "products",
+    "/papers/": "papers",
+    "/media/": "media",
+    "/connect/": "connect"
+  },
+  "collision_policy": "fail-closed"
+}
