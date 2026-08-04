@@ -31,6 +31,18 @@ def _bundle_command() -> Path:
     raise WritingBuildError("Bundler is unavailable")
 
 
+def _bundle_process_command(
+    bundle: Path,
+    arguments: list[str],
+    *,
+    platform_name: str = os.name,
+    comspec: str | None = None,
+) -> list[str]:
+    if platform_name == "nt":
+        return [comspec or os.environ.get("COMSPEC", "cmd.exe"), "/d", "/c", str(bundle), *arguments]
+    return [str(bundle), *arguments]
+
+
 def build_writing(root: Path, destination: Path) -> WritingBuildReport:
     root, destination = root.resolve(), destination.resolve()
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -42,12 +54,12 @@ def build_writing(root: Path, destination: Path) -> WritingBuildReport:
         environment = os.environ.copy()
         environment["BUNDLE_GEMFILE"] = str(stage / "Gemfile")
         environment["PATH"] = str(bundle.parent) + os.pathsep + environment.get("PATH", "")
-        command = [
-            environment.get("COMSPEC", "cmd.exe"), "/d", "/c", str(bundle),
+        arguments = [
             "_2.5.23_", "exec", "jekyll", "build",
             "--source", str(stage), "--destination", str(artifact),
             "--config", f"{stage / '_config.yml'},{stage / '_config.writing.yml'}",
         ]
+        command = _bundle_process_command(bundle, arguments, comspec=environment.get("COMSPEC"))
         completed = subprocess.run(
             command, cwd=root, env=environment, capture_output=True, text=True,
             encoding="utf-8", errors="replace", check=False,
