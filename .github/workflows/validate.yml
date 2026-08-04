@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BUNDLE_GEMFILE: ${{ github.workspace }}/D_Data/config/dependencies/Gemfile
+      BUNDLE_PATH: ${{ runner.temp }}/bundle
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -20,6 +21,12 @@ jobs:
           node-version: "22"
       - name: Validate source gates
         run: python -B -m P_Process.validation.run_all
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler: "2.5.23"
+      - name: Install Writing dependencies
+        run: bundle install --jobs 4 --retry 3
       - name: Run Python contracts
         run: python -B -m unittest discover -s P_Process/tests -p 'test_*.py' -v
       - name: Run browser contracts
@@ -27,10 +34,5 @@ jobs:
           node --test P_Process/tests/platform/*.test.mjs
           node --check D_Display/assets/js/app.js
           node P_Process/tests/browser/test_canvas_store.js
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.2"
-          bundler: "2.5.23"
-          bundler-cache: true
       - name: Build public artifact
         run: python -B -m P_Process.build.build_site --destination _site
