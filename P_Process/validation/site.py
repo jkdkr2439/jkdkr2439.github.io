@@ -36,7 +36,7 @@ def front_matter(path: Path) -> dict:
     return result
 
 
-def main() -> None:
+def validate_site() -> list[str]:
     failures: list[str] = validate_canvas()
     shell = (ROOT / "D_Display" / "pages" / "index.html").read_text(encoding="utf-8")
     for required in (
@@ -103,12 +103,17 @@ def main() -> None:
                     f"but front matter says {meta.get('chapter_number')!r}"
                 )
 
+    return failures
+
+
+def main() -> None:
+    failures = validate_site()
     if failures:
         print("SITE INVARIANTS: FAIL")
         for failure in failures:
             print(f"- {failure}")
         raise SystemExit(1)
-    print(f"SITE INVARIANTS: PASS ({len(posts)} posts, {len(books)} books, {len(claimed)} book pages)")
+    print("SITE INVARIANTS: PASS")
 
 
 if __name__ == "__main__":

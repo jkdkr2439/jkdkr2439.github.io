@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "required_routes_source": "O_Output/fixtures/baseline.json",
+  "required_homepage_markers": [
+    "Content-Security-Policy",
+    "data-canvas-root"
+  ],
+  "forbidden_secret_prefixes": [
+    "ghp_",
+    "github_pat_"
+  ],
+  "local_references_must_resolve": true
+}

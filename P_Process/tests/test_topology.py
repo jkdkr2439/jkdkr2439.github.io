@@ -4,6 +4,12 @@ import unittest
 
 
 class TopologyContractTest(unittest.TestCase):
+    def test_repository_root_satisfies_the_contract(self) -> None:
+        from P_Process.validation.topology import validate_root
+
+        root = Path(__file__).resolve().parents[2]
+        self.assertEqual([], validate_root(root))
+
     def test_root_is_the_approved_dipod_surface(self) -> None:
         from P_Process.validation.topology import validate_root
 

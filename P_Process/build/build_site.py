@@ -1,6 +1,7 @@
 """Stage and build the canonical blog through the real Jekyll toolchain."""
 
 from dataclasses import dataclass
+import argparse
 import json
 import os
 from pathlib import Path
@@ -92,3 +93,16 @@ def build_site(root: Path, destination: Path) -> BuildReport:
         staged_files=len(stage_report.copied_files),
         destination=destination,
     )
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Build the verified DIPOD blog artifact")
+    parser.add_argument("--destination", type=Path, required=True)
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parents[2]
+    report = build_site(root, args.destination)
+    print(f"BUILD: PASS ({report.staged_files} staged files -> {report.destination})")
+
+
+if __name__ == "__main__":
+    main()
