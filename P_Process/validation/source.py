@@ -23,6 +23,14 @@ def _canonical_path(root: Path, legacy_path: str) -> Path:
     raise ValueError(f"baseline path has no canonical owner: {legacy_path}")
 
 
+def _content_digests(data: bytes, *, text: bool) -> set[str]:
+    candidates = {data}
+    if text:
+        lf = data.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+        candidates.update({lf, lf.replace(b"\n", b"\r\n")})
+    return {hashlib.sha256(candidate).hexdigest() for candidate in candidates}
+
+
 def validate_sources(root: Path, baseline: dict) -> list[str]:
     """Report missing or byte-changed canonical sources without repairing them."""
 
@@ -38,8 +46,8 @@ def validate_sources(root: Path, baseline: dict) -> list[str]:
             if not path.is_file():
                 failures.append(f"missing canonical source: {path.relative_to(root).as_posix()}")
                 continue
-            digest = hashlib.sha256(path.read_bytes()).hexdigest()
-            if digest != record["sha256"]:
+            digests = _content_digests(path.read_bytes(), text=section in {"posts", "english"})
+            if record["sha256"] not in digests:
                 failures.append(f"canonical bytes changed: {path.relative_to(root).as_posix()}")
             if section in {"posts", "english"}:
                 slug = path.stem
