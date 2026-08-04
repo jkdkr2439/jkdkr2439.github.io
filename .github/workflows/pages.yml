@@ -28,13 +28,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Validate canonical source
+        run: python -B -m P_Process.validation.run_all
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2"
           bundler: "2.5.23"
           bundler-cache: true
-      - name: Validate canonical source
-        run: python -B -m P_Process.validation.run_all
       - name: Build verified artifact
         run: python -B -m P_Process.build.build_site --destination _site
       - uses: actions/upload-pages-artifact@v3
