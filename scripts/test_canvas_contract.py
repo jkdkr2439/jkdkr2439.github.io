@@ -28,11 +28,13 @@ class CanvasContractTest(unittest.TestCase):
             self.assertIn(domain["source"]["type"], {"tag", "collection", "translation"})
 
     def test_shell_owns_one_element_per_zone(self) -> None:
-        shell = (ROOT / "_includes" / "canvas" / "shell.html").read_text(encoding="utf-8")
+        shell = (
+            ROOT / "D_Display" / "includes" / "canvas" / "shell.html"
+        ).read_text(encoding="utf-8")
         self.assertEqual(1, shell.count("canvas/anchor-zone.html"))
         self.assertEqual(1, shell.count("canvas/context-zone.html"))
         self.assertEqual(1, shell.count("canvas/stage-zone.html"))
-        index = (ROOT / "index.html").read_text(encoding="utf-8")
+        index = (ROOT / "D_Display" / "pages" / "index.html").read_text(encoding="utf-8")
         self.assertEqual(1, index.count("canvas/shell.html"))
         self.assertNotIn("include sidebar.html", index)
         self.assertNotIn("include reader.html", index)

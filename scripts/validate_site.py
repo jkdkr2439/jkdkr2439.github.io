@@ -38,7 +38,7 @@ def front_matter(path: Path) -> dict:
 
 def main() -> None:
     failures: list[str] = validate_canvas()
-    shell = (ROOT / "index.html").read_text(encoding="utf-8")
+    shell = (ROOT / "D_Display" / "pages" / "index.html").read_text(encoding="utf-8")
     for required in (
         "<!DOCTYPE html>",
         "{% include canvas/shell.html %}",

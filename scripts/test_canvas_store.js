@@ -19,7 +19,10 @@ const context = {
   }
 };
 
-vm.runInNewContext(fs.readFileSync('assets/js/canvas/store.js', 'utf8'), context);
+vm.runInNewContext(
+  fs.readFileSync('D_Display/assets/js/canvas/store.js', 'utf8'),
+  context
+);
 const store = context.window.DNHCanvasStore;
 
 assert.equal(store.getState().contextCollapsed, true, 'precondition: context starts collapsed');

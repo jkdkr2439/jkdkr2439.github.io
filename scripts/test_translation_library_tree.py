@@ -18,7 +18,9 @@ class TranslationLibraryTreeTest(unittest.TestCase):
         self.assertEqual("Psychology", jung["translation_category_en"])
 
     def test_sidebar_renders_translation_books_from_manifest(self) -> None:
-        sidebar = (ROOT / "_includes" / "sidebar.html").read_text(encoding="utf-8")
+        sidebar = (
+            ROOT / "D_Display" / "includes" / "sidebar.html"
+        ).read_text(encoding="utf-8")
         self.assertIn("translation_category_vi", sidebar)
         self.assertIn('data-action="show-book"', sidebar)
         self.assertIn("book_pair[1].chapters", sidebar)

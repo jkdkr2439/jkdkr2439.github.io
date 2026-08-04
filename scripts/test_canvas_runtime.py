@@ -12,10 +12,10 @@ def read(path: str) -> str:
 
 def main() -> None:
     failures: list[str] = []
-    orchestrator = read("assets/js/canvas/orchestrator.js")
-    contracts = read("assets/js/canvas/contracts.js")
-    registry = read("assets/js/canvas/registry.js")
-    app = read("assets/js/app.js")
+    orchestrator = read("D_Display/assets/js/canvas/orchestrator.js")
+    contracts = read("D_Display/assets/js/canvas/contracts.js")
+    registry = read("D_Display/assets/js/canvas/registry.js")
+    app = read("D_Display/assets/js/app.js")
 
     for public_method in (
         "selectDomain",
