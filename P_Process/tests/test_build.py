@@ -20,7 +20,11 @@ class BlogBuildTest(unittest.TestCase):
             self.assertTrue((destination / "index.html").is_file())
             self.assertTrue((destination / "writing/index.html").is_file())
             self.assertTrue((destination / "writing/khoang-cach/index.html").is_file())
-            self.assertTrue((destination / "media/index.html").is_file())
+            for index in range(1, 5):
+                self.assertTrue((destination / f"canvas/D_Data/media/assets/images/youtube-playlists/playlist-{index:02}.jpg").is_file())
+            writing_home = (destination / "writing/index.html").read_text(encoding="utf-8")
+            self.assertNotIn("home-listening-room", writing_home)
+            self.assertNotIn("playlist-link", writing_home)
 
 
 if __name__ == "__main__":

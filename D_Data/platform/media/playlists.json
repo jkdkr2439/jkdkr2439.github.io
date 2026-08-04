@@ -1,0 +1,11 @@
+{
+  "heading": {"vi": "Danh sách nghe", "en": "Listening list"},
+  "description": {"vi": "Chọn một tuyển tập để mở và nghe trực tiếp trên YouTube.", "en": "Choose a collection to open and listen on YouTube."},
+  "channel": {"url": "https://www.youtube.com/@danhnghiahe", "label": {"vi": "Mở kênh YouTube ↗", "en": "Open YouTube channel ↗"}},
+  "playlists": [
+    {"id": "playlist-01", "url": "https://www.youtube.com/watch?v=hT0PbKQmvTs&list=PLo-MYYcSaaOD7JYgWowA8K_8fJ2HgJBOT", "thumbnail": "D_Data/media/assets/images/youtube-playlists/playlist-01.jpg", "name": {"vi": "Tuyển tập thứ nhất", "en": "First collection"}},
+    {"id": "playlist-02", "url": "https://www.youtube.com/watch?v=lKjD3njqHi4&list=PLNk_HvLAq7Xk", "thumbnail": "D_Data/media/assets/images/youtube-playlists/playlist-02.jpg", "name": {"vi": "Tuyển tập thứ hai", "en": "Second collection"}},
+    {"id": "playlist-03", "url": "https://www.youtube.com/watch?v=0E9Fht80CME&list=PLMabK6FxLnpU", "thumbnail": "D_Data/media/assets/images/youtube-playlists/playlist-03.jpg", "name": {"vi": "Tuyển tập thứ ba", "en": "Third collection"}},
+    {"id": "playlist-04", "url": "https://www.youtube.com/watch?v=SXRPGSwZ19o&list=PLUEBkyWF0y0s", "thumbnail": "D_Data/media/assets/images/youtube-playlists/playlist-04.jpg", "name": {"vi": "Tuyển tập thứ tư", "en": "Fourth collection"}}
+  ]
+}

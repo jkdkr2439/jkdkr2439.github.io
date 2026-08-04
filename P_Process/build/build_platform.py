@@ -21,6 +21,7 @@ def build_platform(root: Path, destination: Path) -> PlatformBuildReport:
     shutil.copy2(root / "D_Display/platform/index.html", destination / "index.html")
     mappings = (
         ("D_Data/platform", "canvas/D_Data/platform"),
+        ("D_Data/media", "canvas/D_Data/media"),
         ("I_Input/platform", "canvas/I_Input/platform"),
         ("P_Process/platform", "canvas/P_Process/platform"),
         ("D_Display/platform", "canvas/D_Display/platform"),
