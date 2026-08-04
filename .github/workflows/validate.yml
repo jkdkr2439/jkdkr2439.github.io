@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BUNDLE_GEMFILE: ${{ github.workspace }}/D_Data/config/dependencies/Gemfile
-      BUNDLE_PATH: ${{ runner.temp }}/bundle
+      BUNDLE_PATH: ${{ github.workspace }}/../bundle
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
