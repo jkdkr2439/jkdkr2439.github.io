@@ -43,6 +43,11 @@ def validate_platform_registry(root: Path) -> list[str]:
         "active", "/writing/", "jekyll",
     ):
         failures.append("writing module contract mismatch")
+    products = by_id.get("products", {})
+    if (products.get("state"), products.get("route"), products.get("builder"), products.get("health_contract")) != (
+        "active", "/products/", "products", "products-artifact-v1",
+    ):
+        failures.append("products module contract mismatch")
     media = by_id.get("media", {})
     if media.get("route") != "/media/" or "youtube" not in media.get("capabilities", []):
         failures.append("media must own the YouTube capability at /media/")
