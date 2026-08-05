@@ -7,8 +7,7 @@ export function createShell(root,identity,locale) {
   const main=node('main',''); const destinations=node('nav','destinations'); destinations.setAttribute('aria-label','Destinations');
   const connect=node('section','connect-frame'); connect.id='connect'; connect.setAttribute('aria-live','polite');
   const media=node('section','media-panel'); media.id='media'; media.setAttribute('aria-live','polite'); main.append(destinations,connect,media);
-  const footer=node('footer',''); const status=node('p','runtime-status'); status.setAttribute('role','status'); footer.append(status); page.append(header,main,footer); root.append(page);
-  let count=null; const renderStatus=value=>status.textContent=count?(value==='vi'?`${count.mounted}/${count.total} module đã gắn`:`${count.mounted}/${count.total} modules mounted`):(value==='vi'?'Đang đọc các module…':'Reading modules…');
-  locale.subscribe(value=>{ document.documentElement.lang=value; eyebrow.textContent=identity.eyebrow[value]; statement.textContent=identity.statement[value]; vi.setAttribute('aria-pressed',String(value==='vi')); en.setAttribute('aria-pressed',String(value==='en')); renderStatus(value); });
-  return {slot:name=>{if(name==='destinations')return destinations;if(name==='connect')return connect;if(name==='media')return media;throw new Error('UNKNOWN_SLOT')},showFailure:(code,id)=>footer.append(node('p','module-failure',`${id}: ${code}`)),setStatus:value=>{count=value;renderStatus(locale.get())},navigate:route=>window.location.assign(route)};
+  const footer=node('footer',''); page.append(header,main,footer); root.append(page);
+  locale.subscribe(value=>{ document.documentElement.lang=value; eyebrow.textContent=identity.eyebrow[value]; statement.textContent=identity.statement[value]; vi.setAttribute('aria-pressed',String(value==='vi')); en.setAttribute('aria-pressed',String(value==='en')); });
+  return {slot:name=>{if(name==='destinations')return destinations;if(name==='connect')return connect;if(name==='media')return media;throw new Error('UNKNOWN_SLOT')},showFailure:(code,id)=>footer.append(node('p','module-failure',`${id}: ${code}`)),setStatus:()=>{},navigate:route=>window.location.assign(route)};
 }
