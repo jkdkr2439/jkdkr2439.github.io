@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORTRESS — Tower Defense</title>
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/game.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏰</text></svg>">
+</head>
+<body>
+  <div class="app">
+    <!-- HUD — Top Bar -->
+    <header class="hud">
+      <div class="hud__title">Fortress</div>
+      <div class="hud__stats">
+        <div class="stat stat--gold">
+          <span class="stat__icon">💰</span>
+          <span class="stat__value" id="hud-gold">200</span>
+        </div>
+        <div class="stat stat--lives">
+          <span class="stat__icon">❤️</span>
+          <span class="stat__value" id="hud-lives">20</span>
+        </div>
+        <div class="stat stat--wave">
+          <span class="stat__icon">🌊</span>
+          <span class="stat__value" id="hud-wave">0</span>
+        </div>
+        <div class="stat stat--kills">
+          <span class="stat__icon">💀</span>
+          <span class="stat__value" id="hud-kills">0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Game Canvas -->
+    <div class="game-canvas-container" id="canvas-container">
+      <canvas id="game-canvas"></canvas>
+      <div class="wave-announce" id="wave-announce">WAVE 1</div>
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <span class="sidebar__section-title">Towers</span>
+      <div class="tower-list" id="tower-list">
+        <button class="tower-btn" data-tower="arrow">
+          <div class="tower-btn__indicator"></div>
+          <div class="tower-btn__header">
+            <span class="tower-btn__name">Arrow</span>
+            <span class="tower-btn__cost">50g</span>
+          </div>
+          <span class="tower-btn__desc">Fast single-target damage</span>
+        </button>
+        <button class="tower-btn" data-tower="frost">
+          <div class="tower-btn__indicator"></div>
+          <div class="tower-btn__header">
+            <span class="tower-btn__name">Frost</span>
+            <span class="tower-btn__cost">75g</span>
+          </div>
+          <span class="tower-btn__desc">Slows enemies on hit</span>
+        </button>
+        <button class="tower-btn" data-tower="cannon">
+          <div class="tower-btn__indicator"></div>
+          <div class="tower-btn__header">
+            <span class="tower-btn__name">Cannon</span>
+            <span class="tower-btn__cost">120g</span>
+          </div>
+          <span class="tower-btn__desc">Area splash damage</span>
+        </button>
+      </div>
+
+      <span class="sidebar__section-title">Actions</span>
+      <div class="actions">
+        <button class="btn-primary" id="btn-start-wave">
+          ▶ Start Wave
+        </button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Game Over Overlay -->
+  <div class="game-over-overlay" id="game-over-overlay">
+    <div class="game-over-panel">
+      <h2>GAME OVER</h2>
+      <p>The fortress has fallen.</p>
+      <div class="final-stats">
+        <div class="final-stat">
+          <div class="final-stat__value" id="final-wave">0</div>
+          <div class="final-stat__label">Waves</div>
+        </div>
+        <div class="final-stat">
+          <div class="final-stat__value" id="final-kills">0</div>
+          <div class="final-stat__label">Kills</div>
+        </div>
+        <div class="final-stat">
+          <div class="final-stat__value" id="final-gold">0</div>
+          <div class="final-stat__label">Gold Earned</div>
+        </div>
+      </div>
+      <button class="btn-primary" id="btn-restart">↺ Play Again</button>
+    </div>
+  </div>
+
+  <script type="module" src="modules/main.js"></script>
+</body>
+</html>

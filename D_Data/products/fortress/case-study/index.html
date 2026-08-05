@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FORTRESS ? Case Study</title><link rel="stylesheet" href="styles.css"></head><body>
+<header><a href="/products/">? Products</a><h1>FORTRESS Tower Defense</h1><p class="family">Game ? Canvas 2D</p></header>
+<main>
+<section id="overview"><h2>Overview</h2><p>A complete tower defense game built with HTML5 Canvas 2D. Rich visual effects (gradients, glow, particles), 3 tower types, 4 enemy types, infinite wave escalation, and full economy system. Zero external assets ? everything rendered with Canvas primitives.</p></section>
+<section id="design"><h2>Design</h2><p>Dark navy theme with warm gold accents. Textured grass (noise pattern), stone path (gradients), tower glow halos when firing, enemy HP bars, projectile trails, and particle death bursts. Glassmorphism UI panels. Responsive canvas that scales to viewport.</p></section>
+<section id="architecture"><h2>Architecture</h2><pre>packages/engine/  ? pure game logic (map, towers, enemies, combat, waves, economy)
+apps/web/modules/ ? renderer (effects/glow), input (click-to-place), particles, game loop
+apps/web/styles/  ? design system tokens + responsive layout</pre><p>Engine modules have zero DOM dependencies. Renderer handles all Canvas 2D drawing with gradients, shadows, and compositing. Game loop uses requestAnimationFrame with dt-based timing for consistent 60fps.</p></section>
+<section id="gameplay"><h2>Gameplay</h2><ul><li>16?12 grid with snaking path</li><li>Arrow (50g, fast single), Frost (75g, slow effect), Cannon (120g, splash)</li><li>Runner, Tank, Swarm, Boss enemy types</li><li>Economy: earn gold from kills, wave bonus, spend on towers</li><li>Infinite waves with escalating difficulty</li></ul></section>
+<section id="demo-link"><h2>Play</h2><p><a href="../demo/index.html">Open FORTRESS ?</a></p><p>Click tower type ? click grass cell to place ? Start Wave. Survive as long as possible.</p></section>
+</main>
+<footer><p><a href="/products/">Back to products</a></p></footer>
+</body></html>

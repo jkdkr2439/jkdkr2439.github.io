@@ -1,0 +1,13 @@
+{
+  "product_id": "fortress",
+  "name": "FORTRESS Tower Defense",
+  "family": "Game",
+  "goal": "Playable tower defense with rich Canvas 2D visuals, pure JS engine, and infinite wave escalation.",
+  "design": "Dark navy + gold, textured canvas, gradients/glow/particles, glassmorphism panels.",
+  "evidence": [
+    "Zero 404 on imports",
+    "CDP verified tower placement",
+    "CDP verified combat",
+    "390px responsive PASS"
+  ]
+}

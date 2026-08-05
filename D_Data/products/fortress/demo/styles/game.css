@@ -1,0 +1,471 @@
+/**
+ * FORTRESS — Game Layout & Component Styles
+ * Responsive layout, glassmorphism panels, tower buttons, HUD.
+ */
+
+/* ═══════════════════════ RESET & BASE ═══════════════════════ */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg-deepest);
+  color: var(--text-primary);
+  font-family: var(--font-ui);
+  font-size: 15px;
+  line-height: var(--leading-normal);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ═══════════════════════ APP LAYOUT ═══════════════════════ */
+
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr 240px;
+  grid-template-areas:
+    "hud hud"
+    "canvas sidebar"
+    "canvas sidebar";
+  height: 100vh;
+  gap: 0;
+  background: var(--bg-base);
+}
+
+/* ═══════════════════════ HUD (Top Bar) ═══════════════════════ */
+
+.hud {
+  grid-area: hud;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-sm) var(--space-xl);
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--blur-lg));
+  border-bottom: 1px solid var(--glass-border);
+  z-index: 10;
+  min-height: 52px;
+}
+
+.hud__title {
+  font-family: var(--font-mono);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-bold);
+  color: var(--accent);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px var(--accent-glow);
+}
+
+.hud__stats {
+  display: flex;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+}
+
+.stat__icon {
+  font-size: var(--text-lg);
+  line-height: 1;
+}
+
+.stat__value {
+  color: var(--text-primary);
+  font-weight: var(--weight-bold);
+  font-size: var(--text-base);
+  min-width: 36px;
+}
+
+.stat--gold .stat__icon { color: var(--accent); }
+.stat--lives .stat__icon { color: var(--status-hp); }
+.stat--wave .stat__icon { color: var(--status-frost); }
+.stat--kills .stat__icon { color: var(--status-success); }
+
+/* ═══════════════════════ CANVAS AREA ═══════════════════════ */
+
+.game-canvas-container {
+  grid-area: canvas;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-deepest);
+  overflow: hidden;
+  min-height: 0;
+}
+
+#game-canvas {
+  display: block;
+  cursor: crosshair;
+  image-rendering: pixelated;
+  border-radius: var(--radius-sm);
+  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.4);
+}
+
+.game-canvas-container.placing #game-canvas {
+  cursor: cell;
+}
+
+/* ═══════════════════════ SIDEBAR ═══════════════════════ */
+
+.sidebar {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--blur-lg));
+  border-left: 1px solid var(--glass-border);
+  overflow-y: auto;
+}
+
+.sidebar__section-title {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* ═══════════════════════ TOWER BUTTONS ═══════════════════════ */
+
+.tower-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.tower-btn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xxs);
+  padding: var(--space-md);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  font-family: inherit;
+  text-align: left;
+  outline: none;
+}
+
+.tower-btn:hover:not(:disabled) {
+  background: var(--bg-hover);
+  border-color: var(--glass-border-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.tower-btn:focus-visible {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-glow);
+}
+
+.tower-btn.selected {
+  border-color: var(--accent);
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-glow), inset 0 0 20px rgba(240, 180, 41, 0.05);
+}
+
+.tower-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  filter: grayscale(0.5);
+}
+
+.tower-btn__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tower-btn__name {
+  font-weight: var(--weight-bold);
+  font-size: var(--text-sm);
+}
+
+.tower-btn__cost {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--accent);
+  font-weight: var(--weight-bold);
+}
+
+.tower-btn__desc {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  line-height: var(--leading-tight);
+}
+
+.tower-btn__indicator {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 60%;
+  border-radius: 0 var(--radius-full) var(--radius-full) 0;
+  background: var(--accent);
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.tower-btn.selected .tower-btn__indicator {
+  opacity: 1;
+}
+
+/* Color coding per tower */
+.tower-btn[data-tower="arrow"] .tower-btn__name { color: var(--tower-arrow); }
+.tower-btn[data-tower="frost"] .tower-btn__name { color: var(--tower-frost); }
+.tower-btn[data-tower="cannon"] .tower-btn__name { color: var(--tower-cannon); }
+
+/* ═══════════════════════ ACTION BUTTONS ═══════════════════════ */
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-top: auto;
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  padding: var(--space-md) var(--space-lg);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, rgba(240, 180, 41, 0.15), rgba(240, 180, 41, 0.05));
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  outline: none;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: linear-gradient(135deg, rgba(240, 180, 41, 0.25), rgba(240, 180, 41, 0.1));
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-1px);
+}
+
+.btn-primary:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.btn-primary:focus-visible {
+  box-shadow: 0 0 0 2px var(--accent-glow);
+}
+
+.btn-primary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn-primary--danger {
+  border-color: var(--status-danger);
+  color: var(--status-danger);
+  background: linear-gradient(135deg, rgba(255, 82, 82, 0.15), rgba(255, 82, 82, 0.05));
+}
+
+/* ═══════════════════════ GAME OVER OVERLAY ═══════════════════════ */
+
+.game-over-overlay {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(6, 8, 16, 0.85);
+  backdrop-filter: blur(var(--blur-lg));
+  z-index: 100;
+  animation: fadeIn 0.5s ease;
+}
+
+.game-over-overlay.visible {
+  display: flex;
+}
+
+.game-over-panel {
+  text-align: center;
+  padding: var(--space-3xl);
+  background: var(--bg-surface);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  animation: scaleIn 0.3s ease 0.2s both;
+}
+
+.game-over-panel h2 {
+  font-family: var(--font-mono);
+  font-size: var(--text-2xl);
+  color: var(--status-danger);
+  letter-spacing: 4px;
+  margin-bottom: var(--space-lg);
+}
+
+.game-over-panel p {
+  color: var(--text-secondary);
+  margin-bottom: var(--space-xl);
+  font-size: var(--text-base);
+}
+
+.game-over-panel .final-stats {
+  display: flex;
+  gap: var(--space-xl);
+  justify-content: center;
+  margin-bottom: var(--space-xl);
+}
+
+.game-over-panel .final-stat {
+  text-align: center;
+}
+
+.game-over-panel .final-stat__value {
+  font-family: var(--font-mono);
+  font-size: var(--text-xl);
+  color: var(--accent);
+  font-weight: var(--weight-bold);
+}
+
+.game-over-panel .final-stat__label {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ═══════════════════════ WAVE ANNOUNCE ═══════════════════════ */
+
+.wave-announce {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-mono);
+  font-size: var(--text-2xl);
+  font-weight: var(--weight-bold);
+  color: var(--accent);
+  text-shadow: 0 0 30px var(--accent-glow), 0 0 60px var(--accent-glow);
+  letter-spacing: 4px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 5;
+}
+
+.wave-announce.visible {
+  opacity: 1;
+  animation: pulseScale 1.5s ease both;
+}
+
+/* ═══════════════════════ ANIMATIONS ═══════════════════════ */
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes pulseScale {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+  20% { opacity: 1; transform: translate(-50%, -50%) scale(1.1); }
+  40% { transform: translate(-50%, -50%) scale(1); }
+  80% { opacity: 1; }
+  100% { opacity: 0; transform: translate(-50%, -50%) scale(1.05); }
+}
+
+/* ═══════════════════════ RESPONSIVE ═══════════════════════ */
+
+@media (max-width: 768px) {
+  .app {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "hud"
+      "canvas"
+      "sidebar";
+  }
+
+  .sidebar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-left: none;
+    border-top: 1px solid var(--glass-border);
+    padding: var(--space-sm);
+    gap: var(--space-sm);
+    max-height: 180px;
+    overflow-y: auto;
+  }
+
+  .sidebar__section-title {
+    width: 100%;
+  }
+
+  .tower-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .tower-btn {
+    flex: 1;
+    min-width: 120px;
+  }
+
+  .actions {
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .hud__stats {
+    gap: var(--space-md);
+  }
+
+  .stat__value {
+    font-size: var(--text-sm);
+  }
+}
+
+@media (max-width: 480px) {
+  .hud {
+    padding: var(--space-xs) var(--space-md);
+    min-height: 44px;
+  }
+
+  .hud__title {
+    font-size: var(--text-sm);
+    letter-spacing: 2px;
+  }
+
+  .stat {
+    font-size: var(--text-xs);
+  }
+}
