@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "feature": "products-showcase-publication",
+  "status": "automated_pass",
+  "products": ["signal-newsroom", "digital-goods-store"],
+  "routes": [
+    "/products/",
+    "/products/signal/demo/",
+    "/products/signal/case-study/",
+    "/products/digital-store/demo/",
+    "/products/digital-store/case-study/"
+  ],
+  "verification": {
+    "source_gates": "passed",
+    "python_tests": 52,
+    "node_platform_tests": 14,
+    "canvas_store": "passed",
+    "artifact_files": 207,
+    "browser_manual": "pending: host browser tooling unavailable"
+  },
+  "privacy": {
+    "sqlite_published": false,
+    "machine_paths_published": false,
+    "raw_agent_memory_published": false,
+    "raw_pipeline_journal_published": false
+  }
+}

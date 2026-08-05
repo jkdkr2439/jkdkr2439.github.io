@@ -1,0 +1,8 @@
+[
+ {"id":"ui-foundry","name":"Foundry UI Kit","category":"ui-kits","priceCents":2400,"license":"Single commercial project","format":"Figma + SVG","includes":["42 components","design tokens"],"enabled":true},
+ {"id":"commerce-wire","name":"Commerce Wireframes","category":"ui-kits","priceCents":1800,"license":"Single commercial project","format":"Figma","includes":["18 flows","mobile and desktop"],"enabled":true},
+ {"id":"type-atlas","name":"Type Atlas","category":"guides","priceCents":1200,"license":"Personal and commercial","format":"PDF","includes":["96 pages","pairing worksheet"],"enabled":true},
+ {"id":"accessibility-field","name":"Accessibility Field Guide","category":"guides","priceCents":1400,"license":"Team up to 5","format":"PDF + checklist","includes":["audit guide","test matrix"],"enabled":true},
+ {"id":"signal-icons","name":"Signal Icon Set","category":"assets","priceCents":1600,"license":"Unlimited projects","format":"SVG","includes":["180 icons","stroke variants"],"enabled":true},
+ {"id":"grain-pack","name":"Editorial Grain Pack","category":"assets","priceCents":900,"license":"Unlimited projects","format":"PNG","includes":["24 textures","4 resolutions"],"enabled":true}
+]

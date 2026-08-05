@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "products": [
+    {"id":"signal-newsroom","name":"SIGNAL Newsroom","family":"Editorial","summary":"An independent technology and climate newsroom with a responsive editorial system.","route":"/products/signal/","source":"signal","case_study":"case-study/index.html","demo":"demo/index.html","status":"Verified local trial","proof":["Responsive","Keyboard","IPOD trace"]},
+    {"id":"digital-goods-store","name":"Common Form Digital Goods","family":"Commerce","summary":"A no-charge digital goods store with explicit terms, reversible state, and observable checkout recovery.","route":"/products/digital-store/","source":"digital-store","case_study":"case-study/index.html","demo":"demo/index.html","status":"Automated pass; browser inspection pending","proof":["Deterministic","Accessible","Failure recovery","Backend-ready boundaries"]}
+  ]
+}

@@ -7,6 +7,7 @@ import tempfile
 from typing import Callable
 
 from .build_platform import build_platform
+from .build_products import build_products
 
 
 class CompositionError(RuntimeError):
@@ -31,6 +32,7 @@ def compose_site(
     *,
     platform_builder: Callable = build_platform,
     writing_builder: Callable = _default_writing_builder,
+    products_builder: Callable = build_products,
 ) -> CompositionReport:
     root, destination = root.resolve(), destination.resolve()
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -38,6 +40,10 @@ def compose_site(
         workspace = Path(raw)
         artifact = workspace / "site"
         platform_builder(root, artifact)
+        products_mount = artifact / "products"
+        if products_mount.exists():
+            raise CompositionError("platform artifact collides with Products owner at /products/")
+        products_builder(root, products_mount)
         writing_mount = artifact / "writing"
         if writing_mount.exists():
             raise CompositionError("platform artifact collides with Writing owner at /writing/")
@@ -46,6 +52,8 @@ def compose_site(
             raise CompositionError("platform artifact lacks index.html")
         if not (writing_mount / "index.html").is_file():
             raise CompositionError("Writing artifact lacks index.html")
+        if not (products_mount / "index.html").is_file():
+            raise CompositionError("Products artifact lacks index.html")
         if destination.exists():
             shutil.rmtree(destination)
         artifact.replace(destination)
