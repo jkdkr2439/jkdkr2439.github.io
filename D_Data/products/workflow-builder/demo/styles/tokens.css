@@ -1,0 +1,143 @@
+/* COMPOSE Design Tokens
+   Light base, dark variant, reduced-motion, forced-colors, focus-visible */
+
+:root {
+  /* Colour — light base */
+  --color-bg: #ffffff;
+  --color-surface: #f8f9fa;
+  --color-border: #dee2e6;
+  --color-text: #212529;
+  --color-text-muted: #6c757d;
+  --color-primary: #0d6efd;
+  --color-primary-hover: #0a58ca;
+  --color-success: #198754;
+  --color-warning: #ffc107;
+  --color-danger: #dc3545;
+  --color-info: #0dcaf0;
+
+  /* Node type colours */
+  --color-node-trigger: #6f42c1;
+  --color-node-condition: #fd7e14;
+  --color-node-action: #0d6efd;
+  --color-node-delay: #20c997;
+  --color-node-end: #6c757d;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+
+  /* Typography */
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Cascadia Code", "Fira Code", monospace;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+
+  /* Borders and radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --border-width: 1px;
+
+  /* Focus */
+  --focus-ring: 0 0 0 3px rgba(13, 110, 253, 0.35);
+  --focus-ring-offset: 2px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #1a1d23;
+    --color-surface: #22262e;
+    --color-border: #3a3f47;
+    --color-text: #e9ecef;
+    --color-text-muted: #adb5bd;
+    --color-primary: #6ea8fe;
+    --color-primary-hover: #9ec5fe;
+    --color-success: #75b798;
+    --color-warning: #ffda6a;
+    --color-danger: #ea868f;
+    --color-info: #6edff6;
+
+    --color-node-trigger: #a370f7;
+    --color-node-condition: #feb272;
+    --color-node-action: #6ea8fe;
+    --color-node-delay: #79dfc1;
+    --color-node-end: #adb5bd;
+
+    --focus-ring: 0 0 0 3px rgba(110, 168, 254, 0.4);
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0ms;
+    --transition-normal: 0ms;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Forced colours (Windows High Contrast) */
+@media (forced-colors: active) {
+  :root {
+    --color-border: CanvasText;
+    --color-text: CanvasText;
+    --color-bg: Canvas;
+    --color-primary: LinkText;
+  }
+
+  *:focus-visible {
+    outline: 2px solid Highlight !important;
+    outline-offset: 2px;
+  }
+}
+
+/* Focus-visible baseline */
+*:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: var(--radius-sm);
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,32 @@
+:root {
+  color-scheme: light;
+  --ink: #171817;
+  --muted: #676961;
+  --paper: #f3f1ea;
+  --surface: #fffefa;
+  --surface-strong: #ffffff;
+  --line: #d8d6cd;
+  --line-strong: #a8a69d;
+  --critical: #b42318;
+  --critical-soft: #fce8e5;
+  --major: #a15c00;
+  --major-soft: #fff1d4;
+  --minor: #4f665f;
+  --minor-soft: #e9f0ed;
+  --nominal: #1c6b50;
+  --focus: #1668dc;
+  --accent: #c9f36b;
+  --shadow: 0 16px 44px rgba(31, 31, 25, .10);
+  --radius-sm: 3px;
+  --radius-md: 10px;
+  --space: 4px;
+  --sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); }
+button, input, select { font: inherit; }
+button, select { cursor: pointer; }
+button:focus-visible, input:focus-visible, select:focus-visible, [tabindex]:focus-visible, a:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+::selection { background: var(--accent); color: var(--ink); }

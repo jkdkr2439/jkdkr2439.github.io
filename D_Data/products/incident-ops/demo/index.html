@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:">
+  <meta name="description" content="Local incident operations dashboard with severity, ownership, timeline, audit, and recovery.">
+  <title>Relay — Incident Operations</title>
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/dashboard.css">
+  <script type="module" src="modules/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#incident-queue">Skip to incident queue</a>
+  <header class="masthead">
+    <a class="brand" href="index.html" aria-label="Relay incident operations home">
+      <span class="brand-mark" aria-hidden="true">R/</span>
+      <span><strong>RELAY</strong><small>Incident operations</small></span>
+    </a>
+    <div class="system-pulse" aria-live="polite">
+      <span class="pulse-dot" aria-hidden="true"></span>
+      <span><small>System status</small><strong id="system-status">DEGRADED</strong></span>
+    </div>
+    <div class="masthead-meta">
+      <span><small>Operator</small><strong>MAI / PRIMARY</strong></span>
+      <button id="shortcuts-open" class="quiet-button" type="button" aria-haspopup="dialog"><kbd>?</kbd> Shortcuts</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="overview" aria-labelledby="overview-title">
+      <div>
+        <p class="eyebrow">Thursday · 14:32 UTC · Local simulation</p>
+        <h1 id="overview-title">Keep the state legible.</h1>
+        <p class="lede">Four services need attention. One incident has no owner. Recovery stays explicit, reversible, and locally audited.</p>
+      </div>
+      <dl class="metrics" aria-label="Current operations summary">
+        <div><dt>Open incidents</dt><dd id="metric-open">04</dd><small>1 critical</small></div>
+        <div><dt>Unassigned</dt><dd id="metric-unassigned">01</dd><small>Needs owner</small></div>
+        <div><dt>In recovery</dt><dd id="metric-recovery">01</dd><small>Verification due</small></div>
+        <div><dt>Healthy services</dt><dd>09/12</dd><small>75% nominal</small></div>
+      </dl>
+    </section>
+
+    <section class="service-strip" aria-labelledby="service-title">
+      <div class="section-label"><h2 id="service-title">Service pulse</h2><span>Last fixture update 14:31:48</span></div>
+      <div class="services" id="services"></div>
+    </section>
+
+    <section class="workspace" aria-label="Incident workspace">
+      <div class="queue-panel">
+        <div class="panel-heading">
+          <div><p class="eyebrow">Live queue</p><h2 id="queue-title">Active incidents</h2></div>
+          <button id="audit-toggle" class="quiet-button" type="button" aria-expanded="false" aria-controls="audit-panel"><kbd>A</kbd> Audit log</button>
+        </div>
+
+        <form class="filters" id="filters" role="search" aria-label="Filter incidents">
+          <label class="search-field" for="search">Search incidents
+            <span><kbd>/</kbd><input id="search" name="search" type="search" autocomplete="off" placeholder="ID, service, or incident"></span>
+          </label>
+          <fieldset>
+            <legend>Severity</legend>
+            <div class="segmented" id="severity-filter">
+              <button type="button" data-severity="all" aria-pressed="true">All</button>
+              <button type="button" data-severity="SEV-1" aria-pressed="false"><span class="sev-mark sev-1" aria-hidden="true"></span>SEV-1</button>
+              <button type="button" data-severity="SEV-2" aria-pressed="false"><span class="sev-mark sev-2" aria-hidden="true"></span>SEV-2</button>
+              <button type="button" data-severity="SEV-3" aria-pressed="false"><span class="sev-mark sev-3" aria-hidden="true"></span>SEV-3</button>
+            </div>
+          </fieldset>
+          <label>Owner
+            <select id="owner-filter" name="owner">
+              <option value="all">All owners</option>
+              <option value="MAI">Mai</option>
+              <option value="NOAH">Noah</option>
+              <option value="SRE-WEST">SRE West</option>
+              <option value="unassigned">Unassigned</option>
+            </select>
+          </label>
+          <label>Status
+            <select id="status-filter" name="status">
+              <option value="active">Active only</option>
+              <option value="all">All states</option>
+              <option value="investigating">Investigating</option>
+              <option value="mitigating">Mitigating</option>
+              <option value="monitoring">Monitoring</option>
+              <option value="resolved">Resolved</option>
+            </select>
+          </label>
+          <button id="clear-filters" class="clear-button" type="button">Clear</button>
+        </form>
+        <p id="filter-summary" class="filter-summary" role="status">Showing 4 active incidents.</p>
+
+        <div class="table-scroll" id="incident-queue" tabindex="-1">
+          <table>
+            <caption class="sr-only">Incident queue. Use J and K to move, Enter to inspect.</caption>
+            <thead><tr><th scope="col">Severity</th><th scope="col">Incident</th><th scope="col">Owner</th><th scope="col">State</th><th scope="col">Age</th></tr></thead>
+            <tbody id="incident-rows"></tbody>
+          </table>
+          <div id="empty-state" class="empty-state" hidden><strong>No incidents match.</strong><span>Clear filters or change the search phrase.</span></div>
+        </div>
+      </div>
+
+      <aside class="detail-panel" id="detail-panel" aria-labelledby="detail-title">
+        <div class="detail-head">
+          <div><p class="eyebrow" id="detail-service">Select an incident</p><h2 id="detail-title">No incident selected</h2></div>
+          <span id="detail-severity" class="severity-badge">—</span>
+        </div>
+        <p id="detail-summary" class="detail-summary">Choose a row to inspect ownership, timeline, and the next safe action.</p>
+        <div class="detail-meta">
+          <div><small>Owner</small><strong id="detail-owner">—</strong></div>
+          <div><small>State</small><strong id="detail-state">—</strong></div>
+          <div><small>Opened</small><strong id="detail-opened">—</strong></div>
+        </div>
+        <div class="action-block">
+          <p class="section-kicker">Next safe action</p>
+          <p id="next-action">Select an incident to continue.</p>
+          <div class="action-row">
+            <button id="recovery-open" class="primary-button" type="button" disabled><kbd>R</kbd> Begin recovery</button>
+            <button id="assign-open" class="secondary-button" type="button" disabled>Transfer owner</button>
+          </div>
+        </div>
+        <div class="timeline-wrap">
+          <div class="section-label"><h3>Incident timeline</h3><span>Newest first</span></div>
+          <ol id="timeline" class="timeline"><li><span class="timeline-time">—</span><div><strong>Waiting for selection</strong><p>The causal record will appear here.</p></div></li></ol>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <aside id="audit-panel" class="audit-panel" aria-labelledby="audit-title" hidden>
+    <div class="audit-head"><div><p class="eyebrow">Append-only local record</p><h2 id="audit-title">Action audit</h2></div><button id="audit-close" class="quiet-button" type="button">Close</button></div>
+    <ol id="audit-list" class="audit-list"></ol>
+  </aside>
+
+  <dialog id="recovery-dialog" aria-labelledby="recovery-title">
+    <form method="dialog" class="dialog-shell">
+      <div class="dialog-top"><span class="dialog-index">RECOVERY / CONTROLLED</span><button class="icon-button" value="cancel" aria-label="Close recovery dialog">×</button></div>
+      <p class="eyebrow" id="recovery-incident">Incident</p>
+      <h2 id="recovery-title">Confirm the recovery boundary</h2>
+      <p id="recovery-copy">The current incident context will be preserved if verification fails.</p>
+      <div class="recovery-steps" aria-label="Recovery steps">
+        <div class="step" data-step="1"><span>01</span><div><strong>Scope</strong><p>Review affected service and current owner.</p></div></div>
+        <div class="step" data-step="2"><span>02</span><div><strong>Mitigate</strong><p>Apply the bounded local recovery fixture.</p></div></div>
+        <div class="step" data-step="3"><span>03</span><div><strong>Verify</strong><p>Check whether service health returned.</p></div></div>
+      </div>
+      <div id="recovery-result" class="recovery-result" role="status" aria-live="assertive"></div>
+      <div class="dialog-actions"><button class="secondary-button" value="cancel">Cancel</button><button id="recovery-run" class="primary-button" type="button">Run recovery verification</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="assign-dialog" aria-labelledby="assign-title">
+    <form method="dialog" class="dialog-shell" id="assign-form">
+      <div class="dialog-top"><span class="dialog-index">OWNERSHIP / TRANSFER</span><button class="icon-button" value="cancel" aria-label="Close ownership dialog">×</button></div>
+      <h2 id="assign-title">Transfer with context</h2>
+      <p>Ownership changes are appended to the incident timeline and audit log.</p>
+      <label>New owner<select id="assign-owner" required><option value="">Choose an owner</option><option value="MAI">Mai</option><option value="NOAH">Noah</option><option value="SRE-WEST">SRE West</option><option value="DATA-PLATFORM">Data Platform</option></select></label>
+      <div class="dialog-actions"><button class="secondary-button" value="cancel">Cancel</button><button class="primary-button" type="submit">Transfer ownership</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="shortcuts-dialog" aria-labelledby="shortcuts-title">
+    <form method="dialog" class="dialog-shell shortcut-shell">
+      <div class="dialog-top"><span class="dialog-index">KEYBOARD MAP</span><button class="icon-button" value="cancel" aria-label="Close shortcut guide">×</button></div>
+      <h2 id="shortcuts-title">Operate without a pointer</h2>
+      <dl class="shortcut-grid"><div><dt><kbd>J</kbd> / <kbd>K</kbd></dt><dd>Move through incidents</dd></div><div><dt><kbd>Enter</kbd></dt><dd>Inspect selected incident</dd></div><div><dt><kbd>/</kbd></dt><dd>Focus search</dd></div><div><dt><kbd>1</kbd>–<kbd>3</kbd></dt><dd>Filter severity</dd></div><div><dt><kbd>R</kbd></dt><dd>Begin recovery</dd></div><div><dt><kbd>A</kbd></dt><dd>Toggle audit log</dd></div><div><dt><kbd>Esc</kbd></dt><dd>Close the active layer</dd></div></dl>
+      <div class="dialog-actions"><button class="primary-button" value="cancel">Return to operations</button></div>
+    </form>
+  </dialog>
+
+  <footer><span>RELAY / Product trial 03</span><span>Local fixture · no network · no production action</span></footer>
+</body>
+</html>

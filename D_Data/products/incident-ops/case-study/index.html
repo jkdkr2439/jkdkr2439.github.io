@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RELAY ? Case Study</title><link rel="stylesheet" href="styles.css"></head><body>
+<header><a href="/products/">? Products</a><h1>RELAY Incident Operations</h1><p class="family">Dashboard ? Productivity</p></header>
+<main>
+<section id="overview"><h2>Overview</h2><p>A local incident operations dashboard proving dense state, typographic severity, explicit ownership, causal timeline, composable filters, append-only audit, and deterministic recovery with failure preservation.</p></section>
+<section id="behavior"><h2>Behavioral model</h2><p>Primary actors: on-call operator triaging under time pressure, incident commander coordinating recovery, engineering reviewer assessing evidence. Trust conditions: state visible before action, errors recoverable, ownership explicit.</p></section>
+<section id="design"><h2>Design decisions</h2><p>Lenses: GOV.UK (service patterns), WCAG (accessibility), Nielsen (heuristics). Flow: orient ? discover modules ? enter destination ? return. Severity communicated through typographic weight + border, never color alone.</p></section>
+<section id="architecture"><h2>Architecture</h2><pre>apps/web/        ? semantic HTML shell + responsive CSS + modules
+packages/domain/ ? incident-domain.js, filters.js, fixture.js (pure, no DOM)
+infrastructure/  ? persistence/store.js (localStorage, swap to SQLite)
+tests/           ? domain/ contract/ static/ (14 tests)</pre></section>
+<section id="quality"><h2>Quality evidence</h2><ul><li>Pipeline: ready_for_execution, 10/10 gates PASS, UCG 75 cards</li><li>Tests: 14/14 PASS</li><li>Browser: Chrome CDP 390px innerWidth=scrollWidth=390, no overflow</li><li>Recovery: deterministic fail ? context preserved ? retry ? monitoring ? explicit resolve</li><li>Keyboard: J/K navigate, Enter inspect, R recover, A audit, / search</li></ul></section>
+<section id="demo-link"><h2>Live demo</h2><p><a href="../demo/index.html">Open the incident operations dashboard ?</a></p><p>Local only. No network calls. All data is a deterministic fixture.</p></section>
+</main>
+<footer><p>Product trial ? <a href="/products/">Back to products</a></p></footer>
+</body></html>

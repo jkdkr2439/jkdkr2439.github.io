@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>COMPOSE ? Case Study</title><link rel="stylesheet" href="styles.css"></head><body>
+<header><a href="/products/">? Products</a><h1>COMPOSE Workflow Builder</h1><p class="family">Productivity ? Automation</p></header>
+<main>
+<section id="overview"><h2>Overview</h2><p>A local visual DAG workflow builder. Users compose multi-step automation workflows, execute them through a topological scheduler with retry, and inspect causal run history with per-step failure signatures.</p></section>
+<section id="behavior"><h2>Behavioral model</h2><p>Primary actor: automation engineer composing and testing workflows locally. Trust: invalid graphs rejected before execution, failed steps preserve context, retry is bounded and observable.</p></section>
+<section id="design"><h2>Design decisions</h2><p>Lenses: GOV.UK, WCAG, Tufte. Fractal 2-pass activated module_registry + fault_isolation mechanisms. Architecture: kernel validates manifests before mounting; fault boundary isolates failed module from canvas. First product with REAL UCG orientation (123k nodes ? 75 selected, 1200 token budget).</p></section>
+<section id="architecture"><h2>Architecture</h2><pre>apps/web/modules/      ? canvas, palette, connections, inspector, execution-view, history, main
+packages/engine/       ? scheduler (Kahn topo sort), executor, validator (cycle detection), retry, fixture
+packages/contracts/    ? workflow, node, connection, execution JSON schemas
+infrastructure/        ? localStorage store + append-only event log
+tests/                 ? engine/ contract/ integration/ static/ (87 tests)</pre></section>
+<section id="quality"><h2>Quality evidence</h2><ul><li>Pipeline: full UCG + behavioral + design + gates (10/10), fractal pass 2</li><li>Engine: topological sort, cycle rejection, retry limit 2, deterministic fixture</li><li>Fixture: 4-node workflow, action-1 fails attempt 1, passes attempt 2</li><li>Tests: 87/87 PASS + verifier 34/34 PASS</li><li>Browser: modules loaded via HTTP, click-to-place verified via CDP</li></ul></section>
+<section id="demo-link"><h2>Live demo</h2><p><a href="../demo/index.html">Open the workflow builder ?</a></p><p>Click a node type in the palette, then click the canvas to place. Press R to execute.</p></section>
+</main>
+<footer><p>Product trial ? <a href="/products/">Back to products</a></p></footer>
+</body></html>

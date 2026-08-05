@@ -1,0 +1,36 @@
+{
+  "product_id": "workflow-builder",
+  "name": "COMPOSE Workflow Builder",
+  "family": "Productivity",
+  "goal": "Visual DAG editor with execution engine, topological scheduler, retry, failure fixture, and causal run history.",
+  "users": [
+    "automation engineer",
+    "team lead reviewing runs",
+    "hiring reviewer"
+  ],
+  "design_lenses": [
+    "govuk",
+    "wcag",
+    "tufte"
+  ],
+  "pipeline": "full pipeline with REAL UCG (123k nodes), fractal 2-pass design, module_registry + fault_isolation",
+  "architecture": {
+    "frontend": "apps/web (7 modules)",
+    "engine": "packages/engine (5 pure domain modules)",
+    "persistence": "infrastructure/persistence",
+    "tests": "4 layers (87 tests)"
+  },
+  "evidence": [
+    "87 Node tests",
+    "verifier 34 checks",
+    "Chrome CDP modules loaded + click-to-place verified",
+    "UCG 75 cards oriented"
+  ],
+  "constraints": [
+    "local only",
+    "pure engine (no DOM)",
+    "keyboard-first",
+    "SVG canvas",
+    "responsive"
+  ]
+}

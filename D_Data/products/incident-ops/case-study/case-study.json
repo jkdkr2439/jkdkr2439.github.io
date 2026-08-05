@@ -1,0 +1,37 @@
+{
+  "product_id": "incident-ops",
+  "name": "RELAY Incident Operations",
+  "family": "Dashboard",
+  "goal": "Dense operational state with severity, ownership, timeline, filters, audit, and deterministic recovery.",
+  "users": [
+    "on-call operator",
+    "incident commander",
+    "engineering reviewer"
+  ],
+  "design_lenses": [
+    "govuk",
+    "wcag",
+    "nielsen"
+  ],
+  "pipeline": "full UCG orientation + behavioral + design council + cross-cutting gates",
+  "architecture": {
+    "frontend": "apps/web",
+    "domain": "packages/domain",
+    "persistence": "infrastructure/persistence",
+    "tests": "4 layers"
+  },
+  "evidence": [
+    "87 Node tests",
+    "14 domain tests",
+    "verifier PASS",
+    "Chrome CDP 390px no-overflow",
+    "recovery fail?retry?resolve"
+  ],
+  "constraints": [
+    "local only",
+    "no network",
+    "keyboard-first",
+    "not color-only",
+    "prefers-reduced-motion"
+  ]
+}

@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Clearline ? Case Study</title><link rel="stylesheet" href="styles.css"></head><body>
+<header><a href="/products/">? Products</a><h1>Clearline SaaS Launch</h1><p class="family">Marketing ? Ethical Conversion</p></header>
+<main>
+<section id="overview"><h2>Overview</h2><p>A single-page landing for a fictional team communication tool. Proves ethical conversion: transparent pricing, attributed social proof, informed CTA, no dark patterns, dark mode, and progressive enhancement.</p></section>
+<section id="behavior"><h2>Behavioral model</h2><p>Primary actor: visitor evaluating product value under no time pressure. Trust: pricing visible before commitment, no hidden fees, CTA states what happens next. Agency: no exit-intent popup, no scroll-jacking, no countdown.</p></section>
+<section id="design"><h2>Design decisions</h2><p>Lenses: WCAG (accessibility), Tufte (truthful comparison), Norman (affordance). Fractal 2-pass: pass 1 generic ? pass 2 activated comparison mechanism with progressive disclosure. Section map: hero ? problem ? solution ? proof ? pricing ? CTA ? footer.</p></section>
+<section id="architecture"><h2>Architecture</h2><pre>apps/web/              ? semantic HTML (no-JS core), styles, modules
+packages/contracts/    ? landing.schema.json
+infrastructure/        ? persistence/store.js (theme + pricing toggle)
+tests/                 ? static/ ethical/ contract/ (107 tests)</pre></section>
+<section id="quality"><h2>Quality evidence</h2><ul><li>Pipeline: ready_for_execution, 10/10 gates, fractal design 2-pass</li><li>Tests: 107/107 PASS (93 product + 14 contract + verifier)</li><li>Ethical: no preselected tier, no fake urgency, blockquote+cite, honest CTA</li><li>Responsive: 390px verified no-overflow</li><li>Dark mode: toggle verified via CDP (dark?light attribute switch)</li></ul></section>
+<section id="demo-link"><h2>Live demo</h2><p><a href="../demo/index.html">Open the Clearline landing page ?</a></p><p>Local demo. No tracking, no form submission, no network calls.</p></section>
+</main>
+<footer><p>Product trial ? <a href="/products/">Back to products</a></p></footer>
+</body></html>

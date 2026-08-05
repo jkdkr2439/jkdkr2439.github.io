@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COMPOSE — Visual Workflow Builder</title>
+  <meta name="description" content="COMPOSE: a local visual DAG editor and automation execution engine.">
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/builder.css">
+</head>
+<body>
+  <div class="compose-app" role="application" aria-label="COMPOSE Workflow Builder">
+
+    <!-- Header -->
+    <header class="compose-header" role="banner">
+      <h1 class="compose-header__title">COMPOSE</h1>
+      <nav class="compose-header__actions" aria-label="Workflow actions">
+        <button class="compose-btn compose-btn--primary" id="btn-run" aria-keyshortcuts="r">
+          Run
+        </button>
+        <button class="compose-btn" id="btn-history" aria-keyshortcuts="h">
+          History
+        </button>
+        <button class="compose-btn" id="btn-save">
+          Save
+        </button>
+      </nav>
+    </header>
+
+    <!-- Palette -->
+    <aside class="compose-palette" role="toolbar" aria-label="Node palette" aria-orientation="vertical">
+      <h2 class="compose-palette__heading">Nodes</h2>
+      <div class="compose-palette__item" role="button" tabindex="0" data-node-type="trigger" draggable="true" aria-label="Trigger node">
+        <span class="compose-palette__icon" style="background-color: var(--color-node-trigger)" aria-hidden="true"></span>
+        <span>Trigger</span>
+      </div>
+      <div class="compose-palette__item" role="button" tabindex="0" data-node-type="condition" draggable="true" aria-label="Condition node">
+        <span class="compose-palette__icon" style="background-color: var(--color-node-condition)" aria-hidden="true"></span>
+        <span>Condition</span>
+      </div>
+      <div class="compose-palette__item" role="button" tabindex="0" data-node-type="action" draggable="true" aria-label="Action node">
+        <span class="compose-palette__icon" style="background-color: var(--color-node-action)" aria-hidden="true"></span>
+        <span>Action</span>
+      </div>
+      <div class="compose-palette__item" role="button" tabindex="0" data-node-type="delay" draggable="true" aria-label="Delay node">
+        <span class="compose-palette__icon" style="background-color: var(--color-node-delay)" aria-hidden="true"></span>
+        <span>Delay</span>
+      </div>
+      <div class="compose-palette__item" role="button" tabindex="0" data-node-type="end" draggable="true" aria-label="End node">
+        <span class="compose-palette__icon" style="background-color: var(--color-node-end)" aria-hidden="true"></span>
+        <span>End</span>
+      </div>
+    </aside>
+
+    <!-- Canvas -->
+    <main class="compose-canvas" id="canvas-panel" role="region" aria-label="Workflow canvas">
+      <svg class="compose-canvas__svg" id="canvas-svg" xmlns="http://www.w3.org/2000/svg"
+           role="img" aria-label="Workflow DAG visualization">
+        <defs>
+          <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="var(--color-border)"/>
+          </marker>
+        </defs>
+        <g id="edges-layer" aria-label="Connections"></g>
+        <g id="nodes-layer" aria-label="Nodes"></g>
+      </svg>
+    </main>
+
+    <!-- Execution panel (hidden by default) -->
+    <section class="compose-execution" id="execution-panel" aria-hidden="true" aria-label="Execution progress">
+      <h2 class="compose-inspector__heading">Execution</h2>
+      <ol class="compose-execution__timeline" id="execution-timeline" role="list" aria-label="Step timeline">
+      </ol>
+      <button class="compose-btn" id="btn-back-to-canvas">Back to Canvas</button>
+    </section>
+
+    <!-- History panel (hidden by default) -->
+    <section class="compose-history" id="history-panel" aria-hidden="true" aria-label="Run history">
+      <h2 class="compose-inspector__heading">History</h2>
+      <ul class="compose-history__list" id="history-list" role="list" aria-label="Past runs">
+      </ul>
+      <button class="compose-btn" id="btn-close-history">Close</button>
+    </section>
+
+    <!-- Inspector -->
+    <aside class="compose-inspector" id="inspector-panel" role="complementary" aria-label="Node inspector">
+      <h2 class="compose-inspector__heading">Inspector</h2>
+      <div id="inspector-content">
+        <p id="inspector-empty">Select a node or edge to inspect its properties.</p>
+        <form id="inspector-form" hidden aria-label="Node properties">
+          <div class="compose-inspector__field">
+            <label class="compose-inspector__label" for="inspector-id">ID</label>
+            <input class="compose-inspector__input" id="inspector-id" type="text" readonly>
+          </div>
+          <div class="compose-inspector__field">
+            <label class="compose-inspector__label" for="inspector-type">Type</label>
+            <input class="compose-inspector__input" id="inspector-type" type="text" readonly>
+          </div>
+          <div class="compose-inspector__field">
+            <label class="compose-inspector__label" for="inspector-label">Label</label>
+            <input class="compose-inspector__input" id="inspector-label" type="text" maxlength="80">
+          </div>
+        </form>
+      </div>
+    </aside>
+
+    <!-- Footer / status bar -->
+    <footer class="compose-footer" role="contentinfo">
+      <span id="status-text">Ready</span>
+      <span id="node-count">0 nodes · 0 edges</span>
+    </footer>
+
+    <!-- Live region for a11y announcements -->
+    <div class="compose-live" role="status" aria-live="polite" aria-atomic="true" id="live-region"></div>
+  </div>
+
+  <script type="module" src="modules/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clearline — Team communication without the noise</title>
+  <meta name="description" content="Clearline brings clarity to team communication. Threaded conversations, decision tracking, and smart notifications — no context switching required.">
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/landing.css">
+</head>
+<body>
+  <!-- Skip to main content for keyboard users -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Site Header / Navigation -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a href="#" class="site-logo" aria-label="Clearline home">Clearline</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#proof">Proof</a>
+        <a href="#pricing">Pricing</a>
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false">◐</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO SECTION -->
+    <section id="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <h1 id="hero-heading">Your team's decisions deserve better than a chat scroll.</h1>
+        <p class="hero-subtitle">Clearline gives every conversation a thread, every decision a record, and every teammate the quiet they need to do real work.</p>
+        <a href="#cta" class="btn btn-primary">Start your 14-day trial — no credit card required</a>
+      </div>
+    </section>
+
+    <!-- PROBLEM SECTION -->
+    <section id="problem" aria-labelledby="problem-heading">
+      <div class="container">
+        <h2 id="problem-heading">Sound familiar?</h2>
+        <div class="problem-grid">
+          <article class="problem-card">
+            <div class="problem-icon problem-icon--switch" aria-hidden="true">⇄</div>
+            <h3>Context switching</h3>
+            <p>You jump between 6 tools to follow one conversation. By the time you find the thread, you've lost your train of thought.</p>
+          </article>
+          <article class="problem-card">
+            <div class="problem-icon problem-icon--lost" aria-hidden="true">✗</div>
+            <h3>Lost decisions</h3>
+            <p>Critical decisions get buried in channels. Three months later, no one remembers why the architecture changed — or who approved it.</p>
+          </article>
+          <article class="problem-card">
+            <div class="problem-icon problem-icon--noise" aria-hidden="true">🔔</div>
+            <h3>Notification fatigue</h3>
+            <p>Every message demands attention. Important updates drown in emoji reactions, status bots, and off-topic tangents.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTION SECTION -->
+    <section id="solution" aria-labelledby="solution-heading">
+      <div class="container">
+        <h2 id="solution-heading">How Clearline works</h2>
+        <div class="solution-grid">
+          <article class="solution-card">
+            <div class="css-illustration css-illustration--threads" role="img" aria-label="Illustration of threaded message bubbles">
+              <span class="bubble-third"></span>
+            </div>
+            <h3>Threaded by default</h3>
+            <p>Every message starts a thread. Side conversations stay contained. The main channel shows decisions, not noise.</p>
+          </article>
+          <article class="solution-card">
+            <div class="css-illustration css-illustration--decisions" role="img" aria-label="Illustration of a decision checklist">
+              <span class="check-row-2"></span>
+              <span class="check-row-3"></span>
+            </div>
+            <h3>Decision log</h3>
+            <p>Pin any message as a decision. Clearline timestamps it, attributes it, and surfaces it in a searchable log — forever.</p>
+          </article>
+          <article class="solution-card">
+            <div class="css-illustration css-illustration--focus" role="img" aria-label="Illustration of a muted notification bell">
+            </div>
+            <h3>Smart quiet hours</h3>
+            <p>Set your focus window. Clearline batches non-urgent messages and delivers a digest when you're ready — not when someone else hits send.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROOF / TESTIMONIALS SECTION -->
+    <section id="proof" aria-labelledby="proof-heading">
+      <div class="container">
+        <h2 id="proof-heading">Teams that switched to Clearline</h2>
+        <div class="testimonials">
+          <article class="testimonial">
+            <blockquote>We cut our average decision-to-implementation time from 11 days to 3. The decision log alone justified the switch.</blockquote>
+            <cite>
+              Sarah Chen
+              <span class="role">VP Engineering, Meridian Health</span>
+            </cite>
+          </article>
+          <article class="testimonial">
+            <blockquote>My team stopped losing context between meetings. Threaded conversations mean we pick up exactly where we left off.</blockquote>
+            <cite>
+              Marcus Rivera
+              <span class="role">Product Lead, Arclight Studios</span>
+            </cite>
+          </article>
+          <article class="testimonial">
+            <blockquote>I finally have uninterrupted deep-work blocks. Smart quiet hours changed how our entire design team operates.</blockquote>
+            <cite>
+              Priya Anand
+              <span class="role">Senior Designer, Construct Labs</span>
+            </cite>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section id="pricing" aria-labelledby="pricing-heading">
+      <div class="container">
+        <h2 id="pricing-heading">Transparent pricing</h2>
+        <div class="pricing-toggle">
+          <span id="pricing-monthly-label">Monthly</span>
+          <input type="checkbox" id="pricing-annual-toggle" role="switch" aria-label="Toggle annual pricing">
+          <span id="pricing-annual-label">Annual <span aria-hidden="true">(save 20%)</span></span>
+        </div>
+        <div class="pricing-grid">
+          <!-- Free Tier -->
+          <article class="pricing-card" aria-label="Free tier pricing">
+            <h3>Free</h3>
+            <div class="price" aria-label="Free, zero cost">$0<span class="price-period">/month</span></div>
+            <p class="price-note">Free forever, no credit card</p>
+            <ul>
+              <li>Up to 5 team members</li>
+              <li>Threaded conversations</li>
+              <li>7-day message history</li>
+              <li>Basic search</li>
+            </ul>
+            <a href="#cta" class="btn btn-secondary">Get started free</a>
+          </article>
+          <!-- Pro Tier -->
+          <article class="pricing-card" aria-label="Pro tier pricing">
+            <h3>Pro</h3>
+            <div class="price"><span data-monthly="$12" data-annual="$10">$12</span><span class="price-period">/user/month</span></div>
+            <p class="price-note"><span data-monthly="Billed monthly" data-annual="Billed annually at $120/user/year">Billed monthly</span></p>
+            <ul>
+              <li>Unlimited team members</li>
+              <li>Full message history</li>
+              <li>Decision log</li>
+              <li>Smart quiet hours</li>
+              <li>Advanced search &amp; filters</li>
+            </ul>
+            <a href="#cta" class="btn btn-primary">Start your 14-day trial — no credit card required</a>
+          </article>
+          <!-- Team Tier -->
+          <article class="pricing-card" aria-label="Team tier pricing">
+            <h3>Team</h3>
+            <div class="price"><span data-monthly="$24" data-annual="$19">$24</span><span class="price-period">/user/month</span></div>
+            <p class="price-note"><span data-monthly="Billed monthly" data-annual="Billed annually at $228/user/year">Billed monthly</span></p>
+            <ul>
+              <li>Everything in Pro</li>
+              <li>SSO &amp; SAML</li>
+              <li>Admin analytics dashboard</li>
+              <li>Priority support</li>
+              <li>Custom integrations</li>
+              <li>99.9% uptime SLA</li>
+            </ul>
+            <a href="#cta" class="btn btn-primary">Start your 14-day trial — no credit card required</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section id="cta" aria-labelledby="cta-heading">
+      <div class="container">
+        <h2 id="cta-heading">Ready to bring clarity to your team?</h2>
+        <p>Start your 14-day trial today. No credit card required. Cancel anytime — your data stays yours.</p>
+        <a href="#" class="btn btn-primary" id="cta-button">Start your 14-day trial — no credit card required</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p class="no-tracking">This site does not use cookies, tracking pixels, or analytics scripts.</p>
+      <p>&copy; 2026 Clearline. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="modules/main.js"></script>
+</body>
+</html>

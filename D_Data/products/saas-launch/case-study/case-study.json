@@ -1,0 +1,35 @@
+{
+  "product_id": "saas-launch",
+  "name": "Clearline SaaS Launch",
+  "family": "Marketing",
+  "goal": "Ethical conversion landing page with transparent pricing, attributed social proof, and no dark patterns.",
+  "users": [
+    "first-time visitor",
+    "returning visitor comparing pricing",
+    "hiring reviewer"
+  ],
+  "design_lenses": [
+    "wcag",
+    "tufte",
+    "norman"
+  ],
+  "pipeline": "full pipeline + fractal 2-pass design (comparison mechanism activated)",
+  "architecture": {
+    "frontend": "apps/web",
+    "persistence": "infrastructure/persistence/store.js",
+    "contracts": "packages/contracts"
+  },
+  "evidence": [
+    "93+27 Node tests",
+    "ethical audit PASS",
+    "Chrome CDP 390px no-overflow",
+    "dark mode toggle verified"
+  ],
+  "constraints": [
+    "no dark patterns",
+    "no preselected annual",
+    "no fake urgency",
+    "attributed testimonials",
+    "no-JS core content"
+  ]
+}
