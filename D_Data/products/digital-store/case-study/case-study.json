@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "product_id": "digital-goods-store",
+  "title": "Common Form Digital Goods",
+  "goal": "Make simulated digital commerce transparent, reversible, and inspectable.",
+  "behavior": {
+    "user_goal": "Evaluate terms and complete a no-charge checkout without coercion.",
+    "agency": [
+      "reversible cart",
+      "no hidden fees",
+      "explicit no-charge confirmation"
+    ],
+    "recovery": "deterministic checkout failure preserves state and permits retry"
+  },
+  "design": {
+    "lenses": "evidence-grounded design council",
+    "rationale": "editorial commerce hierarchy, visible state, accessible recovery"
+  },
+  "implemented_tree": [
+    "app/index.html",
+    "app/styles/",
+    "app/modules/catalog.js",
+    "app/modules/cart.js",
+    "app/modules/checkout.js",
+    "contracts/",
+    "data/products.json",
+    "tests/",
+    "evidence/",
+    "verify.mjs"
+  ],
+  "backend_target_tree": [
+    "apps/web",
+    "apps/api",
+    "packages/contracts",
+    "packages/commerce-core",
+    "packages/observability",
+    "infrastructure/database",
+    "infrastructure/payments",
+    "tests/contract",
+    "tests/integration",
+    "tests/end-to-end",
+    "docs/architecture.md",
+    "docs/data-flow.md"
+  ],
+  "backend_target_implemented": false,
+  "frontend_data_flow": "catalog data → domain modules → DOM projection → local non-sensitive cart",
+  "target_data_flow": "web → API boundary → commerce use cases → repository/payment ports → infrastructure adapters → audit events",
+  "evidence": {
+    "pipeline": "ready_for_execution",
+    "node_tests": 6,
+    "failure_signature": "checkout_fixture_failure",
+    "learning": "observed",
+    "browser": "pending: host tooling blocker"
+  },
+  "demo": "../demo/index.html"
+}

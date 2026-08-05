@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Common Form — Product case study</title><link rel="stylesheet" href="styles.css"></head><body><header><a href="../../index.html">A/Z</a><nav><a href="#architecture">Architecture</a><a href="#evidence">Evidence</a></nav></header><main><section class="hero"><p>Commerce product · Case study 02</p><h1>Commerce without the pressure tactics.</h1><p>A local digital goods store that makes price, license, state, failure, and recovery visible.</p><a class="button" href="../demo/index.html">Open local product →</a></section><section id="behavior"><p>01 / Behavior</p><h2>Informed choice is the conversion strategy.</h2><p>The cart is reversible, totals contain no hidden fee, and checkout states tell the truth. A controlled first failure proves that recovery preserves both agency and task state.</p></section><section id="design"><p>02 / Design Council</p><h2>Visible terms, strong hierarchy, bounded urgency.</h2><p>Behavioral Planning and evidence-grounded design lenses shaped explicit licenses, validation, focus behavior, and the no-charge confirmation.</p></section><section id="architecture"><p>03 / Folder structure</p><h2>Small now. Backend-ready by boundary.</h2><div class="trees"><pre><strong>Implemented local product</strong>
+app/
+  styles/
+  modules/{catalog,cart,checkout,persistence,telemetry}.js
+contracts/{product,order}.schema.json
+data/products.json
+tests/
+evidence/
+verify.mjs</pre><pre><strong>Target architecture — not implemented</strong>
+apps/{web,api}
+packages/{contracts,commerce-core,observability}
+infrastructure/{database,payments,deployment}
+tests/{contract,integration,end-to-end}
+docs/{architecture,data-flow}.md</pre></div></section><section id="data-flow"><p>04 / Data flow</p><h2>UI depends on contracts, never infrastructure.</h2><p><strong>Current:</strong> catalog data → domain modules → DOM projection → local non-sensitive cart.</p><p><strong>Target:</strong> web → API boundary → commerce use cases → repository/payment ports → infrastructure adapters → audit events.</p></section><section id="evidence"><p>05 / Evidence</p><h2>The failed checkout is part of the proof.</h2><ul><li>6 deterministic Node tests</li><li>checkout_fixture_failure → retry → confirmed</li><li>Gate Learning state: observed, not promoted</li><li>Full cross-cutting pipeline gates</li></ul><p>Recovery evidence is summarized above.</p></section></main><footer><p>Local product only · No payment · No deployment · No blog integration</p></footer></body></html>

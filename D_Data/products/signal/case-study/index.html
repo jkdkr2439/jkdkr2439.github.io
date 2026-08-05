@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="The product decisions, architecture, and evidence behind SIGNAL Newsroom.">
+  <title>SIGNAL Newsroom — Product case study</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to case study</a>
+  <header class="site-header">
+    <a class="brand" href="../../index.html" aria-label="Back to product portfolio">A/Z</a>
+    <nav aria-label="Case study">
+      <a href="#behavior">Behavior</a>
+      <a href="#architecture">Architecture</a>
+      <a href="#quality">Evidence</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section id="overview" class="hero" aria-labelledby="case-title">
+      <p class="eyebrow">Editorial product · Case study 01</p>
+      <h1 id="case-title">SIGNAL makes a dense news day feel navigable.</h1>
+      <p class="lede">A responsive independent newsroom shaped around editorial hierarchy, reader agency, and evidence that can be inspected—not just claimed.</p>
+      <div class="hero-actions">
+        <a class="button" data-action="open-demo" href="../demo/index.html" target="_blank" rel="noopener">Open local demo <span aria-hidden="true">↗</span></a>
+        <a class="text-link" href="#quality">Read the evidence</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Role</dt><dd>Product design + frontend</dd></div>
+        <div><dt>Runtime</dt><dd>Browser-native, dependency-free</dd></div>
+        <div><dt>Range</dt><dd>360–1440 CSS pixels</dd></div>
+      </dl>
+    </section>
+
+    <section id="behavior" class="chapter" aria-labelledby="behavior-title">
+      <div class="chapter-label"><span>01</span><p>Behavior</p></div>
+      <div class="chapter-body">
+        <h2 id="behavior-title">Help readers choose, without choosing for them.</h2>
+        <p>Newsroom density creates a real behavioral problem: every headline asks for attention, but not every story has equal consequence. SIGNAL uses stable hierarchy, explicit navigation, and calm feedback so a reader can orient, scan, and commit to a story without coercion.</p>
+        <div class="principles">
+          <article><h3>Agency</h3><p>Reading paths stay visible and reversible. There is no urgency theatre, tracking, or hidden interaction.</p></article>
+          <article><h3>Trust</h3><p>Editorial weight comes from language, type, and placement—not fabricated popularity signals.</p></article>
+          <article><h3>Evidence</h3><p>Keyboard reachability, heading order, viewport behavior, and runtime traces are observable.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="design" class="chapter dark" aria-labelledby="design-title">
+      <div class="chapter-label"><span>02</span><p>Design</p></div>
+      <div class="chapter-body">
+        <h2 id="design-title">Typography carries the interface.</h2>
+        <p>The composition avoids decorative chrome. Strong serif display type establishes editorial gravity, compact sans-serif labels support scanning, and generous rules and spacing preserve the reading rhythm across breakpoints.</p>
+        <blockquote>“The interface should clarify the day’s signal before it asks for a click.”</blockquote>
+      </div>
+    </section>
+
+    <section id="architecture" class="chapter" aria-labelledby="architecture-title">
+      <div class="chapter-label"><span>03</span><p>Architecture</p></div>
+      <div class="chapter-body">
+        <h2 id="architecture-title">A small public surface with explicit boundaries.</h2>
+        <p>The demo is self-contained: semantic document, responsive presentation, bounded interaction, and a local run contract. Private reasoning and canonical stores never enter the public artifact.</p>
+        <pre aria-label="Public SIGNAL folder tree"><code>signal/
+├── index.html       case-study narrative
+├── case-study.json  publish-safe evidence
+└── demo/
+    ├── index.html   semantic newsroom shell
+    ├── styles.css   responsive editorial system
+    ├── app.js       bounded interaction trace
+    └── README.md    run + debug contract</code></pre>
+      </div>
+    </section>
+
+    <section id="quality" class="chapter evidence" aria-labelledby="quality-title">
+      <div class="chapter-label"><span>04</span><p>Quality</p></div>
+      <div class="chapter-body">
+        <h2 id="quality-title">Evidence is part of the product.</h2>
+        <ul class="evidence-list">
+          <li><strong>Accessibility</strong><span>Semantic landmarks, ordered headings, visible focus, keyboard paths.</span></li>
+          <li><strong>Security</strong><span>Local assets, no collection, no secrets, no dynamic code evaluation.</span></li>
+          <li><strong>Debuggability</strong><span>Bounded lifecycle trace and deterministic verification commands.</span></li>
+          <li><strong>Responsiveness</strong><span>Layouts inspected at 360, 768, 1280, and 1440 pixels.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="scale-path" class="chapter closing" aria-labelledby="scale-title">
+      <div class="chapter-label"><span>05</span><p>Scale path</p></div>
+      <div class="chapter-body">
+        <h2 id="scale-title">Scale the content contract, not the visual noise.</h2>
+        <p>The next boundary is validated story data and routing. Reusable editorial primitives should be extracted only after another content product proves the repetition.</p>
+        <a class="button" href="../demo/index.html" target="_blank" rel="noopener">Explore SIGNAL <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+  <footer><p>SIGNAL Newsroom · Local product trial</p><a href="#main">Back to top ↑</a></footer>
+</body>
+</html>

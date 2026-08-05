@@ -1,0 +1,1 @@
+export const searchProducts=(items,query)=>{const q=query.trim().toLowerCase();return items.filter(x=>x.enabled&&(!q||`${x.name} ${x.category} ${x.format}`.toLowerCase().includes(q))).sort((a,b)=>a.id.localeCompare(b.id))};export const filterProducts=(items,category)=>searchProducts(items,"").filter(x=>category==="all"||x.category===category);

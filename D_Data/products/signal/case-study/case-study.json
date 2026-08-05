@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "product_id": "signal-newsroom",
+  "title": "SIGNAL Newsroom",
+  "summary": "A calm, responsive editorial front page that helps readers scan consequential technology and climate reporting without losing hierarchy or agency.",
+  "demo_url": "demo/index.html",
+  "overview": {
+    "goal": "Make a dense independent newsroom immediately understandable across narrow and wide screens.",
+    "users": [
+      "reader scanning current reporting",
+      "reviewer evaluating editorial product craft",
+      "maintainer extending the publication"
+    ],
+    "scope": "A dependency-free editorial homepage and its bounded interaction trace."
+  },
+  "behavior": {
+    "user_goal": "Find the most relevant story, understand its relative importance, and continue reading without coercive interaction.",
+    "friction": [
+      "dense headlines compete for attention",
+      "small screens compress editorial hierarchy"
+    ],
+    "agency": [
+      "navigation remains explicit",
+      "reading choices are reversible",
+      "no dark patterns or data collection"
+    ],
+    "observable_evidence": [
+      "keyboard-reachable navigation",
+      "stable heading hierarchy",
+      "responsive layout from 360px to 1440px"
+    ]
+  },
+  "design": {
+    "experience_flow": [
+      "orient to lead story",
+      "scan supporting reports",
+      "inspect topic navigation",
+      "open a chosen story"
+    ],
+    "rationale": [
+      "editorial weight is expressed with type and space",
+      "visible labels preserve meaning without icon dependence",
+      "local fonts and restrained motion keep the reading surface reliable"
+    ]
+  },
+  "architecture": {
+    "runtime": "browser-native static product",
+    "modules": [
+      {"path": "demo/index.html", "role": "semantic newsroom shell"},
+      {"path": "demo/styles.css", "role": "tokens and responsive editorial layout"},
+      {"path": "demo/app.js", "role": "bounded interaction and lifecycle trace"},
+      {"path": "demo/README.md", "role": "local run and debug contract"}
+    ],
+    "data_flow": "semantic document to responsive projection to bounded local interaction evidence"
+  },
+  "quality": {
+    "gates": [
+      "goal alignment",
+      "security",
+      "scalability",
+      "debuggability",
+      "accessibility",
+      "evidence"
+    ],
+    "checks": [
+      "no external runtime dependencies",
+      "no user-data collection",
+      "visible keyboard focus",
+      "safe relative public artifacts"
+    ],
+    "pipeline_evidence": "signal-newsroom-case-study"
+  },
+  "debug_path": [
+    "serve the product root locally",
+    "inspect the browser console and local resource requests",
+    "inspect the bounded SIGNAL debug trace",
+    "run the publish-safety verifier and focused tests"
+  ],
+  "scale_path": [
+    "extract repeated editorial primitives only after a second content product proves the boundary",
+    "move story data behind a validated content contract",
+    "add routing and content delivery without changing the semantic reading hierarchy"
+  ]
+}
