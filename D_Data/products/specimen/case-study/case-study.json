@@ -1,0 +1,32 @@
+{
+  "product_id": "specimen",
+  "name": "SPECIMEN Design Gallery",
+  "family": "Design",
+  "goal": "Show 11 design philosophies applied to one specimen page via CSS-only taste switching.",
+  "tastes": [
+    "tufte",
+    "rams",
+    "rand",
+    "vignelli",
+    "lupton",
+    "kare",
+    "ideo",
+    "norman",
+    "govuk",
+    "nielsen",
+    "wcag"
+  ],
+  "sections": [
+    "hero",
+    "stats",
+    "article",
+    "form",
+    "cards",
+    "nav"
+  ],
+  "evidence": [
+    "11/11 tastes switch cleanly (CDP verified)",
+    "Zero CSS load errors",
+    "Same HTML structure throughout"
+  ]
+}

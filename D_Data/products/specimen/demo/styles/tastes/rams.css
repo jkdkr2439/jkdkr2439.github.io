@@ -1,0 +1,42 @@
+/* Rams — Braun product manual / silent confidence */
+body.taste-rams {
+  --specimen-max-width: 900px;
+  --specimen-padding: 80px 40px;
+  --section-gap: 80px;
+  --section-title-gap: 32px;
+  --grid-gap: 24px;
+  --form-gap: 24px;
+  --nav-gap: 32px;
+  --card-image-bg: #f0f0f0;
+  --card-image-radius: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  font-size: 15px; line-height: 1.6; color: #1a1a1a; background: #fff;
+}
+.taste-rams .hero-title { font-size: 3rem; font-weight: 200; letter-spacing: -0.04em; line-height: 1.1; margin-bottom: 24px; }
+.taste-rams .hero-subtitle { font-size: 1rem; font-weight: 300; color: #666; max-width: 500px; }
+.taste-rams .hero-cta { font-size: 0.85rem; text-decoration: none; color: #1a1a1a; border-bottom: 1px solid #ccc; padding-bottom: 2px; }
+.taste-rams .section-title { font-size: 0.75rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.15em; color: #999; }
+.taste-rams .stat-card { background: none; border: none; padding: 16px 0; border-top: 1px solid #e8e8e8; }
+.taste-rams .stat-number { font-size: 2.5rem; font-weight: 200; display: block; }
+.taste-rams .stat-label { font-size: 0.8rem; color: #666; display: block; margin-top: 8px; }
+.taste-rams .stat-trend { font-size: 0.7rem; color: #bbb; }
+.taste-rams .article-body { max-width: 600px; }
+.taste-rams .article-lead { font-size: 1.15rem; font-weight: 300; margin-bottom: 24px; line-height: 1.7; }
+.taste-rams .article-body p { margin-bottom: 20px; color: #333; }
+.taste-rams .article-quote { margin: 40px 0; padding: 0; border: none; }
+.taste-rams .article-quote p { font-size: 1.3rem; font-weight: 200; color: #333; }
+.taste-rams .article-quote cite { font-size: 0.8rem; color: #999; margin-top: 8px; display: block; }
+.taste-rams .form-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: #999; }
+.taste-rams .form-input, .taste-rams .form-select { border: none; border-bottom: 1px solid #e0e0e0; border-radius: 0; padding: 12px 0; background: transparent; }
+.taste-rams .form-input:focus, .taste-rams .form-select:focus { outline: none; border-bottom-color: #1a1a1a; }
+.taste-rams .form-submit { background: transparent; border: none; padding: 12px 0; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; cursor: pointer; }
+.taste-rams .form-submit:hover { opacity: 0.6; }
+.taste-rams .card { border: none; padding: 0; background: none; }
+.taste-rams .card-title { font-size: 1rem; font-weight: 500; margin-bottom: 4px; }
+.taste-rams .card-desc { font-size: 0.85rem; color: #666; font-weight: 300; }
+.taste-rams .card-meta { font-size: 0.7rem; color: #bbb; margin-top: 8px; text-transform: uppercase; }
+.taste-rams .nav-link { text-decoration: none; font-size: 0.8rem; color: #999; text-transform: uppercase; letter-spacing: 0.08em; }
+.taste-rams .nav-link--active { color: #1a1a1a; }
+.taste-rams .breadcrumb-link { font-size: 0.75rem; color: #bbb; text-decoration: none; }
+.taste-rams .breadcrumb-current { font-size: 0.75rem; color: #666; }
+.taste-rams .breadcrumb-sep { color: #ddd; }

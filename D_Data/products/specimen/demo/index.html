@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SPECIMEN — Design Taste Gallery</title>
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/tastes/tufte.css" id="taste-stylesheet">
+  <script type="module" src="modules/switcher.js"></script>
+</head>
+<body class="taste-tufte">
+  <a class="skip-link" href="#specimen">Skip to specimen</a>
+
+  <!-- Taste switcher bar -->
+  <header class="switcher-bar" role="toolbar" aria-label="Design taste selector">
+    <div class="switcher-brand">
+      <strong class="switcher-title">SPECIMEN</strong>
+      <span class="switcher-subtitle">Eleven tastes. One page.</span>
+    </div>
+    <nav class="switcher-nav" id="taste-nav" aria-label="Select taste">
+      <button class="taste-btn taste-btn--active" data-taste="tufte">Tufte</button>
+      <button class="taste-btn" data-taste="rams">Rams</button>
+      <button class="taste-btn" data-taste="rand">Rand</button>
+      <button class="taste-btn" data-taste="vignelli">Vignelli</button>
+      <button class="taste-btn" data-taste="lupton">Lupton</button>
+      <button class="taste-btn" data-taste="kare">Kare</button>
+      <button class="taste-btn" data-taste="ideo">IDEO</button>
+      <button class="taste-btn" data-taste="norman">Norman</button>
+      <button class="taste-btn" data-taste="govuk">GOV.UK</button>
+      <button class="taste-btn" data-taste="nielsen">Nielsen</button>
+      <button class="taste-btn" data-taste="wcag">WCAG</button>
+    </nav>
+    <button class="compare-btn" id="compare-btn" type="button">Compare</button>
+  </header>
+
+  <!-- Specimen content — SAME for all tastes -->
+  <main id="specimen" class="specimen">
+
+    <!-- Section 1: Hero -->
+    <section class="section section--hero" aria-labelledby="hero-title">
+      <h1 id="hero-title" class="hero-title">Design is how it works.</h1>
+      <p class="hero-subtitle">The same content, shaped by eleven different design philosophies. Click a taste above to see what changes — and what stays.</p>
+      <a href="#stats" class="hero-cta">Explore the specimen ↓</a>
+    </section>
+
+    <!-- Section 2: Stats -->
+    <section class="section section--stats" id="stats" aria-labelledby="stats-title">
+      <h2 id="stats-title" class="section-title">Key metrics</h2>
+      <div class="stat-grid">
+        <article class="stat-card">
+          <span class="stat-number">11</span>
+          <span class="stat-label">Design tastes</span>
+          <span class="stat-trend">All active</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-number">40+</span>
+          <span class="stat-label">CSS variables</span>
+          <span class="stat-trend">Per taste</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-number">6</span>
+          <span class="stat-label">Specimen sections</span>
+          <span class="stat-trend">Same HTML</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-number">0</span>
+          <span class="stat-label">JS re-renders</span>
+          <span class="stat-trend">CSS only</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 3: Article -->
+    <section class="section section--article" aria-labelledby="article-title">
+      <h2 id="article-title" class="section-title">On design philosophy</h2>
+      <div class="article-body">
+        <p class="article-lead">Every design decision is a trade-off between competing values: density versus clarity, delight versus utility, personality versus universality.</p>
+        <p>A typeface is not neutral. A grid is not invisible. A color is not just a color. Each element carries history, convention, expectation — and each designer chooses which conventions to honor and which to subvert.</p>
+        <blockquote class="article-quote">
+          <p>"The details are not the details. They make the design."</p>
+          <cite>Charles Eames</cite>
+        </blockquote>
+        <p>What you see on this page is the same information, the same structure, the same semantic HTML — rendered through different eyes. The content does not change. The understanding might.</p>
+      </div>
+    </section>
+
+    <!-- Section 4: Form -->
+    <section class="section section--form" aria-labelledby="form-title">
+      <h2 id="form-title" class="section-title">Contact form</h2>
+      <form class="demo-form" onsubmit="return false">
+        <div class="form-group">
+          <label for="form-name" class="form-label">Full name</label>
+          <input type="text" id="form-name" class="form-input" placeholder="Jane Designer" autocomplete="name">
+        </div>
+        <div class="form-group">
+          <label for="form-email" class="form-label">Email address</label>
+          <input type="email" id="form-email" class="form-input" placeholder="jane@studio.com" autocomplete="email">
+        </div>
+        <div class="form-group">
+          <label for="form-role" class="form-label">Your role</label>
+          <select id="form-role" class="form-select">
+            <option value="">Choose a role</option>
+            <option value="designer">Designer</option>
+            <option value="engineer">Engineer</option>
+            <option value="researcher">Researcher</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <button type="submit" class="form-submit">Send message</button>
+      </form>
+    </section>
+
+    <!-- Section 5: Cards -->
+    <section class="section section--cards" aria-labelledby="cards-title">
+      <h2 id="cards-title" class="section-title">Featured work</h2>
+      <div class="card-grid">
+        <article class="card">
+          <div class="card-image" aria-hidden="true"></div>
+          <h3 class="card-title">Typographic systems</h3>
+          <p class="card-desc">Exploring hierarchy through weight, scale, and rhythm in digital interfaces.</p>
+          <span class="card-meta">Research · 2024</span>
+        </article>
+        <article class="card">
+          <div class="card-image" aria-hidden="true"></div>
+          <h3 class="card-title">Color as structure</h3>
+          <p class="card-desc">When palette becomes architecture: constraining choice to amplify meaning.</p>
+          <span class="card-meta">Essay · 2024</span>
+        </article>
+        <article class="card">
+          <div class="card-image" aria-hidden="true"></div>
+          <h3 class="card-title">Grid discipline</h3>
+          <p class="card-desc">From Müller-Brockmann to CSS Grid: how constraint enables creativity.</p>
+          <span class="card-meta">Case study · 2023</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 6: Navigation specimen -->
+    <section class="section section--nav" aria-labelledby="nav-title">
+      <h2 id="nav-title" class="section-title">Navigation patterns</h2>
+      <nav class="demo-nav" aria-label="Demo navigation">
+        <a href="#" class="nav-link nav-link--active">Home</a>
+        <a href="#" class="nav-link">Work</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Journal</a>
+        <a href="#" class="nav-link">Contact</a>
+      </nav>
+      <nav class="demo-breadcrumb" aria-label="Demo breadcrumb">
+        <a href="#" class="breadcrumb-link">Home</a>
+        <span class="breadcrumb-sep" aria-hidden="true">/</span>
+        <a href="#" class="breadcrumb-link">Work</a>
+        <span class="breadcrumb-sep" aria-hidden="true">/</span>
+        <span class="breadcrumb-current" aria-current="page">Typographic systems</span>
+      </nav>
+    </section>
+
+  </main>
+
+  <footer class="specimen-footer">
+    <p>SPECIMEN · Design taste gallery · Same HTML, different philosophy</p>
+    <p>Current taste: <strong id="current-taste-label">Tufte</strong></p>
+  </footer>
+</body>
+</html>

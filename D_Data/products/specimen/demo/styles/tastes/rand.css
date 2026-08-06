@@ -1,0 +1,47 @@
+/* Rand — IBM annual report 1966 / serious play */
+body.taste-rand {
+  --specimen-max-width: 1100px;
+  --specimen-padding: 48px 32px;
+  --section-gap: 72px;
+  --section-title-gap: 20px;
+  --grid-gap: 0;
+  --form-gap: 20px;
+  --nav-gap: 28px;
+  --card-image-bg: #007aff;
+  --card-image-radius: 0;
+  font-family: Futura, "Century Gothic", -apple-system, sans-serif;
+  font-size: 16px; line-height: 1.5; color: #000; background: #fff;
+}
+.taste-rand .hero-title { font-size: 4.5rem; font-weight: 900; letter-spacing: -0.06em; line-height: 0.95; text-transform: uppercase; margin-bottom: 16px; }
+.taste-rand .hero-subtitle { font-size: 1.1rem; max-width: 480px; color: #333; }
+.taste-rand .hero-cta { display: inline-block; width: 48px; height: 48px; line-height: 48px; text-align: center; background: #ff3b30; color: #fff; border-radius: 50%; text-decoration: none; font-size: 1.2rem; }
+.taste-rand .section-title { font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #007aff; }
+.taste-rand .stat-card { padding: 24px; text-align: center; }
+.taste-rand .stat-card:nth-child(1) { background: #ffcc00; color: #000; }
+.taste-rand .stat-card:nth-child(2) { background: #007aff; color: #fff; }
+.taste-rand .stat-card:nth-child(3) { background: #ff3b30; color: #fff; }
+.taste-rand .stat-card:nth-child(4) { background: #000; color: #fff; }
+.taste-rand .stat-number { font-size: 3rem; font-weight: 900; display: block; }
+.taste-rand .stat-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-top: 4px; }
+.taste-rand .stat-trend { display: none; }
+.taste-rand .article-body { max-width: 600px; margin-left: 15%; }
+.taste-rand .article-lead { font-size: 1.3rem; font-weight: 700; margin-bottom: 20px; }
+.taste-rand .article-body p { margin-bottom: 16px; }
+.taste-rand .article-quote { margin: 32px -15%; padding: 32px; background: #ffcc00; }
+.taste-rand .article-quote p { font-size: 1.5rem; font-weight: 900; color: #000; font-style: normal; }
+.taste-rand .article-quote cite { font-size: 0.8rem; color: #333; margin-top: 8px; display: block; }
+.taste-rand .form-label { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
+.taste-rand .form-input, .taste-rand .form-select { border: 3px solid #000; border-radius: 0; padding: 12px; }
+.taste-rand .form-input:focus, .taste-rand .form-select:focus { outline: none; border-color: #007aff; }
+.taste-rand .form-submit { background: #ff3b30; color: #fff; border: none; padding: 14px 28px; font-weight: 900; text-transform: uppercase; cursor: pointer; }
+.taste-rand .card { border: 3px solid #000; padding: 0; overflow: hidden; }
+.taste-rand .card:nth-child(2) .card-image { background: #ff3b30; }
+.taste-rand .card:nth-child(3) .card-image { background: #ffcc00; }
+.taste-rand .card-title { font-size: 1.1rem; font-weight: 900; text-transform: uppercase; padding: 16px 16px 4px; }
+.taste-rand .card-desc { font-size: 0.85rem; padding: 0 16px; color: #333; }
+.taste-rand .card-meta { font-size: 0.7rem; text-transform: uppercase; padding: 8px 16px 16px; color: #666; }
+.taste-rand .nav-link { text-decoration: none; font-weight: 700; text-transform: uppercase; font-size: 0.85rem; color: #999; }
+.taste-rand .nav-link--active { color: #000; border-bottom: 4px solid #ff3b30; padding-bottom: 4px; }
+.taste-rand .breadcrumb-link { font-size: 0.75rem; color: #007aff; text-decoration: none; }
+.taste-rand .breadcrumb-current { font-size: 0.75rem; color: #000; font-weight: 700; }
+.taste-rand .breadcrumb-sep { color: #ccc; }

@@ -1,0 +1,47 @@
+/* GOV.UK — Government service / trustworthy, inclusive */
+body.taste-govuk {
+  --specimen-max-width: 720px;
+  --specimen-padding: 40px 24px;
+  --section-gap: 56px;
+  --section-title-gap: 16px;
+  --grid-gap: 16px;
+  --form-gap: 20px;
+  --nav-gap: 16px;
+  --card-image-bg: #f3f2f1;
+  --card-image-radius: 0;
+  font-family: "GDS Transport", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 19px; line-height: 1.6; color: #0b0c0c; background: #fff;
+}
+.taste-govuk .hero-title { font-size: 2.5rem; font-weight: 700; line-height: 1.15; margin-bottom: 20px; }
+.taste-govuk .hero-subtitle { font-size: 1.1rem; color: #505a5f; }
+.taste-govuk .hero-cta { display: inline-block; padding: 12px 20px; background: #00703c; color: #fff; text-decoration: none; font-weight: 700; font-size: 1rem; margin-top: 20px; box-shadow: 0 2px 0 #002d18; }
+.taste-govuk .hero-cta:hover { background: #005a30; }
+.taste-govuk .hero-cta:focus { outline: 3px solid #fd0; outline-offset: 0; background: #fd0; color: #0b0c0c; box-shadow: none; }
+.taste-govuk .section-title { font-size: 1.5rem; font-weight: 700; }
+.taste-govuk .stat-card { padding: 16px 0; border-top: 4px solid #1d70b8; }
+.taste-govuk .stat-number { font-size: 2rem; font-weight: 700; display: block; }
+.taste-govuk .stat-label { font-size: 1rem; color: #505a5f; display: block; margin-top: 4px; }
+.taste-govuk .stat-trend { font-size: 0.85rem; color: #505a5f; }
+.taste-govuk .article-body { max-width: 620px; }
+.taste-govuk .article-lead { font-size: 1.2rem; font-weight: 700; margin-bottom: 20px; }
+.taste-govuk .article-body p { margin-bottom: 20px; }
+.taste-govuk .article-quote { margin: 24px 0; padding: 16px 20px; border-left: 4px solid #b1b4b6; }
+.taste-govuk .article-quote p { font-size: 1.1rem; font-style: normal; }
+.taste-govuk .article-quote cite { font-size: 0.9rem; color: #505a5f; margin-top: 8px; display: block; }
+.taste-govuk .form-label { font-size: 1rem; font-weight: 700; }
+.taste-govuk .form-input, .taste-govuk .form-select { border: 2px solid #0b0c0c; border-radius: 0; padding: 8px; font-size: 1rem; }
+.taste-govuk .form-input:focus, .taste-govuk .form-select:focus { outline: 3px solid #fd0; outline-offset: 0; border-color: #0b0c0c; }
+.taste-govuk .form-submit { background: #00703c; color: #fff; border: none; padding: 12px 20px; font-size: 1rem; font-weight: 700; cursor: pointer; box-shadow: 0 2px 0 #002d18; }
+.taste-govuk .form-submit:focus { outline: 3px solid #fd0; background: #fd0; color: #0b0c0c; box-shadow: none; }
+.taste-govuk .card { border-top: 4px solid #1d70b8; padding: 16px 0; background: none; }
+.taste-govuk .card-image { display: none; }
+.taste-govuk .card-title { font-size: 1.1rem; font-weight: 700; }
+.taste-govuk .card-title a { color: #1d70b8; }
+.taste-govuk .card-desc { font-size: 1rem; color: #505a5f; margin-top: 4px; }
+.taste-govuk .card-meta { font-size: 0.85rem; color: #505a5f; margin-top: 8px; }
+.taste-govuk .nav-link { text-decoration: underline; font-size: 1rem; font-weight: 700; color: #1d70b8; }
+.taste-govuk .nav-link--active { color: #0b0c0c; text-decoration: none; border-bottom: 4px solid #0b0c0c; padding-bottom: 4px; }
+.taste-govuk .nav-link:focus { outline: 3px solid #fd0; background: #fd0; color: #0b0c0c; text-decoration: none; }
+.taste-govuk .breadcrumb-link { font-size: 0.85rem; color: #1d70b8; }
+.taste-govuk .breadcrumb-current { font-size: 0.85rem; color: #0b0c0c; }
+.taste-govuk .breadcrumb-sep { color: #b1b4b6; }

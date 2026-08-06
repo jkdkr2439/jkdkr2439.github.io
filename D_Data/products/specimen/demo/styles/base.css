@@ -1,0 +1,88 @@
+/* Base CSS — shared structure across all 11 tastes */
+/* This file provides layout skeleton. Taste files override visual identity. */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { min-height: 100vh; transition: background-color 0.3s ease, color 0.3s ease; }
+img { max-width: 100%; display: block; }
+button, input, select { font: inherit; }
+a { color: inherit; }
+
+/* Skip link */
+.skip-link {
+  position: fixed; top: -100%; left: 16px; z-index: 1000;
+  padding: 8px 16px; background: #000; color: #fff;
+  text-decoration: none; border-radius: 0 0 4px 4px;
+}
+.skip-link:focus { top: 0; }
+
+/* Switcher bar — fixed top */
+.switcher-bar {
+  position: sticky; top: 0; z-index: 100;
+  display: flex; align-items: center; gap: 16px;
+  padding: 10px 20px;
+  background: rgba(0,0,0,0.92); color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.switcher-brand { display: flex; flex-direction: column; min-width: fit-content; }
+.switcher-title { font-size: 14px; font-weight: 800; letter-spacing: 0.1em; }
+.switcher-subtitle { font-size: 10px; opacity: 0.6; }
+.switcher-nav { display: flex; gap: 4px; flex-wrap: nowrap; }
+.taste-btn {
+  padding: 6px 12px; border-radius: 4px;
+  font-size: 11px; font-weight: 600; letter-spacing: 0.03em;
+  background: transparent; color: rgba(255,255,255,0.7);
+  border: 1px solid transparent; cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+.taste-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
+.taste-btn--active { background: rgba(255,255,255,0.15); color: #fff; border-color: rgba(255,255,255,0.3); }
+.taste-btn:focus-visible { outline: 2px solid #f0b429; outline-offset: 2px; }
+.compare-btn {
+  margin-left: auto; padding: 6px 14px;
+  background: rgba(255,255,255,0.1); color: #fff;
+  border: 1px solid rgba(255,255,255,0.2); border-radius: 4px;
+  font-size: 11px; font-weight: 600; cursor: pointer;
+  white-space: nowrap;
+}
+.compare-btn:hover { background: rgba(255,255,255,0.2); }
+
+/* Specimen layout skeleton */
+.specimen { max-width: var(--specimen-max-width, 1100px); margin: 0 auto; padding: var(--specimen-padding, 40px 24px); }
+.section { margin-bottom: var(--section-gap, 64px); }
+.section-title { margin-bottom: var(--section-title-gap, 24px); }
+
+/* Stat grid */
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: var(--grid-gap, 16px); }
+
+/* Card grid */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--grid-gap, 20px); }
+.card-image { aspect-ratio: 16/9; background: var(--card-image-bg, #e0e0e0); border-radius: var(--card-image-radius, 4px); margin-bottom: 12px; }
+
+/* Form layout */
+.demo-form { max-width: 480px; display: grid; gap: var(--form-gap, 16px); }
+.form-group { display: grid; gap: 6px; }
+
+/* Nav specimen */
+.demo-nav { display: flex; gap: var(--nav-gap, 24px); flex-wrap: wrap; margin-bottom: 16px; }
+.demo-breadcrumb { display: flex; align-items: center; gap: 8px; }
+
+/* Footer */
+.specimen-footer { padding: 24px; text-align: center; opacity: 0.6; font-size: 12px; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .switcher-nav { gap: 2px; }
+  .taste-btn { padding: 5px 8px; font-size: 10px; }
+  .specimen { padding: 24px 16px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); }
+  .card-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .switcher-bar { flex-wrap: wrap; }
+  .switcher-brand { width: 100%; flex-direction: row; justify-content: space-between; align-items: center; }
+  .compare-btn { order: -1; }
+}

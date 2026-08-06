@@ -1,0 +1,43 @@
+/* Lupton — Cooper Hewitt exhibition catalog / editorial magazine */
+body.taste-lupton {
+  --specimen-max-width: 1000px;
+  --specimen-padding: 48px 32px;
+  --section-gap: 72px;
+  --section-title-gap: 20px;
+  --grid-gap: 20px;
+  --form-gap: 20px;
+  --nav-gap: 20px;
+  --card-image-bg: #457b9d;
+  --card-image-radius: 0;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 16px; line-height: 1.6; color: #1a1a2e; background: #f8f8fc;
+}
+.taste-lupton .hero-title { font-size: 5rem; font-weight: 900; font-family: -apple-system, sans-serif; letter-spacing: -0.06em; line-height: 0.9; margin-bottom: 20px; mix-blend-mode: multiply; }
+.taste-lupton .hero-subtitle { font-size: 1.1rem; font-style: italic; color: #457b9d; max-width: 400px; }
+.taste-lupton .hero-cta { font-size: 0.8rem; text-decoration: none; font-family: monospace; color: #e63946; text-transform: uppercase; letter-spacing: 0.12em; }
+.taste-lupton .section-title { font-size: 0.7rem; font-family: monospace; text-transform: uppercase; letter-spacing: 0.2em; color: #e63946; }
+.taste-lupton .stat-grid { display: grid; grid-template-columns: 1fr 1fr; }
+.taste-lupton .stat-card { padding: 20px; border-bottom: 1px solid #ddd; }
+.taste-lupton .stat-number { font-size: 2.5rem; font-weight: 900; font-family: -apple-system, sans-serif; display: block; color: #e63946; }
+.taste-lupton .stat-label { font-size: 0.85rem; font-style: italic; display: block; margin-top: 4px; }
+.taste-lupton .stat-trend { font-size: 0.7rem; font-family: monospace; color: #999; }
+.taste-lupton .article-body { max-width: 580px; margin-left: 10%; }
+.taste-lupton .article-lead { font-size: 1.4rem; font-weight: 400; font-style: italic; margin-bottom: 20px; line-height: 1.4; }
+.taste-lupton .article-body p { margin-bottom: 16px; }
+.taste-lupton .article-quote { margin: 32px -10%; padding: 24px 0; border-top: 3px solid #e63946; border-bottom: 1px solid #ddd; }
+.taste-lupton .article-quote p { font-size: 1.8rem; font-family: -apple-system, sans-serif; font-weight: 900; color: #1a1a2e; font-style: normal; line-height: 1.1; }
+.taste-lupton .article-quote cite { font-size: 0.75rem; font-family: monospace; color: #457b9d; margin-top: 12px; display: block; }
+.taste-lupton .form-label { font-size: 0.7rem; font-family: monospace; text-transform: uppercase; letter-spacing: 0.06em; color: #666; }
+.taste-lupton .form-input, .taste-lupton .form-select { border: none; border-bottom: 2px solid #1a1a2e; border-radius: 0; padding: 10px 0; background: transparent; font-family: Georgia, serif; }
+.taste-lupton .form-input:focus, .taste-lupton .form-select:focus { outline: none; border-bottom-color: #e63946; }
+.taste-lupton .form-submit { background: #e63946; color: #fff; border: none; padding: 12px 24px; font-family: monospace; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.8rem; cursor: pointer; }
+.taste-lupton .card { border: none; padding: 0; background: none; border-bottom: 1px solid #ddd; padding-bottom: 20px; }
+.taste-lupton .card-image { aspect-ratio: 4/3; }
+.taste-lupton .card-title { font-size: 1.2rem; font-family: -apple-system, sans-serif; font-weight: 900; margin-bottom: 4px; }
+.taste-lupton .card-desc { font-size: 0.9rem; font-style: italic; color: #555; }
+.taste-lupton .card-meta { font-size: 0.7rem; font-family: monospace; color: #457b9d; margin-top: 8px; }
+.taste-lupton .nav-link { text-decoration: none; font-size: 0.9rem; color: #666; font-style: italic; }
+.taste-lupton .nav-link--active { color: #1a1a2e; font-style: normal; font-weight: 700; border-bottom: 2px solid #e63946; }
+.taste-lupton .breadcrumb-link { font-size: 0.75rem; font-family: monospace; color: #457b9d; text-decoration: none; }
+.taste-lupton .breadcrumb-current { font-size: 0.75rem; font-family: monospace; color: #1a1a2e; }
+.taste-lupton .breadcrumb-sep { color: #ccc; }

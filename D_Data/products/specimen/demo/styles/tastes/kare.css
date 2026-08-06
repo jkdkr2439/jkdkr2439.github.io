@@ -1,0 +1,46 @@
+/* Kare — 1984 Macintosh / friendly computing */
+body.taste-kare {
+  --specimen-max-width: 800px;
+  --specimen-padding: 32px 24px;
+  --section-gap: 48px;
+  --section-title-gap: 12px;
+  --grid-gap: 8px;
+  --form-gap: 12px;
+  --nav-gap: 16px;
+  --card-image-bg: #c0c0c0;
+  --card-image-radius: 0;
+  font-family: "Monaco", "Courier New", monospace;
+  font-size: 13px; line-height: 1.5; color: #000; background: #c0c0c0;
+}
+.taste-kare .hero-title { font-size: 2rem; font-weight: 700; letter-spacing: 0; line-height: 1.2; margin-bottom: 8px; background: #000; color: #fff; display: inline-block; padding: 4px 12px; }
+.taste-kare .hero-subtitle { font-size: 0.9rem; max-width: 500px; margin-top: 12px; }
+.taste-kare .hero-cta { font-size: 0.8rem; text-decoration: none; background: #fff; color: #000; border: 2px solid #000; padding: 4px 12px; display: inline-block; margin-top: 12px; }
+.taste-kare .hero-cta:hover { background: #000; color: #fff; }
+.taste-kare .section-title { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; border-bottom: 2px solid #000; padding-bottom: 4px; display: inline-block; }
+.taste-kare .stat-grid { border: 2px solid #000; background: #fff; }
+.taste-kare .stat-card { padding: 12px; border-right: 2px solid #000; border-bottom: 2px solid #000; }
+.taste-kare .stat-card:last-child { border-right: none; }
+.taste-kare .stat-number { font-size: 1.5rem; font-weight: 700; display: block; }
+.taste-kare .stat-label { font-size: 0.75rem; display: block; margin-top: 4px; }
+.taste-kare .stat-trend { font-size: 0.7rem; color: #666; }
+.taste-kare .article-body { max-width: 560px; background: #fff; border: 2px solid #000; padding: 16px; box-shadow: 4px 4px 0 #000; }
+.taste-kare .article-lead { font-size: 0.95rem; font-weight: 700; margin-bottom: 12px; }
+.taste-kare .article-body p { margin-bottom: 10px; }
+.taste-kare .article-quote { margin: 16px 0; padding: 8px 12px; background: #e0e0e0; border: 1px solid #999; }
+.taste-kare .article-quote p { font-style: normal; font-weight: 700; }
+.taste-kare .article-quote cite { font-size: 0.8rem; color: #333; display: block; margin-top: 4px; }
+.taste-kare .form-label { font-size: 0.75rem; font-weight: 700; }
+.taste-kare .form-input, .taste-kare .form-select { border: 2px solid #000; border-radius: 0; padding: 6px 8px; background: #fff; font-family: inherit; box-shadow: inset 1px 1px 0 #666; }
+.taste-kare .form-submit { background: #fff; border: 2px solid #000; padding: 6px 16px; font-weight: 700; cursor: pointer; box-shadow: 2px 2px 0 #000; }
+.taste-kare .form-submit:hover { background: #000; color: #fff; }
+.taste-kare .form-submit:active { box-shadow: none; transform: translate(2px,2px); }
+.taste-kare .card { border: 2px solid #000; background: #fff; padding: 0; box-shadow: 3px 3px 0 #000; }
+.taste-kare .card-image { background: #e0e0e0; border-bottom: 2px solid #000; }
+.taste-kare .card-title { font-size: 0.9rem; font-weight: 700; padding: 8px 8px 2px; }
+.taste-kare .card-desc { font-size: 0.8rem; padding: 0 8px; }
+.taste-kare .card-meta { font-size: 0.7rem; color: #666; padding: 4px 8px 8px; }
+.taste-kare .nav-link { text-decoration: none; font-size: 0.8rem; font-weight: 700; background: #fff; border: 1px solid #000; padding: 2px 8px; }
+.taste-kare .nav-link--active { background: #000; color: #fff; }
+.taste-kare .breadcrumb-link { font-size: 0.75rem; color: #000; }
+.taste-kare .breadcrumb-current { font-size: 0.75rem; font-weight: 700; }
+.taste-kare .breadcrumb-sep { color: #666; }

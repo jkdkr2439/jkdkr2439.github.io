@@ -1,0 +1,46 @@
+/* IDEO — Design thinking workshop wall / friendly exploration */
+body.taste-ideo {
+  --specimen-max-width: 1000px;
+  --specimen-padding: 48px 32px;
+  --section-gap: 56px;
+  --section-title-gap: 20px;
+  --grid-gap: 20px;
+  --form-gap: 18px;
+  --nav-gap: 20px;
+  --card-image-bg: #4ecdc4;
+  --card-image-radius: 16px;
+  font-family: "Nunito", "Quicksand", -apple-system, sans-serif;
+  font-size: 16px; line-height: 1.7; color: #333; background: #fafafa;
+}
+.taste-ideo .hero-title { font-size: 2.8rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 16px; color: #333; }
+.taste-ideo .hero-subtitle { font-size: 1.1rem; color: #666; max-width: 520px; }
+.taste-ideo .hero-cta { display: inline-block; padding: 12px 24px; background: #ff6b35; color: #fff; text-decoration: none; border-radius: 24px; font-weight: 700; font-size: 0.9rem; margin-top: 16px; }
+.taste-ideo .hero-cta:hover { background: #e55a2b; transform: translateY(-1px); }
+.taste-ideo .section-title { font-size: 1rem; font-weight: 800; color: #ff6b35; }
+.taste-ideo .stat-card { background: #fff; border-radius: 16px; padding: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+.taste-ideo .stat-number { font-size: 2.2rem; font-weight: 800; display: block; color: #4ecdc4; }
+.taste-ideo .stat-label { font-size: 0.85rem; font-weight: 600; display: block; margin-top: 4px; }
+.taste-ideo .stat-trend { font-size: 0.75rem; color: #999; }
+.taste-ideo .article-body { max-width: 600px; }
+.taste-ideo .article-lead { font-size: 1.15rem; font-weight: 600; margin-bottom: 16px; color: #333; }
+.taste-ideo .article-body p { margin-bottom: 16px; color: #555; }
+.taste-ideo .article-quote { margin: 24px 0; padding: 20px 24px; background: #fff3ee; border-radius: 12px; border-left: 4px solid #ff6b35; }
+.taste-ideo .article-quote p { font-size: 1.1rem; font-weight: 700; color: #333; font-style: normal; }
+.taste-ideo .article-quote cite { font-size: 0.8rem; color: #999; margin-top: 8px; display: block; }
+.taste-ideo .form-label { font-size: 0.8rem; font-weight: 700; color: #555; }
+.taste-ideo .form-input, .taste-ideo .form-select { border: 2px solid #e0e0e0; border-radius: 12px; padding: 12px 16px; background: #fff; }
+.taste-ideo .form-input:focus, .taste-ideo .form-select:focus { outline: none; border-color: #4ecdc4; box-shadow: 0 0 0 3px rgba(78,205,196,0.2); }
+.taste-ideo .form-submit { background: #4ecdc4; color: #fff; border: none; padding: 12px 28px; border-radius: 24px; font-weight: 700; cursor: pointer; }
+.taste-ideo .form-submit:hover { background: #3db8b0; }
+.taste-ideo .card { border: none; border-radius: 16px; overflow: hidden; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+.taste-ideo .card:nth-child(2) .card-image { background: #ff6b35; }
+.taste-ideo .card:nth-child(3) .card-image { background: #ffd93d; }
+.taste-ideo .card-title { font-size: 1rem; font-weight: 800; padding: 16px 16px 4px; }
+.taste-ideo .card-desc { font-size: 0.9rem; color: #666; padding: 0 16px; }
+.taste-ideo .card-meta { font-size: 0.75rem; color: #999; padding: 8px 16px 16px; }
+.taste-ideo .nav-link { text-decoration: none; font-size: 0.9rem; font-weight: 700; color: #999; padding: 6px 12px; border-radius: 20px; }
+.taste-ideo .nav-link--active { background: #ff6b35; color: #fff; }
+.taste-ideo .nav-link:hover { background: #f0f0f0; }
+.taste-ideo .breadcrumb-link { font-size: 0.8rem; color: #4ecdc4; text-decoration: none; }
+.taste-ideo .breadcrumb-current { font-size: 0.8rem; color: #333; font-weight: 700; }
+.taste-ideo .breadcrumb-sep { color: #ddd; }
