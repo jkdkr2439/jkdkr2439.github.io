@@ -1,0 +1,46 @@
+/* Vignelli — NYC subway signage / disciplined clarity */
+body.taste-swiss {
+  --specimen-max-width: 960px;
+  --specimen-padding: 48px;
+  --section-gap: 64px;
+  --section-title-gap: 16px;
+  --grid-gap: 1px;
+  --form-gap: 16px;
+  --nav-gap: 24px;
+  --card-image-bg: #cc0000;
+  --card-image-radius: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px; line-height: 1.45; color: #000; background: #fff;
+}
+.taste-swiss .hero-title { font-size: 3.2rem; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; margin-bottom: 16px; }
+.taste-swiss .hero-subtitle { font-size: 0.95rem; color: #333; max-width: 480px; }
+.taste-swiss .hero-cta { font-size: 0.8rem; text-decoration: none; color: #cc0000; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; }
+.taste-swiss .section-title { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.2em; color: #cc0000; padding-bottom: 8px; border-bottom: 2px solid #000; }
+.taste-swiss .stat-grid { border: 1px solid #000; }
+.taste-swiss .stat-card { padding: 20px; border: 1px solid #000; margin: -1px; }
+.taste-swiss .stat-number { font-size: 2rem; font-weight: 700; display: block; }
+.taste-swiss .stat-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-top: 8px; }
+.taste-swiss .stat-trend { font-size: 0.65rem; color: #666; }
+.taste-swiss .article-body { max-width: 560px; }
+.taste-swiss .article-lead { font-size: 1rem; font-weight: 700; margin-bottom: 16px; line-height: 1.4; }
+.taste-swiss .article-body p { margin-bottom: 12px; font-size: 0.9rem; }
+.taste-swiss .article-quote { margin: 24px 0; padding-left: 16px; border-left: 4px solid #cc0000; }
+.taste-swiss .article-quote p { font-size: 1.1rem; font-weight: 700; font-style: normal; }
+.taste-swiss .article-quote cite { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #666; margin-top: 4px; display: block; }
+.taste-swiss .form-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; }
+.taste-swiss .form-input, .taste-swiss .form-select { border: 1px solid #000; border-radius: 0; padding: 10px 12px; }
+.taste-swiss .form-input:focus, .taste-swiss .form-select:focus { outline: 2px solid #0033cc; outline-offset: -2px; }
+.taste-swiss .form-submit { background: #000; color: #fff; border: none; padding: 10px 24px; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.75rem; font-weight: 700; cursor: pointer; }
+.taste-swiss .form-submit:hover { background: #cc0000; }
+.taste-swiss .card-grid { gap: 0; border: 1px solid #000; }
+.taste-swiss .card { border: 1px solid #000; margin: -1px; padding: 0; }
+.taste-swiss .card:nth-child(2) .card-image { background: #0033cc; }
+.taste-swiss .card:nth-child(3) .card-image { background: #ffcc00; }
+.taste-swiss .card-title { font-size: 0.9rem; font-weight: 700; padding: 12px 12px 4px; }
+.taste-swiss .card-desc { font-size: 0.8rem; color: #333; padding: 0 12px; }
+.taste-swiss .card-meta { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.08em; color: #999; padding: 8px 12px 12px; }
+.taste-swiss .nav-link { text-decoration: none; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #666; }
+.taste-swiss .nav-link--active { color: #000; border-bottom: 2px solid #cc0000; padding-bottom: 4px; }
+.taste-swiss .breadcrumb-link { font-size: 0.7rem; color: #0033cc; text-decoration: none; }
+.taste-swiss .breadcrumb-current { font-size: 0.7rem; color: #000; font-weight: 700; }
+.taste-swiss .breadcrumb-sep { color: #999; }

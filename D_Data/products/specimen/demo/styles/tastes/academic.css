@@ -1,0 +1,42 @@
+/* Tufte — Research paper / data visualization book */
+body.taste-academic {
+  --specimen-max-width: 780px;
+  --specimen-padding: 60px 24px;
+  --section-gap: 48px;
+  --section-title-gap: 12px;
+  --grid-gap: 12px;
+  --form-gap: 12px;
+  --nav-gap: 20px;
+  --card-image-bg: #e8e0d4;
+  --card-image-radius: 0;
+  font-family: "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 15px; line-height: 1.7; color: #111; background: #fdfbf7;
+}
+.taste-academic .hero-title { font-size: 2.2rem; font-weight: 400; font-style: italic; line-height: 1.2; margin-bottom: 12px; }
+.taste-academic .hero-subtitle { font-size: 1rem; color: #555; max-width: 560px; }
+.taste-academic .hero-cta { font-size: 0.85rem; text-decoration: underline; color: #8b0000; }
+.taste-academic .section-title { font-size: 1.1rem; font-variant: small-caps; letter-spacing: 0.05em; font-weight: 400; }
+.taste-academic .stat-grid { display: flex; gap: 32px; flex-wrap: wrap; }
+.taste-academic .stat-card { background: none; border: none; padding: 0; }
+.taste-academic .stat-number { font-size: 1.8rem; font-weight: 400; display: block; }
+.taste-academic .stat-label { font-size: 0.8rem; color: #666; display: block; }
+.taste-academic .stat-trend { font-size: 0.7rem; color: #999; font-style: italic; }
+.taste-academic .article-body { max-width: 560px; }
+.taste-academic .article-lead { font-size: 1.05rem; margin-bottom: 16px; }
+.taste-academic .article-body p { margin-bottom: 14px; text-align: justify; hyphens: auto; }
+.taste-academic .article-quote { margin: 24px 0; padding-left: 20px; border-left: 2px solid #8b0000; font-style: italic; }
+.taste-academic .article-quote cite { display: block; font-style: normal; font-size: 0.8rem; margin-top: 6px; color: #666; }
+.taste-academic .form-label { font-size: 0.8rem; font-variant: small-caps; }
+.taste-academic .form-input, .taste-academic .form-select { border: none; border-bottom: 1px solid #999; border-radius: 0; padding: 8px 0; background: transparent; font-family: inherit; }
+.taste-academic .form-input:focus, .taste-academic .form-select:focus { outline: none; border-bottom-color: #8b0000; }
+.taste-academic .form-submit { background: none; border: 1px solid #111; padding: 8px 20px; font-variant: small-caps; cursor: pointer; }
+.taste-academic .form-submit:hover { background: #111; color: #fdfbf7; }
+.taste-academic .card { border: none; padding: 0; background: none; }
+.taste-academic .card-title { font-size: 1rem; font-style: italic; margin-bottom: 4px; }
+.taste-academic .card-desc { font-size: 0.85rem; color: #555; }
+.taste-academic .card-meta { font-size: 0.75rem; color: #999; margin-top: 6px; }
+.taste-academic .nav-link { text-decoration: none; font-size: 0.85rem; color: #555; }
+.taste-academic .nav-link--active { color: #111; border-bottom: 1px solid #8b0000; }
+.taste-academic .breadcrumb-link { font-size: 0.8rem; color: #888; text-decoration: none; }
+.taste-academic .breadcrumb-current { font-size: 0.8rem; color: #111; }
+.taste-academic .breadcrumb-sep { color: #ccc; }

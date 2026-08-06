@@ -1,0 +1,46 @@
+/* Kare — 1984 Macintosh / friendly computing */
+body.taste-pixel {
+  --specimen-max-width: 800px;
+  --specimen-padding: 32px 24px;
+  --section-gap: 48px;
+  --section-title-gap: 12px;
+  --grid-gap: 8px;
+  --form-gap: 12px;
+  --nav-gap: 16px;
+  --card-image-bg: #c0c0c0;
+  --card-image-radius: 0;
+  font-family: "Monaco", "Courier New", monospace;
+  font-size: 13px; line-height: 1.5; color: #000; background: #c0c0c0;
+}
+.taste-pixel .hero-title { font-size: 2rem; font-weight: 700; letter-spacing: 0; line-height: 1.2; margin-bottom: 8px; background: #000; color: #fff; display: inline-block; padding: 4px 12px; }
+.taste-pixel .hero-subtitle { font-size: 0.9rem; max-width: 500px; margin-top: 12px; }
+.taste-pixel .hero-cta { font-size: 0.8rem; text-decoration: none; background: #fff; color: #000; border: 2px solid #000; padding: 4px 12px; display: inline-block; margin-top: 12px; }
+.taste-pixel .hero-cta:hover { background: #000; color: #fff; }
+.taste-pixel .section-title { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; border-bottom: 2px solid #000; padding-bottom: 4px; display: inline-block; }
+.taste-pixel .stat-grid { border: 2px solid #000; background: #fff; }
+.taste-pixel .stat-card { padding: 12px; border-right: 2px solid #000; border-bottom: 2px solid #000; }
+.taste-pixel .stat-card:last-child { border-right: none; }
+.taste-pixel .stat-number { font-size: 1.5rem; font-weight: 700; display: block; }
+.taste-pixel .stat-label { font-size: 0.75rem; display: block; margin-top: 4px; }
+.taste-pixel .stat-trend { font-size: 0.7rem; color: #666; }
+.taste-pixel .article-body { max-width: 560px; background: #fff; border: 2px solid #000; padding: 16px; box-shadow: 4px 4px 0 #000; }
+.taste-pixel .article-lead { font-size: 0.95rem; font-weight: 700; margin-bottom: 12px; }
+.taste-pixel .article-body p { margin-bottom: 10px; }
+.taste-pixel .article-quote { margin: 16px 0; padding: 8px 12px; background: #e0e0e0; border: 1px solid #999; }
+.taste-pixel .article-quote p { font-style: normal; font-weight: 700; }
+.taste-pixel .article-quote cite { font-size: 0.8rem; color: #333; display: block; margin-top: 4px; }
+.taste-pixel .form-label { font-size: 0.75rem; font-weight: 700; }
+.taste-pixel .form-input, .taste-pixel .form-select { border: 2px solid #000; border-radius: 0; padding: 6px 8px; background: #fff; font-family: inherit; box-shadow: inset 1px 1px 0 #666; }
+.taste-pixel .form-submit { background: #fff; border: 2px solid #000; padding: 6px 16px; font-weight: 700; cursor: pointer; box-shadow: 2px 2px 0 #000; }
+.taste-pixel .form-submit:hover { background: #000; color: #fff; }
+.taste-pixel .form-submit:active { box-shadow: none; transform: translate(2px,2px); }
+.taste-pixel .card { border: 2px solid #000; background: #fff; padding: 0; box-shadow: 3px 3px 0 #000; }
+.taste-pixel .card-image { background: #e0e0e0; border-bottom: 2px solid #000; }
+.taste-pixel .card-title { font-size: 0.9rem; font-weight: 700; padding: 8px 8px 2px; }
+.taste-pixel .card-desc { font-size: 0.8rem; padding: 0 8px; }
+.taste-pixel .card-meta { font-size: 0.7rem; color: #666; padding: 4px 8px 8px; }
+.taste-pixel .nav-link { text-decoration: none; font-size: 0.8rem; font-weight: 700; background: #fff; border: 1px solid #000; padding: 2px 8px; }
+.taste-pixel .nav-link--active { background: #000; color: #fff; }
+.taste-pixel .breadcrumb-link { font-size: 0.75rem; color: #000; }
+.taste-pixel .breadcrumb-current { font-size: 0.75rem; font-weight: 700; }
+.taste-pixel .breadcrumb-sep { color: #666; }

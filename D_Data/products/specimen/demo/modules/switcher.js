@@ -3,12 +3,12 @@
  * Swaps stylesheet + body class. URL sync via ?taste= param.
  */
 
-const TASTES = ['tufte','rams','rand','vignelli','lupton','kare','ideo','norman','govuk','nielsen','wcag'];
+const TASTES = ['academic','minimal','bold','swiss','editorial','pixel','friendly','functional','service','utility','accessible'];
 
 function getCurrentTaste() {
   const params = new URLSearchParams(location.search);
   const t = params.get('taste');
-  return TASTES.includes(t) ? t : 'tufte';
+  return TASTES.includes(t) ? t : 'academic';
 }
 
 function applyTaste(taste) {

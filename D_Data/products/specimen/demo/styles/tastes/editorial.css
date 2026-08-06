@@ -1,0 +1,43 @@
+/* Lupton — Cooper Hewitt exhibition catalog / editorial magazine */
+body.taste-editorial {
+  --specimen-max-width: 1000px;
+  --specimen-padding: 48px 32px;
+  --section-gap: 72px;
+  --section-title-gap: 20px;
+  --grid-gap: 20px;
+  --form-gap: 20px;
+  --nav-gap: 20px;
+  --card-image-bg: #457b9d;
+  --card-image-radius: 0;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 16px; line-height: 1.6; color: #1a1a2e; background: #f8f8fc;
+}
+.taste-editorial .hero-title { font-size: 5rem; font-weight: 900; font-family: -apple-system, sans-serif; letter-spacing: -0.06em; line-height: 0.9; margin-bottom: 20px; mix-blend-mode: multiply; }
+.taste-editorial .hero-subtitle { font-size: 1.1rem; font-style: italic; color: #457b9d; max-width: 400px; }
+.taste-editorial .hero-cta { font-size: 0.8rem; text-decoration: none; font-family: monospace; color: #e63946; text-transform: uppercase; letter-spacing: 0.12em; }
+.taste-editorial .section-title { font-size: 0.7rem; font-family: monospace; text-transform: uppercase; letter-spacing: 0.2em; color: #e63946; }
+.taste-editorial .stat-grid { display: grid; grid-template-columns: 1fr 1fr; }
+.taste-editorial .stat-card { padding: 20px; border-bottom: 1px solid #ddd; }
+.taste-editorial .stat-number { font-size: 2.5rem; font-weight: 900; font-family: -apple-system, sans-serif; display: block; color: #e63946; }
+.taste-editorial .stat-label { font-size: 0.85rem; font-style: italic; display: block; margin-top: 4px; }
+.taste-editorial .stat-trend { font-size: 0.7rem; font-family: monospace; color: #999; }
+.taste-editorial .article-body { max-width: 580px; margin-left: 10%; }
+.taste-editorial .article-lead { font-size: 1.4rem; font-weight: 400; font-style: italic; margin-bottom: 20px; line-height: 1.4; }
+.taste-editorial .article-body p { margin-bottom: 16px; }
+.taste-editorial .article-quote { margin: 32px -10%; padding: 24px 0; border-top: 3px solid #e63946; border-bottom: 1px solid #ddd; }
+.taste-editorial .article-quote p { font-size: 1.8rem; font-family: -apple-system, sans-serif; font-weight: 900; color: #1a1a2e; font-style: normal; line-height: 1.1; }
+.taste-editorial .article-quote cite { font-size: 0.75rem; font-family: monospace; color: #457b9d; margin-top: 12px; display: block; }
+.taste-editorial .form-label { font-size: 0.7rem; font-family: monospace; text-transform: uppercase; letter-spacing: 0.06em; color: #666; }
+.taste-editorial .form-input, .taste-editorial .form-select { border: none; border-bottom: 2px solid #1a1a2e; border-radius: 0; padding: 10px 0; background: transparent; font-family: Georgia, serif; }
+.taste-editorial .form-input:focus, .taste-editorial .form-select:focus { outline: none; border-bottom-color: #e63946; }
+.taste-editorial .form-submit { background: #e63946; color: #fff; border: none; padding: 12px 24px; font-family: monospace; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.8rem; cursor: pointer; }
+.taste-editorial .card { border: none; padding: 0; background: none; border-bottom: 1px solid #ddd; padding-bottom: 20px; }
+.taste-editorial .card-image { aspect-ratio: 4/3; }
+.taste-editorial .card-title { font-size: 1.2rem; font-family: -apple-system, sans-serif; font-weight: 900; margin-bottom: 4px; }
+.taste-editorial .card-desc { font-size: 0.9rem; font-style: italic; color: #555; }
+.taste-editorial .card-meta { font-size: 0.7rem; font-family: monospace; color: #457b9d; margin-top: 8px; }
+.taste-editorial .nav-link { text-decoration: none; font-size: 0.9rem; color: #666; font-style: italic; }
+.taste-editorial .nav-link--active { color: #1a1a2e; font-style: normal; font-weight: 700; border-bottom: 2px solid #e63946; }
+.taste-editorial .breadcrumb-link { font-size: 0.75rem; font-family: monospace; color: #457b9d; text-decoration: none; }
+.taste-editorial .breadcrumb-current { font-size: 0.75rem; font-family: monospace; color: #1a1a2e; }
+.taste-editorial .breadcrumb-sep { color: #ccc; }

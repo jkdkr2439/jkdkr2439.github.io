@@ -1,0 +1,46 @@
+/* IDEO — Design thinking workshop wall / friendly exploration */
+body.taste-friendly {
+  --specimen-max-width: 1000px;
+  --specimen-padding: 48px 32px;
+  --section-gap: 56px;
+  --section-title-gap: 20px;
+  --grid-gap: 20px;
+  --form-gap: 18px;
+  --nav-gap: 20px;
+  --card-image-bg: #4ecdc4;
+  --card-image-radius: 16px;
+  font-family: "Nunito", "Quicksand", -apple-system, sans-serif;
+  font-size: 16px; line-height: 1.7; color: #333; background: #fafafa;
+}
+.taste-friendly .hero-title { font-size: 2.8rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 16px; color: #333; }
+.taste-friendly .hero-subtitle { font-size: 1.1rem; color: #666; max-width: 520px; }
+.taste-friendly .hero-cta { display: inline-block; padding: 12px 24px; background: #ff6b35; color: #fff; text-decoration: none; border-radius: 24px; font-weight: 700; font-size: 0.9rem; margin-top: 16px; }
+.taste-friendly .hero-cta:hover { background: #e55a2b; transform: translateY(-1px); }
+.taste-friendly .section-title { font-size: 1rem; font-weight: 800; color: #ff6b35; }
+.taste-friendly .stat-card { background: #fff; border-radius: 16px; padding: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+.taste-friendly .stat-number { font-size: 2.2rem; font-weight: 800; display: block; color: #4ecdc4; }
+.taste-friendly .stat-label { font-size: 0.85rem; font-weight: 600; display: block; margin-top: 4px; }
+.taste-friendly .stat-trend { font-size: 0.75rem; color: #999; }
+.taste-friendly .article-body { max-width: 600px; }
+.taste-friendly .article-lead { font-size: 1.15rem; font-weight: 600; margin-bottom: 16px; color: #333; }
+.taste-friendly .article-body p { margin-bottom: 16px; color: #555; }
+.taste-friendly .article-quote { margin: 24px 0; padding: 20px 24px; background: #fff3ee; border-radius: 12px; border-left: 4px solid #ff6b35; }
+.taste-friendly .article-quote p { font-size: 1.1rem; font-weight: 700; color: #333; font-style: normal; }
+.taste-friendly .article-quote cite { font-size: 0.8rem; color: #999; margin-top: 8px; display: block; }
+.taste-friendly .form-label { font-size: 0.8rem; font-weight: 700; color: #555; }
+.taste-friendly .form-input, .taste-friendly .form-select { border: 2px solid #e0e0e0; border-radius: 12px; padding: 12px 16px; background: #fff; }
+.taste-friendly .form-input:focus, .taste-friendly .form-select:focus { outline: none; border-color: #4ecdc4; box-shadow: 0 0 0 3px rgba(78,205,196,0.2); }
+.taste-friendly .form-submit { background: #4ecdc4; color: #fff; border: none; padding: 12px 28px; border-radius: 24px; font-weight: 700; cursor: pointer; }
+.taste-friendly .form-submit:hover { background: #3db8b0; }
+.taste-friendly .card { border: none; border-radius: 16px; overflow: hidden; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+.taste-friendly .card:nth-child(2) .card-image { background: #ff6b35; }
+.taste-friendly .card:nth-child(3) .card-image { background: #ffd93d; }
+.taste-friendly .card-title { font-size: 1rem; font-weight: 800; padding: 16px 16px 4px; }
+.taste-friendly .card-desc { font-size: 0.9rem; color: #666; padding: 0 16px; }
+.taste-friendly .card-meta { font-size: 0.75rem; color: #999; padding: 8px 16px 16px; }
+.taste-friendly .nav-link { text-decoration: none; font-size: 0.9rem; font-weight: 700; color: #999; padding: 6px 12px; border-radius: 20px; }
+.taste-friendly .nav-link--active { background: #ff6b35; color: #fff; }
+.taste-friendly .nav-link:hover { background: #f0f0f0; }
+.taste-friendly .breadcrumb-link { font-size: 0.8rem; color: #4ecdc4; text-decoration: none; }
+.taste-friendly .breadcrumb-current { font-size: 0.8rem; color: #333; font-weight: 700; }
+.taste-friendly .breadcrumb-sep { color: #ddd; }

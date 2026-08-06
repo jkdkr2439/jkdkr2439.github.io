@@ -1,0 +1,46 @@
+/* Nielsen — useit.com circa 2003 / function dominates */
+body.taste-utility {
+  --specimen-max-width: 760px;
+  --specimen-padding: 16px;
+  --section-gap: 24px;
+  --section-title-gap: 8px;
+  --grid-gap: 8px;
+  --form-gap: 8px;
+  --nav-gap: 12px;
+  --card-image-bg: #eee;
+  --card-image-radius: 0;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13px; line-height: 1.5; color: #000; background: #fff;
+}
+.taste-utility .hero-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 8px; color: #000; }
+.taste-utility .hero-subtitle { font-size: 0.9rem; color: #333; }
+.taste-utility .hero-cta { font-size: 0.85rem; color: #0000ee; text-decoration: underline; }
+.taste-utility .hero-cta:visited { color: #551a8b; }
+.taste-utility .section-title { font-size: 1rem; font-weight: 700; color: #000; border-bottom: 1px solid #999; padding-bottom: 4px; }
+.taste-utility .stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; }
+.taste-utility .stat-card { padding: 8px; border: 1px solid #ccc; background: #f9f9f9; }
+.taste-utility .stat-number { font-size: 1.2rem; font-weight: 700; display: block; }
+.taste-utility .stat-label { font-size: 0.75rem; display: block; }
+.taste-utility .stat-trend { font-size: 0.7rem; color: #666; }
+.taste-utility .article-body { max-width: 600px; }
+.taste-utility .article-lead { font-size: 0.95rem; font-weight: 700; margin-bottom: 8px; }
+.taste-utility .article-body p { margin-bottom: 10px; }
+.taste-utility .article-quote { margin: 12px 0; padding: 8px 12px; background: #ffffcc; border: 1px solid #ccc; }
+.taste-utility .article-quote p { font-style: italic; }
+.taste-utility .article-quote cite { font-size: 0.8rem; color: #333; display: block; margin-top: 4px; }
+.taste-utility .form-label { font-size: 0.8rem; font-weight: 700; }
+.taste-utility .form-input, .taste-utility .form-select { border: 1px solid #999; padding: 4px 6px; font-size: 0.9rem; background: #fff; }
+.taste-utility .form-input:focus, .taste-utility .form-select:focus { outline: 2px solid #0000ee; }
+.taste-utility .form-submit { background: #e0e0e0; border: 1px solid #999; padding: 4px 12px; cursor: pointer; font-weight: 700; }
+.taste-utility .form-submit:hover { background: #ccc; }
+.taste-utility .card { border: 1px solid #ccc; padding: 8px; background: #fff; }
+.taste-utility .card-image { display: none; }
+.taste-utility .card-title { font-size: 0.9rem; font-weight: 700; color: #0000ee; text-decoration: underline; }
+.taste-utility .card-desc { font-size: 0.8rem; color: #333; margin-top: 4px; }
+.taste-utility .card-meta { font-size: 0.7rem; color: #666; margin-top: 4px; }
+.taste-utility .nav-link { color: #0000ee; text-decoration: underline; font-size: 0.85rem; }
+.taste-utility .nav-link--active { color: #000; text-decoration: none; font-weight: 700; }
+.taste-utility .nav-link:visited { color: #551a8b; }
+.taste-utility .breadcrumb-link { font-size: 0.8rem; color: #0000ee; }
+.taste-utility .breadcrumb-current { font-size: 0.8rem; color: #000; font-weight: 700; }
+.taste-utility .breadcrumb-sep { color: #666; }

@@ -4,17 +4,17 @@
   "family": "Design",
   "goal": "Show 11 design philosophies applied to one specimen page via CSS-only taste switching.",
   "tastes": [
-    "tufte",
-    "rams",
-    "rand",
-    "vignelli",
-    "lupton",
-    "kare",
-    "ideo",
-    "norman",
-    "govuk",
-    "nielsen",
-    "wcag"
+    "academic",
+    "minimal",
+    "bold",
+    "swiss",
+    "editorial",
+    "pixel",
+    "friendly",
+    "functional",
+    "service",
+    "utility",
+    "accessible"
   ],
   "sections": [
     "hero",
