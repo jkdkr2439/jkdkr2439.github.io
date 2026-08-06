@@ -1,9 +1,9 @@
 /**
- * SPECIMEN — Taste Switcher
+ * SPECIMEN ? Taste Switcher
  * Swaps stylesheet + body class. URL sync via ?taste= param.
  */
 
-const TASTES = ['academic','minimal','bold','swiss','editorial','pixel','friendly','functional','service','utility','accessible'];
+const TASTES = ["academic", "minimal", "bold", "swiss", "editorial", "pixel", "friendly", "functional", "service", "utility", "accessible"];
 
 function getCurrentTaste() {
   const params = new URLSearchParams(location.search);
@@ -20,22 +20,18 @@ function applyTaste(taste) {
   });
   const label = document.getElementById('current-taste-label');
   if (label) label.textContent = taste.charAt(0).toUpperCase() + taste.slice(1);
-  // Update URL without reload
   const url = new URL(location);
   url.searchParams.set('taste', taste);
   history.replaceState(null, '', url);
-  // Save preference
   try { localStorage.setItem('specimen-taste', taste); } catch {}
 }
 
 function boot() {
   const taste = getCurrentTaste();
   applyTaste(taste);
-  // Wire buttons
   document.querySelectorAll('.taste-btn').forEach(btn => {
     btn.addEventListener('click', () => applyTaste(btn.dataset.taste));
   });
-  // Compare button
   document.getElementById('compare-btn')?.addEventListener('click', () => {
     window.open('compare.html', '_blank');
   });
