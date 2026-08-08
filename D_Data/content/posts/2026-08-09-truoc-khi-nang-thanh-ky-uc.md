@@ -2,7 +2,7 @@
 layout: post
 title: "Trước khi nàng thành ký ức"
 title_en: "Before You Become a Memory"
-date: 2026-08-09
+date: 2026-08-08
 tag: "Tản văn"
 tag_en: "Literary Prose"
 library_collection: "Tản văn"
