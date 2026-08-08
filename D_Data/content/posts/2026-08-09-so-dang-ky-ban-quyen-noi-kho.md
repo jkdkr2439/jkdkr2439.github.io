@@ -2,7 +2,7 @@
 layout: post
 title: "Sở đăng ký bản quyền nỗi khổ"
 title_en: "The Patent Office of Human Suffering"
-date: 2026-08-09
+date: 2026-08-08
 tag: "Châm biếm"
 tag_en: "Satire"
 library_collection: "Nghịch văn"
