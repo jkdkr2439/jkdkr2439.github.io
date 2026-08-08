@@ -2,7 +2,7 @@
 layout: post
 title: "Ôi Icarus, nào phải tại mặt trời"
 title_en: "Oh, Icarus, It Was Never the Sun"
-date: 2026-08-09
+date: 2026-08-08
 tag: "Châm biếm"
 tag_en: "Satire"
 library_collection: "Nghịch văn"
