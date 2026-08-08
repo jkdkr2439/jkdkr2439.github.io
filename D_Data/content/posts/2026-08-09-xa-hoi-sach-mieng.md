@@ -2,7 +2,7 @@
 layout: post
 title: "Xã hội sạch miệng"
 title_en: "The Clean-Mouthed Society"
-date: 2026-08-09
+date: 2026-08-08
 tag: "Châm biếm"
 tag_en: "Satire"
 library_collection: "Nghịch văn"
