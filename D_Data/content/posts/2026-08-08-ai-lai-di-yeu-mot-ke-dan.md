@@ -14,7 +14,7 @@ credit_name: "Kevin T.N a.k.a Lucis The Lord"
 parallel_layout: true
 ---
 
-![Một người phụ nữ dùng ống nhòm xem tiền bạc, học vị, chức quyền và danh tiếng tại bàn tiệc](/assets/images/ai-lai-di-yeu-mot-ke-dan/hero.png)
+![Một người phụ nữ dùng ống nhòm xem tiền bạc, học vị, chức quyền và danh tiếng tại bàn tiệc](/assets/images/ai-lai-di-yeu-mot-ke-dan/hero.jpg)
 
 <div class="parallel-text" data-language-order="vi-en">
   <section class="parallel-row" data-source-chunk="sapiosexual-satire">
