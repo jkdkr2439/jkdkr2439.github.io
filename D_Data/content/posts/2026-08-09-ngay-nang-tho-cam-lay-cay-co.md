@@ -2,7 +2,7 @@
 layout: post
 title: "Ngày nàng thơ cầm lấy cây cọ"
 title_en: "When the Muse Picked Up the Brush"
-date: 2026-08-09
+date: 2026-08-08
 tag: "Tản văn"
 tag_en: "Literary Prose"
 library_collection: "Tản văn"
