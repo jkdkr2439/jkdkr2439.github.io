@@ -2,7 +2,7 @@
 layout: post
 title: "Bộ não thứ hai chưa gặp bộ não thứ nhất"
 title_en: "The Second Brain Has Not Met the First"
-date: 2026-08-09
+date: 2026-08-08
 tag: "Châm biếm"
 tag_en: "Satire"
 library_collection: "Nghịch văn"
