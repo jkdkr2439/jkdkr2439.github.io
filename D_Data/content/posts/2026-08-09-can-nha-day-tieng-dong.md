@@ -2,7 +2,7 @@
 layout: post
 title: "Căn nhà đầy tiếng động"
 title_en: "Großer Lärm"
-date: 2026-08-09
+date: 2026-08-08
 tag: "Dịch thuật"
 tag_en: "Translation"
 library_collection: "Dịch thuật"
