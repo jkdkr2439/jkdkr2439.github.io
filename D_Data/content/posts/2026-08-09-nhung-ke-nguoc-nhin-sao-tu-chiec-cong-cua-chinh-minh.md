@@ -2,7 +2,7 @@
 layout: post
 title: "Những kẻ ngước nhìn sao từ chiếc cống của chính mình"
 title_en: "Those Who Look at the Stars from Their Own Gutter"
-date: 2026-08-09
+date: 2026-08-08
 tag: "Châm biếm"
 tag_en: "Satire"
 library_collection: "Nghịch văn"
