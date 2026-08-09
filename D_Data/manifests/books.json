@@ -69,5 +69,50 @@
       "jung-chu-thich",
       "jung-chi-muc"
     ]
+  },
+  "hoang-tu-va-thang-cung-dinh": {
+    "title_vi": "Hoàng tử và thằng cùng đinh",
+    "title_en": "The Prince and the Pauper",
+    "translation_category_key": "van-hoc",
+    "translation_category_vi": "Văn học",
+    "translation_category_en": "Literature",
+    "landing": "hoang-tu-va-thang-cung-dinh",
+    "chapters": [
+      "hoang-tu-va-thang-cung-dinh-chuong-01",
+      "hoang-tu-va-thang-cung-dinh-chuong-02",
+      "hoang-tu-va-thang-cung-dinh-chuong-03",
+      "hoang-tu-va-thang-cung-dinh-chuong-04",
+      "hoang-tu-va-thang-cung-dinh-chuong-05",
+      "hoang-tu-va-thang-cung-dinh-chuong-06",
+      "hoang-tu-va-thang-cung-dinh-chuong-07",
+      "hoang-tu-va-thang-cung-dinh-chuong-08",
+      "hoang-tu-va-thang-cung-dinh-chuong-09",
+      "hoang-tu-va-thang-cung-dinh-chuong-10",
+      "hoang-tu-va-thang-cung-dinh-chuong-11",
+      "hoang-tu-va-thang-cung-dinh-chuong-12",
+      "hoang-tu-va-thang-cung-dinh-chuong-13",
+      "hoang-tu-va-thang-cung-dinh-chuong-14",
+      "hoang-tu-va-thang-cung-dinh-chuong-15",
+      "hoang-tu-va-thang-cung-dinh-chuong-16",
+      "hoang-tu-va-thang-cung-dinh-chuong-17",
+      "hoang-tu-va-thang-cung-dinh-chuong-18",
+      "hoang-tu-va-thang-cung-dinh-chuong-19",
+      "hoang-tu-va-thang-cung-dinh-chuong-20",
+      "hoang-tu-va-thang-cung-dinh-chuong-21",
+      "hoang-tu-va-thang-cung-dinh-chuong-22",
+      "hoang-tu-va-thang-cung-dinh-chuong-23",
+      "hoang-tu-va-thang-cung-dinh-chuong-24",
+      "hoang-tu-va-thang-cung-dinh-chuong-25",
+      "hoang-tu-va-thang-cung-dinh-chuong-26",
+      "hoang-tu-va-thang-cung-dinh-chuong-27",
+      "hoang-tu-va-thang-cung-dinh-chuong-28",
+      "hoang-tu-va-thang-cung-dinh-chuong-29",
+      "hoang-tu-va-thang-cung-dinh-chuong-30",
+      "hoang-tu-va-thang-cung-dinh-chuong-31",
+      "hoang-tu-va-thang-cung-dinh-chuong-32",
+      "hoang-tu-va-thang-cung-dinh-chuong-33",
+      "hoang-tu-va-thang-cung-dinh-ket-tu"
+    ]
   }
 }
+
