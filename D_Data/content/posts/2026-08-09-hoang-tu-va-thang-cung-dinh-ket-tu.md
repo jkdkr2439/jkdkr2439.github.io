@@ -5,7 +5,7 @@ title_en: "Conclusion. Justice and retribution."
 date: 2026-08-09
 tag: "Dịch thuật"
 tag_en: "Translation"
-excerpt_text: "Kết từ. Công lý và báo ứng, bản song ngữ Việt Anh kèm minh họa nguyên bản."
+excerpt_text: "Kết từ. Công lý và báo ứng, bản song ngữ Việt Anh."
 source_author: "Mark Twain"
 credit_name: "Kevin T.N"
 book_edition: "Hoàng tử và thằng cùng đinh"

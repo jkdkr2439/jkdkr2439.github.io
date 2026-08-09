@@ -5,7 +5,7 @@ title_en: "Chapter XXXII. Coronation Day."
 date: 2026-08-09
 tag: "Dịch thuật"
 tag_en: "Translation"
-excerpt_text: "Chương XXXII. Ngày đăng quang, bản song ngữ Việt Anh kèm minh họa nguyên bản."
+excerpt_text: "Chương XXXII. Ngày đăng quang, bản song ngữ Việt Anh."
 source_author: "Mark Twain"
 credit_name: "Kevin T.N"
 book_edition: "Hoàng tử và thằng cùng đinh"
@@ -90,7 +90,8 @@ chapter_label: "32"
 <p>“Ôi đức vua của thần, xin hãy để Tom Canty tội nghiệp là người đầu tiên thề trung thành với ngài và nói: ‘Xin đội lấy vương miện, trở về với những gì thuộc về ngài!’”</p>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<p>A deep hush pervaded the Abbey. At this impressive moment, a startling apparition intruded upon the scene—an apparition observed by none in the absorbed multitude, until it suddenly appeared, moving up the great central aisle. It was a boy, bareheaded, ill shod, and clothed in coarse plebeian garments that were falling to rags. He raised his hand with a solemnity which ill comported with his soiled and sorry aspect, and delivered this note of warning…3571 tokens truncated…a Tom Canty, cúi thật sâu:</p>
+<p>A deep hush pervaded the Abbey. At this impressive moment, a startling apparition intruded upon the scene—an apparition observed by none in the absorbed multitude, until it suddenly appeared, moving up the great central aisle. It was a boy, bareheaded, ill shod, and clothed in coarse plebeian garments that were falling to rags. He raised his hand with a solemnity which ill comported with his soiled and sorry aspect, and delivered this note of warning—</p>
+<p>“I forbid you to…3564 tokens truncated…a Tom Canty, cúi thật sâu:</p>
 <p>“Thưa bệ hạ, Đại Ấn không có ở đó!”</p>
 <p>Một đám người tránh bệnh nhân dịch hạch cũng không thể nhanh hơn cảnh những triều thần tái nhợt, kinh hãi tan khỏi bên cậu bé đòi vương miện trong bộ áo tồi tàn. Chỉ một thoáng, cậu đã đứng hoàn toàn cô độc, không bạn bè, không người ủng hộ, làm bia cho trận lửa cay độc của những cái nhìn khinh miệt và giận dữ.</p>
 <p>Nhiếp chính dữ dội quát:</p>

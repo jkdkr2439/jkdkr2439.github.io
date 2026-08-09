@@ -5,7 +5,7 @@ title_en: "Chapter XXX. Tom’s progress."
 date: 2026-08-09
 tag: "Dịch thuật"
 tag_en: "Translation"
-excerpt_text: "Chương XXX. Bước tiến của Tom, bản song ngữ Việt Anh kèm minh họa nguyên bản."
+excerpt_text: "Chương XXX. Bước tiến của Tom, bản song ngữ Việt Anh."
 source_author: "Mark Twain"
 credit_name: "Kevin T.N"
 book_edition: "Hoàng tử và thằng cùng đinh"

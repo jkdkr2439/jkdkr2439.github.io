@@ -5,7 +5,7 @@ title_en: "THE PRINCE AND THE PAUPER"
 date: 2026-08-09
 tag: "Dịch thuật"
 tag_en: "Translation"
-excerpt_text: "Tiểu thuyết lịch sử châm biếm của Mark Twain, bản song ngữ Việt Anh kèm minh họa nguyên bản."
+excerpt_text: "Tiểu thuyết lịch sử châm biếm của Mark Twain, bản song ngữ Việt Anh."
 source_author: "Mark Twain"
 credit_name: "Kevin T.N"
 book_edition: "Hoàng tử và thằng cùng đinh"
