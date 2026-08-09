@@ -89,10 +89,11 @@ chapter_label: "17"
 <p>Đêm đã xuống. Băng nhóm vừa ăn xong, cuộc truy hoan bắt đầu; bình rượu chuyền từ miệng này sang miệng khác. Một tiếng hô chung bật lên:</p>
 <p>“Một bài hát! Bài của Dơi, Dick và Chấm-Đi-Một-Chân!”</p>
 <p>Một gã mù đứng dậy chuẩn bị bằng cách tháo những miếng vá đang che đôi mắt rất tốt, cùng tấm biển thảm thiết kể nguyên nhân tai họa. Chấm-Đi-Một-Chân gỡ chiếc chân gỗ vướng víu, đứng cạnh đồng bọn bằng đôi chân lành khỏe. Rồi cả hai gầm một khúc hát nhộn, cuối mỗi đoạn được toàn bọn tiếp sức bằng điệp khúc vang động. Khi tới đoạn cuối, nhiệt tình nửa say đã lên cao đến mức tất cả nhập bọn, hát lại trọn bài từ đầu, tạo một khối âm thanh vô lại làm rui nhà rung chuyển. Những lời đầy cảm hứng là:</p>
-<div class="verse"><p>Đêm lành rượu gái với hàng bia,<br> Thằng giỏi phen này đã biệt lìa.<br> Lũ đểu kinh thành đem bán đứng,<br> Dây oan pháp thị kéo hồn lìa.<br> Bà em bỏ chốn kinh thành ấy,<br> Chị bạn nhìn lên xác nọ kìa.<br> Mớ áo nó chôm còn nhớ chứ,<br> Trên giàn treo cổ ngủ bên kia.</p></div>
+<div class="verse"><p>Đêm lành rượu gái với hàng bia,<br> Thằng giỏi phen này biệt ly a.<br>
+Lũ đểu kinh thành đem bán đứng,<br> Dây oan pháp thị kéo hồn lìa.<br> Bà em bỏ chốn kinh thành ấy,<br> Chị bạn nhìn lên xác nọ kìa.<br> Mớ áo nó chôm còn nhớ chứ,<br> Trên giàn treo cổ ngủ bên kia.</p></div>
 <p>Trích <cite>The English Rogue</cite>, London, 1665.</p>
 <p>Cuộc trò chuyện tiếp theo không dùng tiếng lóng trộm cắp trong bài hát, bởi thứ ấy chỉ dùng khi có đôi tai không thân thiện nghe lén. Qua câu chuyện, hóa ra “John Hobbs” không hẳn là lính mới; trước kia hắn từng được rèn trong băng. Mọi người đòi nghe lịch sử gần đây. Khi hắn nói đã “vô tình” giết một người, cả bọn tỏ vẻ hài lòng đáng kể; khi hắn nói thêm nạn nhân là linh mục, hắn được vỗ tay nhiệt liệt và phải uống với từng người. Bạn cũ vui vẻ chào đón, người mới tự hào bắt tay. Họ hỏi vì sao hắn “biến mất nhiều tháng”.</p>
-<p>“Mấy năm nay London tốt hơn nông thôn, cũng an t…1246 tokens truncated…hấy một chút mất mát, đau buồn thoáng qua; chẳng hạn khi thiên tài và văn hóa ra đi không để người thừa kế. Dù vậy, một vòng uống sâu sớm phục hồi tinh thần tang quyến.</p>
+<p>“Mấy năm nay London tốt hơn nông thôn, cũng an toàn…1245 tokens truncated…hấy một chút mất mát, đau buồn thoáng qua; chẳng hạn khi thiên tài và văn hóa ra đi không để người thừa kế. Dù vậy, một vòng uống sâu sớm phục hồi tinh thần tang quyến.</p>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
 <p>He inquired how many persons the gang numbered now. The ‘ruffler,’ or chief, answered—</p>
