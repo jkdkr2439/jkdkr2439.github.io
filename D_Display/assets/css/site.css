@@ -646,10 +646,14 @@ body {
 .parallel-cell h2 { font-size: 25px; }
 .parallel-cell h3 { font-size: 20px; }
 .parallel-cell p { margin-bottom: 1em; }
-.jung-figure .parallel-cell { display: flex; justify-content: center; padding-top: 34px; padding-bottom: 34px; }
-.jung-figure figure { width: 100%; margin: 0; text-align: center; }
-.jung-figure a { display: inline-block; max-width: 100%; }
-.reader-body .jung-figure img {
+.jung-figure .parallel-cell,
+.book-figure .parallel-cell { display: flex; justify-content: center; padding-top: 34px; padding-bottom: 34px; }
+.jung-figure figure,
+.book-figure figure { width: 100%; margin: 0; text-align: center; }
+.jung-figure a,
+.book-figure a { display: inline-block; max-width: 100%; }
+.reader-body .jung-figure img,
+.reader-body .book-figure img {
   width: auto;
   max-width: 100%;
   max-height: 620px;
@@ -659,7 +663,8 @@ body {
   border-radius: 0;
   box-shadow: 0 8px 24px rgba(38, 28, 18, 0.1);
 }
-.jung-figure figcaption {
+.jung-figure figcaption,
+.book-figure figcaption {
   max-width: 34em;
   margin: 13px auto 0;
   color: var(--muted);
