@@ -54,12 +54,12 @@ chapter_label: "11"
 <p>And while Tom, in his high seat, was gazing upon this ‘wild’ dancing, lost in admiration of the dazzling commingling of kaleidoscopic colours which the whirling turmoil of gaudy figures below him presented, the ragged but real little Prince of Wales was proclaiming his rights and his wrongs, denouncing the impostor, and clamouring for admission at the gates of Guildhall! The crowd enjoyed this episode prodigiously, and pressed forward and craned their necks to see the small rioter. Presently they began to taunt him and mock at him, purposely to goad him into a higher and still more entertaining fury. Tears of mortification sprang to his eyes, but he stood his ground and defied the mob right royally. Other taunts followed, added mockings stung him, and he exclaimed—</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-11-image-chapter-11.svg">
+  <section class="parallel-row book-figure" data-source-chunk="chapter-11-image-chapter-11.jpg">
     <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-11.svg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-11.svg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
+<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-11.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-11.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-11.svg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-11.svg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
+<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-11.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-11.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chapter-11-003">

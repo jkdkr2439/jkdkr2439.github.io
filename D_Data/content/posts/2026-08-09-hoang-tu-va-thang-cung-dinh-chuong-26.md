@@ -77,12 +77,12 @@ chapter_label: "26"
 <p>Miles sprang forward, with a happy confidence, to meet her, but she checked him with a hardly perceptible gesture, and he stopped where he was. She seated herself, and asked him to do likewise. Thus simply did she take the sense of old comradeship out of him, and transform him into a stranger and a guest. The surprise of it, the bewildering unexpectedness of it, made him begin to question, for a moment, if he was the person he was pretending to be, after all. The Lady Edith said—</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-26-image-chapter-26.svg">
+  <section class="parallel-row book-figure" data-source-chunk="chapter-26-image-chapter-26.jpg">
     <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-26.svg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-26.svg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
+<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-26.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-26.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-26.svg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-26.svg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
+<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-26.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-26.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chapter-26-003">

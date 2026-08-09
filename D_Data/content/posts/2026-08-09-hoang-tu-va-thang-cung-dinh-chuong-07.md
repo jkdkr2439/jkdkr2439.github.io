@@ -57,12 +57,12 @@ chapter_label: "07"
 <p>His meal being ended, a lord came and held before him a broad, shallow, golden dish with fragrant rosewater in it, to cleanse his mouth and fingers with; and my lord the Hereditary Diaperer stood by with a napkin for his use. Tom gazed at the dish a puzzled moment or two, then raised it to his lips, and gravely took a draught. Then he returned it to the waiting lord, and said—</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-07-image-chapter-07.svg">
+  <section class="parallel-row book-figure" data-source-chunk="chapter-07-image-chapter-07.jpg">
     <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-07.svg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-07.svg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
+<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-07.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-07.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-07.svg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-07.svg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
+<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-07.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-07.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chapter-07-003">

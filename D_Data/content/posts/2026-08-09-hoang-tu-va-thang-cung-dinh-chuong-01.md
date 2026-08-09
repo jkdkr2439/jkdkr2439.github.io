@@ -24,12 +24,12 @@ chapter_label: "01"
 <h1>Chapter I. The birth of the Prince and the Pauper.</h1>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-01-image-chapter-01.svg">
+  <section class="parallel-row book-figure" data-source-chunk="chapter-01-image-chapter-01.jpg">
     <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-01.svg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-01.svg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
+<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-01.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-01.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-01.svg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-01.svg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
+<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-01.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-01.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chapter-01-001">

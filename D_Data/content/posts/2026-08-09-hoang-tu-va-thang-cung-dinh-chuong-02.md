@@ -49,12 +49,12 @@ chapter_label: "02"
 <p>No, Tom’s life went along well enough, especially in summer. He only begged just enough to save himself, for the laws against mendicancy were stringent, and the penalties heavy; so he put in a good deal of his time listening to good Father Andrew’s charming old tales and legends about giants and fairies, dwarfs and genii, and enchanted castles, and gorgeous kings and princes. His head grew to be full of these wonderful things, and many a night as he lay in the dark on his scant and offensive straw, tired, hungry, and smarting from a thrashing, he unleashed his imagination and soon forgot his aches and pains in delicious picturings to himself of the charmed life of a petted prince in a regal palace. One desire came in time to haunt him day and night: it was to see a real prince, with his own eyes. He spoke of it once to some of his Offal Court comrades; but they jeered him and scoffed him so unmercifully that he was glad to keep his dream to himself after that.</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-02-image-chapter-02.svg">
+  <section class="parallel-row book-figure" data-source-chunk="chapter-02-image-chapter-02.jpg">
     <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-02.svg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-02.svg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
+<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-02.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-02.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-02.svg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-02.svg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
+<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-02.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-02.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chapter-02-003">

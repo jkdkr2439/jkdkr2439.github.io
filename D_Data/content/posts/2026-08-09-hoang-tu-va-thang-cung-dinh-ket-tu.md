@@ -54,12 +54,12 @@ chapter_label: "34"
 <p>Miles Hendon and Tom Canty were favourites of the King, all through his brief reign, and his sincere mourners when he died. The good Earl of Kent had too much sense to abuse his peculiar privilege; but he exercised it twice after the instance we have seen of it before he was called from this world—once at the accession of Queen Mary, and once at the accession of Queen Elizabeth. A descendant of his exercised it at the accession of James I. Before this one’s son chose to use the privilege, near a quarter of a century had elapsed, and the ‘privilege of the Kents’ had faded out of most people’s memories; so, when the Kent of that day appeared before Charles I. and his court and sat down in the sovereign’s presence to assert and perpetuate the right of his house, there was a fine stir indeed! But the matter was soon explained, and the right confirmed. The last Earl of the line fell in the wars of the Commonwealth fighting for the King, and the odd privilege ended with him.</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-34-image-chapter-34.svg">
+  <section class="parallel-row book-figure" data-source-chunk="chapter-34-image-chapter-34.jpg">
     <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-34.svg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-34.svg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
+<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-34.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-34.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-34.svg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-34.svg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
+<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-34.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-34.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
     </div>
   </section>
   <section class="parallel-row" data-source-chunk="chapter-34-003">
