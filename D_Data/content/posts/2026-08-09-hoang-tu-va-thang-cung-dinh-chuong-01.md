@@ -24,14 +24,6 @@ chapter_label: "01"
 <h1>Chapter I. The birth of the Prince and the Pauper.</h1>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-01-image-chapter-01.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-01.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-01.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-01.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-01.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-01-001">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>Trong thành London cổ kính, vào một ngày thu nọ thuộc khoảng phần tư thứ hai của thế kỷ mười sáu, một bé trai chào đời trong gia đình nghèo mang họ Canty. Họ không mong có nó. Cũng chính ngày ấy, một đứa trẻ Anh khác sinh ra trong gia đình giàu sang mang họ Tudor. Họ lại rất mong có cậu. Cả nước Anh cũng vậy. Nước Anh đã khát khao cậu, hy vọng ở cậu, cầu xin Thượng đế ban cậu cho mình lâu đến nỗi khi cậu thực sự ra đời, dân chúng gần như phát điên vì sung sướng. Những người chỉ mới quen sơ cũng ôm hôn nhau mà khóc. Khắp nơi đều nghỉ việc; sang hèn, giàu nghèo cùng mở tiệc, nhảy múa, ca hát rồi ngà ngà say. Cuộc vui kéo dài hết ngày này sang đêm khác. Ban ngày, London thật đáng xem, cờ hội phấp phới trên mọi ban công và mái nhà, những đoàn nghi lễ huy hoàng nối nhau qua phố. Ban đêm, thành phố lại đáng xem theo một cách khác, lửa lớn cháy ở mọi góc đường, từng đoàn người vui hội quây quần quanh đó. Khắp nước Anh, người ta chẳng nói gì ngoài đứa trẻ mới sinh Edward Tudor, Hoàng tử xứ Wales. Cậu nằm giữa lụa là gấm vóc, không hay biết gì về tất cả sự náo động ấy, cũng chẳng biết những bậc đại quý tộc đang chầu chực chăm nom và dõi theo mình. Mà nếu biết, cậu cũng chẳng bận tâm. Còn đứa trẻ kia, Tom Canty, cuộn mình trong mớ giẻ rách nghèo nàn, thì không một ai nhắc tới, ngoài gia đình khốn khó vừa bị sự có mặt của nó làm cho thêm phiền lụy.</p>

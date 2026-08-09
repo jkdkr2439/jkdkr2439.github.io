@@ -88,14 +88,6 @@ chapter_label: "19"
 <p>The children’s mother received the King kindly, and was full of pity; for his forlorn condition and apparently crazed intellect touched her womanly heart. She was a widow, and rather poor; consequently she had seen trouble enough to enable her to feel for the unfortunate. She imagined that the demented boy had wandered away from his friends or keepers; so she tried to find out whence he had come, in order that she might take measures to return him; but all her references to neighbouring towns and villages, and all her inquiries in the same line went for nothing—the boy’s face, and his answers, too, showed that the things she was talking of were not familiar to him. He spoke earnestly and simply about court matters, and broke down, more than once, when speaking of the late King ‘his father’; but whenever the conversation changed to baser topics, he lost interest and became silent.</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-19-image-chapter-19.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-19.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-19.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-19.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-19.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-19-003">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>Bà nói về cối xay; về thợ dệt, thợ hàn nồi, thợ rèn; về đủ nghề và đủ hạng thợ; rồi về Bedlam, nhà tù cùng nơi cứu tế. Chẳng ích gì, chỗ nào bà cũng bị chặn.</p>

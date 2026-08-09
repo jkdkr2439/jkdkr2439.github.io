@@ -84,14 +84,6 @@ chapter_label: "13"
 <p>He stared about him in speechless astonishment for a moment; noticed for the first time that his ward’s ragged raiment was also missing; then he began to rage and storm and shout for the innkeeper. At that moment a servant entered with the breakfast.</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-13-image-chapter-13.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-13.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-13.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-13.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-13.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-13-003">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>“Giải thích đi, tay chân của quỷ Satan, không thì giờ chết của ngươi đã đến!” người lính gầm lên, lao về phía gã bồi dữ dội đến mức trong khoảnh khắc, vì hoảng sợ và kinh ngạc, gã không tìm thấy lưỡi mình. “Cậu bé đâu?”</p>

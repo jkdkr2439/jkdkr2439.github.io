@@ -76,14 +76,6 @@ chapter_label: "31"
 <p>The mock King’s cheeks were flushed with excitement, his eyes were flashing, his senses swam in a delirium of pleasure. At this point, just as he was raising his hand to fling another rich largess, he caught sight of a pale, astounded face, which was strained forward out of the second rank of the crowd, its intense eyes riveted upon him. A sickening consternation struck through him; he recognised his mother! and up flew his hand, palm outward, before his eyes—that old involuntary gesture, born of a forgotten episode, and perpetuated by habit. In an instant more she had torn her way out of the press, and past the guards, and was at his side. She embraced his leg, she covered it with kisses, she cried, “O my child, my darling!” lifting toward him a face that was transfigured with joy and love. The same instant an officer of the King’s Guard snatched her away with a curse, and sent her reeling back whence she came with a vigorous impulse from his strong arm. The words “I do not know you, woman!” were falling from Tom Canty’s lips when this piteous thing occurred; but it smote him to the heart to see her treated so; and as she turned for a last glimpse of him, whilst the crowd was swallowing her from his sight, she seemed so wounded, so broken-hearted, that a shame fell upon him which consumed his pride to ashes, and withered his stolen royalty. His grandeurs were stricken valueless: they seemed to fall away from him like rotten rags.</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-31-image-chapter-31.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-31.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-31.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-31.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-31.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-31-004">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>Đoàn hội lớn tiếp tục đi mãi dưới hết cổng khải hoàn này đến cổng khác, qua một chuỗi hoạt cảnh ngoạn mục và biểu tượng làm người ta choáng ngợp. Mỗi cảnh đại diện và tôn vinh một phẩm chất, tài năng hay công lao nào đó của vị vua nhỏ.</p>

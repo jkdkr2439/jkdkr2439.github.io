@@ -92,7 +92,7 @@ chapter_label: "17"
 <div class="verse"><p>Đêm lành rượu gái với hàng bia,<br> Thằng giỏi phen này đã biệt lìa.<br> Lũ đểu kinh thành đem bán đứng,<br> Dây oan pháp thị kéo hồn lìa.<br> Bà em bỏ chốn kinh thành ấy,<br> Chị bạn nhìn lên xác nọ kìa.<br> Mớ áo nó chôm còn nhớ chứ,<br> Trên giàn treo cổ ngủ bên kia.</p></div>
 <p>Trích <cite>The English Rogue</cite>, London, 1665.</p>
 <p>Cuộc trò chuyện tiếp theo không dùng tiếng lóng trộm cắp trong bài hát, bởi thứ ấy chỉ dùng khi có đôi tai không thân thiện nghe lén. Qua câu chuyện, hóa ra “John Hobbs” không hẳn là lính mới; trước kia hắn từng được rèn trong băng. Mọi người đòi nghe lịch sử gần đây. Khi hắn nói đã “vô tình” giết một người, cả bọn tỏ vẻ hài lòng đáng kể; khi hắn nói thêm nạn nhân là linh mục, hắn được vỗ tay nhiệt liệt và phải uống với từng người. Bạn cũ vui vẻ chào đón, người mới tự hào bắt tay. Họ hỏi vì sao hắn “biến mất nhiều tháng”.</p>
-<p>“Mấy năm nay London tố…1495 tokens truncated…hấy một chút mất mát, đau buồn thoáng qua; chẳng hạn khi thiên tài và văn hóa ra đi không để người thừa kế. Dù vậy, một vòng uống sâu sớm phục hồi tinh thần tang quyến.</p>
+<p>“Mấy năm nay London tố…1253 tokens truncated…hấy một chút mất mát, đau buồn thoáng qua; chẳng hạn khi thiên tài và văn hóa ra đi không để người thừa kế. Dù vậy, một vòng uống sâu sớm phục hồi tinh thần tang quyến.</p>
     </div>
     <div class="parallel-cell parallel-en" lang="en">
 <p>He inquired how many persons the gang numbered now. The ‘ruffler,’ or chief, answered—</p>

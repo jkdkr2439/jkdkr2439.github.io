@@ -115,14 +115,6 @@ chapter_label: "25"
 <p>“Dead?” Miles’s voice was subdued, and his lips trembled. "My father dead!—oh, this is heavy news. Half my new joy is withered now. Prithee let me see my brother Arthur—he will know me; he will know me and console me.”</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-25-image-chapter-25.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-25.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-25.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-25.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-25.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-25-005">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>“Lá thư nào?”</p>

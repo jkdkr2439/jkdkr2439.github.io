@@ -65,14 +65,6 @@ chapter_label: "22"
 <p>The King wanted to borrow his deliverer’s cudgel and warm the jackets of the two rascals on the spot; but the man said no, it would bring trouble—leave the matter till night; the whole tribe being together, then, the outside world would not venture to interfere or interrupt. He marched the party back to camp and reported the affair to the Ruffler, who listened, pondered, and then decided that the King should not be again detailed to beg, since it was plain he was worthy of something higher and better—wherefore, on the spot he promoted him from the mendicant rank and appointed him to steal!</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-22-image-chapter-22.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-22.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-22.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-22.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-22.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-22-004">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>Nhưng đúng lúc ấy, người “nô lệ” từng lên tiếng tố cáo luật pháp nước Anh xuất hiện. Ông chấm dứt công việc ghê tởm, tháo miếng thuốc cùng dải băng ra khỏi chân cậu.</p>

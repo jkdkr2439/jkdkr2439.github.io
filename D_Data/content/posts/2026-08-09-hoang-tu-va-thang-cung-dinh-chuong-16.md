@@ -52,14 +52,6 @@ chapter_label: "16"
 <p>Now to the sound of gay music the Yeomen of the Guard entered,—“the tallest and mightiest men in England, they being carefully selected in this regard”—but we will let the chronicler tell about it:—</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-16-image-chapter-16.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-16.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-16.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-16.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-16.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-16-003">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>“Cận vệ Yeoman bước vào, đầu trần, mặc áo đỏ thắm có hoa hồng vàng trên lưng. Họ đi rồi về, mỗi lượt mang một món ăn đựng trên đĩa bạc. Một thân sĩ nhận các món theo đúng thứ tự và đặt lên bàn, trong lúc người nếm đưa cho mỗi lính gác một miếng từ chính món hắn mang vào để ăn, phòng khi có độc.”</p>

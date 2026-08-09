@@ -92,14 +92,6 @@ chapter_label: "33"
 <p>Hendon retired to the place indicated—it was a recess sunk in the palace wall, with a stone bench in it—a shelter for sentinels in bad weather. He had hardly seated himself when some halberdiers, in charge of an officer, passed by. The officer saw him, halted his men, and commanded Hendon to come forth. He obeyed, and was promptly arrested as a suspicious character prowling within the precincts of the palace. Things began to look ugly. Poor Miles was going to explain, but the officer roughly silenced him, and ordered his men to disarm him and search him.</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-33-image-chapter-33.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-33.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-33.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-33.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-33.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-33-005">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>“Xin Chúa nhân từ cho họ tìm được thứ gì,” Miles khốn khổ nói. “Ta đã tự tìm đủ rồi mà không thấy, trong khi nhu cầu của ta còn lớn hơn họ.”</p>

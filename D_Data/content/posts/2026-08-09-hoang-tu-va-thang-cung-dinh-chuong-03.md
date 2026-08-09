@@ -106,14 +106,6 @@ chapter_label: "03"
 <p>“She is good, sir, and giveth me neither sorrow nor pain of any sort. And Nan and Bet are like to her in this.”</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-03-image-chapter-03.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-03.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-03.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-03.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-03.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-03-004">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>“Mẹ con tốt lắm, thưa ngài, không bao giờ khiến con buồn hay đau. Nan và Bet cũng giống mẹ.”</p>

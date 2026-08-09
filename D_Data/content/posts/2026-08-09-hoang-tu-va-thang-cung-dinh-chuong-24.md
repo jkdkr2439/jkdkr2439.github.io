@@ -79,14 +79,6 @@ chapter_label: "24"
 <p>“It is my destruction!” said the constable despairingly. "Ah, be reasonable, good sir; only look at this matter, on all its sides, and see how mere a jest it is—how manifestly and how plainly it is so. And even if one granted it were not a jest, it is a fault so small that e’en the grimmest penalty it could call forth would be but a rebuke and warning from the judge’s lips.”</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-24-image-chapter-24.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-24.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-24.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-24.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-24.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-24-003">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>“Câu đùa của ông có một tên gọi trong luật. Ông biết nó là gì không?”</p>

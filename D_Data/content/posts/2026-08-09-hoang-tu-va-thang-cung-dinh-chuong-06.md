@@ -118,14 +118,6 @@ chapter_label: "06"
 <p>“Have we leave of the prince’s grace my brother to go?”</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-06-image-chapter-06.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-06.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-06.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-06.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-06.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-06-005">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>Trong lòng nó mỉm cười: “Đọc sách sống giữa hoàng tử bao lâu đâu phải vô ích; miệng lưỡi mình cũng học được chút trò của thứ ngôn ngữ thêu hoa đầy duyên dáng ấy!”</p>

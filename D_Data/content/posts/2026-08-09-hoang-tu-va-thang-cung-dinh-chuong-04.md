@@ -73,14 +73,6 @@ chapter_label: "04"
 <p>As night drew to a close that day, the prince found himself far down in the close-built portion of the city. His body was bruised, his hands were bleeding, and his rags were all besmirched with mud. He wandered on and on, and grew more and more bewildered, and so tired and faint he could hardly drag one foot after the other. He had ceased to ask questions of anyone, since they brought him only insult instead of information. He kept muttering to himself, “Offal Court—that is the name; if I can but find it before my strength is wholly spent and I drop, then am I saved—for his people will take me to the palace and prove that I am none of theirs, but the true prince, and I shall have mine own again.” And now and then his mind reverted to his treatment by those rude Christ’s Hospital boys, and he said, “When I am king, they shall not have bread and shelter only, but also teachings out of books; for a full belly is little worth where the mind is starved, and the heart. I will keep this diligently in my remembrance, that this day’s lesson be not lost upon me, and my people suffer thereby; for learning softeneth the heart and breedeth gentleness and charity.” {1}</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-04-image-chapter-04.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-04.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-04.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-04.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-04.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-04-003">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>Thỉnh thoảng cậu nhớ cách bọn trẻ trường Christ đối xử với mình và nói: “Khi làm vua, ta sẽ không chỉ cho chúng bánh ăn và chỗ ở mà còn cho học chữ. Bụng no chẳng đáng bao nhiêu nếu trí óc và trái tim chết đói. Ta phải ghi nhớ bài học hôm nay để nó không uổng phí và thần dân ta khỏi chịu khổ vì thế; bởi học vấn làm mềm trái tim, sinh ra lòng dịu dàng và bác ái.”</p>

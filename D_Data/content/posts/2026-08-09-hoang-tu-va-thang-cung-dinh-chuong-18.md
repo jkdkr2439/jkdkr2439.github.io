@@ -129,14 +129,6 @@ chapter_label: "18"
 <p>But Hugo did not tarry for the miracle. In a moment he was up and off like the wind, the gentleman following after and raising the hue and cry lustily as he went. The King, breathing deep gratitude to Heaven for his own release, fled in the opposite direction, and did not slacken his pace until he was out of harm’s reach. He took the first road that offered, and soon put the village behind him. He hurried along, as briskly as he could, during several hours, keeping a nervous watch over his shoulder for pursuit; but his fears left him at last, and a grateful sense of security took their place. He recognised, now, that he was hungry, and also very tired. So he halted at a farmhouse; but when he was about to speak, he was cut short and driven rudely away. His clothes were against him.</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-18-image-chapter-18.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-18.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-18.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-18.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-18.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-18-005">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>Cậu vừa nhanh vừa lặng lẽ tiến tới. Đúng lúc qua ngưỡng, tiếng người vang phía sau. Cậu lao vào núp sau một thùng gỗ, khom người xuống. Hai lao động nông trại mang đèn bước vào, vừa làm việc vừa trò chuyện.</p>

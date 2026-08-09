@@ -73,14 +73,6 @@ chapter_label: "08"
 <p>“It grieveth me, my lord the King, to bear so heavy and unwelcome tidings; but it is the will of God that the prince’s affliction abideth still, and he cannot recall to mind that he received the Seal. So came I quickly to report, thinking it were waste of precious time, and little worth withal, that any should attempt to search the long array of chambers and saloons that belong unto his royal high—”</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-08-image-chapter-08.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-08.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-08.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-08.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-08.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-08-003">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>“Đừng làm phiền đứa trẻ tội nghiệp nữa. Bàn tay Chúa đang đè nặng lên nó. Trái tim ta tràn thương xót, chỉ đau vì không thể đặt gánh nặng của nó lên đôi vai già đã đầy khổ não này để đem bình yên cho con.”</p>

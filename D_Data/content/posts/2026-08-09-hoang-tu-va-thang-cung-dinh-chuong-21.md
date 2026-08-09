@@ -77,14 +77,6 @@ chapter_label: "21"
 <p>“What boy! Lie me no lies, sir priest, play me no deceptions!—I am not in the humour for it. Near to this place I caught the scoundrels who I judged did steal him from me, and I made them confess; they said he was at large again, and they had tracked him to your door. They showed me his very footprints. Now palter no more; for look you, holy sir, an’ thou produce him not—Where is the boy?”</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-21-image-chapter-21.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-21.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-21.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-21.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-21.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-21-003">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>“Giờ đừng đánh tráo nữa. Xin người thánh thiện nhìn cho rõ, nếu ngài không đưa cậu ra... Cậu bé đâu?”</p>

@@ -55,14 +55,6 @@ chapter_label: "30"
 <p>Did Tom Canty never feel troubled about the poor little rightful prince who had treated him so kindly, and flown out with such hot zeal to avenge him upon the insolent sentinel at the palace-gate? Yes; his first royal days and nights were pretty well sprinkled with painful thoughts about the lost prince, and with sincere longings for his return, and happy restoration to his native rights and splendours. But as time wore on, and the prince did not come, Tom’s mind became more and more occupied with his new and enchanting experiences, and by little and little the vanished monarch faded almost out of his thoughts; and finally, when he did intrude upon them at intervals, he was become an unwelcome spectre, for he made Tom feel guilty and ashamed.</p>
     </div>
   </section>
-  <section class="parallel-row book-figure" data-source-chunk="chapter-30-image-chapter-30.jpg">
-    <div class="parallel-cell parallel-vi" lang="vi">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-30.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-30.jpg" alt="Tranh minh họa nguyên bản cho Hoàng tử và thằng cùng đinh" loading="lazy" decoding="async"></a><figcaption>Minh họa từ ấn bản Project Gutenberg</figcaption></figure>
-    </div>
-    <div class="parallel-cell parallel-en" lang="en">
-<figure><a href="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-30.jpg" target="_blank" rel="noopener"><img src="/assets/images/hoang-tu-va-thang-cung-dinh/chapter-30.jpg" alt="Original illustration for The Prince and the Pauper" loading="lazy" decoding="async"></a><figcaption>Illustration from the Project Gutenberg edition</figcaption></figure>
-    </div>
-  </section>
   <section class="parallel-row" data-source-chunk="chapter-30-003">
     <div class="parallel-cell parallel-vi" lang="vi">
 <p>Người mẹ nghèo cùng hai chị của Tom cũng đi trên con đường ấy ra khỏi tâm trí cậu. Ban đầu cậu đau đáu nhớ, buồn khổ vì họ, khao khát được gặp. Nhưng sau đó, ý nghĩ một ngày kia họ sẽ xuất hiện trong giẻ rách và bùn đất, dùng những nụ hôn mà tố cáo cậu, kéo cậu khỏi địa vị cao sang, lôi trở lại cảnh túng quẫn, ô nhục cùng khu ổ chuột, khiến cậu rùng mình.</p>
