@@ -51,6 +51,8 @@
     "translation_category_key": "tam-ly-hoc",
     "translation_category_vi": "Tâm lý học",
     "translation_category_en": "Psychology",
+    "author_key": "c-g-jung",
+    "author_name": "C. G. Jung",
     "landing": "tam-ly-hoc-vo-thuc",
     "chapters": [
       "jung-phan-i-dan-nhap",
@@ -76,6 +78,8 @@
     "translation_category_key": "van-hoc",
     "translation_category_vi": "Văn học",
     "translation_category_en": "Literature",
+    "author_key": "mark-twain",
+    "author_name": "Mark Twain",
     "landing": "hoang-tu-va-thang-cung-dinh",
     "chapters": [
       "hoang-tu-va-thang-cung-dinh-chuong-01",
