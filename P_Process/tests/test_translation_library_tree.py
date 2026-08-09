@@ -24,7 +24,17 @@ class TranslationLibraryTreeTest(unittest.TestCase):
         self.assertIn("translation_category_vi", sidebar)
         self.assertIn('data-action="show-book"', sidebar)
         self.assertIn("book_pair[1].chapters", sidebar)
+        self.assertIn("author_key", sidebar)
+        self.assertIn("author_name", sidebar)
+
+    def test_translation_books_declare_their_author_folder(self) -> None:
+        books = json.loads(
+            (ROOT / "D_Data" / "manifests" / "books.json").read_text(encoding="utf-8")
+        )
+        self.assertEqual("Mark Twain", books["hoang-tu-va-thang-cung-dinh"]["author_name"])
+        self.assertEqual("mark-twain", books["hoang-tu-va-thang-cung-dinh"]["author_key"])
 
 
 if __name__ == "__main__":
     unittest.main()
+
