@@ -1,4 +1,30 @@
   <div class="reader" id="reader">
+    <div class="reading-instrument" id="reading-instrument" hidden>
+      <span class="reading-dial" aria-hidden="true"><span></span></span>
+      <div class="reading-gauge">
+        <div class="reading-instrument-copy">
+          <span id="reading-instrument-label">BÀI ĐỌC</span>
+          <output id="reading-progress-value" aria-label="Tiến trình đọc">0%</output>
+        </div>
+        <span class="reading-spring" aria-hidden="true"><span></span></span>
+      </div>
+      <div class="reading-mode-control" id="reading-mode-control" hidden>
+        <div class="reading-mode-options" role="group" aria-label="Chế độ đọc">
+          <button type="button" data-action="set-reading-mode" data-reading-mode="vi">VI</button>
+          <button type="button" data-action="set-reading-mode" data-reading-mode="bilingual">VI · EN</button>
+          <button type="button" data-action="set-reading-mode" data-reading-mode="en">EN</button>
+          <span class="reading-mode-indicator" aria-hidden="true"></span>
+        </div>
+        <details class="reading-mode-menu">
+          <summary id="reading-mode-current" aria-label="Chọn chế độ đọc">VI · EN</summary>
+          <div>
+            <button type="button" data-action="set-reading-mode" data-reading-mode="vi">Tiếng Việt</button>
+            <button type="button" data-action="set-reading-mode" data-reading-mode="bilingual">Song ngữ</button>
+            <button type="button" data-action="set-reading-mode" data-reading-mode="en">English</button>
+          </div>
+        </details>
+      </div>
+    </div>
     <div class="reader-empty" id="reader-empty">
       <span data-vi="Chọn một bài viết bên trái để đọc." data-en="Choose a text from the library.">Chọn một bài viết bên trái để đọc.</span>
     </div>

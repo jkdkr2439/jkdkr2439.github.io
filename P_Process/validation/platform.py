@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 
-REQUIRED_IDS = ("writing", "products", "papers", "media", "connect")
+REQUIRED_IDS = ("writing", "products", "papers", "books", "media", "connect")
 REQUIRED_FIELDS = {
     "id", "version", "state", "route", "slot", "labels", "purpose",
     "entry", "builder", "health_contract", "dependencies", "capabilities",
@@ -51,4 +51,9 @@ def validate_platform_registry(root: Path) -> list[str]:
     media = by_id.get("media", {})
     if media.get("route") != "/media/" or "youtube" not in media.get("capabilities", []):
         failures.append("media must own the YouTube capability at /media/")
+    books = by_id.get("books", {})
+    if (books.get("route"), books.get("slot"), books.get("entry"), books.get("health_contract")) != (
+        "/books/", "books", "books", "books-rail-v1",
+    ):
+        failures.append("books module contract mismatch")
     return failures

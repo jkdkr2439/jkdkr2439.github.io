@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "module": "companion",
+  "optional": true,
+  "accepted_inputs": ["route", "reader-state"],
+  "reader_states": ["idle", "reading", "scrolling", "chapter-end"],
+  "failure_policy": "isolate-and-continue",
+  "asset_budget_bytes": 51200
+}

@@ -1,0 +1,18 @@
+{% assign companion_config = site.data.companions %}
+{% if companion_config.enabled %}
+<aside class="companion-host" id="companion-host"
+  data-companion="{{ companion_config.active | escape }}"
+  data-mobile="{{ companion_config.mobile }}"
+  aria-label="Linh thú đọc sách">
+  <button class="companion-creature" type="button" aria-label="Cho Mọt sách nghỉ" aria-pressed="false">
+    <span class="companion-shadow" aria-hidden="true"></span>
+    <span class="companion-body" aria-hidden="true">
+      <span class="companion-page"></span>
+      <span class="companion-eye companion-eye--left"></span>
+      <span class="companion-eye companion-eye--right"></span>
+      <span class="companion-tail"></span>
+    </span>
+  </button>
+  <span class="companion-status" role="status" aria-live="polite"></span>
+</aside>
+{% endif %}

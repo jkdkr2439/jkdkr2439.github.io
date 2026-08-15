@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "enabled": true,
+  "active": "bookworm",
+  "mobile": false,
+  "max_asset_bytes": 51200,
+  "companions": [
+    {
+      "id": "bookworm",
+      "label_vi": "Mọt sách",
+      "label_en": "Bookworm",
+      "states": ["idle", "reading", "scrolling", "chapter-end"]
+    }
+  ]
+}

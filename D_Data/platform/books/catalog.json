@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "heading": {"vi": "Sáu cuốn", "en": "Six books"},
+  "label": {"vi": "Tủ sách", "en": "Books"},
+  "books": [
+    {
+      "id": "tam-dinh",
+      "title": {"vi": "Tam Định (Nền tảng)", "en": "Tam Dinh (Foundation)"},
+      "summary": {"vi": "Định danh, hiểu nghĩa và dựng hệ tư duy.", "en": "Naming, meaning, and building a frame of thought."},
+      "price": 200000,
+      "price_label": {"vi": "200K", "en": "200K VND"},
+      "cover": "D_Data/media/assets/images/books/tam-dinh.webp"
+    },
+    {
+      "id": "truoc-khi-phan-bien",
+      "title": {"vi": "Trước Khi Phản Biện (Nền tảng)", "en": "Before Critique (Foundation)"},
+      "summary": {"vi": "Nhận thức luận tối thiểu để không bị lập luận dắt mũi.", "en": "Minimal epistemology for resisting bad arguments."},
+      "price": 350000,
+      "price_label": {"vi": "350K", "en": "350K VND"},
+      "cover": "D_Data/media/assets/images/books/truoc-khi-phan-bien.webp"
+    },
+    {
+      "id": "doc-he",
+      "title": {"vi": "Đọc Hệ", "en": "Reading Systems"},
+      "summary": {"vi": "Tư duy hệ thống thực dụng cho cá nhân và tổ chức.", "en": "Practical systems thinking for people and organizations."},
+      "price": 350000,
+      "price_label": {"vi": "350K", "en": "350K VND"},
+      "cover": "D_Data/media/assets/images/books/doc-he.webp"
+    },
+    {
+      "id": "ban-do-da-he",
+      "title": {"vi": "Bản Đồ Đa Hệ", "en": "Multi-System Map"},
+      "summary": {"vi": "Sinh tồn, phát triển và các hệ quy chiếu liên kết.", "en": "Survival, growth, and connected frames of reference."},
+      "price": 350000,
+      "price_label": {"vi": "350K", "en": "350K VND"},
+      "cover": "D_Data/media/assets/images/books/ban-do-da-he.webp"
+    },
+    {
+      "id": "ai-coder",
+      "title": {"vi": "AI Coder Không Phải Vibe Coder", "en": "AI Coder, Not Vibe Coder"},
+      "summary": {"vi": "Dùng AI code mà không để AI dắt mũi.", "en": "Using AI to code without surrendering judgment."},
+      "price": 500000,
+      "price_label": {"vi": "500K", "en": "500K VND"},
+      "cover": "D_Data/media/assets/images/books/ai-coder.webp"
+    },
+    {
+      "id": "tam-dinh-luan",
+      "title": {"vi": "Tam Định Luận (Không khuyến khích mua)", "en": "Tam Dinh Treatise (Not recommended for purchase)"},
+      "summary": {"vi": "Một phép thử nền cho mọi hệ tư tưởng.", "en": "A foundational test for every system of thought."},
+      "price": 1000000,
+      "price_label": {"vi": "1 TRIỆU", "en": "1M VND"},
+      "cover": "D_Data/media/assets/images/books/tam-dinh-luan.webp"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "module": "books",
+  "input": "D_Data/platform/books/catalog.json",
+  "process": "validate, localize, and render a bounded six-book catalog",
+  "output": "a vertical desktop rail and horizontal narrow-screen slice",
+  "failure_policy": "isolate-and-continue",
+  "remote_assets": false,
+  "book_count": 6
+}

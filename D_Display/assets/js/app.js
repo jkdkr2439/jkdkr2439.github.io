@@ -7,9 +7,108 @@ try {
 }
 let interfaceLanguage = storedLanguage === 'en' ? 'en' : 'vi';
 let currentBookKey = null;
+let currentBookUrl = null;
+let currentPostUrl = null;
+let readingMode = 'bilingual';
+try {
+  const storedReadingMode = localStorage.getItem('readingMode');
+  if (['vi', 'bilingual', 'en'].includes(storedReadingMode)) readingMode = storedReadingMode;
+} catch (_) {}
 const MISSING_ENGLISH_MESSAGE =
   'The English version is still missing. What excellent timing to learn Vietnamese.<br>' +
   'Chưa có bản tiếng Anh. Đúng lúc để đi học tiếng Việt rồi đấy.';
+
+const reader = document.getElementById('reader');
+const readingInstrument = document.getElementById('reading-instrument');
+const readingInstrumentLabel = document.getElementById('reading-instrument-label');
+const readingProgressValue = document.getElementById('reading-progress-value');
+const readingModeControl = document.getElementById('reading-mode-control');
+const readingModeCurrent = document.getElementById('reading-mode-current');
+
+function notifyCompanion(message) {
+  try { window.DNHCompanion?.accept(message); } catch (_) {
+    // The companion is optional and must never interrupt reading.
+  }
+}
+
+function setReadingInstrumentVisible(visible) {
+  readingInstrument.hidden = !visible;
+  if (!visible) {
+    reader.style.setProperty('--reading-progress', '0');
+    reader.style.setProperty('--reading-dial-angle', '-132deg');
+    readingProgressValue.value = '0%';
+  }
+}
+
+function engageReadingSurface() {
+  setReadingInstrumentVisible(true);
+  reader.classList.remove('is-engaging');
+  requestAnimationFrame(() => {
+    reader.classList.add('is-engaging');
+    window.setTimeout(() => reader.classList.remove('is-engaging'), 420);
+    updateReadingInstrument();
+  });
+}
+
+function updateReadingInstrument() {
+  if (readingInstrument.hidden) return;
+  const maximum = Math.max(0, reader.scrollHeight - reader.clientHeight);
+  const progress = maximum ? Math.min(1, Math.max(0, reader.scrollTop / maximum)) : 0;
+  const percent = Math.round(progress * 100);
+  reader.style.setProperty('--reading-progress', progress.toFixed(4));
+  reader.style.setProperty('--reading-dial-angle', `${-132 + progress * 264}deg`);
+  readingProgressValue.value = `${percent}%`;
+
+  if (!currentBookKey) {
+    readingInstrumentLabel.textContent = interfaceLanguage === 'en' ? 'Reading' : 'Bài đọc';
+    return;
+  }
+  const urls = bookManifests[currentBookKey]?.urls.filter(isKnownPostUrl) || [];
+  const chapterIndex = Math.max(0, urls.indexOf(currentBookUrl));
+  const prefix = interfaceLanguage === 'en' ? 'Chapter' : 'Chương';
+  readingInstrumentLabel.textContent = `${prefix} ${String(chapterIndex + 1).padStart(2, '0')} / ${String(urls.length).padStart(2, '0')}`;
+}
+
+function currentReadingPost() {
+  const url = currentBookUrl || currentPostUrl;
+  return url ? posts[url] : null;
+}
+
+function commitReadingMode(mode) {
+  const post = currentReadingPost();
+  const hasEnglish = Boolean(post?.parallelLayout || post?.bodyEn);
+  readingMode = ['vi', 'bilingual', 'en'].includes(mode) && (mode === 'vi' || hasEnglish) ? mode : 'vi';
+  reader.classList.remove('reading-mode-vi', 'reading-mode-bilingual', 'reading-mode-en');
+  reader.classList.add(`reading-mode-${readingMode}`);
+  reader.dataset.readingMode = readingMode;
+  readingModeControl.hidden = !hasEnglish;
+  readingModeCurrent.textContent = readingMode === 'vi' ? 'VI' : readingMode === 'en' ? 'EN' : 'VI · EN';
+  document.querySelectorAll('[data-reading-mode]').forEach(button => {
+    button.classList.toggle('active', button.dataset.readingMode === readingMode);
+    button.setAttribute('aria-pressed', String(button.dataset.readingMode === readingMode));
+  });
+  const parallelLabel = document.querySelector('.parallel-book-heading .reader-language-label');
+  if (parallelLabel) parallelLabel.textContent = readingMode === 'vi' ? 'VI' : readingMode === 'en' ? 'EN' : 'VI · EN';
+  try { localStorage.setItem('readingMode', readingMode); } catch (_) {}
+}
+
+function setReadingMode(mode, animate = true) {
+  if (mode === readingMode || !currentReadingPost()) return;
+  const order = {vi: 0, bilingual: 1, en: 2};
+  const oldMaximum = Math.max(1, reader.scrollHeight - reader.clientHeight);
+  const progress = reader.scrollTop / oldMaximum;
+  const direction = order[mode] > order[readingMode] ? 'forward' : 'backward';
+  const apply = () => {
+    commitReadingMode(mode);
+    const nextMaximum = Math.max(0, reader.scrollHeight - reader.clientHeight);
+    reader.scrollTop = progress * nextMaximum;
+  };
+  if (!animate || window.matchMedia('(prefers-reduced-motion: reduce)').matches) { apply(); return; }
+  reader.classList.remove('is-page-turning-forward', 'is-page-turning-backward');
+  reader.classList.add(`is-page-turning-${direction}`);
+  window.setTimeout(apply, 115);
+  window.setTimeout(() => reader.classList.remove(`is-page-turning-${direction}`), 270);
+}
 
 function setInterfaceLanguage(language) {
   interfaceLanguage = language === 'en' ? 'en' : 'vi';
@@ -31,8 +130,9 @@ function setInterfaceLanguage(language) {
   window.DNHCanvas?.setLanguage(interfaceLanguage);
 
   const activeItem = document.querySelector('.tree-item.active');
-  if (currentBookKey) showBook(currentBookKey, activeItem?.dataset.url || null, false);
+  if (currentBookKey) showBook(currentBookKey, currentBookUrl || activeItem?.dataset.url || null, false);
   else if (activeItem) showPost(activeItem.dataset.url, activeItem, false);
+  updateReadingInstrument();
 }
 
 const ALLOWED_ACTIONS = new Set([
@@ -42,7 +142,8 @@ const ALLOWED_ACTIONS = new Set([
   'show-home',
   'show-book',
   'show-post',
-  'show-about'
+  'show-about',
+  'set-reading-mode'
 ]);
 
 function dispatchAllowedAction(control) {
@@ -54,6 +155,11 @@ function dispatchAllowedAction(control) {
 
   if (action === 'set-language') {
     setInterfaceLanguage(control.dataset.uiLanguage);
+    return;
+  }
+  if (action === 'set-reading-mode') {
+    setReadingMode(control.dataset.readingMode);
+    control.closest('.reading-mode-menu')?.removeAttribute('open');
     return;
   }
   if (action === 'refresh-library') {
@@ -143,12 +249,35 @@ function renderBookChapter(url) {
   </article>`;
 }
 
+function renderBookNavigation(bookKey, urls, activeIndex) {
+  const link = (url, direction) => {
+    if (!url) return '<span class="book-reader-nav-spacer"></span>';
+    const post = posts[url];
+    const label = direction === 'previous'
+      ? (interfaceLanguage === 'en' ? 'Previous chapter' : 'Chương trước')
+      : (interfaceLanguage === 'en' ? 'Next chapter' : 'Chương sau');
+    const title = interfaceLanguage === 'en' && post.titleEn ? post.titleEn : post.titleVi;
+    const arrow = direction === 'previous' ? '←' : '→';
+    const copy = direction === 'previous' ? `${arrow} ${title}` : `${title} ${arrow}`;
+    return `<a class="book-reader-nav-link book-reader-nav-link--${direction}" href="${routeAddress({post:url})}" data-action="show-post" data-url="${url}"><span>${label}</span><strong>${copy}</strong></a>`;
+  };
+  return `<nav class="book-reader-nav" aria-label="${interfaceLanguage === 'en' ? 'Chapter navigation' : 'Điều hướng chương'}" data-book="${bookKey}">${link(urls[activeIndex - 1], 'previous')}${link(urls[activeIndex + 1], 'next')}</nav>`;
+}
+
+function collapseContextForReading() {
+  if (!window.matchMedia('(max-width: 768px)').matches) return;
+  if (!window.DNHCanvas?.getState().contextCollapsed) window.DNHCanvas.toggleContext();
+}
+
 function showBook(bookKey, targetUrl = null, updateAddress = true) {
   const manifest = bookManifests[bookKey];
   if (!manifest) return false;
   const urls = manifest.urls.filter(isKnownPostUrl);
   if (!urls.length) return false;
   currentBookKey = bookKey;
+  const activeUrl = targetUrl && urls.includes(targetUrl) ? targetUrl : urls[0];
+  currentBookUrl = activeUrl;
+  currentPostUrl = null;
   window.DNHCanvas?.syncRoute({type: 'book', key: bookKey});
 
   document.getElementById('reader-empty').style.display = 'none';
@@ -157,20 +286,26 @@ function showBook(bookKey, targetUrl = null, updateAddress = true) {
   document.getElementById('reader-content').style.display = 'none';
   document.getElementById('book-reader').style.display = 'block';
   document.getElementById('book-reader-intro').textContent = interfaceLanguage === 'en'
-    ? 'Read continuously, or use the table of contents on the left to jump to a chapter.'
-    : 'Cuộn để đọc liên tục, hoặc dùng mục lục bên trái để nhảy thẳng tới một chương.';
-  document.getElementById('book-reader-chapters').innerHTML = urls.map(renderBookChapter).join('');
+    ? 'One chapter at a time. Use the table of contents or chapter navigation to continue.'
+    : 'Mỗi lần một chương. Dùng mục lục hoặc điều hướng cuối bài để đọc tiếp.';
+  const activeIndex = urls.indexOf(activeUrl);
+  document.getElementById('book-reader-chapters').innerHTML = renderBookChapter(activeUrl) + renderBookNavigation(bookKey, urls, activeIndex);
 
   document.querySelectorAll('.tree-item').forEach(e => e.classList.remove('active'));
-  const activeUrl = targetUrl && urls.includes(targetUrl) ? targetUrl : urls[0];
   const activeBookmark = document.querySelector(`.tree-item[data-url="${activeUrl}"]`);
   activeBookmark?.classList.add('active');
   activeBookmark?.closest('.book-volume')?.setAttribute('open', '');
   activeBookmark?.closest('.pinned-book-tree')?.setAttribute('open', '');
   const reader = document.getElementById('reader');
   reader.scrollTop = 0;
-  if (targetUrl) requestAnimationFrame(() => document.getElementById(bookChapterId(activeUrl))?.scrollIntoView({behavior: 'smooth', block: 'start'}));
-  if (updateAddress) history.replaceState({book: bookKey}, '', routeAddress({book: bookKey}));
+  commitReadingMode(readingMode);
+  engageReadingSurface();
+  notifyCompanion({type: 'route', surface: 'book'});
+  collapseContextForReading();
+  if (updateAddress) {
+    const state = targetUrl ? {post: activeUrl} : {book: bookKey};
+    history.replaceState(state, '', routeAddress(state));
+  }
   return false;
 }
 
@@ -178,6 +313,8 @@ function showPost(url, sourceEl, updateAddress = true) {
   if (!isKnownPostUrl(url)) return false;
   const p = posts[url];
   currentBookKey = null;
+  currentBookUrl = null;
+  currentPostUrl = url;
   window.DNHCanvas?.syncRoute({type: 'post', url});
 
   document.getElementById('reader-empty').style.display = 'none';
@@ -217,6 +354,10 @@ function showPost(url, sourceEl, updateAddress = true) {
   (sourceEl || document.querySelector(`.tree-item[data-url="${url}"]`))?.classList.add('active');
 
   document.getElementById('reader').scrollTop = 0;
+  commitReadingMode(readingMode);
+  engageReadingSurface();
+  notifyCompanion({type: 'route', surface: 'post'});
+  collapseContextForReading();
   if (updateAddress) {
     const nextAddress = routeAddress({post: url});
     history.replaceState({post: url}, '', nextAddress);
@@ -234,6 +375,8 @@ function routeAddress(params = {}) {
 
 function showAbout() {
   currentBookKey = null;
+  currentBookUrl = null;
+  currentPostUrl = null;
   document.getElementById('reader-empty').style.display = 'none';
   document.getElementById('home-content').style.display = 'none';
   document.getElementById('reader-content').style.display = 'none';
@@ -241,10 +384,14 @@ function showAbout() {
   document.getElementById('about-content').style.display = 'block';
   document.querySelectorAll('.tree-item').forEach(e => e.classList.remove('active'));
   document.getElementById('reader').scrollTop = 0;
+  setReadingInstrumentVisible(false);
+  notifyCompanion({type: 'route', surface: 'about'});
 }
 
 function showHome(updateAddress = true) {
   currentBookKey = null;
+  currentBookUrl = null;
+  currentPostUrl = null;
   document.getElementById('reader-empty').style.display = 'none';
   document.getElementById('reader-content').style.display = 'none';
   document.getElementById('book-reader').style.display = 'none';
@@ -252,21 +399,20 @@ function showHome(updateAddress = true) {
   document.getElementById('home-content').style.removeProperty('display');
   document.querySelectorAll('.tree-item').forEach(e => e.classList.remove('active'));
   document.getElementById('reader').scrollTop = 0;
+  setReadingInstrumentVisible(false);
+  notifyCompanion({type: 'route', surface: 'home'});
   if (updateAddress) history.replaceState({home: true}, '', location.pathname);
 }
 
-let bookScrollFrame = 0;
-document.getElementById('reader').addEventListener('scroll', () => {
-  if (!currentBookKey || bookScrollFrame) return;
-  bookScrollFrame = requestAnimationFrame(() => {
-    bookScrollFrame = 0;
-    const chapters = [...document.querySelectorAll('.book-chapter')];
-    const current = chapters.reduce((best, chapter) => {
-      const top = chapter.getBoundingClientRect().top;
-      return top <= 110 ? chapter : best;
-    }, chapters[0]);
-    if (!current) return;
-    document.querySelectorAll('.tree-item').forEach(item => item.classList.toggle('active', item.dataset.url === current.dataset.url));
+let readingScrollFrame = 0;
+reader.addEventListener('scroll', () => {
+  if (readingScrollFrame) return;
+  readingScrollFrame = requestAnimationFrame(() => {
+    readingScrollFrame = 0;
+    updateReadingInstrument();
+    const maximum = Math.max(0, reader.scrollHeight - reader.clientHeight);
+    const state = maximum > 0 && reader.scrollTop / maximum >= .985 ? 'chapter-end' : 'scrolling';
+    notifyCompanion({type: 'reader-state', state});
   });
 }, {passive: true});
 

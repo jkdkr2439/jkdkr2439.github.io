@@ -34,7 +34,7 @@ def build_platform(root: Path, destination: Path) -> PlatformBuildReport:
     )
     for module in registry["modules"]:
         page = destination / module["route"].strip("/") / "index.html"
-        if module["entry"] in {"media", "connect"}:
+        if module["entry"] in {"media", "connect", "books"}:
             anchor = module["entry"]
             page.parent.mkdir(parents=True)
             page.write_text(

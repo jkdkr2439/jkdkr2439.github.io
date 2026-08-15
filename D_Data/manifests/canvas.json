@@ -30,6 +30,14 @@
       "process": "render-existing-reader",
       "output": ["canvas.sync-route"],
       "dependencies": ["post-registry", "book-manifest", "content-router"]
+    },
+    {
+      "key": "companion",
+      "zone": "stage",
+      "input": ["route", "readerState", "viewport", "motionPreference"],
+      "process": "render-bounded-companion-state",
+      "output": ["companion.ready", "companion.hidden", "companion.fault"],
+      "dependencies": ["companion-registry", "content-stage"]
     }
   ],
   "domains": [

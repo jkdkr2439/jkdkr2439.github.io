@@ -22,9 +22,11 @@ class TranslationLibraryTreeTest(unittest.TestCase):
             ROOT / "D_Display" / "includes" / "sidebar.html"
         ).read_text(encoding="utf-8")
         self.assertIn("translation_category_vi", sidebar)
+        self.assertIn("category_key_raw | strip", sidebar)
         self.assertIn('data-action="show-book"', sidebar)
         self.assertIn("book_pair[1].chapters", sidebar)
         self.assertIn("author_key", sidebar)
+        self.assertIn("author_key_raw | strip", sidebar)
         self.assertIn("author_name", sidebar)
 
     def test_translation_books_declare_their_author_folder(self) -> None:

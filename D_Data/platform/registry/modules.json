@@ -69,6 +69,29 @@
       ]
     },
     {
+      "id": "books",
+      "version": "1.0.0",
+      "state": "active",
+      "route": "/books/",
+      "slot": "books",
+      "labels": {
+        "vi": "Tủ sách",
+        "en": "Books"
+      },
+      "purpose": {
+        "vi": "Sách của Kevin T.N.",
+        "en": "Books by Kevin T.N."
+      },
+      "entry": "books",
+      "builder": "canvas",
+      "health_contract": "books-rail-v1",
+      "dependencies": [],
+      "capabilities": [
+        "catalog",
+        "vertical-rail"
+      ]
+    },
+    {
       "id": "media",
       "version": "1.0.0",
       "state": "active",

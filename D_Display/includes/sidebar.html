@@ -17,12 +17,7 @@
         {% when "Nhận thức luận" %}{% assign domain_key = "epistemology" %}
         {% when "Tự sự" %}{% assign domain_key = "self-narrative" %}
       {% endcase %}
-      <div class="tree-section open" id="section-{{ tag | slugify }}" data-context-panel="{{ domain_key }}">
-        <div class="tree-folder open" data-action="toggle-folder" role="button" tabindex="0">
-          <span class="icon">▶</span>
-          <span class="folder-name" data-vi="{{ tag }}" data-en="{{ first_tag_post.tag_en | default: tag }}">{{ tag }}</span>
-          <span class="count">{{ tag_posts | size }}</span>
-        </div>
+      <div class="tree-section open domain-post-list" id="section-{{ tag | slugify }}" data-context-panel="{{ domain_key }}">
         <div class="tree-items">
           {% for post in tag_posts %}
           <a class="tree-item" href="{{ '/' | relative_url }}?post={{ post.url | url_encode }}" data-action="show-post" data-url="{{ post.url }}">
@@ -36,12 +31,7 @@
 
       {% assign mischief_posts = site.posts | where: "library_collection", "Nghịch văn" %}
       {% if mischief_posts.size > 0 %}
-      <details class="translation-tree tree-section book-tree" id="section-nghich-van" data-context-panel="literary-mischief" open>
-        <summary class="tree-folder">
-          <span class="icon">▶</span>
-          <span class="folder-name" data-vi="Nghịch văn" data-en="Literary Mischief">Nghịch văn</span>
-          <span class="count">{{ mischief_posts | size }}</span>
-        </summary>
+      <div class="translation-tree tree-section book-tree" id="section-nghich-van" data-context-panel="literary-mischief">
         <div class="tree-items" style="display:block;">
           {% assign mischief_sections = "Thơ|Poetry,Truyện|Fiction,Luận|Essays,Diễn văn|Fictional Addresses" | split: "," %}
           {% for section_pair in mischief_sections %}
@@ -68,18 +58,12 @@
           {% endif %}
           {% endfor %}
         </div>
-      </details>
+      </div>
       {% endif %}
 
       {% assign epistemology_posts = site.posts | where: "tag", "Nhận thức luận căn bản" %}
       {% if epistemology_posts.size > 0 %}
-      <details class="translation-tree tree-section book-tree pinned-book-tree" id="section-nhan-thuc-luan-can-ban" data-context-panel="basic-epistemology" open>
-        <summary class="tree-folder">
-          <span class="pin-badge" data-vi="GHIM" data-en="PINNED">GHIM</span>
-          <span class="icon">▶</span>
-          <span class="folder-name" data-vi="Nhận Thức Luận Căn Bản" data-en="Basic Epistemology">Nhận Thức Luận Căn Bản</span>
-          <span class="count" data-vi="2 quyển" data-en="2 books">2 quyển</span>
-        </summary>
+      <div class="translation-tree tree-section book-tree pinned-book-tree" id="section-nhan-thuc-luan-can-ban" data-context-panel="basic-epistemology">
         <div class="tree-items" style="display:block;">
           {% assign dog_posts = epistemology_posts | where: "book_edition", "Tiếng Chó" %}
           <details class="tree-author book-volume" open>
@@ -138,18 +122,13 @@
             </div>
           </details>
         </div>
-      </details>
+      </div>
       {% endif %}
 
       {% assign translation_posts = site.posts | where: "tag", "Dịch thuật" %}
       {% assign translation_posts = translation_posts | where_exp: "post", "post.library_hidden != true" %}
       {% if translation_posts.size > 0 %}
-      <details class="translation-tree tree-section" id="section-dich-thuat" data-context-panel="translation" open>
-        <summary class="tree-folder">
-          <span class="icon">▶</span>
-          <span class="folder-name" data-vi="Dịch thuật (cosplay)" data-en="Translations (cosplay)">Dịch thuật (cosplay)</span>
-          <span class="count">{{ translation_posts | size }}</span>
-        </summary>
+      <div class="translation-tree tree-section" id="section-dich-thuat" data-context-panel="translation">
         <div class="tree-items" style="display:block;">
           {% capture translation_category_key_string %}
           {% for book_pair in site.data.books %}
@@ -159,7 +138,8 @@
           {% endfor %}
           {% endcapture %}
           {% assign translation_category_keys = translation_category_key_string | strip | remove_first: "|" | split: "|" | uniq %}
-          {% for category_key in translation_category_keys %}
+          {% for category_key_raw in translation_category_keys %}
+            {% assign category_key = category_key_raw | strip %}
             {% assign category_vi = category_key %}
             {% assign category_en = category_key %}
             {% assign category_book_count = 0 %}
@@ -183,7 +163,8 @@
                 {% endfor %}
               {% endcapture %}
               {% assign category_author_keys = category_author_key_string | strip | remove_first: "|" | split: "|" | uniq %}
-              {% for author_key in category_author_keys %}
+              {% for author_key_raw in category_author_keys %}
+                {% assign author_key = author_key_raw | strip %}
                 {% assign author_name = author_key %}
                 {% assign author_book_count = 0 %}
                 {% for book_pair in site.data.books %}
@@ -260,7 +241,7 @@
           </details>
           {% endfor %}
         </div>
-      </details>
+      </div>
       {% endif %}
 
     </div>
