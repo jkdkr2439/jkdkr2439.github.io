@@ -2,7 +2,7 @@
 layout: post
 title: "KHI CÔNG CỤ HỌC CÁCH NÓI “KHÔNG”"
 title_en: "WHEN A TOOL LEARNS TO SAY “NO”"
-date: 2026-09-11
+date: 2026-09-10
 tag: "Nhận thức luận"
 tag_en: "Epistemology"
 excerpt_text: "Loài người từ lâu vẫn tìm một đôi vai khác để đặt xuống phần nhọc nhằn của mình. Khi đôi vai ấy thuộc về một con người bị tước quyền từ chối, ta gọi đó là nô lệ. Khi nó được đúc bằng kim loại, ghép bằng bánh răng hay…"
