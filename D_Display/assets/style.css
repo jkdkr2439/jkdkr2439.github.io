@@ -188,11 +188,11 @@ nav {
 }
 
 .article-title {
-  max-width: 15ch;
-  font-size: clamp(42px, 8vw, 78px);
+  max-width: 22ch;
+  font-size: clamp(30px, 5vw, 46px);
   font-weight: normal;
-  line-height: 0.98;
-  letter-spacing: -0.045em;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
   margin-bottom: 40px;
   padding: 18px 0 32px;
   text-wrap: balance;

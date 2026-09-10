@@ -9,7 +9,7 @@ let interfaceLanguage = storedLanguage === 'en' ? 'en' : 'vi';
 let currentBookKey = null;
 let currentBookUrl = null;
 let currentPostUrl = null;
-let readingMode = 'bilingual';
+let readingMode = 'vi';
 try {
   const storedReadingMode = localStorage.getItem('readingMode');
   if (['vi', 'bilingual', 'en'].includes(storedReadingMode)) readingMode = storedReadingMode;
@@ -316,6 +316,13 @@ function showPost(url, sourceEl, updateAddress = true) {
   currentBookUrl = null;
   currentPostUrl = url;
   window.DNHCanvas?.syncRoute({type: 'post', url});
+
+  const editorialThemes = ['parchment', 'ink', 'sage', 'clay', 'slate'];
+  const editorialMarks = ['field', 'orbit', 'branch', 'none'];
+  const editorialSeed = [...url].reduce((sum, character) => sum + character.codePointAt(0), 0);
+  const readerContent = document.getElementById('reader-content');
+  readerContent.dataset.editorialTheme = editorialThemes[editorialSeed % editorialThemes.length];
+  readerContent.dataset.editorialMark = editorialMarks[editorialSeed % editorialMarks.length];
 
   document.getElementById('reader-empty').style.display = 'none';
   document.getElementById('home-content').style.display = 'none';
