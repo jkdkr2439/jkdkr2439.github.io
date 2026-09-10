@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "KHI MỘT KHÁI NIỆM XIN NHẬP QUỐC TỊCH"
-title_en: "WHEN A CONCEPT APPLIES FOR CITIZENSHIP"
+title: "Khi một khái niệm xin nhập quốc tịch"
+title_en: "When a concept applies for citizenship"
 date: 2026-08-26
 tag: "Nhận thức luận"
 tag_en: "Epistemology"
@@ -23,7 +23,7 @@ credit_name: "Kevin T.N"
 
 <p>“Đó là nơi người ta mô tả ngài,” viên chức nói. “Tôi hỏi khi sống thì ngài vận động ra sao.”</p>
 
-<p>## Cuộc kiểm tra căn cước</p>
+<h2>Cuộc kiểm tra căn cước</h2>
 
 <p>Khái Niệm mở chiếc rương thứ nhất. Bên trong là các định nghĩa được sắp xếp với độ chính xác quân sự. Mỗi định nghĩa dẫn đến hai định nghĩa khác, rồi hai định nghĩa ấy lại dẫn đến bốn định nghĩa nữa. Chẳng mấy chốc, phòng kiểm tra chật kín những quan hệ tao nhã. A trỏ sang B, B phân biệt mình với C, C phủ định D, còn D khải hoàn trở về A với một chiếc mũ mới. Mọi thứ đều kết nối. Không thứ gì chuyển động.</p>
 
@@ -41,7 +41,7 @@ credit_name: "Kevin T.N"
 
 <p>Khái Niệm có vẻ hoảng hốt. Hộ chiếu vốn thích những khuôn mặt không thay đổi.</p>
 
-<p>## Hàng lậu trong hành lý</p>
+<h2>Hàng lậu trong hành lý</h2>
 
 <p>Chiếc rương thứ ba bị khóa. Khái Niệm khẳng định bên trong chẳng có gì quan trọng. Hành lý và ý thức thường nói như vậy trước khi bị kiểm tra. Khi ổ khóa bật mở, căn phòng lập tức đầy những lịch sử chưa khai báo: tranh chấp thần học, lo âu chính trị, tập quán giai tầng, ẩn dụ cổ, giả định ngữ pháp và tham vọng riêng của những học giả từng trình bày bất đồng địa phương như lý tính phổ quát.</p>
 
@@ -55,7 +55,7 @@ credit_name: "Kevin T.N"
 
 <p>Khái Niệm phản đối rằng thay đổi bất cứ chi tiết nào cũng là phản bội. Viên chức giải thích rằng tuyệt đối vâng lời một cái xác không phải là trung thành với một sự sống. Một câu văn có thể cập bến với đủ mọi từ ngữ nhưng đánh mất toàn bộ chuyển động. Các viện bảo tàng vốn rất giỏi những chiến thắng như thế.</p>
 
-<p>## Kỳ thi nhập quốc tịch</p>
+<h2>Kỳ thi nhập quốc tịch</h2>
 
 <p>Để được nhập quốc tịch, Khái Niệm phải trả lời câu hỏi bằng ngôn ngữ mới. Không được lặp lại câu trả lời đã dịch từ ngôn ngữ cũ, mà phải suy nghĩ dưới những điều kiện xa lạ. Nó có thể tự phân biệt khi tiếng bản địa cắt ranh giới theo cách khác không? Nó có sống nổi trước một câu tục ngữ nén năm trang lập luận vào hình ảnh của một con vật trong nhà không? Nó có bước vào được một thế giới đạo đức được tổ chức bởi vai vế, ân nghĩa, thân tộc, thể diện và hoàn cảnh nhiều hơn bởi cá nhân trừu tượng không? Nó có chịu được phản biện mà không triệu hồi uy tín tổ tiên tới làm lính gác không?</p>
 
@@ -67,7 +67,7 @@ credit_name: "Kevin T.N"
 
 <p>Giới học thuật có một tình cảm trìu mến dành cho thủ tục thứ hai. Một cuốn sách khó, sau khi được tuyên bố là kiệt tác, sẽ trở thành đồ nội thất nghi lễ. Nó được trích ở lối vào, trưng trong thư mục và bảo vệ khỏi sự dung tục của hành vi đọc. Cách an toàn nhất để bảo vệ một tư tưởng lớn khỏi phản biện là bắt buộc mọi người ngưỡng mộ nó, còn hiểu hay không thì tùy tâm trạng.</p>
 
-<p>## Tội ác vô hình của người dịch</p>
+<h2>Tội ác vô hình của người dịch</h2>
 
 <p>Giữa hai thất bại ấy là người dịch, một nhân vật đáng ngờ vừa là người đưa đò, thợ máy, thẩm phán, kẻ buôn lậu và nhân chứng. Người dịch phải biết bộ phận nào của Khái Niệm thuộc về cấu trúc, bộ phận nào chỉ là trang sức lịch sử. Thay đổi quá ít, cỗ máy sẽ không chạy trong khí hậu mới. Thay đổi quá nhiều, một cỗ máy mới rất hiệu quả sẽ được dựng lên dưới tên cũ.</p>
 
@@ -79,7 +79,7 @@ credit_name: "Kevin T.N"
 
 <p>Đó là phẩm giá kỳ lạ của hạ tầng trí tuệ. Nó vận hành càng tốt, người dựng nó càng ít được nhìn thấy. Ai cũng ca ngợi thành phố. Ít người cảm ơn kẻ đã dạy hai bờ sông cách chạm vào nhau.</p>
 
-<p>## Một ngôn ngữ làm thay đổi vị khách</p>
+<h2>Một ngôn ngữ làm thay đổi vị khách</h2>
 
 <p>Sau nhiều ngày, Khái Niệm không còn trả lời như một vị khách. Nó bắt đầu chất vấn ngôn ngữ mới. Vì sao một từ ở đây chứa những phân biệt mà quê hương nó phải chia cho nhiều thuật ngữ? Vì sao một từ khác gộp phán đoán đạo đức, vị trí xã hội và sắc thái cảm xúc vào cùng một hơi thở? Vì sao vài quan hệ hiển nhiên ở đây lại vô hình ở kia? Kỳ thi đã đảo chiều. Người nộp đơn giờ đang kiểm tra đất nước.</p>
 
@@ -89,7 +89,7 @@ credit_name: "Kevin T.N"
 
 <p>Vì thế, một dân tộc chưa sở hữu một nền triết học chỉ vì danh từ của nó đã được dịch. Sự sở hữu bắt đầu khi nền triết học ấy có thể bị chất vấn, chống lại, sửa chữa, mở rộng và đặt trước thực tại địa phương mà không cần người phiên dịch đứng bên cạnh bảo vệ danh dự. Tư tưởng vay mượn chỉ trở thành tài sản trí tuệ khi người vay có tự do bất đồng với nó.</p>
 
-<p>## Phán quyết</p>
+<h2>Phán quyết</h2>
 
 <p>Cuối cùng, viên chức trả lại hộ chiếu. Ô ghi “quốc tịch” vẫn để trống.</p>
 
@@ -111,4 +111,4 @@ credit_name: "Kevin T.N"
 
 <p>Trạm hải quan vẫn đứng nơi biên giới, chờ người nộp đơn kế tiếp. Trên cửa treo một dòng chữ khiêm nhường:</p>
 
-<p>**Một từ có thể vượt biên mà không thay đổi. Một tư tưởng phải giành lấy quyền được sống ở nơi nó đến.**</p>
+<p><strong>Một từ có thể vượt biên mà không thay đổi. Một tư tưởng phải giành lấy quyền được sống ở nơi nó đến.</strong></p>

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "XIN CẢM ƠN CÁC BẠN ĐÃ KHÔNG SINH CON"
-title_en: "XIN CẢM ƠN CÁC BẠN ĐÃ KHÔNG SINH CON"
+title: "Xin cảm ơn các bạn đã không sinh con"
+title_en: "Xin cảm ơn các bạn đã không sinh con"
 date: 2026-08-24
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

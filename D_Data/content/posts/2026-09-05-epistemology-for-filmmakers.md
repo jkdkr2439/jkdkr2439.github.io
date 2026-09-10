@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "TÔI DẠY NHẬN THỨC LUẬN CHO NGÀNH ĐẠO DIỄN VÀ BIÊN KỊCH"
-title_en: "TÔI DẠY NHẬN THỨC LUẬN CHO NGÀNH ĐẠO DIỄN VÀ BIÊN KỊCH"
+title: "Tôi dạy nhận thức luận cho ngành đạo diễn và biên kịch"
+title_en: "Tôi dạy nhận thức luận cho ngành đạo diễn và biên kịch"
 date: 2026-09-05
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

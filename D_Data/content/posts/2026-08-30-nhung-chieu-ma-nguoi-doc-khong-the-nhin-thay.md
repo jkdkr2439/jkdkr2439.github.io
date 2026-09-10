@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "NHỮNG CHIỀU MÀ NGƯỜI ĐỌC KHÔNG THỂ NHÌN THẤY"
-title_en: "THE DIMENSIONS A READER CANNOT SEE"
+title: "Những chiều mà người đọc không thể nhìn thấy"
+title_en: "The dimensions a reader cannot see"
 date: 2026-08-30
 tag: "Nhận thức luận"
 tag_en: "Epistemology"
-excerpt_text: "*Về thế giới ý niệm, tư duy đệ quy và lý do hiểu một câu không đồng nghĩa định vị được tâm trí đã sinh ra nó*"
+excerpt_text: "Về thế giới ý niệm, tư duy đệ quy và lý do hiểu một câu không đồng nghĩa định vị được tâm trí đã sinh ra nó"
 credit_name: "Kevin T.N"
 ---
 
@@ -13,7 +13,7 @@ credit_name: "Kevin T.N"
 
 <div></div>
 
-<p>*Về thế giới ý niệm, tư duy đệ quy và lý do hiểu một câu không đồng nghĩa định vị được tâm trí đã sinh ra nó*</p>
+<p class="article-deck">“Về thế giới ý niệm, tư duy đệ quy và lý do hiểu một câu không đồng nghĩa định vị được tâm trí đã sinh ra nó”</p>
 
 <p>Trong một thời gian dài, tôi cho rằng những người đã đọc đủ nhiều bài của mình ít nhất cũng hình dung được thế giới phía sau chúng lớn đến đâu. Họ không cần đồng ý với tôi. Đồng ý nhiều khi chỉ là sự hiểu biết bắt đầu lo lắng về tư cách thành viên. Tôi chỉ nghĩ họ sẽ nhận ra mỗi bài viết là một cửa mở cục bộ vào một cấu trúc rộng hơn.</p>
 
@@ -23,7 +23,7 @@ credit_name: "Kevin T.N"
 
 <p>Đây chưa chắc là thất bại của việc đọc. Người đọc tái dựng văn bản bên trong không gian biểu diễn mà họ đang có. Bài viết có thể đi vào; kiến trúc phía sau nó không tự động đi theo.</p>
 
-<p>## Một thế giới bị ép qua đường thẳng</p>
+<h2>Một thế giới bị ép qua đường thẳng</h2>
 
 <p>Một thế giới ý niệm có thể đồng thời chứa lịch sử của khái niệm, phản đề của nó, điều kiện khiến mỗi phía trở nên đúng, các miền mà cơ chế có thể di chuyển sang, những quy mô nơi nó thay hình và tầng quan sát đang bao lấy toàn bộ cấu trúc ấy. Ngôn ngữ không truyền trực tiếp được tính đồng hiện này. Nói và viết bắt buộc phải đưa từng ký hiệu đi qua lần lượt.</p>
 
@@ -37,7 +37,7 @@ credit_name: "Kevin T.N"
 
 <p>Giao tiếp giữa người với người cũng mắc ảo tưởng lịch sự tương tự. Ta nhầm việc cùng hiểu một câu với việc cùng sở hữu một cấu trúc. Câu chữ chỉ là điểm giao. Từ cùng một điểm ấy, hai ý thức có thể mở ra hai bản đồ hoàn toàn khác nhau.</p>
 
-<p>## A không giữ được hình dạng A quá lâu</p>
+<h2>A không giữ được hình dạng A quá lâu</h2>
 
 <p>Với nhiều người, một quan điểm A đã đủ để bắt đầu tranh luận. Người chấp nhận A, người phản đối A. Tư duy được tổ chức như cuộc thi giữa các vị trí.</p>
 
@@ -57,7 +57,7 @@ credit_name: "Kevin T.N"
 
 <p>Thao tác ấy không có tầng cuối được quy định sẵn. Mỗi người quan sát đều có thể bị quan sát. Mỗi hệ quy chiếu có thể nằm trong một hệ khác. Mỗi hằng số tưởng tượng có thể bị thử lại trong miền hoặc trục thời gian mới.</p>
 
-<p>## Năng lực không phải số lượng thông tin được cất giữ</p>
+<h2>Năng lực không phải số lượng thông tin được cất giữ</h2>
 
 <p>Thế giới ý niệm không lớn chỉ vì chứa nhiều dữ kiện. Thư viện cũng chứa nhiều dữ kiện nhưng vẫn cần người đọc khiến chúng vận động. Độ lớn ở đây là năng lực biểu diễn: một khái niệm có thể được mở qua bao nhiêu chiều, bao nhiêu mô hình đối nghịch có thể cùng hoạt động mà chưa bị cưỡng ép sụp đổ, bao nhiêu quy mô được so sánh, và hệ có thể quay lại quan sát chính hoạt động của mình bao nhiêu lần.</p>
 
@@ -75,7 +75,7 @@ credit_name: "Kevin T.N"
 
 <p>Sự thu nhỏ có vẻ đầy đủ bởi những chiều bị bỏ không bao giờ đi vào quá trình tái dựng.</p>
 
-<p>## Sự nhận ra giữa những không gian lớn</p>
+<h2>Sự nhận ra giữa những không gian lớn</h2>
 
 <p>Một hệ biểu diễn đủ rộng có thể nhận ra hệ lớn khác mà chưa cần tái dựng toàn bộ nội dung. Nó phát hiện dấu hiệu sinh thành: cách một luận điểm đi kèm phản đề của chính nó, cách người nói đổi quy mô mà không làm mất cơ chế, cách định nghĩa được mở lại, cách thời gian trở thành một trục khác, và cách lập luận sinh thêm người quan sát thay vì chỉ sinh thêm kết luận.</p>
 
@@ -85,7 +85,7 @@ credit_name: "Kevin T.N"
 
 <p>Một quá trình tái dựng nhỏ hơn thường làm điều ngược lại. Nó xem di chuyển giữa các miền là thiếu nhất quán, giữ nhiều giả thuyết hoạt động là do dự, quan sát đệ quy là phức tạp không cần thiết, và không chọn phe là thiếu lập trường. Nó thấy các căn phòng thay đổi rồi cho rằng tòa nhà đang bối rối.</p>
 
-<p>## Vấn đề truyền dẫn</p>
+<h2>Vấn đề truyền dẫn</h2>
 
 <p>Công bố thêm bài viết không tự giải quyết được sai lệch này. Một nghìn phép chiếu vẫn có thể bị đọc như một nghìn bề mặt rời rạc. Nhiều đầu ra làm tăng tiếp xúc, không bảo đảm phục hồi chiều sâu.</p>
 
@@ -95,7 +95,7 @@ credit_name: "Kevin T.N"
 
 <p>Đây không phải lý do để khinh miệt. Nó là lý do để chính xác. Ta phải phân biệt bất đồng với nén mất chiều, hiểu sai với thiếu độ phân giải, và phản đối kết luận với việc không định vị được không gian nơi kết luận ấy đang sống.</p>
 
-<p>## Không phải một sự vô hạn đã được sở hữu</p>
+<h2>Không phải một sự vô hạn đã được sở hữu</h2>
 
 <p>Thật dễ gọi tư duy đệ quy và fractal là vô hạn. Theo nghĩa đen, không phải. Mọi hệ sinh học và tính toán đều có thời gian, bộ nhớ, năng lượng và chú ý hữu hạn. Không ai giữ được cấu trúc vô hạn thật sự.</p>
 
@@ -105,7 +105,7 @@ credit_name: "Kevin T.N"
 
 <p>Sự khác biệt quan trọng giữa những thế giới ý niệm vì thế có thể không nằm ở mỗi người biết bao nhiêu, mà nằm ở chuyện gì xảy ra tại rìa điều họ biết. Một tâm trí xem đường biên là bức tường của thực tại. Tâm trí khác xem nó là giới hạn tạm thời của mô hình hiện tại.</p>
 
-<p>## Sự cô độc của người đã được đọc</p>
+<h2>Sự cô độc của người đã được đọc</h2>
 
 <p>Có người đọc một bài và nhìn thấy quan điểm. Có người nhìn thấy cơ chế sinh ra quan điểm. Có người còn nhìn thấy những phản đề chưa được viết, các quy mô thay thế và tầng quan sát lớn hơn đang đứng phía sau văn bản.</p>
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "TRIẾT HỌC LÀ HỌC CÁCH TRỞ NÊN MINH TRIẾT HƠN: SỢI DÂY MANG TÊN GIỚI HẠN"
-title_en: "PHILOSOPHY IS THE PRACTICE OF BECOMING WISER: THE THREAD CALLED LIMIT"
+title: "Triết học là học cách trở nên minh triết hơn: sợi dây mang tên giới hạn"
+title_en: "Philosophy is the practice of becoming wiser: the thread called limit"
 date: 2026-09-08
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "NHÀ VUA VÀ NGƯỜI ĐÀN ÔNG CHẾT CHO ÔNG TA ĐỀU LÀ ĐÀN ÔNG"
-title_en: "THE KING AND THE MAN WHO DIES FOR HIM ARE BOTH MEN"
+title: "Nhà vua và người đàn ông chết cho ông ta đều là đàn ông"
+title_en: "The king and the man who dies for him are both men"
 date: 2026-08-24
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

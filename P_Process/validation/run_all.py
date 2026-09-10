@@ -9,6 +9,7 @@ from P_Process.validation.canvas import validate_canvas
 from P_Process.validation.books import validate_books
 from P_Process.validation.companion import validate_companion
 from P_Process.validation.article_media import validate_article_media
+from P_Process.validation.editorial_markup import validate_editorial_markup
 from P_Process.validation.platform import validate_platform_registry
 from P_Process.validation.products import validate_products
 from P_Process.validation.site import validate_site
@@ -29,6 +30,7 @@ def collect_failures(root: Path = ROOT) -> list[str]:
         ("products", validate_products(root)),
         ("source", validate_sources(root, baseline)),
         ("article-media", validate_article_media(root)),
+        ("editorial-markup", validate_editorial_markup(root)),
         ("canvas", validate_canvas()),
         ("books", validate_books(root)),
         ("companion", validate_companion(root)),

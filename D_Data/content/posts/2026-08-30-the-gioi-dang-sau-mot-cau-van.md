@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "THẾ GIỚI ĐẰNG SAU MỘT CÂU VĂN"
-title_en: "THE WORLD BEHIND A SENTENCE"
+title: "Thế giới đằng sau một câu văn"
+title_en: "The world behind a sentence"
 date: 2026-08-30
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

@@ -18,7 +18,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>“That is where you were described,” said the officer. “I asked what happens when you are alive.”</p>
 
-<p>## The inspection of identity</p>
+<h2>The inspection of identity</h2>
 
 <p>The Concept opened its first trunk. Inside were definitions arranged with military precision. Each definition referred to two others, and those referred to four more. Soon the inspection room was crowded with elegant relations. A pointed to B, B distinguished itself from C, C negated D, and D returned triumphantly to A with a new hat. Everything was connected. Nothing moved.</p>
 
@@ -36,7 +36,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>The Concept looked alarmed. Passports prefer faces that do not change.</p>
 
-<p>## Contraband in the luggage</p>
+<h2>Contraband in the luggage</h2>
 
 <p>The third trunk was locked. The Concept insisted it contained nothing of importance. This is what luggage and consciousness usually say before inspection. When the lock was opened, the room filled with undeclared history: theological disputes, political anxieties, class habits, old metaphors, grammatical assumptions, and the private ambitions of scholars who had once presented local disagreements as universal reason.</p>
 
@@ -50,7 +50,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>The Concept protested that changing any of these details would be betrayal. The officer explained that perfect obedience to a corpse is not fidelity to a life. A sentence can arrive with every word intact and every motion missing. Museums specialize in such victories.</p>
 
-<p>## The citizenship examination</p>
+<h2>The citizenship examination</h2>
 
 <p>To receive citizenship, the Concept had to answer questions in the new language. Not repeat answers translated from the old one, but think under unfamiliar conditions. Could it distinguish itself where the local language drew boundaries differently? Could it survive a proverb that compressed five pages of argument into one domestic animal? Could it enter a moral world organized less by abstract individuals and more by roles, debts, kinship, face, and circumstance? Could it be criticized without summoning the prestige of its ancestors as armed guards?</p>
 
@@ -62,7 +62,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>Academia has a tender affection for the second procedure. A difficult book, once declared a masterpiece, becomes ceremonial furniture. It is quoted at entrances, displayed in bibliographies, and protected from the vulgarity of being read. The safest way to defend a great thinker from criticism is to make admiration compulsory and comprehension optional.</p>
 
-<p>## The translator's invisible crime</p>
+<h2>The translator's invisible crime</h2>
 
 <p>Between these failures works the translator, a suspicious figure who is simultaneously ferryman, mechanic, judge, smuggler, and witness. The translator must know which parts of the Concept are structural and which are historical decoration. Too little change, and the machinery will not run in the new climate. Too much change, and an efficient new machine will be built under an old name.</p>
 
@@ -74,7 +74,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>That is the peculiar dignity of intellectual infrastructure. The better it works, the less visible its maker becomes. Everyone praises the city. Few thank the person who taught two banks of a river how to touch.</p>
 
-<p>## A language changes its guest</p>
+<h2>A language changes its guest</h2>
 
 <p>After many days, the Concept stopped answering like a visitor. It began asking questions of the new language. Why did one word contain distinctions its homeland had distributed across several terms? Why did another word join moral judgment, social position, and emotional tone in a single breath? Why were some relations obvious here but invisible there? The examination had reversed. The applicant was now inspecting the country.</p>
 
@@ -84,7 +84,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>For this reason, a nation does not possess a philosophy merely because its nouns have been translated. Possession begins when the philosophy can be questioned, opposed, repaired, extended, and made to encounter local reality without an interpreter standing nearby to defend its honor. Borrowed thought becomes intellectual property only after the borrower gains the freedom to disagree with it.</p>
 
-<p>## The verdict</p>
+<h2>The verdict</h2>
 
 <p>At last the officer returned the passport. The space marked “nationality” remained blank.</p>
 
@@ -106,4 +106,4 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>The customs house remained at the border, receiving the next applicant. Above the door hung a modest inscription:</p>
 
-<p>**A word may cross a frontier unchanged. A thought must earn the right to live there.**</p>
+<p><strong>A word may cross a frontier unchanged. A thought must earn the right to live there.</strong></p>

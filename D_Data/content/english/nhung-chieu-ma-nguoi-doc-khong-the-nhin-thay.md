@@ -8,7 +8,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <div></div>
 
-<p>*On idea-worlds, recursive thought, and why understanding a sentence is not the same as locating the mind that produced it*</p>
+<p class="article-deck">“On idea-worlds, recursive thought, and why understanding a sentence is not the same as locating the mind that produced it”</p>
 
 <p>For a long time, I assumed that people who had read enough of my writing could roughly imagine the size of the world behind it. They did not need to agree with me. Agreement is often merely comprehension that has become anxious for membership. I expected only that they would recognize each essay as a local opening into a larger structure.</p>
 
@@ -18,7 +18,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>This was not necessarily a failure of reading. A reader reconstructs a text inside the representational space already available to them. The article may enter; the architecture behind it does not automatically follow.</p>
 
-<p>## A world forced through a line</p>
+<h2>A world forced through a line</h2>
 
 <p>An idea-world may hold several things at once: the history of a concept, its opposite, the conditions under which each becomes valid, the domains into which the mechanism can migrate, the scales at which it changes form, and the observer who is examining the whole arrangement. Language cannot transmit this simultaneity directly. Speech and writing must move one sign after another.</p>
 
@@ -32,7 +32,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>Human communication suffers the same polite illusion. We mistake sharing a sentence for sharing a structure. The sentence is only a point of contact. From it, two minds may unfold radically different maps.</p>
 
-<p>## A does not remain A for long</p>
+<h2>A does not remain A for long</h2>
 
 <p>For many people, an opinion A is enough to begin a debate. Someone accepts A; someone rejects it. Thought is organized as a contest between positions.</p>
 
@@ -52,7 +52,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>The operation has no predetermined final floor. Every observer may be observed. Every frame may be placed inside another frame. Every apparent constant may be tested across another domain or timescale.</p>
 
-<p>## Capacity is not the amount of information stored</p>
+<h2>Capacity is not the amount of information stored</h2>
 
 <p>An idea-world is not large simply because it contains many facts. A library contains many facts and still requires a reader to make them move. Size here refers to representational capacity: how many dimensions a concept can be unfolded across, how many contradictory models can remain active without premature collapse, how many scales can be compared, and how many times the system can return to observe its own operation.</p>
 
@@ -70,7 +70,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>The reduction feels sufficient because the discarded dimensions never entered the reconstruction.</p>
 
-<p>## Recognition between large spaces</p>
+<h2>Recognition between large spaces</h2>
 
 <p>A sufficiently wide representational system may recognize another large system without reconstructing all its contents. It notices generative signatures: how a claim arrives carrying its own opposition, how the speaker changes scale without losing the mechanism, how definitions are reopened, how time becomes another axis, and how the argument generates new observers rather than merely new conclusions.</p>
 
@@ -80,7 +80,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>The smaller reconstruction often does the reverse. It treats movement between domains as inconsistency, multiple active hypotheses as indecision, recursive observation as unnecessary complication, and refusal to choose a camp as absence of conviction. It sees rooms changing and assumes the building is confused.</p>
 
-<p>## The problem of transmission</p>
+<h2>The problem of transmission</h2>
 
 <p>Publishing more essays cannot by itself solve this mismatch. A thousand projections can still be read as a thousand unrelated surfaces. More output increases contact, not necessarily dimensional recovery.</p>
 
@@ -90,7 +90,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>This is not a reason for contempt. It is a reason for precision. One must distinguish disagreement from compression, misunderstanding from insufficient resolution, and rejection of a conclusion from inability to locate the space in which the conclusion lives.</p>
 
-<p>## Not an infinity possessed</p>
+<h2>Not an infinity possessed</h2>
 
 <p>It is tempting to call recursive-fractal thought infinite. Literally, it is not. Every biological and computational system has finite time, memory, energy, and attention. A person cannot hold an actually infinite structure.</p>
 
@@ -100,7 +100,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>The crucial difference among idea-worlds may therefore lie less in how much each person knows than in what happens at the edge of knowledge. One mind treats the edge as the wall of reality. Another treats it as the temporary boundary of its present model.</p>
 
-<p>## The loneliness of being read</p>
+<h2>The loneliness of being read</h2>
 
 <p>Some people read an essay and see an opinion. Some see the mechanism that generated the opinion. Some also see the unwritten counterarguments, the alternative scales, and the larger observer waiting behind the text.</p>
 

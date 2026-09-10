@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "HOÀNG HÔN KHÔNG BIẾT"
-title_en: "HOÀNG HÔN KHÔNG BIẾT"
+title: "Hoàng hôn không biết"
+title_en: "Hoàng hôn không biết"
 date: 2026-09-04
 tag: "Tản văn"
 tag_en: "Literary Prose"

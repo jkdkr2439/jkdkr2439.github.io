@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "TRIẾT HỌC CỦA MỘT BỮA CƠM CHƯA ĂN"
-title_en: "TRIẾT HỌC CỦA MỘT BỮA CƠM CHƯA ĂN"
+title: "Triết học của một bữa cơm chưa ăn"
+title_en: "Triết học của một bữa cơm chưa ăn"
 date: 2026-08-30
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

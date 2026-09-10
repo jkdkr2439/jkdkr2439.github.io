@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "HÃY GIÀNH LẠI QUYỀN ĐƯỢC ĐỊNH NGHĨA"
-title_en: "TAKE BACK THE RIGHT TO DEFINE"
+title: "Hãy giành lại quyền được định nghĩa"
+title_en: "Take back the right to define"
 date: 2026-08-26
 tag: "Nhận thức luận"
 tag_en: "Epistemology"
@@ -29,7 +29,7 @@ credit_name: "Kevin T.N"
 
 <p>Hãy giành lại quyền được định nghĩa.</p>
 
-<p>## Cuộc chiếm đóng không cần binh lính</p>
+<h2>Cuộc chiếm đóng không cần binh lính</h2>
 
 <p>Con người không chỉ sống trong thực tại. Chúng ta sống trong những mô tả về thực tại. Ta thừa hưởng tên gọi từ cha mẹ, trường học, sách vở, chính quyền, tôn giáo, khoa học, công nghiệp và màn hình. Những cái tên giúp ta suy nghĩ. Không có khái niệm, trải nghiệm sẽ tràn đến như thời tiết trên một vùng đất chưa từng có bản đồ.</p>
 
@@ -45,7 +45,7 @@ credit_name: "Kevin T.N"
 
 <p>Kẻ độc tài thô lỗ cấm quý vị lên tiếng. Kẻ độc tài tinh vi hơn trao cho quý vị một bộ từ vựng trong đó mọi lời phản đối đều tự biến thành lời thú tội.</p>
 
-<p>## Những lớp áo của sức mạnh</p>
+<h2>Những lớp áo của sức mạnh</h2>
 
 <p>Tiền bạc, cơ bắp, danh tiếng, luật pháp, công nghệ và bạo lực có vẻ là những loại quyền lực khác nhau. Ở tầng sâu hơn, chúng là các cơ quan khác nhau được dùng để làm cho một định nghĩa có hiệu lực.</p>
 
@@ -57,7 +57,7 @@ credit_name: "Kevin T.N"
 
 <p>Khi ấy nhà tù đã đạt tới sự hoàn hảo. Những bức tường được chính tù nhân mang theo bên trong đầu dưới hình dạng của một bộ từ vựng hợp lý.</p>
 
-<p>## Những cuốn sách suy nghĩ thay chúng ta</p>
+<h2>Những cuốn sách suy nghĩ thay chúng ta</h2>
 
 <p>Đừng tưởng thao túng chỉ đến từ nhà cầm quyền hay tập đoàn. Nó có thể đến trong một ấn bản tuyệt đẹp, với cái tên lừng lẫy trên bìa và đủ chú thích để sự phục tùng trông giống tinh thần học thuật.</p>
 
@@ -73,7 +73,7 @@ credit_name: "Kevin T.N"
 
 <p>Mục đích của giáo dục không phải nhét đầy đầu người học bằng những định nghĩa được cấp phép. Nó phải nuôi dưỡng một ý thức có khả năng kiểm tra mọi định nghĩa, kể cả định nghĩa do chính mình tạo ra.</p>
 
-<p>## Tuyên bố chủ quyền tư duy</p>
+<h2>Tuyên bố chủ quyền tư duy</h2>
 
 <p>Vì vậy, tôi không yêu cầu quý vị vứt bỏ khái niệm. Tôi yêu cầu chấm dứt quyền miễn trừ của chúng.</p>
 
@@ -99,7 +99,7 @@ credit_name: "Kevin T.N"
 
 <p>Nếu không, quý vị chưa thoát khỏi sự thống trị. Quý vị chỉ vừa thành lập một đế quốc nhỏ hơn với chính mình ngồi trên ngai.</p>
 
-<p>## Kỷ luật của tự do</p>
+<h2>Kỷ luật của tự do</h2>
 
 <p>Tự chủ tư duy thật sự đòi hỏi nhiều kỷ luật hơn, không phải ít hơn. Sự chắc chắn vay mượn rất rẻ. Tự mình định nghĩa thì đắt, bởi quý vị phải xây lại con đường giữa trải nghiệm và tên gọi.</p>
 
@@ -113,7 +113,7 @@ credit_name: "Kevin T.N"
 
 <p>Nó bắt đầu khi quý vị đặt được một câu hỏi mà mô hình thừa hưởng thậm chí không biết phải cấm bằng cách nào.</p>
 
-<p>## Cuộc chiến không có biên giới</p>
+<h2>Cuộc chiến không có biên giới</h2>
 
 <p>Đừng nhầm đây là bất đồng riêng giữa những học giả, cuộc cãi vã giữa các phe chính trị hay cuộc tranh chấp giữa những quốc gia. Nó không có biên giới quốc gia, bởi nó đã bắt đầu trước khi quốc gia xuất hiện và sẽ tiếp tục sau khi mọi đường biên hiện tại đổi tên.</p>
 
@@ -149,7 +149,7 @@ credit_name: "Kevin T.N"
 
 <p>Cuộc đấu tranh giành chủ quyền định nghĩa chính là hành trình giống loài học qua từng thế hệ để không trở nên mù lòa bên trong những mái trú do trí tuệ của chính mình dựng nên.</p>
 
-<p>## Phiên tòa của những kẻ đã đặt tên thế giới</p>
+<h2>Phiên tòa của những kẻ đã đặt tên thế giới</h2>
 
 <p>Và bây giờ, hãy triệu tập những kiến trúc sư vĩ đại.</p>
 
@@ -297,7 +297,7 @@ credit_name: "Kevin T.N"
 
 <p>Đó là phán quyết.</p>
 
-<p>## Hãy giành nó lại</p>
+<h2>Hãy giành nó lại</h2>
 
 <p>Khi trường học trao cho quý vị một định nghĩa, hãy học nó, rồi hỏi nó gãy ở đâu.</p>
 

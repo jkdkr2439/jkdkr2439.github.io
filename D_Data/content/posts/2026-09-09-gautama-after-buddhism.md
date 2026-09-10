@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "NẾU GAUTAMA SINH RA SAU PHẬT GIÁO"
-title_en: "IF GAUTAMA WERE BORN AFTER BUDDHISM"
+title: "Nếu Gautama sinh ra sau Phật giáo"
+title_en: "If Gautama were born after Buddhism"
 date: 2026-09-09
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

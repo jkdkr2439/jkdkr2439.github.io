@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "LÀM SAO THẤT BẠI ĐỦ RẺ ĐỂ THÀNH CÔNG"
-title_en: "HOW TO FAIL CHEAPLY ENOUGH TO SUCCEED"
+title: "Làm sao thất bại đủ rẻ để thành công"
+title_en: "How to fail cheaply enough to succeed"
 date: 2026-08-26
 tag: "Nhận thức luận"
 tag_en: "Epistemology"
-excerpt_text: "*Sherlock Holmes, Karl Popper, Charles Darwin, Samuel Beckett và ngành công nghiệp hiện đại chuyên giúp con người thành công với những mục tiêu chưa ai định nghĩa*"
+excerpt_text: "Sherlock Holmes, Karl Popper, Charles Darwin, Samuel Beckett và ngành công nghiệp hiện đại chuyên giúp con người thành công với những mục tiêu chưa ai định nghĩa"
 credit_name: "Kevin T.N"
 ---
 
@@ -13,7 +13,7 @@ credit_name: "Kevin T.N"
 
 <div></div>
 
-<p>*Sherlock Holmes, Karl Popper, Charles Darwin, Samuel Beckett và ngành công nghiệp hiện đại chuyên giúp con người thành công với những mục tiêu chưa ai định nghĩa*</p>
+<p class="article-deck">“Sherlock Holmes, Karl Popper, Charles Darwin, Samuel Beckett và ngành công nghiệp hiện đại chuyên giúp con người thành công với những mục tiêu chưa ai định nghĩa”</p>
 
 <p>Con người thời nay thường xuyên được khuyên phải thành công. Đây là lời khuyên chu đáo, gần giống việc bảo một người lữ hành hãy đến nơi nhưng không nói nơi ấy nằm ở đâu. Ai cũng gật đầu, bởi “thành công” thuộc nhóm từ ngữ có uy quyền tăng lên đúng lúc ý nghĩa của nó giảm xuống.</p>
 
@@ -23,7 +23,7 @@ credit_name: "Kevin T.N"
 
 <p>Không trả lời được, thành công chỉ là sự phục tùng đang đeo huy chương.</p>
 
-<p>## Hiện trường vụ án của tham vọng</p>
+<h2>Hiện trường vụ án của tham vọng</h2>
 
 <p>Sherlock Holmes để lại nguyên tắc nổi tiếng: khi đã loại bỏ điều bất khả, phần còn lại, dù khó tin đến đâu, phải là sự thật. Đây là logic phá án tuyệt vời nhưng là lời khuyên nghề nghiệp nguy hiểm nếu nhập khẩu mà không qua hải quan. Trong một vụ giết người, thi thể đã có sẵn và số nghi phạm có thể được khoanh vùng. Trong đời sống, nạn nhân, thám tử, nghi phạm và nhân chứng thiếu tin cậy thường cùng dùng chung một hệ thần kinh.</p>
 
@@ -31,7 +31,7 @@ credit_name: "Kevin T.N"
 
 <p>Dẫu vậy, Holmes chỉ đúng hướng cốt lõi: đừng thờ phụng con đường hợp lý đầu tiên; hãy loại những con đường không sống được. Nhưng phải thêm một điều mà vị thám tử ít khi cần: mỗi lần loại bỏ phải đủ rẻ để người điều tra còn sống sau cuộc điều tra.</p>
 
-<p>## Thành công trước hết phải có một thân xác</p>
+<h2>Thành công trước hết phải có một thân xác</h2>
 
 <p>Người ta nói muốn thành công trước khi xác định bằng chứng nào được tính là thành công. Vì thế, xã hội cung cấp một thân xác tiện lợi: lương, chức danh, người theo dõi, tài sản và tiếng vỗ tay. Đó đều có thể là giá trị chính đáng. Sự lố bịch bắt đầu khi những thước đo phục vụ so sánh công cộng thay thế cấu trúc riêng của một đời người.</p>
 
@@ -46,7 +46,7 @@ credit_name: "Kevin T.N"
 
 <p>Phần cuối thường bị bỏ quên, bởi biểu đồ kinh doanh rất khó vẽ linh hồn mà không khiến nó trông giống một phân khúc khách hàng.</p>
 
-<p>## Popper bước vào với chiếc búa</p>
+<h2>Popper bước vào với chiếc búa</h2>
 
 <p>Karl Popper cho rằng lý thuyết khoa học trở nên nghiêm túc khi nó tự đặt mình trước khả năng bị bác bỏ. Động lực học đại chúng làm điều ngược lại. Nó bảo vệ giấc mơ khỏi bằng chứng. Mỗi lần bị từ chối chứng minh thiên tài chưa được thấu hiểu; mỗi khoản lỗ trở thành học phí; mỗi người phản đối đều sợ tiềm năng của ta. Giấc mơ trở nên bất tử bởi chủ nhân đã thủ tiêu mọi nhân chứng có khả năng làm nó chết.</p>
 
@@ -58,7 +58,7 @@ credit_name: "Kevin T.N"
 
 <p>Popper trao cho thế giới khả năng phản nghiệm. Ngành công nghiệp truyền động lực bỏ phần phản nghiệm rồi bán riêng sự tự tin.</p>
 
-<p>## Dewey đòi trải nghiệm, James hỏi nó làm được gì</p>
+<h2>Dewey đòi trải nghiệm, James hỏi nó làm được gì</h2>
 
 <p>John Dewey nhìn việc học như sự tái cấu trúc thông qua trải nghiệm. William James hỏi một ý tưởng tạo ra khác biệt gì trong đời sống. Cả hai sẽ là khách mời hữu ích tại những hội nghị nơi hàng nghìn người thảo luận về chuyển hóa mà không thay đổi bất kỳ hành vi quan sát được nào.</p>
 
@@ -70,7 +70,7 @@ credit_name: "Kevin T.N"
 
 <p>Đừng chỉ hỏi người thành công đã học gì. Hãy hỏi thực tại đã buộc họ thôi tin vào điều gì.</p>
 
-<p>## Darwin không có bảng ước nguyện</p>
+<h2>Darwin không có bảng ước nguyện</h2>
 
 <p>Tiến hóa không tưởng tượng sinh vật hoàn hảo rồi triển khai kế hoạch năm năm. Biến dị xuất hiện, môi trường tạo áp lực, vài cấu trúc tồn tại và những phần sống sót sinh sản. Ngân sách nghiên cứu của tự nhiên vô cùng lớn bởi hội đồng đạo đức của nó nổi tiếng thiếu nhân sự.</p>
 
@@ -82,7 +82,7 @@ credit_name: "Kevin T.N"
 
 <p>&gt; Tăng lượng thông tin thu được từ mỗi va chạm, đồng thời giảm chi phí không thể phục hồi của việc mình sai.</p>
 
-<p>## Taleb bán bảo hiểm cho Beckett</p>
+<h2>Taleb bán bảo hiểm cho Beckett</h2>
 
 <p>Nassim Nicholas Taleb phân biệt những hệ bị biến động làm tổn thương với những hệ có thể hưởng lợi từ biến động. Bài học ấy thường bị rút xuống thành “khó khăn khiến bạn mạnh hơn”, một câu rất được yêu thích bởi những người chuyên phân phát khó khăn cho người khác.</p>
 
@@ -94,7 +94,7 @@ credit_name: "Kevin T.N"
 
 <p>Taleb bảo vệ quyền được tiếp tục. Beckett cải thiện lần va chạm kế tiếp. Không ai trong hai người cấp giấy phép biến hỗn loạn thành tính cách.</p>
 
-<p>## Những người Khắc kỷ đến sớm rồi tuyên bố họ đã đoán trước mọi việc</p>
+<h2>Những người Khắc kỷ đến sớm rồi tuyên bố họ đã đoán trước mọi việc</h2>
 
 <p>Chủ nghĩa Khắc kỷ phân biệt điều nằm trong quyền kiểm soát với điều không nằm trong quyền kiểm soát. Điều này hữu dụng cho tới khi trở thành phương pháp trang trí nhằm chịu đựng sự ngu ngốc có thể phòng tránh. Ta nên chấp nhận cơn bão; không nhất thiết phải liên tục làm mái nhà bằng giấy rồi ca ngợi sự điềm tĩnh của mình.</p>
 
@@ -102,7 +102,7 @@ credit_name: "Kevin T.N"
 
 <p>Câu hỏi trưởng thành không phải “Tôi có thể điều khiển thực tại không?” mà là “Tôi phải sắp xếp cuộc tiếp xúc với thực tại thế nào để câu trả lời của nó cải thiện tôi trước khi loại bỏ tôi?”</p>
 
-<p>## Nghệ sĩ biết điều này trước khi chuyên gia tư vấn tìm thấy mẫu trình chiếu</p>
+<h2>Nghệ sĩ biết điều này trước khi chuyên gia tư vấn tìm thấy mẫu trình chiếu</h2>
 
 <p>Nghệ thuật luôn sống nhờ những cái chết rẻ. Bản phác chết để bức tranh sống. Bản nháp bị loại để bài luận tìm ra lập luận. Nhạc công tập riêng từng đoạn vì khán giả là nơi quá đắt để phát hiện một thế bấm sai.</p>
 
@@ -112,7 +112,7 @@ credit_name: "Kevin T.N"
 
 <p>Lợi thế thật của nghệ sĩ không phải nguồn cảm hứng huyền bí. Đó là quyền tạo nhiều thế giới tạm thời, quan sát chúng không thương tiếc và hủy phần không thể gánh tác phẩm.</p>
 
-<p>## Người sống sót bước lên diễn thuyết</p>
+<h2>Người sống sót bước lên diễn thuyết</h2>
 
 <p>Mọi câu chuyện thành công đều có một lỗi cấu trúc: người kể đã sống sót. Những công ty chết, sự nghiệp bỏ dở, gia đình kiệt quệ và những người thất bại chăm chỉ ngang nhau hiếm khi được trao micro hội nghị. Người sống sót vì thế nhầm những gì đi cùng thành công với những gì gây ra thành công.</p>
 
@@ -122,7 +122,7 @@ credit_name: "Kevin T.N"
 
 <p>Đối tượng cần nghiên cứu không phải thói quen nổi trên bề mặt, mà là cơ chế điều chỉnh. Người ấy phát hiện sai nhanh thế nào? Họ tin tín hiệu nào? Họ đủ sức mất thứ gì? May mắn cung cấp gì? Họ đã ngừng làm gì? Rễ của thành tựu thường ít truyền cảm hứng hơn lá, nhưng rễ chưa bao giờ thuê người làm quan hệ công chúng.</p>
 
-<p>## Một câu hỏi tốt hơn</p>
+<h2>Một câu hỏi tốt hơn</h2>
 
 <p>Hãy thay “Làm sao để thành công?” bằng:</p>
 
@@ -136,7 +136,7 @@ credit_name: "Kevin T.N"
 
 <p>Thành công lúc ấy không phải đích đến được đức hạnh bảo đảm, cũng không phải bí mật thuộc sở hữu của những người sống sót có sức hút. Nó là trạng thái ổn định tạm thời của một cấu trúc vẫn còn phù hợp với mục đích đã chọn sau đủ nhiều lần tiếp xúc với thực tại.</p>
 
-<p>## Holmes quay lại khép hồ sơ</p>
+<h2>Holmes quay lại khép hồ sơ</h2>
 
 <p>Trong đời sống, con đường còn lại chưa chắc là “chân lý”. Bằng chứng của ta không đầy đủ, hoàn cảnh vận động và khả thể mới liên tục xuất hiện. Nhưng nguyên tắc của Holmes vẫn sống trong một dạng khiêm tốn hơn:</p>
 

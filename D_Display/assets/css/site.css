@@ -782,13 +782,32 @@ body {
 
 .reader-title {
   font-family: var(--font-display);
-  font-size: clamp(30px, 3.3vw, 46px);
+  max-width: 18ch;
+  font-size: clamp(34px, 4.2vw, 64px);
   font-weight: 500;
-  line-height: 1.12;
-  letter-spacing: -0.018em;
+  line-height: 1.02;
+  letter-spacing: -0.036em;
   margin-bottom: 40px;
-  padding-bottom: 28px;
+  padding: 18px 0 30px;
+  text-wrap: balance;
   border-bottom: 1.5px solid var(--ink);
+}
+
+.reader-title::before {
+  content: '';
+  display: block;
+  width: 54px;
+  height: 3px;
+  margin-bottom: 22px;
+  background: var(--red);
+}
+
+.reading-mode-vi #reader-content .reader-title,
+.reading-mode-en #reader-content .reader-title {
+  max-width: 15ch;
+  font-size: clamp(48px, 7.2vw, 104px);
+  line-height: 0.96;
+  letter-spacing: -0.052em;
 }
 
 .reader-body p {
@@ -811,6 +830,39 @@ body {
 
 .reader-body em { font-style: italic; }
 .reader-body strong { font-weight: 700; }
+
+.reader-body h2 {
+  margin: 2.6em 0 0.85em;
+  padding-top: 0.72em;
+  border-top: 1px solid var(--border);
+  font-family: var(--font-display);
+  font-size: clamp(25px, 2.35vw, 36px);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.018em;
+  text-wrap: balance;
+}
+
+.reader-body .article-deck {
+  max-width: 42em;
+  margin-bottom: 2.2em;
+  color: #65584a;
+  font-size: 1.1em;
+  font-style: italic;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.reader-body .article-note {
+  margin-top: 3em;
+  padding-top: 1.2em;
+  border-top: 1px solid var(--border);
+  color: #756a5d;
+  font-size: 0.88em;
+  font-style: italic;
+  line-height: 1.65;
+  text-align: left;
+}
 
 .reader-body pre {
   box-sizing: border-box;

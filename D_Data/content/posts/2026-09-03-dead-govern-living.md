@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "NGƯỜI CHẾT VẪN ĐANG ĐIỀU KHIỂN NGƯỜI SỐNG NHƯ THẾ NÀO?"
-title_en: "NGƯỜI CHẾT VẪN ĐANG ĐIỀU KHIỂN NGƯỜI SỐNG NHƯ THẾ NÀO?"
+title: "Người chết vẫn đang điều khiển người sống như thế nào?"
+title_en: "Người chết vẫn đang điều khiển người sống như thế nào?"
 date: 2026-09-03
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

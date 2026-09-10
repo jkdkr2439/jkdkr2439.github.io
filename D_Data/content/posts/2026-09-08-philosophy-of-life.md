@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "TRIẾT HỌC ĐÁNG BÀN NHẤT LÀ TRIẾT HỌC VỀ SỰ SỐNG"
-title_en: "THE PHILOSOPHY MOST WORTH DISCUSSING IS THE PHILOSOPHY OF LIFE"
+title: "Triết học đáng bàn nhất là triết học về sự sống"
+title_en: "The philosophy most worth discussing is the philosophy of life"
 date: 2026-09-08
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

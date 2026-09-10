@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "TRIẾT HỌC VỀ CÁI CHẾT CỦA TÔI LÀ NHẬN THỨC VỀ GIỚI HẠN"
-title_en: "TRIẾT HỌC VỀ CÁI CHẾT CỦA TÔI LÀ NHẬN THỨC VỀ GIỚI HẠN"
+title: "Triết học về cái chết của tôi là nhận thức về giới hạn"
+title_en: "Triết học về cái chết của tôi là nhận thức về giới hạn"
 date: 2026-09-04
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

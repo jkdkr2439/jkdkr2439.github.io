@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "ĐẠO ĐỨC LUÔN LÀ THỨ GIẢ TẠO, NẾU BẠN KHÔNG TỰ XÂY"
-title_en: "ĐẠO ĐỨC LUÔN LÀ THỨ GIẢ TẠO, NẾU BẠN KHÔNG TỰ XÂY"
+title: "Đạo đức luôn là thứ giả tạo, nếu bạn không tự xây"
+title_en: "Đạo đức luôn là thứ giả tạo, nếu bạn không tự xây"
 date: 2026-09-05
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

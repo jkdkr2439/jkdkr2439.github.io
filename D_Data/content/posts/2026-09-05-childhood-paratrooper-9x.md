@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "KÝ ỨC TUỔI THƠ CỦA MỘT ĐỨA 9X"
-title_en: "KÝ ỨC TUỔI THƠ CỦA MỘT ĐỨA 9X"
+title: "Ký ức tuổi thơ của một đứa 9X"
+title_en: "Ký ức tuổi thơ của một đứa 9X"
 date: 2026-09-05
 tag: "Tản văn"
 tag_en: "Literary Prose"

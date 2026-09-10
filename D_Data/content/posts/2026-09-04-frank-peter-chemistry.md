@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "HAI KHỨA ĐÀN ÔNG, HAI CÁCH CỨU THẾ GIỚI"
-title_en: "HAI KHỨA ĐÀN ÔNG, HAI CÁCH CỨU THẾ GIỚI"
+title: "Hai khứa đàn ông, hai cách cứu thế giới"
+title_en: "Hai khứa đàn ông, hai cách cứu thế giới"
 date: 2026-09-04
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "KHI CÔNG CỤ HỌC CÁCH NÓI “KHÔNG”"
-title_en: "WHEN A TOOL LEARNS TO SAY “NO”"
+title: "Khi công cụ học cách nói “không”"
+title_en: "When a tool learns to say “no”"
 date: 2026-09-10
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

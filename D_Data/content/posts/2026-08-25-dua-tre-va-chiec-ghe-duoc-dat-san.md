@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "ĐỨA TRẺ VÀ CHIẾC GHẾ ĐƯỢC ĐẶT SẴN"
-title_en: "ĐỨA TRẺ VÀ CHIẾC GHẾ ĐƯỢC ĐẶT SẴN"
+title: "Đứa trẻ và chiếc ghế được đặt sẵn"
+title_en: "Đứa trẻ và chiếc ghế được đặt sẵn"
 date: 2026-08-25
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

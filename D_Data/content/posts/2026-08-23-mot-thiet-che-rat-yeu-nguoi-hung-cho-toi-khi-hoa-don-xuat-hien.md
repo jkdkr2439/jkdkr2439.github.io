@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "MỘT THIẾT CHẾ RẤT YÊU NGƯỜI HÙNG—CHO TỚI KHI HÓA ĐƠN XUẤT HIỆN"
-title_en: "AN INSTITUTION THAT LOVES HEROES—UNTIL THE BILL ARRIVES"
+title: "Một thiết chế rất yêu người hùng, cho tới khi hóa đơn xuất hiện"
+title_en: "An institution that loves heroes, until the bill arrives"
 date: 2026-08-23
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

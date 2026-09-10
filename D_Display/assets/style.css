@@ -188,13 +188,24 @@ nav {
 }
 
 .article-title {
-  font-size: clamp(26px, 5vw, 40px);
+  max-width: 15ch;
+  font-size: clamp(42px, 8vw, 78px);
   font-weight: normal;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  line-height: 0.98;
+  letter-spacing: -0.045em;
   margin-bottom: 40px;
-  padding-bottom: 32px;
+  padding: 18px 0 32px;
+  text-wrap: balance;
   border-bottom: 1.5px solid var(--ink);
+}
+
+.article-title::before {
+  content: '';
+  display: block;
+  width: 54px;
+  height: 3px;
+  margin-bottom: 22px;
+  background: var(--red);
 }
 
 .article-body p {
@@ -221,6 +232,36 @@ nav {
 
 .article-body strong {
   font-weight: bold;
+}
+
+.article-body h2 {
+  margin: 2.5em 0 0.85em;
+  padding-top: 0.7em;
+  border-top: 1px solid var(--border);
+  font-size: clamp(24px, 4vw, 34px);
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.018em;
+  text-wrap: balance;
+}
+
+.article-body .article-deck {
+  color: #65584a;
+  font-size: 1.08em;
+  font-style: italic;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.article-body .article-note {
+  margin-top: 3em;
+  padding-top: 1.2em;
+  border-top: 1px solid var(--border);
+  color: #756a5d;
+  font-size: 0.88em;
+  font-style: italic;
+  line-height: 1.65;
+  text-align: left;
 }
 
 .article-body blockquote {

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "VOUGHTGROUP, HAY TẬP ĐOÀN ĐÃ SẢN XUẤT MỘT QUỐC GIA BÊN TRONG QUỐC GIA"
-title_en: "VOUGHTGROUP, OR THE COMPANY THAT MANUFACTURED A COUNTRY INSIDE A COUNTRY"
+title: "Voughtgroup, hay tập đoàn đã sản xuất một quốc gia bên trong quốc gia"
+title_en: "Voughtgroup, or the company that manufactured a country inside a country"
 date: 2026-08-26
 tag: "Nhận thức luận"
 tag_en: "Epistemology"
-excerpt_text: "*Một bài châm biếm về thần thoại doanh nghiệp, lòng yêu nước trong tiêu dùng và nghệ thuật tinh tế biến mọi câu hỏi thành dấu hiệu phản bội*"
+excerpt_text: "Một bài châm biếm về thần thoại doanh nghiệp, lòng yêu nước trong tiêu dùng và nghệ thuật tinh tế biến mọi câu hỏi thành dấu hiệu phản bội"
 credit_name: "Kevin T.N"
 ---
 
@@ -13,7 +13,7 @@ credit_name: "Kevin T.N"
 
 <div></div>
 
-<p>*Một bài châm biếm về thần thoại doanh nghiệp, lòng yêu nước trong tiêu dùng và nghệ thuật tinh tế biến mọi câu hỏi thành dấu hiệu phản bội*</p>
+<p class="article-deck">“Một bài châm biếm về thần thoại doanh nghiệp, lòng yêu nước trong tiêu dùng và nghệ thuật tinh tế biến mọi câu hỏi thành dấu hiệu phản bội”</p>
 
 <p>Có công ty sản xuất ô tô, có công ty xây nhà, lại có công ty bán những kỳ nghỉ cho người đã kiệt sức vì trả tiền cho hai thứ trước. Voughtgroup, với hoài bão lớn hơn, sản xuất luôn thế giới trong đó cả ba hoạt động ấy bắt buộc phải được ngưỡng mộ.</p>
 
@@ -23,7 +23,7 @@ credit_name: "Kevin T.N"
 
 <p>Đó là cách lòng yêu nước, một trong những tình cảm cao quý của loài người, được thăng chức thành bộ phận chăm sóc khách hàng không lương.</p>
 
-<p>## Hệ sinh thái có khí hậu tuyệt đẹp</p>
+<h2>Hệ sinh thái có khí hậu tuyệt đẹp</h2>
 
 <p>“Hệ sinh thái” là một trong những thành tựu đẹp nhất của ngôn ngữ doanh nghiệp. Đế chế nghe hung hăng. Độc quyền nghe dễ bị xử lý. Tập đoàn đa ngành nghe như thứ được kế toán viên lắp ráp trong một ngày thời tiết xấu. Nhưng hệ sinh thái nghe thật tự nhiên. Rừng có hệ sinh thái. Đại dương có hệ sinh thái. Bởi vậy, nếu một tổ chức có thể đón bạn trong bệnh viện, dạy con bạn, cho gia đình bạn ở, bán phương tiện, đưa bạn đi nghỉ và cung cấp một trung tâm thương mại để hồi phục sau tất cả giao dịch ấy, nó không hề bao vây cuộc đời bạn. Nó chỉ đang thực hành đa dạng sinh học.</p>
 
@@ -33,7 +33,7 @@ credit_name: "Kevin T.N"
 
 <p>Voughtgroup cung cấp một chuẩn kế toán đơn giản hơn. Thành công chứng minh tầm nhìn. Thất bại chứng minh sự táo bạo của tầm nhìn. Hỗ trợ nội hệ chứng minh sức mạnh hệ sinh thái. Chỉ trích bên ngoài chứng minh sự cần thiết của đoàn kết. Dự án lớn lên thì người sáng lập đã đúng. Dự án co lại thì lịch sử chưa sẵn sàng. Thực tại được quyền bỏ phiếu, chỉ có điều ban lãnh đạo là bên đếm phiếu.</p>
 
-<p>## Thị trường nơi lòng trung thành là phương tiện thanh toán</p>
+<h2>Thị trường nơi lòng trung thành là phương tiện thanh toán</h2>
 
 <p>Khi một nhà sản xuất bán nhiều xe cho đội xe thuộc bên liên quan, giới phân tích hỏi có bao nhiêu nhu cầu đến từ khách hàng độc lập. Đây không phải lời buộc tội. Nó chỉ là số học đang cố xác định khách hàng kết thúc ở đâu và ảnh gia đình bắt đầu từ chỗ nào.</p>
 
@@ -45,7 +45,7 @@ credit_name: "Kevin T.N"
 
 <p>Nịnh hót tạo ra thứ nhạc khai trương tuyệt vời, nhưng chưa bao giờ đặc biệt giỏi kiểm soát chất lượng.</p>
 
-<p>## Khoản lỗ anh hùng</p>
+<h2>Khoản lỗ anh hùng</h2>
 
 <p>Ngành công nghiệp non trẻ tiêu tốn vốn. Sản xuất ô tô khắc nghiệt, mở rộng toàn cầu đắt đỏ, còn đối thủ lâu đời có hàng chục năm tri thức tích lũy. Một khoản lỗ không tự chứng minh gian lận hay ngày tận thế. Với sự khiêm tốn đáng quý, nó chỉ chứng minh tiền đi ra nhiều hơn tiền đi vào.</p>
 
@@ -57,7 +57,7 @@ credit_name: "Kevin T.N"
 
 <p>Voughtgroup không thích những câu hỏi đó vì cùng lý do nhà ảo thuật không thích bàn trong suốt. Chiếc bàn có thể hoàn toàn chắc chắn. Nó chỉ làm giảm cơ hội việc làm của khói.</p>
 
-<p>## Phòng ban phụ trách hoài nghi đúng quy định</p>
+<h2>Phòng ban phụ trách hoài nghi đúng quy định</h2>
 
 <p>Một tổ chức hùng mạnh có quyền bảo vệ mình trước thông tin sai. Danh tiếng là tài sản kinh tế, và bịa đặt không phải phản biện. Tuy nhiên, có một bất đối xứng đáng quan sát: khi tổ chức khổng lồ và người phát ngôn bình thường bước vào cùng phòng xử án, họ bình đẳng trước pháp luật gần giống như cá voi và người bơi bình đẳng trước biển cả.</p>
 
@@ -67,11 +67,11 @@ credit_name: "Kevin T.N"
 
 <p>Voughtgroup, dĩ nhiên, tôn trọng tự do biểu đạt. Mọi công dân đều được tự do bày tỏ sự ngưỡng mộ bằng giọng điệu họ lựa chọn.</p>
 
-<p>## Sản phẩm đứng phía sau mọi sản phẩm</p>
+<h2>Sản phẩm đứng phía sau mọi sản phẩm</h2>
 
 <p>Thứ quan trọng nhất Voughtgroup sản xuất không phải giao thông, bất động sản, giáo dục, y tế, du lịch hay công nghệ. Nó sản xuất một phản xạ.</p>
 
-<p>Tin tốt xuất hiện: *tầm nhìn*. Tin xấu xuất hiện: *âm mưu*. Vốn đi vào: *niềm tin*. Vốn đi ra: *tư duy ngắn hạn*. Doanh nghiệp liên quan mua sản phẩm: *sức mạnh hệ sinh thái*. Ai đó hỏi về nhu cầu độc lập: *tâm lý tự ti dân tộc*.</p>
+<p>Tin tốt xuất hiện: “tầm nhìn”. Tin xấu xuất hiện: “âm mưu”. Vốn đi vào: “niềm tin”. Vốn đi ra: “tư duy ngắn hạn”. Doanh nghiệp liên quan mua sản phẩm: “sức mạnh hệ sinh thái”. Ai đó hỏi về nhu cầu độc lập: “tâm lý tự ti dân tộc”.</p>
 
 <p>Phản xạ ấy tiết kiệm rất nhiều chi phí nhận thức. Không công dân nào còn phải đọc báo cáo tài chính, so sánh sản phẩm, phân biệt thu hồi với thảm họa, hay phân biệt đầu tư với chuyển động được trợ cấp vô thời hạn. Người ta chỉ cần nhận diện xem người nói đứng cùng tương lai hay chống lại tương lai. Lịch sử trở nên hiệu quả khi bằng chứng được thay bằng sơ đồ chỗ ngồi.</p>
 
@@ -81,7 +81,7 @@ credit_name: "Kevin T.N"
 
 <p>Khi công ty bắt đầu trông giống đất nước, công dân nên nhớ bên nào có quyền yêu cầu bên kia hoàn tiền.</p>
 
-<p>## Không cần một ác nhân</p>
+<h2>Không cần một ác nhân</h2>
 
 <p>Kết thúc bằng một ác nhân sẽ dễ chịu hơn, bởi ác nhân khiến hệ thống có vẻ vô tội. Loại bỏ giám đốc độc ác, bổ nhiệm người nhân từ, rồi cỗ máy sẽ có đạo đức khi chiếc ghế đổi chủ. Nhưng cơ chế không cần sự độc ác. Nó chỉ cần tài nguyên tập trung, câu chuyện anh hùng, ranh giới mờ giữa doanh nghiệp với quốc gia và một khán giả thành thạo lòng trung thành hơn kiểm chứng.</p>
 
@@ -95,4 +95,4 @@ credit_name: "Kevin T.N"
 
 <p>Nếu thứ còn lại chỉ là yêu cầu phải tôn trọng, có lẽ sản phẩm tiên tiến nhất từ đầu tới cuối vẫn luôn là khán giả.</p>
 
-<p>*Ghi chú biên tập: “Voughtgroup” là một cấu trúc châm biếm hư cấu. Bài viết bàn về các câu hỏi đã được công khai và cơ chế chung của quyền lực doanh nghiệp; nó không cáo buộc hành vi phạm tội chưa được công bố, cũng không xem mọi lời chỉ trích là sự thật đã được phán quyết.*</p>
+<p class="article-note">“Ghi chú biên tập: ‘Voughtgroup’ là một cấu trúc châm biếm hư cấu. Bài viết bàn về các câu hỏi đã được công khai và cơ chế chung của quyền lực doanh nghiệp; nó không cáo buộc hành vi phạm tội chưa được công bố, cũng không xem mọi lời chỉ trích là sự thật đã được phán quyết.”</p>

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "TRƯỚC KHI DÒNG MÁU TRỞ NÊN CAO QUÝ"
-title_en: "Before the Blood Became Noble"
+title: "Trước khi dòng máu trở nên cao quý"
+title_en: "Before the blood became noble"
 date: 2026-09-06
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

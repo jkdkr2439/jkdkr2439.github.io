@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "PHẦN CÒN LẠI CỦA LỜI"
-title_en: "THE WORDS LEFT TO DO"
+title: "Phần còn lại của lời"
+title_en: "The words left to do"
 date: 2026-09-05
 tag: "Tản văn"
 tag_en: "Literary Prose"

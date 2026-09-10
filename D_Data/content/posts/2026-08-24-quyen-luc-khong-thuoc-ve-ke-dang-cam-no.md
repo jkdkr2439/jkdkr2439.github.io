@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "QUYỀN LỰC KHÔNG THUỘC VỀ KẺ ĐANG CẦM NÓ"
-title_en: "QUYỀN LỰC KHÔNG THUỘC VỀ KẺ ĐANG CẦM NÓ"
+title: "Quyền lực không thuộc về kẻ đang cầm nó"
+title_en: "Quyền lực không thuộc về kẻ đang cầm nó"
 date: 2026-08-24
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

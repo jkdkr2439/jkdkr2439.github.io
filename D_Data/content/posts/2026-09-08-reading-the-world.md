@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "TÔI KHÔNG ÍT ĐỌC. TÔI ĐỌC THẾ GIỚI."
-title_en: "I DO NOT READ LITTLE. I READ THE WORLD."
+title: "Tôi không ít đọc. Tôi đọc thế giới."
+title_en: "I do not read little. I read the world."
 date: 2026-09-08
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

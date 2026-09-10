@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "CẦM, KỲ, TEA, HỌA"
-title_en: "CẦM, KỲ, TEA, HỌA"
+title: "Cầm, kỳ, tea, họa"
+title_en: "Cầm, kỳ, tea, họa"
 date: 2026-09-03
 tag: "Tản văn"
 tag_en: "Literary Prose"

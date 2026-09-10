@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "TẠI SAO RẤT NHIỀU NGƯỜI CẦN ĐƯỢC CỨU RỖI?"
-title_en: "WHY SO MANY PEOPLE NEED TO BE SAVED"
+title: "Tại sao rất nhiều người cần được cứu rỗi?"
+title_en: "Why so many people need to be saved"
 date: 2026-09-10
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

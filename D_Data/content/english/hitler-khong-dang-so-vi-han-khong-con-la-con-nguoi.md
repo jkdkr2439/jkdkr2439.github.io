@@ -8,7 +8,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <div></div>
 
-<p>*He is terrifying because he did not*</p>
+<p class="article-deck">“He is terrifying because he did not”</p>
 
 <p>In a photograph dated 13 July 1935, Adolf Hitler walks beside Helga Goebbels on the pier at Heiligendamm. He holds the little girl's hand. Nothing bleeds inside the frame. There is no rifle, no camp, no train, no pit waiting to be filled. An older man walks with a child by the sea.</p>
 
@@ -20,7 +20,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>We prefer great criminals to look permanently criminal. It is reassuring when evil agrees to wear its uniform in private. But a person can behave gently inside one relationship while operating through a worldview that condemns millions outside it. Human beings do not need to remain in one moral state all day. Compartmentalization is cheaper.</p>
 
-<p>## The dangerous man who can still reason</p>
+<h2>The dangerous man who can still reason</h2>
 
 <p>There is danger in a person whose contact with reality has collapsed, whose violence is impulsive, and whose behavior cannot be predicted. But society faces another danger, often far greater in scale: the lucid extremist.</p>
 
@@ -36,7 +36,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>Calling them monsters may condemn them. It may also acquit us too easily.</p>
 
-<p>## Helga had a name</p>
+<h2>Helga had a name</h2>
 
 <p>The photograph does not prove that Hitler loved children. It does not rehabilitate him, complicate his guilt, or discover a hidden tenderness capable of balancing a continent of crimes. It establishes something smaller and more important: he could participate in a familiar, apparently cordial relation with one particular child.</p>
 
@@ -52,7 +52,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>Mass violence seldom begins with a weapon. It begins when grammar learns to erase a face.</p>
 
-<p>## Local affection is not universal ethics</p>
+<h2>Local affection is not universal ethics</h2>
 
 <p>One of the most flattering myths people tell about morality is that private kindness proves public goodness. It does not.</p>
 
@@ -64,7 +64,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>That distinction explains why the photograph and the Holocaust do not contradict one another. Their coexistence reveals the architecture of selective humanity. The circle can be warm inside and lethal at its boundary.</p>
 
-<p>## When the model defeats the living world</p>
+<h2>When the model defeats the living world</h2>
 
 <p>Ten years after the photograph, the National Socialist state collapsed. Joseph and Magda Goebbels arranged the killing of their six children and then killed themselves. The horror matters, but the mechanism matters more.</p>
 
@@ -78,7 +78,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>The system had moved from governing society to governing reality's right to continue.</p>
 
-<p>## The ancestry the category could not digest</p>
+<h2>The ancestry the category could not digest</h2>
 
 <p>Archival material reported by historian Oliver Hilmes records the Jewish businessman Richard Friedländer as Magda Goebbels's biological father. Her birth record itself named only her mother, so the matter must be expressed with care. If the archival attribution is correct, Helga had a Jewish maternal grandfather.</p>
 
@@ -96,7 +96,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>This is why personal contact may challenge prejudice but does not automatically cure it. The exception can be preserved as an exception. The beloved individual is rescued from the category while the category remains armed against everyone else.</p>
 
-<p>## The comfort of the monster</p>
+<h2>The comfort of the monster</h2>
 
 <p>We like to turn Hitler into an alien object because an alien object makes history hygienic. If he belonged to another species, prevention would be simple: watch for horns, theatrical rage, and a face permanently arranged for evil.</p>
 
@@ -108,7 +108,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>The first danger is visible because disorder announces itself. The second may wear a suit, cite scholarship, pass legislation, organize a ministry, and arrive at meetings on time.</p>
 
-<p>## The modern inheritance</p>
+<h2>The modern inheritance</h2>
 
 <p>This mechanism did not die in a Berlin bunker. It belongs to no single ideology, nation, religion, or century. It appears whenever an idea becomes absolute enough that people must serve the model instead of the model serving people.</p>
 
@@ -118,7 +118,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>A living worldview must be able to receive contrary data, doubt its own classifications, recover the person beneath the label, and preserve a path for revision. A captured worldview does the opposite. The model stands above evidence. Identity stands above inquiry. Category stands above individuals. The goal stands above bodies.</p>
 
-<p>## The hand in the photograph</p>
+<h2>The hand in the photograph</h2>
 
 <p>Return to the pier. An adult hand holds the hand of a child. The scene is quiet enough to be included in a family album. History makes it unbearable because we know what neither the photograph nor the child could show.</p>
 
@@ -132,4 +132,4 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>If we protect ourselves by calling the second creature inhuman, we have not understood him. We have merely moved the danger outside the definition of ourselves, which is exactly where dangerous categories prefer to begin.</p>
 
-<p>*Historical note: The photograph is catalogued by Paris Musées as Hitler walking with Helga Goebbels at Heiligendamm on 13 July 1935. The murder of the six Goebbels children is documented by the United States Holocaust Memorial Museum. The claim concerning Richard Friedländer rests on archival material reported by historian Oliver Hilmes and is therefore presented conditionally.*</p>
+<p class="article-note">“Historical note: The photograph is catalogued by Paris Musées as Hitler walking with Helga Goebbels at Heiligendamm on 13 July 1935. The murder of the six Goebbels children is documented by the United States Holocaust Memorial Museum. The claim concerning Richard Friedländer rests on archival material reported by historian Oliver Hilmes and is therefore presented conditionally.”</p>

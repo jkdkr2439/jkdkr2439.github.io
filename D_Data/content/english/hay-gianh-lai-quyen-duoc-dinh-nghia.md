@@ -24,7 +24,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>Take back the right to define.</p>
 
-<p>## The occupation that leaves no soldiers</p>
+<h2>The occupation that leaves no soldiers</h2>
 
 <p>Human beings do not live in reality alone. We live in descriptions of reality. We inherit names from parents, schools, books, governments, religions, sciences, industries, and screens. These names help us think. Without concepts, experience would arrive as weather without a map.</p>
 
@@ -40,7 +40,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>A crude tyrant forbids you to speak. A sophisticated tyrant gives you a vocabulary in which every objection becomes a confession.</p>
 
-<p>## The disguises of strength</p>
+<h2>The disguises of strength</h2>
 
 <p>Money, muscle, reputation, law, technology, and force appear to be different kinds of power. At a deeper level, they are different organs through which a definition is made effective.</p>
 
@@ -52,7 +52,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>Then the prison has achieved perfection. Its walls are carried inside the prisoners as reasonable vocabulary.</p>
 
-<p>## The books that think in our place</p>
+<h2>The books that think in our place</h2>
 
 <p>Do not imagine that manipulation comes only from rulers and corporations. It can arrive in a beautiful edition, with a famous name on the cover and enough footnotes to make submission feel scholarly.</p>
 
@@ -68,7 +68,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>The purpose of education is not to fill the head with authorized definitions. It is to cultivate a consciousness capable of examining every definition, including its own.</p>
 
-<p>## Declare intellectual sovereignty</p>
+<h2>Declare intellectual sovereignty</h2>
 
 <p>Therefore I am not asking you to reject concepts. I am asking you to end their immunity.</p>
 
@@ -94,7 +94,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>Otherwise you have not escaped domination. You have merely founded a smaller empire with yourself on the throne.</p>
 
-<p>## The discipline of freedom</p>
+<h2>The discipline of freedom</h2>
 
 <p>True intellectual autonomy requires more discipline, not less. Borrowed certainty is cheap. Independent definition is expensive because you must reconstruct the road between experience and name.</p>
 
@@ -108,7 +108,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>It begins when you can ask a question the inherited model did not know how to forbid.</p>
 
-<p>## The war without frontiers</p>
+<h2>The war without frontiers</h2>
 
 <p>Do not mistake this for a private disagreement among scholars, a quarrel between political factions, or a contest between nations. It has no national frontier because it began before nations and will continue after every present border has changed its name.</p>
 
@@ -144,7 +144,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>The struggle for definitional sovereignty is the species learning, generation after generation, not to become blind inside the shelters built by its own intelligence.</p>
 
-<p>## The trial of those who named the world</p>
+<h2>The trial of those who named the world</h2>
 
 <p>And now let us summon the great architects.</p>
 
@@ -292,7 +292,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>That is the verdict.</p>
 
-<p>## Take it back</p>
+<h2>Take it back</h2>
 
 <p>So when a school gives you a definition, learn it, then ask where it breaks.</p>
 

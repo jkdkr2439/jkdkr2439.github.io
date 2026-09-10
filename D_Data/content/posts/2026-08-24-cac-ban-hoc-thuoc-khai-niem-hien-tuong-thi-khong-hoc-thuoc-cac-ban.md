@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "CÁC BẠN HỌC THUỘC KHÁI NIỆM; HIỆN TƯỢNG THÌ KHÔNG HỌC THUỘC CÁC BẠN"
-title_en: "YOU MEMORIZED THE CONCEPT; THE PHENOMENON DID NOT MEMORIZE YOU"
+title: "Các bạn học thuộc khái niệm; hiện tượng thì không học thuộc các bạn"
+title_en: "You memorized the concept; the phenomenon did not memorize you"
 date: 2026-08-24
 tag: "Nhận thức luận"
 tag_en: "Epistemology"

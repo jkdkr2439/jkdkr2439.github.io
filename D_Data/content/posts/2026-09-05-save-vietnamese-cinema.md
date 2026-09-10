@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "HÃY CỨU LẤY PHIM VIỆT"
-title_en: "HÃY CỨU LẤY PHIM VIỆT"
+title: "Hãy cứu lấy phim Việt"
+title_en: "Hãy cứu lấy phim Việt"
 date: 2026-09-05
 tag: "Châm biếm"
 tag_en: "Satire"

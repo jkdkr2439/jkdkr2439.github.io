@@ -8,7 +8,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <div></div>
 
-<p>*A satire about corporate mythology, patriotic consumption, and the delicate art of making every question look like treason*</p>
+<p class="article-deck">“A satire about corporate mythology, patriotic consumption, and the delicate art of making every question look like treason”</p>
 
 <p>There are companies that manufacture cars, companies that build houses, and companies that sell holidays to people exhausted by paying for the first two. Voughtgroup, being a more ambitious creature, manufactures the world in which all three activities must be admired.</p>
 
@@ -18,9 +18,9 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>This is how patriotism, one of humanity's nobler affections, is promoted to unpaid customer service.</p>
 
-<p>## The ecosystem with excellent weather</p>
+<h2>The ecosystem with excellent weather</h2>
 
-<p>The word *ecosystem* is among the finest achievements of corporate language. An empire sounds aggressive. A monopoly sounds actionable. A conglomerate sounds like something assembled by accountants during bad weather. An ecosystem sounds natural. Forests have ecosystems. Oceans have ecosystems. Therefore, if one organization can hospitalize you, educate your child, house your family, sell you a vehicle, entertain you on holiday, and offer a mall in which to recover from all these transactions, it is not surrounding your life. It is practicing biodiversity.</p>
+<p>The word “ecosystem” is among the finest achievements of corporate language. An empire sounds aggressive. A monopoly sounds actionable. A conglomerate sounds like something assembled by accountants during bad weather. An ecosystem sounds natural. Forests have ecosystems. Oceans have ecosystems. Therefore, if one organization can hospitalize you, educate your child, house your family, sell you a vehicle, entertain you on holiday, and offer a mall in which to recover from all these transactions, it is not surrounding your life. It is practicing biodiversity.</p>
 
 <p>There is nothing inherently wrong with scale. Integration can reduce friction, coordinate infrastructure, and permit investments too large for smaller firms. A society needs builders capable of building. The difficulty begins when operational scale quietly becomes interpretive scale: when the institution supplying many parts of life also acquires disproportionate influence over the story told about those parts.</p>
 
@@ -28,7 +28,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>Voughtgroup offers a simpler accounting standard. Success proves the vision. Failure proves its boldness. Related-party support proves ecosystem strength. External criticism proves the necessity of unity. If the project grows, the founder was right. If it contracts, history was not ready. Reality may vote, but management counts the ballots.</p>
 
-<p>## A market in which loyalty is legal tender</p>
+<h2>A market in which loyalty is legal tender</h2>
 
 <p>When a manufacturer sells many vehicles to an affiliated fleet, analysts ask how much demand came from independent buyers. This is not an accusation. It is arithmetic trying to discover where the customer ends and the family photograph begins.</p>
 
@@ -40,7 +40,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>Flattery makes splendid launch music but notoriously poor quality control.</p>
 
-<p>## The heroic loss</p>
+<h2>The heroic loss</h2>
 
 <p>Young industries consume capital. Automotive manufacturing is brutal, global expansion is expensive, and established competitors possess decades of accumulated knowledge. A loss proves neither fraud nor doom. It proves, with admirable modesty, that more money left than arrived.</p>
 
@@ -52,7 +52,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>Voughtgroup dislikes such questions for the same reason magicians dislike transparent tables. The table may be perfectly sound. It simply reduces the employment prospects of smoke.</p>
 
-<p>## The department of approved doubt</p>
+<h2>The department of approved doubt</h2>
 
 <p>A powerful institution has the right to defend itself against false statements. Reputation is an economic asset, and fabrication is not criticism. Yet there is an asymmetry worth observing: when a vast organization and an ordinary speaker enter the same courtroom, they are equal before the law in much the same way that a whale and a swimmer are equal before the sea.</p>
 
@@ -62,11 +62,11 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>Voughtgroup, naturally, celebrates free expression. Every citizen is free to express admiration in a tone of their choosing.</p>
 
-<p>## The product behind the products</p>
+<h2>The product behind the products</h2>
 
 <p>The most consequential thing Voughtgroup manufactures is not transport, property, education, medicine, tourism, or technology. It manufactures a reflex.</p>
 
-<p>Good news appears: *vision*. Bad news appears: *conspiracy*. Capital arrives: *confidence*. Capital departs: *short-term thinking*. An affiliate buys the product: *ecosystem strength*. Someone asks about independent demand: *national inferiority complex*.</p>
+<p>Good news appears: “vision”. Bad news appears: “conspiracy”. Capital arrives: “confidence”. Capital departs: “short-term thinking”. An affiliate buys the product: “ecosystem strength”. Someone asks about independent demand: “national inferiority complex”.</p>
 
 <p>The reflex saves enormous cognitive expense. No citizen must inspect a balance sheet, compare a product, distinguish a recall from catastrophe, or distinguish investment from indefinitely subsidized motion. One need only identify whether the speaker is with the future or against it. History becomes efficient once evidence is replaced by seating arrangements.</p>
 
@@ -76,7 +76,7 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>The moment a company begins to look like the country, citizens should remember which one can issue a refund to the other.</p>
 
-<p>## No villain is required</p>
+<h2>No villain is required</h2>
 
 <p>It would be comforting to end with a villain because villains make systems appear innocent. Remove the wicked executive, appoint a benevolent one, and the machine acquires ethics with the changing of a chair. But the mechanism requires no wickedness. It needs concentrated resources, a heroic narrative, weak distinctions between corporation and nation, and an audience more practiced in allegiance than verification.</p>
 
@@ -90,4 +90,4 @@ translation_gate: "Paired edition imported without rewriting authored content"
 
 <p>If nothing remains but the demand for respect, perhaps the most advanced product was always the audience.</p>
 
-<p>*Editorial note: “Voughtgroup” is a fictional satirical construct. This essay discusses publicly documented questions and general mechanisms of corporate power; it does not allege undisclosed crimes or treat criticism as adjudicated fact.*</p>
+<p class="article-note">“Editorial note: ‘Voughtgroup’ is a fictional satirical construct. This essay discusses publicly documented questions and general mechanisms of corporate power; it does not allege undisclosed crimes or treat criticism as adjudicated fact.”</p>
