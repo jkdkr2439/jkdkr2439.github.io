@@ -2,14 +2,12 @@
 layout: default
 ---
 
-<script>
-  window.location.replace(
-    {{ '/' | relative_url | jsonify }} + '?post=' + encodeURIComponent({{ page.url | jsonify }})
-  );
-</script>
-
 <div class="article-wrap">
-  <a class="article-back" href="{{ '/' | relative_url }}">← Tất cả bài viết</a>
+  <nav class="article-breadcrumb" aria-label="Đường dẫn">
+    <a href="{{ '/' | relative_url }}">Danh Nghĩa Hệ</a>
+    <span aria-hidden="true">/</span>
+    <span>Bài viết</span>
+  </nav>
   <div class="article-meta">
     <span>{{ page.date | date: "%-d tháng %-m, %Y" }}</span>
     {% if page.tag %}<span class="post-tag">{{ page.tag }}</span>{% endif %}
@@ -18,4 +16,26 @@ layout: default
   <div class="article-body">
     {{ content }}
   </div>
+  <aside class="article-topic-links" aria-label="Các hệ khái niệm liên quan">
+    <strong>Đọc bài này trong hệ khái niệm</strong>
+    <div>
+      {% for topic in site.data.seo_topics.topics %}
+        {% if topic.tags contains page.tag or topic.posts contains page.slug %}
+          <a href="{{ topic.url | relative_url }}">{{ topic.name }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </aside>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Danh Nghĩa Hệ", "item": "https://jkdkr2439.github.io/writing/"},
+    {"@type": "ListItem", "position": 2, "name": "Bài viết", "item": {{ page.url | absolute_url | jsonify }}},
+    {"@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}}
+  ]
+}
+</script>

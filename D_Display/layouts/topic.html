@@ -1,0 +1,60 @@
+---
+layout: default
+---
+{% assign topic = site.data.seo_topics.topics | where: "key", page.topic_key | first %}
+<div class="topic-wrap">
+  <nav class="article-breadcrumb" aria-label="Đường dẫn">
+    <a href="{{ '/' | relative_url }}">Danh Nghĩa Hệ</a>
+    <span aria-hidden="true">/</span>
+    <span>Chủ đề</span>
+    <span aria-hidden="true">/</span>
+    <span>{{ page.title }}</span>
+  </nav>
+
+  <header class="topic-header">
+    <p class="topic-kicker">Hệ khái niệm · {{ topic.name_en }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="topic-definition">{{ topic.definition }}</p>
+  </header>
+
+  <div class="topic-prose">
+    {{ content }}
+  </div>
+
+  <nav class="topic-switcher" aria-label="Ba hệ khái niệm trung tâm">
+    {% for item in site.data.seo_topics.topics %}
+      <a href="{{ item.url | relative_url }}"{% if item.key == page.topic_key %} aria-current="page"{% endif %}>
+        <span>0{{ forloop.index }}</span>
+        <strong>{{ item.name }}</strong>
+      </a>
+    {% endfor %}
+  </nav>
+
+  <section class="topic-library" aria-labelledby="topic-library-title">
+    <p class="topic-kicker">Thư viện liên quan</p>
+    <h2 id="topic-library-title">Đi tiếp từ khái niệm vào trường hợp cụ thể</h2>
+    <div class="topic-posts">
+      {% for post in site.posts %}
+        {% if topic.tags contains post.tag or topic.posts contains post.slug %}
+          <article>
+            <p>{{ post.date | date: "%-d tháng %-m, %Y" }} · {{ post.tag }}</p>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <div>{{ post.excerpt_text | strip_html | truncate: 190 }}</div>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Danh Nghĩa Hệ", "item": "https://jkdkr2439.github.io/writing/"},
+    {"@type": "ListItem", "position": 2, "name": "Chủ đề", "item": "https://jkdkr2439.github.io/writing/chu-de/"},
+    {"@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }}}
+  ]
+}
+</script>

@@ -17,7 +17,7 @@ class CanvasContractTest(unittest.TestCase):
         module_keys = [module["key"] for module in manifest["modules"]]
         self.assertEqual(len(module_keys), len(set(module_keys)))
         self.assertEqual(
-            {"knowledge-domains", "context-tree", "content-stage"}, set(module_keys)
+            {"knowledge-domains", "context-tree", "content-stage", "companion"}, set(module_keys)
         )
         domain_keys = [domain["key"] for domain in manifest["domains"]]
         self.assertEqual(len(domain_keys), len(set(domain_keys)))

@@ -10,10 +10,32 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 class ProductsSourceTest(unittest.TestCase):
-    def test_loads_two_public_safe_products_with_stable_routes(self):
+    def test_loads_public_safe_products_with_stable_routes(self):
         payload = load_products(ROOT)
-        self.assertEqual(["signal-newsroom", "digital-goods-store"], [p["id"] for p in payload["products"]])
-        self.assertEqual(["/products/signal/", "/products/digital-store/"], [p["route"] for p in payload["products"]])
+        self.assertEqual(
+            [
+                "signal-newsroom",
+                "digital-goods-store",
+                "incident-ops",
+                "saas-launch",
+                "workflow-builder",
+                "fortress",
+                "specimen",
+            ],
+            [p["id"] for p in payload["products"]],
+        )
+        self.assertEqual(
+            [
+                "/products/signal/",
+                "/products/digital-store/",
+                "/products/incident-ops/",
+                "/products/saas-launch/",
+                "/products/workflow-builder/",
+                "/products/fortress/",
+                "/products/specimen/",
+            ],
+            [p["route"] for p in payload["products"]],
+        )
 
     def test_rejects_private_or_traversing_source(self):
         with tempfile.TemporaryDirectory() as raw:

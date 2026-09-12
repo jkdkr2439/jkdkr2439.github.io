@@ -19,6 +19,8 @@ def build_platform(root: Path, destination: Path) -> PlatformBuildReport:
         shutil.rmtree(destination)
     destination.mkdir(parents=True)
     shutil.copy2(root / "D_Display/platform/index.html", destination / "index.html")
+    for public_file in ("robots.txt", "sitemap.xml", "favicon.svg"):
+        shutil.copy2(root / "D_Data/platform/seo" / public_file, destination / public_file)
     mappings = (
         ("D_Data/platform", "canvas/D_Data/platform"),
         ("D_Data/media", "canvas/D_Data/media"),

@@ -20,7 +20,8 @@ class WritingMountTest(unittest.TestCase):
     def test_writing_navigation_is_generated_from_the_jekyll_baseurl(self) -> None:
         sidebar = (ROOT / "D_Display/includes/sidebar.html").read_text(encoding="utf-8")
         shell = (ROOT / "D_Display/includes/canvas/anchor-zone.html").read_text(encoding="utf-8")
-        self.assertIn("{{ '/' | relative_url }}?post=", sidebar)
+        self.assertIn('href="{{ post.url | relative_url }}"', sidebar)
+        self.assertNotIn("{{ '/' | relative_url }}?post=", sidebar)
         self.assertIn("{{ '/' | relative_url }}?book=", sidebar)
         self.assertIn("{{ '/' | relative_url }}", shell)
 

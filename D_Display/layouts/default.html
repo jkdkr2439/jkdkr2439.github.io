@@ -1,23 +1,76 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="{{ page.lang | default: site.lang | default: 'vi' }}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; object-src 'none'; media-src 'self'; frame-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-<meta name="description" content="{{ page.excerpt_text | default: site.description | strip_html | truncate: 160 }}">
+{% assign seo_title = page.seo_title | default: page.title | default: site.title %}
+{% assign seo_description = page.seo_description | default: page.excerpt_text | default: site.description | strip_html | strip_newlines | truncate: 160 %}
+{% assign canonical_url = page.url | absolute_url %}
+<title>{{ seo_title }}{% unless seo_title contains site.title %} | {{ site.title }}{% endunless %}</title>
+<meta name="description" content="{{ seo_description | escape }}">
+<link rel="canonical" href="{{ canonical_url }}">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{{ seo_title | escape }}">
+<meta property="og:description" content="{{ seo_description | escape }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ seo_title | escape }}">
+<meta name="twitter:description" content="{{ seo_description | escape }}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+{% if page.layout == 'post' %}
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{% endif %}
+<script type="application/ld+json">
+{% if page.layout == 'post' %}
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ seo_description | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "inLanguage": {{ page.lang | default: 'vi' | jsonify }},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": {{ canonical_url | jsonify }}},
+  "author": {"@type": "Person", "name": "Kevin T.N", "url": "https://jkdkr2439.github.io/writing/about/"},
+  "publisher": {"@type": "Person", "name": "Kevin T.N"},
+  "isPartOf": {"@type": "Blog", "name": "Danh Nghĩa Hệ", "url": "https://jkdkr2439.github.io/writing/"}
+}
+{% elsif page.layout == 'topic' %}
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ page.title | jsonify }},
+  "description": {{ seo_description | jsonify }},
+  "url": {{ canonical_url | jsonify }},
+  "inLanguage": "vi",
+  "isPartOf": {"@type": "WebSite", "name": "Danh Nghĩa Hệ", "url": "https://jkdkr2439.github.io/"},
+  "author": {"@type": "Person", "name": "Kevin T.N"}
+}
+{% else %}
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ seo_title | jsonify }},
+  "description": {{ seo_description | jsonify }},
+  "url": {{ canonical_url | jsonify }}
+}
+{% endif %}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%s' }}">
 </head>
 <body>
 
 <nav>
-  <a class="nav-logo" href="{{ '/' | relative_url }}">Kevin T.N</a>
+  <a class="nav-logo" href="{{ '/' | relative_url }}">Danh Nghĩa Hệ</a>
   <ul class="nav-links">
     <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Bài viết</a></li>
+    <li><a href="{{ '/chu-de/nhan-thuc-luan/' | relative_url }}" {% if page.layout == 'topic' %}class="active"{% endif %}>Chủ đề</a></li>
     <li><a href="{{ '/about' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>Về tác giả</a></li>
   </ul>
 </nav>

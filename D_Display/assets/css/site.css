@@ -6,8 +6,9 @@
   --red: #C0392B;
   --border: #DDD5C5;
   --sidebar-w: 300px;
-  --font-display: 'Newsreader', Georgia, serif;
-  --font-text: 'Newsreader', Georgia, serif;
+  --font-display: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+  --font-text: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+  --font-body: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
   --font-ui: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', Consolas, monospace;
   --reading-progress: 0;
@@ -760,6 +761,16 @@ body {
 .listening-external { display: inline-block; margin-top: 13px; color: var(--muted); font: 500 11px/1.4 var(--font-ui); letter-spacing: .06em; text-decoration: none; text-transform: uppercase; }
 .listening-external:hover, .listening-external:focus-visible { color: var(--red); text-decoration: underline; }
 .home-note { margin-top: 34px; color: var(--muted); font: 12px/1.65 var(--font-ui); }
+.home-topics { margin-top: 54px; padding-top: 34px; border-top: 1.5px solid var(--ink); }
+.home-topics > h2 { max-width: 700px; margin-bottom: 28px; font-family: var(--font-display); font-size: clamp(30px, 3.3vw, 48px); font-weight: 500; line-height: 1.08; letter-spacing: -.025em; }
+.home-topic-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: 1px solid var(--border); }
+.home-topic-grid a { min-height: 190px; padding: 20px; border-right: 1px solid var(--border); background: #fffdfa; color: var(--ink); text-decoration: none; transition: background .15s, color .15s; }
+.home-topic-grid a:last-child { border-right: 0; }
+.home-topic-grid a:hover, .home-topic-grid a:focus-visible { background: var(--ink); color: #fffdfa; }
+.home-topic-grid span { display: block; margin-bottom: 36px; color: var(--red); font: 700 10px/1 var(--font-ui); letter-spacing: .08em; }
+.home-topic-grid strong { display: block; margin-bottom: 12px; font-family: var(--font-display); font-size: 23px; font-weight: 500; line-height: 1.1; }
+.home-topic-grid p { color: #6f6558; font: 12px/1.62 var(--font-ui); }
+.home-topic-grid a:hover p, .home-topic-grid a:focus-visible p { color: #d9d0c4; }
 
 .reader-meta {
   font-family: var(--font-ui);
@@ -1256,6 +1267,10 @@ body {
   .parallel-cell + .parallel-cell { padding: 20px 0; border-top: 1px dashed var(--border); border-left: 0; }
   .home-content { padding: 46px 24px 80px; }
   .home-grid { grid-template-columns: 1fr; }
+  .home-topic-grid { grid-template-columns: 1fr; }
+  .home-topic-grid a { min-height: 0; border-right: 0; border-bottom: 1px solid var(--border); }
+  .home-topic-grid a:last-child { border-bottom: 0; }
+  .home-topic-grid span { margin-bottom: 18px; }
   .home-card { min-height: 0; }
   .playlist-links { grid-template-columns: 1fr; }
   .refresh-library,

@@ -1,8 +1,9 @@
-title: Kevin T.N
+title: "Danh Nghĩa Hệ"
 author_credit: "Kevin T.N a.k.a Lucis The Lord"
-description: "Triết học · Tự sự · Không khoan nhượng"
+description: "Danh Nghĩa Hệ: thư viện giải cấu trúc khái niệm, quyền lực, khoa học, văn hóa và trí tuệ nhân tạo bằng nhận thức luận của Kevin T.N."
 url: "https://jkdkr2439.github.io"
 baseurl: ""
+lang: "vi"
 
 markdown: kramdown
 permalink: /:title/
@@ -10,6 +11,9 @@ permalink: /:title/
 collections:
   english:
     output: false
+
+plugins:
+  - jekyll-sitemap
 
 # Build
 exclude:
