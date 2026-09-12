@@ -23,7 +23,7 @@ body {
 main { flex: 1; }
 
 /* NAV */
-nav {
+.site-nav {
   border-bottom: 1.5px solid var(--ink);
   padding: 0 24px;
   display: flex;
@@ -429,7 +429,7 @@ footer {
 
 /* MOBILE */
 @media (max-width: 600px) {
-  nav { padding: 0 16px; }
+  .site-nav { padding: 0 16px; }
   .nav-links { gap: 16px; }
   .home-header, .post-list, .article-wrap, .about-wrap {
     padding-left: 16px;

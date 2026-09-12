@@ -31,6 +31,13 @@ class WritingMountTest(unittest.TestCase):
         self.assertIn('href="/"', shell)
         self.assertIn('data-home-icon', shell)
 
+    def test_only_the_primary_navigation_is_sticky(self) -> None:
+        layout = (ROOT / "D_Display/layouts/default.html").read_text(encoding="utf-8")
+        styles = (ROOT / "D_Display/assets/style.css").read_text(encoding="utf-8")
+        self.assertIn('nav class="site-nav"', layout)
+        self.assertIn(".site-nav {", styles)
+        self.assertNotIn("\nnav {", styles)
+
 
 if __name__ == "__main__":
     unittest.main()
